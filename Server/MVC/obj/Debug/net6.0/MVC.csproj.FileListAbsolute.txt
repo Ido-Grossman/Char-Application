@@ -1,0 +1,1252 @@
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/appsettings.Development.json
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/appsettings.json
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/MVC.staticwebassets.runtime.json
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/MVC
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/MVC.deps.json
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/MVC.runtimeconfig.json
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/MVC.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/MVC.pdb
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Humanizer.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/MessagePack.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/MessagePack.Annotations.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Build.Locator.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.Features.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Features.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.DiaSymReader.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Debugger.Contracts.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/dotnet-aspnet-codegenerator-design.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Common.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Configuration.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/NuGet.DependencyResolver.Core.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Frameworks.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/NuGet.LibraryModel.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Packaging.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/NuGet.ProjectModel.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Protocol.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Versioning.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Composition.AttributedModel.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Composition.Convention.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Composition.Hosting.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Composition.Runtime.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Composition.TypedParts.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm/lib/net6.0/dotnet-aspnet-codegenerator-design.exe
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm64/lib/net6.0/dotnet-aspnet-codegenerator-design.exe
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Domain.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Repository.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Services.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Services.pdb
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Domain.pdb
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/bin/Debug/net6.0/Repository.pdb
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.csproj.AssemblyReference.cache
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.AssemblyInfoInputs.cache
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.AssemblyInfo.cs
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.csproj.CoreCompileInputs.cache
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.MvcApplicationPartsAssemblyInfo.cs
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.MvcApplicationPartsAssemblyInfo.cache
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.RazorAssemblyInfo.cache
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.RazorAssemblyInfo.cs
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/staticwebassets.build.json
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/staticwebassets.development.json
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/scopedcss/bundle/MVC.styles.css
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/scopedcss/projectbundle/MVC.bundle.scp.css
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.csproj.CopyComplete
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/refint/MVC.dll
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.pdb
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/MVC.genruntimeconfig.cache
+/Users/santiago/Desktop/Advanced 2/ChatOServer/MVC/obj/Debug/net6.0/ref/MVC.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/appsettings.Development.json
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/appsettings.json
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/MVC.staticwebassets.runtime.json
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/MVC
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/MVC.deps.json
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/MVC.runtimeconfig.json
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/MVC.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/MVC.pdb
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Humanizer.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/MessagePack.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/MessagePack.Annotations.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.AspNetCore.JsonPatch.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.AspNetCore.Razor.Language.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Build.Locator.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Features.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.Features.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.Razor.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.Scripting.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Features.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Data.Sqlite.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.DiaSymReader.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.DotNet.Scaffolding.Shared.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Debugger.Contracts.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/dotnet-aspnet-codegenerator-design.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Newtonsoft.Json.Bson.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Common.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Configuration.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/NuGet.DependencyResolver.Core.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Frameworks.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/NuGet.LibraryModel.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Packaging.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/NuGet.ProjectModel.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Protocol.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/NuGet.Versioning.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/SQLitePCLRaw.batteries_v2.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/SQLitePCLRaw.core.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Composition.AttributedModel.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Composition.Convention.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Composition.Hosting.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Composition.Runtime.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Composition.TypedParts.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm/lib/net6.0/dotnet-aspnet-codegenerator-design.exe
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm64/lib/net6.0/dotnet-aspnet-codegenerator-design.exe
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Domain.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Repository.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Services.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Services.pdb
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Domain.pdb
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/bin/Debug/net6.0/Repository.pdb
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.csproj.AssemblyReference.cache
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.AssemblyInfoInputs.cache
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.AssemblyInfo.cs
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.csproj.CoreCompileInputs.cache
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.MvcApplicationPartsAssemblyInfo.cs
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.MvcApplicationPartsAssemblyInfo.cache
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.RazorAssemblyInfo.cache
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.RazorAssemblyInfo.cs
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/staticwebassets.build.json
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/staticwebassets.development.json
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/scopedcss/bundle/MVC.styles.css
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/scopedcss/projectbundle/MVC.bundle.scp.css
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.csproj.CopyComplete
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/refint/MVC.dll
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.pdb
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/MVC.genruntimeconfig.cache
+/Users/elisilverstine/RiderProjects/ChatOServer/MVC/obj/Debug/net6.0/ref/MVC.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\appsettings.json
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\MVC.staticwebassets.runtime.json
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\MVC.exe
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\MVC.deps.json
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\MVC.runtimeconfig.json
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\MVC.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\MVC.pdb
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\EasyNet.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\EasyNet.EntityFrameworkCore.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\EasyNet.Identity.EntityFrameworkCore.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\EasyNet.Identity.EntityFrameworkCore.UI.Views.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\EasyNet.Identity.EntityFrameworkCore.UI.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Humanizer.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Domain.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Services.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Services.pdb
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Domain.pdb
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.csproj.AssemblyReference.cache
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.AssemblyInfoInputs.cache
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.AssemblyInfo.cs
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.csproj.CoreCompileInputs.cache
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.RazorAssemblyInfo.cache
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.RazorAssemblyInfo.cs
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\scopedcss\bundle\MVC.styles.css
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\scopedcss\projectbundle\MVC.bundle.scp.css
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.csproj.CopyComplete
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\refint\MVC.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.pdb
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\MVC.genruntimeconfig.cache
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\obj\Debug\net6.0\ref\MVC.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\MessagePack.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\NuGet.Common.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\RatingProj.deps.json
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\RatingProj.runtimeconfig.json
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\RatingProj.staticwebassets.runtime.json
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\RatingProj.exe
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\RatingProj.dll
+C:\Users\idodd\RiderProjects\ChatOServer\MVC\bin\Debug\net6.0\RatingProj.pdb
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\appsettings.json
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\RatingProj.deps.json
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\RatingProj.runtimeconfig.json
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\RatingProj.staticwebassets.runtime.json
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\RatingProj.exe
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\MVC.staticwebassets.runtime.json
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\MVC.exe
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\MVC.deps.json
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\MVC.runtimeconfig.json
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\MVC.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\MVC.pdb
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\EasyNet.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\EasyNet.EntityFrameworkCore.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\EasyNet.Identity.EntityFrameworkCore.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\EasyNet.Identity.EntityFrameworkCore.UI.Views.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\EasyNet.Identity.EntityFrameworkCore.UI.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Humanizer.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\MessagePack.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Data.Sqlite.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\NuGet.Common.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\NuGet.Configuration.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\NuGet.LibraryModel.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\NuGet.Packaging.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\NuGet.Protocol.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\SQLitePCLRaw.core.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Domain.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\RatingProj.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Services.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\RatingProj.pdb
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Services.pdb
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\bin\Debug\net6.0\Domain.pdb
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.csproj.AssemblyReference.cache
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.AssemblyInfoInputs.cache
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.AssemblyInfo.cs
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.csproj.CoreCompileInputs.cache
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.RazorAssemblyInfo.cache
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.RazorAssemblyInfo.cs
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\scopedcss\bundle\MVC.styles.css
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\scopedcss\projectbundle\MVC.bundle.scp.css
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.csproj.CopyComplete
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\refint\MVC.dll
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.pdb
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.genruntimeconfig.cache
+C:\Users\idodd\Desktop\ChatOS\Server\MVC\obj\Debug\net6.0\ref\MVC.dll

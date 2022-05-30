@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 100px;
+  padding-top: 40px;
+}
+
+.rate-us{
+!important width: 250px;
+}

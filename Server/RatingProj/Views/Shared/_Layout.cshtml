@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - RatingProj</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/RatingProj.styles.css" asp-append-version="true"/>
+</head>
+<body>
+<header>
+    @* <nav class="container-fluid justify-content-between"> *@
+        @* <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between"> *@
+        @*         <ul class="navbar-nav flex-grow-1"> *@
+        @*             <li class="nav-item"> *@
+        @*                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a> *@
+        @*             </li> *@
+        @*             $1$ <li class="nav-item"> #1# *@
+        @*             $1$     <img src="images/icon.png" class="align-middle" width="50" height="50"/> #1# *@
+        @*             $1$ </li> #1# *@
+        @*         </ul> *@
+        @*     </div> *@
+    @*     <div> *@
+    @*         <Link to="//localhost:3000" className="nav-link float-right"> Rate Us! </Link> *@
+    @*     </div> *@
+    @*     <div class="align-middle"> *@
+    @*         <img src="images/icon.png" class="align-middle" width="50" height="50"/> *@
+    @*     </div> *@
+    @* </nav> *@
+    <br/>
+    <div class="row container">
+        <div class="col-sm-5 text-primary" display: inline-block>
+            <a class="rate-us btn btn-primary m-5 mt-0 mb-0" href="https://localhost:7225/">Home</a>
+        </div>
+        <div class="col-sm-1"><p float="left" class="pull-right d-flex">
+        </p></div>
+        
+        <div class="col-sm-1 text-primary" display: inline-block>
+            <h3>ChatOS</h3>
+        </div>
+    </div>
+    <br/>
+    
+</header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
+
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2022 - RatingProj - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </div>
+</footer>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

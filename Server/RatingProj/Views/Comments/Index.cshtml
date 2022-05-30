@@ -1,0 +1,101 @@
+@using RatingProj.Data
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<RatingProj.Models.CommentModel>
+@* search is the home page of this project *@
+@{
+    ViewData["Title"] = "Rating";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>ChatOS Rating</h1>
+@{
+    // float avg = Comments.AverageRating();
+        var q = from comment in Model
+            select comment.Stars;
+        float sum = 0;
+        int index = 0;
+        foreach (var rating in q)
+        {
+            index++;
+            sum += rating;
+        }
+
+    var avg = sum / index;
+}
+
+<div class="input-group mb-3" >
+    <form asp-action="Index"  float="left"  class="input-group mb-3">
+        <input name="query" id="search" type="text" class="form-control" placeholder="Search        " aria-label="Search        " aria-describedby="basic-addon2">
+        <div class ="input-group-append">
+            <input type = "submit" value="Search" class="btn btn-outline-secondary"/>
+        </div>
+    </form>
+</div>
+
+<div class="row">
+  <div class="col-sm-11 text-primary"><h3>Average rating: @avg Stars</h3>
+</div>
+    <div class="col-sm-1"><p float="left" class="pull-right d-flex">
+    <a asp-action="Create" class="rate-us btn btn-primary">     Rate us     </a>
+    </p></div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="images/avatar.png" class="center-block"/>
+    </div>
+    <div class="col-md-8">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Stars)
+                </th>
+                <th>
+                    <text>Date and Time</text>
+                </th>
+                <th>
+                    <text>Feedback</text>
+                </th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @{
+                            string iss = @item.Stars.ToString();
+                            iss = "images/" + iss + ".png";
+                        }
+                        <img src=@iss width="100" height="20">
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateTime)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FeedbackText)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="~/js/Search.js"></script>    
+}

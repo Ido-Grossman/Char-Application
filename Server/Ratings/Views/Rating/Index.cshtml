@@ -1,0 +1,16 @@
+@Model Rating
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p> see all ratings on this page</p>
+    <img src="favicon.ico" alt="" class="ratingStar" data-value="1" />
+    @for (var i = 0; i < @Model.AllComments.Count; i++)
+        {
+            <ul>
+            <li>@Model.AllComments[i].CommentId</li>
+            <li>@Model.AllComments[i].Name</li>
+            <li>@Model.AllComments[i].FeedbackText</li>
+            <li>@Model.AllComments[i].Stars</li>
+            </ul>
+        }
+</div>
