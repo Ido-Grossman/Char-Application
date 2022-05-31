@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cnulXMK8fBHoEKvLyYqRZfb7QZpI+ON6paUEbBbkvbeN0bVkDIIqyZ/eEaEucx7TRiDnaZeKNfEwkkNJqjh5gg==",
+  "dgSpecHash": "4GGiUolV4ap+yDUD5WWo0Foprcfy8tTh8keey8tz5ZQqCR8V3JrRwLwe3D1dH9ec40GuBU5ywtS0RK/rxXJ7JQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+  "projectFilePath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\idodd\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\idodd\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

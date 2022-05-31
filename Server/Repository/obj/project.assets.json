@@ -4170,39 +4170,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\idodd\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\idodd\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Repository\\obj\\",
+      "outputPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Repository\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Domain\\Domain.csproj"
+            "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj"
             }
           }
         }
@@ -4245,7 +4238,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
