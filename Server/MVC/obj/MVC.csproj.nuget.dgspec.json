@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\MVC.csproj": {}
+    "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj": {
+    "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,37 +90,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\MVC.csproj": {
+    "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\MVC.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj",
         "projectName": "MVC",
-        "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\MVC.csproj",
+        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj",
         "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\obj\\",
+        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
-                "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj"
+              "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
+                "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj"
               },
-              "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\Services.csproj"
+              "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Services\\Services.csproj"
               }
             }
           }
@@ -182,26 +194,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
+    "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
         "projectName": "RatingProj",
-        "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
         "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\obj\\",
+        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -265,34 +283,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\Services.csproj": {
+    "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\Services.csproj",
+        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\obj\\",
+        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj"
+              "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\Domain\\Domain.csproj"
               }
             }
           }
@@ -347,7 +371,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

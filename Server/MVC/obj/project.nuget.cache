@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OD8ODcC2jGA7kS8OFrOAaRNSLNF6HTaUvTKmYth314fPUbR2cXLJLylaVEOo+yqgjYiSZjOZeyQIxcZOC3M7IQ==",
+  "dgSpecHash": "1Id1ATOIJVJCUtc4GyZQEMxxCNWMB599CzP9dmQHWYYho7sozOZsYU9LA+vBS3zCI5i/3JOBd7vztxsRpaXPnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\MVC.csproj",
+  "projectFilePath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\idodd\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\idodd\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
