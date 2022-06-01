@@ -84,7 +84,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Models" />
       <Folder Include="Views\Home" />
     </ItemGroup>
 
