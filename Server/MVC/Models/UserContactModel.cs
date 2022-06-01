@@ -1,5 +1,3 @@
-using Domain;
-
 namespace MVC.Models;
 
 public class UserContactModel

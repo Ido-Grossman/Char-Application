@@ -9910,19 +9910,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/elisilverstine/.nuget/packages/": {}
+    "C:\\Users\\idodd\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elisilverstine/RiderProjects/ChatOS/Server/RatingProj/RatingProj.csproj",
+      "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
       "projectName": "RatingProj",
-      "projectPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/RatingProj/RatingProj.csproj",
-      "packagesPath": "/Users/elisilverstine/.nuget/packages/",
-      "outputPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/RatingProj/obj/",
+      "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+      "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/elisilverstine/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -9991,7 +9991,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,5 +1,4 @@
 using System.ComponentModel.DataAnnotations;
-using Domain;
 
 namespace MVC.Models;
 

@@ -1,6 +1,6 @@
-﻿using Domain;
+﻿using MVC.Models;
 
-namespace Services
+namespace MVC.Services
 {
     public interface IUserService
     {

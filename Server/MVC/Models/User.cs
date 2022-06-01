@@ -1,8 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
-using Microsoft.AspNetCore.SignalR;
 
-namespace Domain;
+namespace MVC.Models;
 
 public class User
 {

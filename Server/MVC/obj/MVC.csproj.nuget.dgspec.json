@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elisilverstine/RiderProjects/ChatOS/Server/MVC/MVC.csproj": {}
+    "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\MVC.csproj": {}
   },
   "projects": {
-    "/Users/elisilverstine/RiderProjects/ChatOS/Server/Domain/Domain.csproj": {
+    "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elisilverstine/RiderProjects/ChatOS/Server/Domain/Domain.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/Domain/Domain.csproj",
-        "packagesPath": "/Users/elisilverstine/.nuget/packages/",
-        "outputPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/Domain/obj/",
+        "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elisilverstine/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -84,21 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/elisilverstine/RiderProjects/ChatOS/Server/MVC/MVC.csproj": {
+    "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elisilverstine/RiderProjects/ChatOS/Server/MVC/MVC.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\MVC.csproj",
         "projectName": "MVC",
-        "projectPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/MVC/MVC.csproj",
-        "packagesPath": "/Users/elisilverstine/.nuget/packages/",
-        "outputPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/MVC/obj/",
+        "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\MVC.csproj",
+        "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elisilverstine/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -110,11 +110,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/elisilverstine/RiderProjects/ChatOS/Server/RatingProj/RatingProj.csproj": {
-                "projectPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/RatingProj/RatingProj.csproj"
+              "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
+                "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj"
               },
-              "/Users/elisilverstine/RiderProjects/ChatOS/Server/Services/Services.csproj": {
-                "projectPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/Services/Services.csproj"
+              "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\Services.csproj": {
+                "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\Services.csproj"
               }
             }
           }
@@ -182,21 +182,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/elisilverstine/RiderProjects/ChatOS/Server/RatingProj/RatingProj.csproj": {
+    "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elisilverstine/RiderProjects/ChatOS/Server/RatingProj/RatingProj.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
         "projectName": "RatingProj",
-        "projectPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/RatingProj/RatingProj.csproj",
-        "packagesPath": "/Users/elisilverstine/.nuget/packages/",
-        "outputPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/RatingProj/obj/",
+        "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+        "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\RatingProj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elisilverstine/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -265,21 +265,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/elisilverstine/RiderProjects/ChatOS/Server/Services/Services.csproj": {
+    "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elisilverstine/RiderProjects/ChatOS/Server/Services/Services.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/Services/Services.csproj",
-        "packagesPath": "/Users/elisilverstine/.nuget/packages/",
-        "outputPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/Services/obj/",
+        "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/elisilverstine/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -291,8 +291,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/elisilverstine/RiderProjects/ChatOS/Server/Domain/Domain.csproj": {
-                "projectPath": "/Users/elisilverstine/RiderProjects/ChatOS/Server/Domain/Domain.csproj"
+              "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\Domain\\Domain.csproj"
               }
             }
           }
@@ -347,7 +347,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

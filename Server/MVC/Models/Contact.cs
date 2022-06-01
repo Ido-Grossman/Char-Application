@@ -1,4 +1,4 @@
-﻿namespace Domain;
+﻿namespace MVC.Models;
 
 public class Contact
 {

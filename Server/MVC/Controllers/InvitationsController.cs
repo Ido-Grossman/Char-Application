@@ -1,8 +1,8 @@
-using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
-using Services;
 using MVC.Hubs;
+using MVC.Models;
+using MVC.Services;
 
 namespace MVC.Controllers
 {
