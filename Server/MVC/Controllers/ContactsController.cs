@@ -41,7 +41,7 @@ namespace MVC.Controllers
             // Makes sure the contact isn't already in the user contacts list, returns NotFound if he is.
             if (_service.GetContact(userName, contactPost.id) != null)
                 return NotFound();
-            var friendContact = new Contact(contactPost);
+            var friendContact = new Contact{Id = contactPost.id, Name = contactPost.name, Server = contactPost.server};
             user.Contacts[friendContact] = new List<Message>();
             Uri uri = new Uri($"https://localhost:7225/api/Contacts/{friendContact.Id}");
             return Created(uri, friendContact);

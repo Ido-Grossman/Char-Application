@@ -9,17 +9,7 @@ namespace MVC.Services
 
         public UserService()
         {
-            // Creates all the users in the list.
-            User gross = new User("Idog770", "grossman", "gross", null, "localhost:7225");
-            User santi = new User("Santiago", "santi", "Santi", null, "localhost:7225");
-            User eli = new User("EliZil", "eli", "eli", null, "localhost:7225");
-            gross.Contacts.Add(new Contact(santi), new List<Message>());
-            gross.Contacts.Add(new Contact(eli), new List<Message>());
-            eli.Contacts.Add(new Contact(gross), new List<Message>());
-            santi.Contacts.Add(new Contact(gross), new List<Message>());
-            Users.Add(gross);
-            Users.Add(santi);
-            Users.Add(eli);
+            
         }
 
         /**

@@ -13,40 +13,14 @@ public class User
     
     [Required]
     public string Name { get; set; }
-
-    [Required]
-    public string? Image { get; set; }
+    
     
     [Required]
     public string Server { get; set; }
 
     [Required]
     public Dictionary<Contact, List<Message>> Contacts { get; set; }
-    public User(string id, string password, string name, string? image, string server)
-    {
-        Id = id;
-        Password = password;
-        Name = name;
-        Image = image;
-        Server = server;
-        Contacts = new Dictionary<Contact, List<Message>>();
-    }
     
-    public User(string id, string password, string name, string server)
-    {
-        Id = id;
-        Password = password;
-        Name = name;
-        Server = server;
-        Contacts = new Dictionary<Contact, List<Message>>();
-    }
+    public List<UserContact> UserContacts { get; set; }
 
-    public User(UserCred userCred)
-    {
-        Id = userCred.Username;
-        Password = userCred.Password;
-        Name = userCred.Nickname;
-        Server = userCred.Server;
-        Contacts = new Dictionary<Contact, List<Message>>();
-    }
 }

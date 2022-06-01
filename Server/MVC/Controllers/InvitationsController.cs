@@ -32,7 +32,10 @@ namespace MVC.Controllers
             if (user == null || user.Contacts.Keys.ToList().Find(x => x.Id == details.From) != null)
                 return NotFound();
             // Adds the contact to the user contacts.
-            var friendContact = new Contact(details.From, details.From, details.Server);
+            var friendContact = new Contact
+            {
+                Id = details.From, Name = details.From, Server = details.Server
+            };
             user.Contacts.Add(friendContact, new List<Message>());
             // If the user is connected it will update him that a new user contact has been added.
             _hub.Clients.Group(user.Id).SendAsync("FriendAdded");

@@ -97,11 +97,15 @@ namespace MVC.Controllers
          * Registers the user to the server.
          */
         [HttpPost("Register")]
-        public IActionResult Register([FromBody]UserCred userCred)
+        public IActionResult Register([FromBody] UserCred userCred)
         {
             // Adds the user to the service and creates claims for the user.
-            _service.AddUser(new User(userCred));
-            var claims = new[]
+            _service.AddUser(new User
+            {
+                Id = userCred.Username, Password = userCred.Password, Name = userCred.Nickname, Server = userCred.Server
+            });
+
+        var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, _configuration["JWTParams:Subject"]),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
