@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color light_blue
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button
+id imageView
+id textInputLayout
+id textInputLayout2
+id textView3
+id textView4
+id title
+layout activity_main
+mipmap chatos_image
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string image
+string image_title
+string linkto_register
+string login_button
+string title
+string to_register
+style Button.White
+style Theme.Android
+xml backup_rules
+xml data_extraction_rules
