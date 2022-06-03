@@ -1,5 +1,8 @@
-﻿namespace MVC.Models;
+﻿using System.ComponentModel.DataAnnotations.Schema;
 
+namespace MVC.Models;
+
+[NotMapped]
 public class UserCred
 {
     public string Username { get; set; }

@@ -39,7 +39,10 @@ namespace MVC.Controllers
             var contactMessages = user.Contacts[contact];
             int id = contactMessages.Count - 1;
             // Adds a new message to the user.
-            var message = new Message(id, details.Content, DateTime.Now.ToString(), false);
+            var message = new Message
+            {
+                Id = id, Content = details.Content, Created = DateTime.Now.ToString(), Sent = false
+            };
             contactMessages.Add(message);
             // Updates the last message content and date.
             contact.Last = details.Content;

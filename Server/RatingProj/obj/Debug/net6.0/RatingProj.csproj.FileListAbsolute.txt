@@ -618,15 +618,8 @@ C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Entit
 C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.Identity.Client.dll
 C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\idodd\Desktop\ChatOS\Server\RatingProj\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll

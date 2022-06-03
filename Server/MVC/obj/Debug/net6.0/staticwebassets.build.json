@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZsPDGx0ljZXsi74T6b/wRqGldi4VGXsLFCbTQ8rrOZU=",
+  "Hash": "VrLDo8avYF6FRHsGVE5XqSotQGXqzSQASbO4Q86UwIM=",
   "Source": "MVC",
   "BasePath": "_content/MVC",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "RatingProj",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     }
   ],
@@ -1343,23 +1343,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RatingProj.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\wwwroot\\.DS_Store",
-      "SourceId": "RatingProj",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\wwwroot\\",
-      "BasePath": "_content/RatingProj",
-      "RelativePath": ".DS_Store",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
       "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\wwwroot\\css\\site.css",
