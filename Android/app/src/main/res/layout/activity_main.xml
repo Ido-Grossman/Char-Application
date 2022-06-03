@@ -8,6 +8,7 @@
 
     <TextView
         android:id="@+id/title"
+
         android:layout_width="139dp"
         android:layout_height="60dp"
         android:fontFamily="casual"
