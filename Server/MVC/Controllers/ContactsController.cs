@@ -15,7 +15,7 @@ namespace MVC.Controllers
 
         public ContactsController(IUserService service)
         {
-            this._service = service;
+            _service = service;
         }
 
         /**
@@ -26,8 +26,7 @@ namespace MVC.Controllers
         {
             // Gets the username from the given token and returns the user contacts.
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var user = _service.Get(userName);
-            return Ok(user.Contacts.Keys.ToList());
+            return Ok(_service.GetContacts(userName));
         }
 
         /*
@@ -37,12 +36,11 @@ namespace MVC.Controllers
         public IActionResult IndexPost([FromBody] ContactPost contactPost)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var user = _service.Get(userName);
             // Makes sure the contact isn't already in the user contacts list, returns NotFound if he is.
             if (_service.GetContact(userName, contactPost.id) != null)
                 return NotFound();
             var friendContact = new Contact{Id = contactPost.id, Name = contactPost.name, Server = contactPost.server};
-            user.Contacts[friendContact] = new List<Message>();
+            _service.AddContact(userName, friendContact);
             Uri uri = new Uri($"https://localhost:7225/api/Contacts/{friendContact.Id}");
             return Created(uri, friendContact);
         }
@@ -54,8 +52,9 @@ namespace MVC.Controllers
         public IActionResult GetId(string? id)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var user = _service.Get(userName);
-            var contact = user.Contacts.Keys.ToList().Find(x => x.Id == id);
+            if (id == null)
+                return NotFound();
+            var contact = _service.GetContact(userName, id);
             // Makes sure the contact exists.
             if (contact == null)
                 return NotFound();
@@ -85,12 +84,9 @@ namespace MVC.Controllers
         public IActionResult DeleteId(string? id)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var user = _service.Get(userName);
-            var contact = user.Contacts.Keys.ToList().Find(x => x.Name == id);
-            // Makes sure the contact exists.
-            if (contact == null)
+            if (id == null)
                 return NotFound();
-            user.Contacts.Remove(contact);
+            _service.RemoveContact(userName, id);
             return Ok();
         }
 
@@ -101,11 +97,10 @@ namespace MVC.Controllers
         public IActionResult GetMessages(string? id)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var user = _service.Get(userName);
             var contact = _service.GetContact(userName, id);
             if (contact == null)
                 return NotFound();
-            var userMessages = user.Contacts[contact];
+            var userMessages = _service.GetMessages(userName, id);
             contact.LastMessageRead = contact.LastMessageId;
             // Makes sure the contact exists.
             return Ok(userMessages);
@@ -118,24 +113,9 @@ namespace MVC.Controllers
         public IActionResult PostMessages(string id, [FromBody] ContentClass content)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var user = _service.Get(userName);
-            var contact = _service.GetContact(userName, id);
-            if (contact == null)
-                return NotFound();
-            // Adds a new message and sets the id to be the size of the list of messages.
-            var messages = user.Contacts[contact];
-            var newMessage = new Message
-            {
-                Id = messages.Count, Content = content.Content, Created = DateTime.Now.ToString(), Sent = true
-            };
-            messages.Add(newMessage);
-            // Updates the user of the last message content and date.
-            contact.Last = content.Content;
-            contact.LastDate = DateTime.Now.ToString();
-            contact.LastMessageId++;
-            contact.LastMessageRead = contact.LastMessageId;
-            Uri uri = new Uri($"https://localhost:7225/api/Contacts/{contact.Id}/messages/{messages.Count}");
-            return Created(uri, newMessage);
+            Message message = _service.AddMessage(userName, id, content.Content, true);
+            Uri uri = new Uri($"https://localhost:7225/api/Contacts/{id}/messages/{message.Id}");
+            return Created(uri, message);
         }
         
         /*
@@ -158,14 +138,14 @@ namespace MVC.Controllers
         [HttpPut("{Id}/messages/{Id2}")]
         public void PutMessage(string id, int id2, [FromBody] ContentClass message)
         {
-            var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var user = _service.Get(userName);
-            var contact = _service.GetContact(userName, id);
-            Message theMessage;
-            // Makes sure the message and contact exists.
-            if (contact == null || (theMessage = user.Contacts[contact].Find(x => x.Id == id2)) == null)
-                return;
-            theMessage.Content = message.Content;
+            // var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
+            // var user = _service.Get(userName);
+            // var contact = _service.GetContact(userName, id);
+            // Message theMessage;
+            // // Makes sure the message and contact exists.
+            // if (contact == null || (theMessage = user.Contacts[contact].Find(x => x.Id == id2)) == null)
+            //     return;
+            // theMessage.Content = message.Content;
         }
         
         /*
@@ -174,14 +154,14 @@ namespace MVC.Controllers
         [HttpDelete("{Id}/messages/{Id2}")]
         public void RemoveMessage(string id, int id2)
         {
-            var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var user = _service.Get(userName);
-            var contact = _service.GetContact(userName, id);
-            Message messageUser;
-            // Makes sure the message and contact exists.
-            if (contact == null || (messageUser = user.Contacts[contact].Find(x => x.Id == id2)) == null)
-                return;
-            user.Contacts[contact].Remove(messageUser);
+            // var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
+            // var user = _service.Get(userName);
+            // var contact = _service.GetContact(userName, id);
+            // Message messageUser;
+            // // Makes sure the message and contact exists.
+            // if (contact == null || (messageUser = user.Contacts[contact].Find(x => x.Id == id2)) == null)
+            //     return;
+            // user.Contacts[contact].Remove(messageUser);
         }
     }
 }

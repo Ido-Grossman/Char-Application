@@ -29,14 +29,14 @@ namespace MVC.Controllers
         {
             // Gets the user from the service and makes sure he exists and the friend isn't already in his friend list.
             var user = _service.Get(details.To);
-            if (user == null || user.Contacts.Keys.ToList().Find(x => x.Id == details.From) != null)
+            if (user == null || _service.GetContact(user.Id, details.From) == null)
                 return NotFound();
             // Adds the contact to the user contacts.
             var friendContact = new Contact
             {
                 Id = details.From, Name = details.From, Server = details.Server
             };
-            user.Contacts.Add(friendContact, new List<Message>());
+            _service.AddContact(user.Id, friendContact);
             // If the user is connected it will update him that a new user contact has been added.
             _hub.Clients.Group(user.Id).SendAsync("FriendAdded");
             Uri uri = new Uri($"https://localhost:7225/api/Contacts/{friendContact.Id}");
