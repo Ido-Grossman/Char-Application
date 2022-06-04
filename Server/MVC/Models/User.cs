@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Data.Entity;
 using System.Text.Json.Serialization;
 
 namespace MVC.Models;
@@ -16,6 +17,6 @@ public class User
     
     public string Server { get; set; }
 
-    public List<UserContact> UserContacts { get; set; }
+    public ICollection<UserContact> UserContacts { get; set; }
 
 }

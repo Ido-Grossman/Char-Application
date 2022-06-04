@@ -6,19 +6,18 @@ namespace MVC.Data;
 public class MVCContext : DbContext
 {
 
-    private const string connectionString = "server=localhost;port=3306;user=root;password=root;database=ChatOS";
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public MVCContext (DbContextOptions<MVCContext> options)
+        : base(options)
     {
-        optionsBuilder.UseMySql(connectionString, MariaDbServerVersion.LatestSupportedServerVersion);
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<User>().HasKey(e => e.Id);
+        modelBuilder.Entity<User>().HasMany(e => e.UserContacts).WithOne(e => e.User);
+        modelBuilder.Entity<UserContact>().HasMany(e => e.MsgList).WithOne(e => e.UserContact);
         modelBuilder.Entity<Contact>().HasKey(e => e.Id);
         modelBuilder.Entity<Message>().HasKey(e => e.Id);
-        modelBuilder.Entity<UserContact>().HasKey(e => e.Contact);
     }
 
     public DbSet<Contact> Contacts { get; set; }

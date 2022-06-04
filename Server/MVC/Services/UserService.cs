@@ -70,7 +70,7 @@ namespace MVC.Services
             var user = Get(userName);
             if (user == null)
                 return null;
-            return user.UserContacts.Find(x => x.Contact.Id == friendName);
+            return user.UserContacts.ToList().Find(x => x.Contact.Id == friendName);
         }
 
         /**
@@ -96,7 +96,7 @@ namespace MVC.Services
         public Contact? GetContact(string userName, string friendName)
         {
             var user = Get(userName);
-            var contact =  user.UserContacts.Find(x => x.Contact.Id == friendName);
+            var contact =  user.UserContacts.ToList().Find(x => x.Contact.Id == friendName);
             if (contact == null)
                 return null;
             return contact.Contact;
@@ -122,7 +122,7 @@ namespace MVC.Services
             var userContact = GetUserContact(userName, friendName);
             if (userContact == null)
                 return null;
-            return userContact.MsgList;
+            return userContact.MsgList.ToList();
         }
 
         /**
@@ -133,7 +133,7 @@ namespace MVC.Services
             var friendContact = GetUserContact(userName, friendName);
             if (friendContact == null)
                 return null;
-            return friendContact.MsgList.Find(x => x.Id == messageId);
+            return friendContact.MsgList.ToList().Find(x => x.Id == messageId);
         }
 
         public Message? AddMessage(string userName, string friendName, string message, bool sent)

@@ -6,10 +6,12 @@ using MVC.Hubs;
 using Microsoft.IdentityModel.Tokens;
 using MVC.Data;
 using MVC.Services;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
-using Pomelo.EntityFrameworkCore.MySql.Internal;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<MVCContext>(
+    options => options.UseMySql("server=localhost;port=3306;user=root;password=12345678;database=ChatOS", MariaDbServerVersion.LatestSupportedServerVersion)
+);
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
