@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Android</string>
+    <string name="app_name">ChatOS</string>
+    <string name="title">ChatOS</string>
+    <string name="image">TODO</string>
+    <string name="image_title">TODO</string>
+    <string name="login_button">Log In</string>
+    <string name="to_register">Don\'t have an account?</string>
+    <string name="linkto_register">Click here</string>
 </resources>

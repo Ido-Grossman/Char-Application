@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tQrB29QKC0Hbwnq2AbN/421TkbFZ7IxSGOA9xrV0lhY=",
+  "Hash": "5LgsT/AeuNesdW2/GXY5dYWSO7C98OZKmU83dxjX1p0=",
   "Source": "RatingProj",
   "BasePath": "_content/RatingProj",
   "Mode": "Default",
@@ -49,23 +49,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RatingProj.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\wwwroot\\.DS_Store",
-      "SourceId": "RatingProj",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\wwwroot\\",
-      "BasePath": "_content/RatingProj",
-      "RelativePath": ".DS_Store",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
       "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\wwwroot\\css\\site.css",

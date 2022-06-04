@@ -124,7 +124,10 @@ namespace MVC.Controllers
                 return NotFound();
             // Adds a new message and sets the id to be the size of the list of messages.
             var messages = user.Contacts[contact];
-            var newMessage = new Message(messages.Count, content.Content, DateTime.Now.ToString(), true);
+            var newMessage = new Message
+            {
+                Id = messages.Count, Content = content.Content, Created = DateTime.Now.ToString(), Sent = true
+            };
             messages.Add(newMessage);
             // Updates the user of the last message content and date.
             contact.Last = content.Content;
