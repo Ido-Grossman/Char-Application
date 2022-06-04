@@ -11,9 +11,9 @@ public class Contact
 
     public string Server { get; set; }
 
-    public string? Last { get; set; }
+    public string Last { get; set; }
     
-    public string? LastDate { get; set; }
+    public string LastDate { get; set; }
     
     public int LastMessageRead { get; set; }
     

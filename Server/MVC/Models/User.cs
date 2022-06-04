@@ -11,16 +11,11 @@ public class User
     [DataType(DataType.Password), MinLength(8), Required, JsonIgnore]
     public string Password { get; set; }
     
-    [Required]
     public string Name { get; set; }
     
     
-    [Required]
     public string Server { get; set; }
 
-    [Required]
-    public Dictionary<Contact, List<Message>> Contacts { get; set; }
-    
     public List<UserContact> UserContacts { get; set; }
 
 }
