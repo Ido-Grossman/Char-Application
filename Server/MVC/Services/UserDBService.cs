@@ -1,4 +1,5 @@
-﻿using MVC.Data;
+﻿using System.Data.Entity;
+using MVC.Data;
 using MVC.Models;
 
 namespace MVC.Services;
@@ -14,32 +15,36 @@ public class UserDBService : IUserDBService
 
     public Task<List<User>> GetAll()
     {
-        throw new NotImplementedException();
+        return _context.Users.ToListAsync();
     }
 
-    public Task<User?> Get(string name)
+    public async Task<User?> Get(string name)
     {
-        throw new NotImplementedException();
+        var user = await _context.Users.FindAsync(name);
+        return user;
     }
 
-    public Task<UserContact?> GetUserContact(string userName, string friendName)
+    public async Task<ICollection<Contact>> GetContacts(string userName)
     {
-        throw new NotImplementedException();
+        var user = await Get(userName);
+        var getFriend = _context.Contacts.Where(x => x.User == user);
+        return getFriend.ToList();
     }
 
-    public Task<List<Contact>> GetContacts(string userName)
+    public async Task<Contact?> GetContact(string userName, string friendName)
     {
-        throw new NotImplementedException();
-    }
-
-    public Task<Contact?> GetContact(string userName, string friendName)
-    {
-        throw new NotImplementedException();
+        var user = await Get(userName);
+        var contact = _context.Contacts.Where(x => x.User == user).Where(x => x.Id == friendName);
+        return contact.FirstOrDefault();
     }
 
     public void AddContact(string userName, Contact contact)
     {
-        throw new NotImplementedException();
+        
+        _context.Contacts.Add(new Contact
+        {
+            
+        });
     }
 
     public void RemoveContact(string userName, string friendName)

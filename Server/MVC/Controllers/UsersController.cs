@@ -16,12 +16,24 @@ namespace MVC.Controllers
         
         private readonly IUserService _service;
 
+        private readonly IUserDBService _service2;
+
         private readonly IConfiguration _configuration;
 
-        public UsersController(IUserService service, IConfiguration configuration)
+        public UsersController(IUserService service, IConfiguration configuration, IUserDBService service2)
         {
-            this._service = service;
+            _service = service;
+            _service2 = service2;
             _configuration = configuration;
+        }
+
+        [HttpGet("{Id}")]
+        public async Task<IActionResult> GetUser(string? Id)
+        {
+            if (Id == null)
+                return NotFound();
+            var user = await _service2.GetContact(Id, "EliZil");
+            return Ok(user);
         }
 
         /**

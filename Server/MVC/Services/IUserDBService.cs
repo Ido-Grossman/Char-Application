@@ -7,10 +7,8 @@ public interface IUserDBService
     public Task<List<User>> GetAll();
 
     public Task<User?> Get(string name);
-        
-    public Task<UserContact?> GetUserContact(string userName, string friendName);
 
-    public Task<List<Contact>> GetContacts(string userName);
+    public Task<ICollection<Contact>> GetContacts(string userName);
         
     public Task<Contact?> GetContact(string userName, string friendName);
         

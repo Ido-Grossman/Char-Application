@@ -1,4 +1,5 @@
-﻿using MVC.Models;
+﻿using System.Collections.ObjectModel;
+using MVC.Models;
 using MVC.Services;
 
 namespace MVC.Services
@@ -12,37 +13,36 @@ namespace MVC.Services
         {
             User gross = new User
             {
-                Id = "Idog770", Password = "grossman", Name = "gross", Server = "localhost:7225", UserContacts = new List<UserContact>()
+                Id = "Idog770", Password = "grossman", Name = "gross", Server = "localhost:7225", Contacts = new List<Contact>()
             };
             User santi = new User
             {
-                Id = "Santiago", Password = "santi", Name = "Santi", Server = "localhost:7225", UserContacts = new List<UserContact>()
+                Id = "Santiago", Password = "santi", Name = "Santi", Server = "localhost:7225", Contacts = new List<Contact>()
             };
             User eli = new User
             {
-                Id = "EliZil", Password = "eli", Name = "eli", Server = "localhost:7225", UserContacts = new List<UserContact>()
+                Id = "EliZil", Password = "eli", Name = "eli", Server = "localhost:7225", Contacts = new List<Contact>()
             };
-            gross.UserContacts.Add(new UserContact
-            {
-                Contact = new Contact
-                    {Id = santi.Id, Name = santi.Name, Server = santi.Server, LastMessageRead = 0, LastMessageId = 0},
-                MsgList = new List<Message>()
+            gross.Contacts.Add(new Contact
+                {
+                    Id = santi.Id, Name = santi.Name, Server = santi.Server, LastMessageRead = 0, LastMessageId = 0,
+                    Messages = new List<Message>(), User = gross
             });
-            gross.UserContacts.Add(new UserContact
+            gross.Contacts.Add(new Contact
             {
-                Contact = new Contact {Id = eli.Id, Name = eli.Name, Server = eli.Server},
-                MsgList = new List<Message>()
+                Id = eli.Id, Name = eli.Name, Server = eli.Server, LastMessageRead = 0, LastMessageId = 0, 
+                Messages = new List<Message>(), User = gross
             });
-            eli.UserContacts.Add(new UserContact
+            eli.Contacts.Add(new Contact
             {
-                Contact = new Contact {Id = gross.Id, Name = gross.Name, Server = gross.Server},
-                MsgList = new List<Message>()
+                Id = gross.Id, Name = gross.Name, Server = gross.Server, LastMessageRead = 0, LastMessageId = 0, 
+                Messages = new List<Message>(), User = eli
                 
             });
-            santi.UserContacts.Add(new UserContact
+            santi.Contacts.Add(new Contact
             {
-                Contact = new Contact {Id = gross.Id, Name = gross.Name, Server = gross.Server},
-                MsgList = new List<Message>()
+                Id = gross.Id, Name = gross.Name, Server = gross.Server, LastMessageRead = 0, LastMessageId = 0,
+                Messages = new List<Message>(), User = santi
             });
             Users.Add(gross);
             Users.Add(santi);
@@ -64,14 +64,6 @@ namespace MVC.Services
         {
             return Users.Find(x => x.Id == name);
         }
-        
-        public UserContact? GetUserContact(string userName, string friendName)
-        {
-            var user = Get(userName);
-            if (user == null)
-                return null;
-            return user.UserContacts.ToList().Find(x => x.Contact.Id == friendName);
-        }
 
         /**
          * Adds a user to the list of users.
@@ -85,8 +77,8 @@ namespace MVC.Services
         {
             var user = Get(userName);
             List<Contact> contacts = new List<Contact>();
-            foreach (var contact in user.UserContacts)
-                contacts.Add(contact.Contact);
+            foreach (var contact in user.Contacts)
+                contacts.Add(contact);
             return contacts;
         }
 
@@ -96,33 +88,34 @@ namespace MVC.Services
         public Contact? GetContact(string userName, string friendName)
         {
             var user = Get(userName);
-            var contact =  user.UserContacts.ToList().Find(x => x.Contact.Id == friendName);
+            var contact =  user.Contacts.ToList().Find(x => x.Id == friendName);
             if (contact == null)
                 return null;
-            return contact.Contact;
+            return contact;
         }
 
         public void AddContact(string userName, Contact contact)
         {
             var user = Get(userName);
-            user.UserContacts.Add(new UserContact{Contact = contact, MsgList = new List<Message>()});
+            contact.Messages = new List<Message>();
+            user.Contacts.Add(contact);
         }
         
         public void RemoveContact(string userName, string friendName)
         {
             var user = Get(userName);
-            var userContact = GetUserContact(userName, friendName);
+            var userContact = GetContact(userName, friendName);
             if (userContact == null)
                 return;
-            user.UserContacts.Remove(userContact);
+            user.Contacts.Remove(userContact);
         }
 
         public List<Message>? GetMessages(string userName, string friendName)
         {
-            var userContact = GetUserContact(userName, friendName);
+            var userContact = GetContact(userName, friendName);
             if (userContact == null)
                 return null;
-            return userContact.MsgList.ToList();
+            return userContact.Messages.ToList();
         }
 
         /**
@@ -130,28 +123,27 @@ namespace MVC.Services
          */
         public Message? GetMessage(string userName, string friendName, int messageId)
         {
-            var friendContact = GetUserContact(userName, friendName);
+            var friendContact = GetContact(userName, friendName);
             if (friendContact == null)
                 return null;
-            return friendContact.MsgList.ToList().Find(x => x.Id == messageId);
+            return friendContact.Messages.ToList().Find(x => x.Id == messageId);
         }
 
         public Message? AddMessage(string userName, string friendName, string message, bool sent)
         {
-            var userContact = GetUserContact(userName, friendName);
+            var userContact = GetContact(userName, friendName);
             if (userContact == null)
                 return null;
             var time = DateTime.Now.ToString();
             Message msg = new Message
             {
-                Id = userContact.MsgList.Count, Content = message, Created = time, Sent = sent
+                Id = userContact.Messages.Count, Content = message, Created = time, Sent = sent
             };
-            userContact.MsgList.Add(msg);
-            var contact = userContact.Contact;
-            contact.LastMessageId++;
-            contact.LastMessageRead = userContact.Contact.LastMessageId;
-            contact.LastDate = time;
-            contact.Last = message;
+            userContact.Messages.Add(msg);
+            userContact.LastMessageId++;
+            userContact.LastMessageRead = userContact.LastMessageId;
+            userContact.LastDate = time;
+            userContact.Last = message;
             return msg;
         }
     }

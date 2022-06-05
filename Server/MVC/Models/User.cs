@@ -16,7 +16,8 @@ public class User
     
     
     public string Server { get; set; }
-
-    public ICollection<UserContact> UserContacts { get; set; }
+    
+    [JsonIgnore]
+    public ICollection<Contact> Contacts { get; set; }
 
 }

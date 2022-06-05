@@ -7,9 +7,6 @@ namespace MVC.Services
         public List<User> GetAll();
 
         public User? Get(string name);
-        
-        public UserContact? GetUserContact(string userName, string friendName);
-
         public List<Contact> GetContacts(string userName);
         
         public Contact? GetContact(string userName, string friendName);
