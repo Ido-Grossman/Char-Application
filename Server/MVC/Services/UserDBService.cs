@@ -21,6 +21,12 @@ public class UserDBService : IUserDBService
     public async Task<User?> Get(string name)
     {
         var user = await _context.Users.FindAsync(name);
+        var contact = new Contact
+        {
+            Id = "Idog770", Name = "Grossman", Server = "localhost:7225", UnreadMessages = 0
+        };
+        user.Contacts.Add(contact);
+        await _context.SaveChangesAsync();
         return user;
     }
 

@@ -13,6 +13,5 @@ public class Message
     public bool Sent { get; set; }
 
     [JsonIgnore]
-    [ForeignKey("ContactForeignKey")]
     public Contact Contact { get; set; }
 }

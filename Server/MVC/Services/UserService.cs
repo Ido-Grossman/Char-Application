@@ -25,23 +25,23 @@ namespace MVC.Services
             };
             gross.Contacts.Add(new Contact
                 {
-                    Id = santi.Id, Name = santi.Name, Server = santi.Server, LastMessageRead = 0, LastMessageId = 0,
+                    Id = santi.Id, Name = santi.Name, Server = santi.Server, UnreadMessages = 0,
                     Messages = new List<Message>(), User = gross
             });
             gross.Contacts.Add(new Contact
             {
-                Id = eli.Id, Name = eli.Name, Server = eli.Server, LastMessageRead = 0, LastMessageId = 0, 
+                Id = eli.Id, Name = eli.Name, Server = eli.Server, UnreadMessages = 0, 
                 Messages = new List<Message>(), User = gross
             });
             eli.Contacts.Add(new Contact
             {
-                Id = gross.Id, Name = gross.Name, Server = gross.Server, LastMessageRead = 0, LastMessageId = 0, 
+                Id = gross.Id, Name = gross.Name, Server = gross.Server, UnreadMessages = 0, 
                 Messages = new List<Message>(), User = eli
                 
             });
             santi.Contacts.Add(new Contact
             {
-                Id = gross.Id, Name = gross.Name, Server = gross.Server, LastMessageRead = 0, LastMessageId = 0,
+                Id = gross.Id, Name = gross.Name, Server = gross.Server, UnreadMessages = 0,
                 Messages = new List<Message>(), User = santi
             });
             Users.Add(gross);
@@ -115,6 +115,7 @@ namespace MVC.Services
             var userContact = GetContact(userName, friendName);
             if (userContact == null)
                 return null;
+            userContact.UnreadMessages = 0;
             return userContact.Messages.ToList();
         }
 
@@ -139,9 +140,9 @@ namespace MVC.Services
             {
                 Id = userContact.Messages.Count, Content = message, Created = time, Sent = sent
             };
+            if (sent == false)
+                userContact.UnreadMessages++;
             userContact.Messages.Add(msg);
-            userContact.LastMessageId++;
-            userContact.LastMessageRead = userContact.LastMessageId;
             userContact.LastDate = time;
             userContact.Last = message;
             return msg;

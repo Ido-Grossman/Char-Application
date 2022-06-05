@@ -6,10 +6,10 @@ namespace MVC.Models;
 
 public class User
 {
-    [Key]
     public string Id { get; set; }
     
-    [DataType(DataType.Password), MinLength(8), Required, JsonIgnore]
+    [DataType(DataType.Password), MinLength(8), Required]
+    [JsonIgnore]
     public string Password { get; set; }
     
     public string Name { get; set; }
@@ -19,5 +19,10 @@ public class User
     
     [JsonIgnore]
     public ICollection<Contact> Contacts { get; set; }
+
+    public User()
+    {
+        this.Contacts = new List<Contact>();
+    }
 
 }

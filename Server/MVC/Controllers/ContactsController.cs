@@ -101,7 +101,7 @@ namespace MVC.Controllers
             if (contact == null)
                 return NotFound();
             var userMessages = _service.GetMessages(userName, id);
-            contact.LastMessageRead = contact.LastMessageId;
+            contact.UnreadMessages = 0;
             // Makes sure the contact exists.
             return Ok(userMessages);
         }

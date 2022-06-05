@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MVC.Migrations
 {
     [DbContext(typeof(MVCContext))]
-    [Migration("20220605084617_Initial")]
+    [Migration("20220605214636_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,17 +25,14 @@ namespace MVC.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("varchar(255)");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("varchar(255)");
+
                     b.Property<string>("Last")
                         .HasColumnType("longtext");
 
                     b.Property<string>("LastDate")
                         .HasColumnType("longtext");
-
-                    b.Property<int>("LastMessageId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("LastMessageRead")
-                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -45,13 +42,12 @@ namespace MVC.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("UserForeignKey")
-                        .IsRequired()
-                        .HasColumnType("varchar(255)");
+                    b.Property<int>("UnreadMessages")
+                        .HasColumnType("int");
 
-                    b.HasKey("Id");
+                    b.HasKey("Id", "UserId");
 
-                    b.HasIndex("UserForeignKey");
+                    b.HasIndex("UserId");
 
                     b.ToTable("Contacts");
                 });
@@ -62,7 +58,11 @@ namespace MVC.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("ContactForeignKey")
+                    b.Property<string>("ContactId")
+                        .IsRequired()
+                        .HasColumnType("varchar(255)");
+
+                    b.Property<string>("ContactUserId")
                         .IsRequired()
                         .HasColumnType("varchar(255)");
 
@@ -79,7 +79,7 @@ namespace MVC.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ContactForeignKey");
+                    b.HasIndex("ContactId", "ContactUserId");
 
                     b.ToTable("Messages");
                 });
@@ -110,7 +110,7 @@ namespace MVC.Migrations
                 {
                     b.HasOne("MVC.Models.User", "User")
                         .WithMany("Contacts")
-                        .HasForeignKey("UserForeignKey")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -121,7 +121,7 @@ namespace MVC.Migrations
                 {
                     b.HasOne("MVC.Models.Contact", "Contact")
                         .WithMany("Messages")
-                        .HasForeignKey("ContactForeignKey")
+                        .HasForeignKey("ContactId", "ContactUserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

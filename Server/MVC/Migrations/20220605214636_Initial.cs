@@ -37,6 +37,8 @@ namespace MVC.Migrations
                 {
                     Id = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
+                    UserId = table.Column<string>(type: "varchar(255)", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     Name = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Server = table.Column<string>(type: "longtext", nullable: false)
@@ -45,17 +47,14 @@ namespace MVC.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     LastDate = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    LastMessageRead = table.Column<int>(type: "int", nullable: false),
-                    LastMessageId = table.Column<int>(type: "int", nullable: false),
-                    UserForeignKey = table.Column<string>(type: "varchar(255)", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4")
+                    UnreadMessages = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Contacts", x => x.Id);
+                    table.PrimaryKey("PK_Contacts", x => new { x.Id, x.UserId });
                     table.ForeignKey(
-                        name: "FK_Contacts_Users_UserForeignKey",
-                        column: x => x.UserForeignKey,
+                        name: "FK_Contacts_Users_UserId",
+                        column: x => x.UserId,
                         principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -73,30 +72,32 @@ namespace MVC.Migrations
                     Created = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Sent = table.Column<bool>(type: "tinyint(1)", nullable: false),
-                    ContactForeignKey = table.Column<string>(type: "varchar(255)", nullable: false)
+                    ContactId = table.Column<string>(type: "varchar(255)", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    ContactUserId = table.Column<string>(type: "varchar(255)", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4")
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Messages", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Messages_Contacts_ContactForeignKey",
-                        column: x => x.ContactForeignKey,
+                        name: "FK_Messages_Contacts_ContactId_ContactUserId",
+                        columns: x => new { x.ContactId, x.ContactUserId },
                         principalTable: "Contacts",
-                        principalColumn: "Id",
+                        principalColumns: new[] { "Id", "UserId" },
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Contacts_UserForeignKey",
+                name: "IX_Contacts_UserId",
                 table: "Contacts",
-                column: "UserForeignKey");
+                column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Messages_ContactForeignKey",
+                name: "IX_Messages_ContactId_ContactUserId",
                 table: "Messages",
-                column: "ContactForeignKey");
+                columns: new[] { "ContactId", "ContactUserId" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

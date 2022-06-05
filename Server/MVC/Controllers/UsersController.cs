@@ -32,7 +32,7 @@ namespace MVC.Controllers
         {
             if (Id == null)
                 return NotFound();
-            var user = await _service2.GetContact(Id, "EliZil");
+            var user = await _service2.Get(Id);
             return Ok(user);
         }
 

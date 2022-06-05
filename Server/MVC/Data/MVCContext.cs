@@ -13,8 +13,7 @@ public class MVCContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Contact>().HasOne(e => e.User).WithMany(e => e.Contacts);
-        modelBuilder.Entity<Message>().HasOne(e => e.Contact).WithMany(e => e.Messages);
+        modelBuilder.Entity<Contact>().HasKey(e => new {e.Id, e.UserId});
     }
 
     public DbSet<Contact> Contacts { get; set; }
