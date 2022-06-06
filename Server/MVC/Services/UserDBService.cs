@@ -20,61 +20,80 @@ public class UserDBService : IUserDBService
 
     public async Task<User?> Get(string name)
     {
-        var user = await _context.Users.FindAsync(name);
-        var contact = new Contact
-        {
-            Id = "Idog770", Name = "Grossman", Server = "localhost:7225", UnreadMessages = 0
-        };
-        user.Contacts.Add(contact);
-        await _context.SaveChangesAsync();
-        return user;
+        return await _context.Users.FindAsync(name);
     }
 
     public async Task<ICollection<Contact>> GetContacts(string userName)
     {
         var user = await Get(userName);
-        var getFriend = _context.Contacts.Where(x => x.User == user);
-        return getFriend.ToList();
+        return user.Contacts;
     }
 
     public async Task<Contact?> GetContact(string userName, string friendName)
     {
+        var contacts = await GetContacts(userName);
+        return contacts.FirstOrDefault(e => e.Id == friendName);
+    }
+
+    public async void AddContact(string userName, string id, string name, string server)
+    {
         var user = await Get(userName);
-        var contact = _context.Contacts.Where(x => x.User == user).Where(x => x.Id == friendName);
-        return contact.FirstOrDefault();
-    }
-
-    public void AddContact(string userName, Contact contact)
-    {
-        
-        _context.Contacts.Add(new Contact
+        user.Contacts.Add(new Contact
         {
-            
+            Id = id, Name = name, Server = server, UnreadMessages = 0
         });
+        await _context.SaveChangesAsync();
     }
 
-    public void RemoveContact(string userName, string friendName)
+    public async void RemoveContact(string userName, string friendName)
     {
-        throw new NotImplementedException();
+        var user = await Get(userName);
+        var contact = await GetContact(userName, friendName);
+        if (contact == null)
+            return;
+        user?.Contacts.Remove(contact);
+        await _context.SaveChangesAsync();
     }
 
-    public Task<List<Message>?> GetMessages(string userName, string friendName)
+    public async Task<List<Message>?> GetMessages(string userName, string friendName)
     {
-        throw new NotImplementedException();
+        var contact = await GetContact(userName, friendName);
+        if (contact == null)
+            return null;
+        contact.UnreadMessages = 0;
+        await _context.SaveChangesAsync();
+        return contact.Messages.ToList();
     }
 
-    public Task<Message?> GetMessage(string userName, string friendName, int messageId)
+    public async Task<Message?> GetMessage(string userName, string friendName, int messageId)
     {
-        throw new NotImplementedException();
+        var messages = await GetMessages(userName, friendName);
+        var message = messages?.Find(e => e.Id == messageId);
+        return message ?? null;
     }
 
-    public Task<Message?> AddMessage(string userName, string friendName, string message, bool sent)
+    public async Task<Message?> AddMessage(string userName, string friendName, string message, bool sent)
     {
-        throw new NotImplementedException();
+        var contact = await GetContact(userName, friendName);
+        if (contact == null)
+            return null;
+        Message msg;
+        var time = DateTime.Now.ToString();
+        contact.Messages.Add(msg = new Message
+        {
+            Content = message, Sent = sent, Created = time
+        });
+        if (sent == false)
+            contact.UnreadMessages++;
+        contact.LastDate = time;
+        contact.Last = message;
+        await _context.SaveChangesAsync();
+        return msg;
     }
 
     public void AddUser(User user)
     {
-        throw new NotImplementedException();
+        _context.Users.Add(user);
+        _context.SaveChangesAsync();
     }
 }

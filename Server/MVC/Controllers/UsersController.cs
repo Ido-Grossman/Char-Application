@@ -14,26 +14,15 @@ namespace MVC.Controllers
     public class UsersController : ControllerBase
     {
         
-        private readonly IUserService _service;
-
-        private readonly IUserDBService _service2;
+        private readonly IUserDBService _service;
+        
 
         private readonly IConfiguration _configuration;
 
-        public UsersController(IUserService service, IConfiguration configuration, IUserDBService service2)
+        public UsersController(IUserDBService service, IConfiguration configuration)
         {
             _service = service;
-            _service2 = service2;
             _configuration = configuration;
-        }
-
-        [HttpGet("{Id}")]
-        public async Task<IActionResult> GetUser(string? Id)
-        {
-            if (Id == null)
-                return NotFound();
-            var user = await _service2.Get(Id);
-            return Ok(user);
         }
 
         /**
@@ -41,10 +30,10 @@ namespace MVC.Controllers
          * status, if they aren't it returns NotFound.
          */
         [HttpPost("Login")]
-        public IActionResult Login([FromBody]UserCred userCred)
+        public async Task<IActionResult> Login([FromBody]UserCred userCred)
         {
             // Checks if the user exists in the DB.
-            var user = _service.Get(userCred.Username);
+            var user = await _service.Get(userCred.Username);
             if (user != null && user.Password == userCred.Password)
             {
                 // Makes the key with all the claims.
@@ -74,14 +63,10 @@ namespace MVC.Controllers
          */
         [HttpGet("LoggedIn")]
         [Authorize]
-        public IActionResult IsLoggedIn()
+        public Task<IActionResult> IsLoggedIn()
         {
             var user = _service.Get(HttpContext.User.Claims.First(i => i.Type == "UserId").Value);
-            if (user == null)
-            {
-                return NotFound();
-            }
-            return Ok(user.Id);
+            return Task.FromResult<IActionResult>(Ok(user.Id));
         }
 
         /**
@@ -89,17 +74,17 @@ namespace MVC.Controllers
          */
         [HttpGet("Logout")]
         [Authorize]
-        public IActionResult Logout()
+        public async Task<IActionResult> Logout()
         {
-            var user = _service.Get(HttpContext.User.Claims.First(i => i.Type == "UserId").Value);
+            var user = await _service.Get(HttpContext.User.Claims.First(i => i.Type == "UserId").Value);
             return Ok();
         }
         
         // Checks if the username exists or not.
         [HttpPost("Exists")]
-        public IActionResult Exists([FromBody]string username)
+        public async Task<IActionResult> Exists([FromBody]string username)
         {
-            var user = _service.Get(username);
+            var user = await _service.Get(username);
             if (user != null)
                 return Ok();
             return NotFound();
@@ -109,7 +94,7 @@ namespace MVC.Controllers
          * Registers the user to the server.
          */
         [HttpPost("Register")]
-        public IActionResult Register([FromBody] UserCred userCred)
+        public Task<IActionResult> Register([FromBody] UserCred userCred)
         {
             // Adds the user to the service and creates claims for the user.
             _service.AddUser(new User
@@ -133,7 +118,7 @@ namespace MVC.Controllers
                 expires: DateTime.UtcNow.AddMinutes(1),
                 signingCredentials: mac);
             // Returns ok and creates the user.
-            return Ok(new JwtSecurityTokenHandler().WriteToken(token));
+            return Task.FromResult<IActionResult>(Ok(new JwtSecurityTokenHandler().WriteToken(token)));
         }
     }
 }

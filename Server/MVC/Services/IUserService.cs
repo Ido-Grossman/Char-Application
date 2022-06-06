@@ -10,8 +10,8 @@ namespace MVC.Services
         public List<Contact> GetContacts(string userName);
         
         public Contact? GetContact(string userName, string friendName);
-        
-        public void AddContact(string userName, Contact contact);
+
+        public void AddContact(string userName, string id, string name, string server);
 
         public void RemoveContact(string userName, string friendName);
 

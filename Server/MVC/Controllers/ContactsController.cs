@@ -40,7 +40,7 @@ namespace MVC.Controllers
             if (_service.GetContact(userName, contactPost.id) != null)
                 return NotFound();
             var friendContact = new Contact{Id = contactPost.id, Name = contactPost.name, Server = contactPost.server};
-            _service.AddContact(userName, friendContact);
+            _service.AddContact(userName, contactPost.id, contactPost.name, contactPost.server);
             Uri uri = new Uri($"https://localhost:7225/api/Contacts/{friendContact.Id}");
             return Created(uri, friendContact);
         }

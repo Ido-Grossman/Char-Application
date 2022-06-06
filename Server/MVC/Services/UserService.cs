@@ -76,10 +76,7 @@ namespace MVC.Services
         public List<Contact> GetContacts(string userName)
         {
             var user = Get(userName);
-            List<Contact> contacts = new List<Contact>();
-            foreach (var contact in user.Contacts)
-                contacts.Add(contact);
-            return contacts;
+            return user.Contacts.ToList();
         }
 
         /**
@@ -88,17 +85,17 @@ namespace MVC.Services
         public Contact? GetContact(string userName, string friendName)
         {
             var user = Get(userName);
-            var contact =  user.Contacts.ToList().Find(x => x.Id == friendName);
-            if (contact == null)
-                return null;
-            return contact;
+            var contact =  user?.Contacts.ToList().Find(x => x.Id == friendName);
+            return contact ?? null;
         }
 
-        public void AddContact(string userName, Contact contact)
+        public void AddContact(string userName, string id, string name, string server)
         {
             var user = Get(userName);
-            contact.Messages = new List<Message>();
-            user.Contacts.Add(contact);
+            user?.Contacts.Add(new Contact
+            {
+                Id = id, Name = name, Server = server, UnreadMessages = 0
+            });
         }
         
         public void RemoveContact(string userName, string friendName)
@@ -107,7 +104,7 @@ namespace MVC.Services
             var userContact = GetContact(userName, friendName);
             if (userContact == null)
                 return;
-            user.Contacts.Remove(userContact);
+            user?.Contacts.Remove(userContact);
         }
 
         public List<Message>? GetMessages(string userName, string friendName)

@@ -36,7 +36,7 @@ namespace MVC.Controllers
             {
                 Id = details.From, Name = details.From, Server = details.Server
             };
-            _service.AddContact(user.Id, friendContact);
+            _service.AddContact(user.Id, details.From, details.From, details.Server);
             // If the user is connected it will update him that a new user contact has been added.
             _hub.Clients.Group(user.Id).SendAsync("FriendAdded");
             Uri uri = new Uri($"https://localhost:7225/api/Contacts/{friendContact.Id}");
