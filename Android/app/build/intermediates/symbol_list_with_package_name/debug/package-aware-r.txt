@@ -1829,6 +1829,7 @@ id blocking
 id bottom
 id bounce
 id button
+id button2
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1932,6 +1933,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id info
 id invisible
 id inward
@@ -2140,6 +2142,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id title_signin
 id title_template
 id toggle
 id top
@@ -2321,6 +2324,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+mipmap background
 mipmap chatos_image
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -2356,6 +2360,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
+string button
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern

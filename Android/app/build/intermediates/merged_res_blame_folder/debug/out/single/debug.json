@@ -24,6 +24,10 @@
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/layout-land_activity_main.xml.flat",
+        "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/layout-land/activity_main.xml"
+    },
+    {
         "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-pngs-14:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
@@ -56,10 +60,6 @@
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/layout_activity_main.xml.flat",
-        "source": "com.example.android.app-main-21:/layout/activity_main.xml"
-    },
-    {
         "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/layout_activity_main.xml.flat",
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/layout/activity_main.xml"
     },
@@ -72,8 +72,16 @@
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/xml/backup_rules.xml"
     },
     {
+        "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-hdpi_background.jpeg.flat",
+        "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-hdpi/background.jpeg"
+    },
+    {
         "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-19:/layout-night_activity_main.xml.flat",
+        "source": "com.example.android.app-main-21:/layout-night/activity_main.xml"
     },
     {
         "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/xml_data_extraction_rules.xml.flat",

@@ -9,6 +9,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">ChatOS</string>
+    <string name="button">Button</string>
     <string name="image">TODO</string>
     <string name="image_title">TODO</string>
     <string name="linkto_register">Click here</string>
