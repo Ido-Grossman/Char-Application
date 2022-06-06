@@ -48,7 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Please put your username"
-            android:textColorHint="#616161"
+            android:textColorHint="#9E9E9E"
             tools:ignore="HardcodedText" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -67,7 +67,7 @@
             android:layout_height="match_parent"
             android:hint="Please put your password"
             android:inputType="textPassword"
-            android:textColorHint="#616161"
+            android:textColorHint="#9E9E9E"
             tools:ignore="HardcodedText" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -108,7 +108,7 @@
         android:clickable="true"
         android:focusable="true"
         android:text="@string/linkto_register"
-        android:textColor="#0277BD"
+        android:textColor="#0288D1"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
