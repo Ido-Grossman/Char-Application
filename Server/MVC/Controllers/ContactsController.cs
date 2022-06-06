@@ -11,9 +11,9 @@ namespace MVC.Controllers
     [ApiController]
     public class ContactsController : ControllerBase
     {
-        private readonly IUserService _service;
+        private readonly IUserDBService _service;
 
-        public ContactsController(IUserService service)
+        public ContactsController(IUserDBService service)
         {
             _service = service;
         }
@@ -22,25 +22,26 @@ namespace MVC.Controllers
          * Returns all the user contacts.
          */
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             // Gets the username from the given token and returns the user contacts.
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            return Ok(_service.GetContacts(userName));
+            var contacts = await _service.GetContacts(userName);
+            return Ok(contacts);
         }
 
         /*
          * Adds a new Contact to the user contact list.
          */
         [HttpPost]
-        public IActionResult IndexPost([FromBody] ContactPost contactPost)
+        public async Task<IActionResult> IndexPost([FromBody] ContactPost contactPost)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
             // Makes sure the contact isn't already in the user contacts list, returns NotFound if he is.
-            if (_service.GetContact(userName, contactPost.id) != null)
+            if (await _service.GetContact(userName, contactPost.id) != null)
                 return NotFound();
             var friendContact = new Contact{Id = contactPost.id, Name = contactPost.name, Server = contactPost.server};
-            _service.AddContact(userName, contactPost.id, contactPost.name, contactPost.server);
+            await _service.AddContact(userName, contactPost.id, contactPost.name, contactPost.server);
             Uri uri = new Uri($"https://localhost:7225/api/Contacts/{friendContact.Id}");
             return Created(uri, friendContact);
         }
@@ -49,12 +50,12 @@ namespace MVC.Controllers
          * Gets a specific contact details and returns Ok with the contact details if found, notFound else.
          */
         [HttpGet("{Id}")]
-        public IActionResult GetId(string? id)
+        public async Task<IActionResult> GetId(string? id)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
             if (id == null)
                 return NotFound();
-            var contact = _service.GetContact(userName, id);
+            var contact = await _service.GetContact(userName, id);
             // Makes sure the contact exists.
             if (contact == null)
                 return NotFound();
@@ -65,10 +66,10 @@ namespace MVC.Controllers
          * Changes the nickname of a specific contact.
          */
         [HttpPut("{Id}")]
-        public IActionResult PutId(string id, [FromBody] IdPut idPut)
+        public async Task<IActionResult> PutId(string id, [FromBody] IdPut idPut)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var contact = _service.GetContact(userName, id);
+            var contact = await _service.GetContact(userName, id);
             // Makes sure the contact exists.
             if (contact == null)
                 return NotFound();
@@ -94,14 +95,13 @@ namespace MVC.Controllers
          * Gets all the messages between the user and the specific contact, NotFound if the contact doesn't exist.
          */
         [HttpGet("{Id}/messages")]
-        public IActionResult GetMessages(string? id)
+        public async Task<IActionResult> GetMessages(string? id)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var contact = _service.GetContact(userName, id);
+            var contact = await _service.GetContact(userName, id);
             if (contact == null)
                 return NotFound();
-            var userMessages = _service.GetMessages(userName, id);
-            contact.UnreadMessages = 0;
+            var userMessages = await _service.GetMessages(userName, id);
             // Makes sure the contact exists.
             return Ok(userMessages);
         }
@@ -110,11 +110,11 @@ namespace MVC.Controllers
          * Adds a new message between the user and the contact.
          */
         [HttpPost("{Id}/messages")]
-        public IActionResult PostMessages(string id, [FromBody] ContentClass content)
+        public async Task<IActionResult> PostMessages(string id, [FromBody] ContentClass content)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            Message message = _service.AddMessage(userName, id, content.Content, true);
-            Uri uri = new Uri($"https://localhost:7225/api/Contacts/{id}/messages/{message.Id}");
+            var message = await _service.AddMessage(userName, id, content.Content, true);
+            var uri = new Uri($"https://localhost:7225/api/Contacts/{id}/messages/{message.Id}");
             return Created(uri, message);
         }
         
@@ -122,10 +122,10 @@ namespace MVC.Controllers
          * Gets a specific message details between the user and contact, returns NotFound if the message doesn't exist.
          */
         [HttpGet("{Id}/messages/{Id2}")]
-        public IActionResult GetMessage(string id, int id2)
+        public async Task<IActionResult> GetMessage(string id, int id2)
         {
             var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            var message = _service.GetMessage(userName, id, id2);
+            var message = await _service.GetMessage(userName, id, id2);
             // Makes sure the message exists.
             if (message == null)
                 return NotFound();

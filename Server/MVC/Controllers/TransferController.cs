@@ -15,11 +15,11 @@ namespace MVC.Controllers
     [ApiController]
     public class TransferController : ControllerBase
     {
-        private readonly IUserService _service;
+        private readonly IUserDBService _service;
 
         private readonly IHubContext<MessageHub> _hub;
 
-        public TransferController(IUserService service, IHubContext<MessageHub> messageHub)
+        public TransferController(IUserDBService service, IHubContext<MessageHub> messageHub)
         {
             _service = service;
             _hub = messageHub;
@@ -29,19 +29,19 @@ namespace MVC.Controllers
          * Adds the message to the user and notifies him a message has been sent.
          */
         [HttpPost]
-        public IActionResult PostInv([FromBody] TraInv details)
+        public async Task<IActionResult> PostInv([FromBody] TraInv details)
         {
-            var user = _service.Get(details.To);
+            var user = await _service.Get(details.To);
             if (user == null)
                 return NoContent();
-            var contact = _service.GetContact(user.Id, details.From);
+            var contact = await _service.GetContact(user.Id, details.From);
             // Makes sure the contact exists.
             if (contact == null)
                 return NotFound();
             // Adds a new message to the user.
-            var message = _service.AddMessage(user.Id, contact.Id, details.Content, false);
+            var message = await _service.AddMessage(user.Id, contact.Id, details.Content, false);
             // if the client is connected to the user it updates him that a message has been received.
-            _hub.Clients.Group(user.Id).SendAsync("MessageReceived");
+            await _hub.Clients.Group(user.Id).SendAsync("MessageReceived");
             Uri uri = new Uri($"https://localhost:7225/api/Contacts/{contact.Id}/messages/{message.Id}");
             return Created(uri, message);
         }

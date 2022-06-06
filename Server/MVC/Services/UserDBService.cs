@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 using MVC.Data;
 using MVC.Models;
 
@@ -26,19 +27,21 @@ public class UserDBService : IUserDBService
     public async Task<ICollection<Contact>> GetContacts(string userName)
     {
         var user = await Get(userName);
-        return user.Contacts;
+        await _context.Entry(user).Collection(e => e.Contacts).LoadAsync();
+        var contacts = user.Contacts;
+        return contacts;
     }
 
     public async Task<Contact?> GetContact(string userName, string friendName)
     {
-        var contacts = await GetContacts(userName);
-        return contacts.FirstOrDefault(e => e.Id == friendName);
+        var contact = _context.Contacts.Where(e => e.UserId == userName && e.Id == friendName);
+        return contact.FirstOrDefault();
     }
 
-    public async void AddContact(string userName, string id, string name, string server)
+    public async Task AddContact(string userName, string id, string name, string server)
     {
         var user = await Get(userName);
-        user.Contacts.Add(new Contact
+        user?.Contacts.Add(new Contact
         {
             Id = id, Name = name, Server = server, UnreadMessages = 0
         });
@@ -51,25 +54,25 @@ public class UserDBService : IUserDBService
         var contact = await GetContact(userName, friendName);
         if (contact == null)
             return;
-        user?.Contacts.Remove(contact);
+        _context.Contacts.Remove(contact);
         await _context.SaveChangesAsync();
     }
 
-    public async Task<List<Message>?> GetMessages(string userName, string friendName)
+    public async Task<ICollection<Message>?> GetMessages(string userName, string friendName)
     {
         var contact = await GetContact(userName, friendName);
         if (contact == null)
             return null;
         contact.UnreadMessages = 0;
         await _context.SaveChangesAsync();
+        await _context.Entry(contact).Collection(e => e.Messages).LoadAsync();
         return contact.Messages.ToList();
     }
 
     public async Task<Message?> GetMessage(string userName, string friendName, int messageId)
     {
-        var messages = await GetMessages(userName, friendName);
-        var message = messages?.Find(e => e.Id == messageId);
-        return message ?? null;
+        var message = await _context.Messages.FindAsync(messageId);
+        return message;
     }
 
     public async Task<Message?> AddMessage(string userName, string friendName, string message, bool sent)
@@ -91,9 +94,9 @@ public class UserDBService : IUserDBService
         return msg;
     }
 
-    public void AddUser(User user)
+    public async Task AddUser(User user)
     {
         _context.Users.Add(user);
-        _context.SaveChangesAsync();
+        await _context.SaveChangesAsync();
     }
 }

@@ -63,10 +63,10 @@ namespace MVC.Controllers
          */
         [HttpGet("LoggedIn")]
         [Authorize]
-        public Task<IActionResult> IsLoggedIn()
+        public async Task<IActionResult> IsLoggedIn()
         {
-            var user = _service.Get(HttpContext.User.Claims.First(i => i.Type == "UserId").Value);
-            return Task.FromResult<IActionResult>(Ok(user.Id));
+            var user = await _service.Get(HttpContext.User.Claims.First(i => i.Type == "UserId").Value);
+            return Ok(user.Id);
         }
 
         /**
@@ -94,10 +94,10 @@ namespace MVC.Controllers
          * Registers the user to the server.
          */
         [HttpPost("Register")]
-        public Task<IActionResult> Register([FromBody] UserCred userCred)
+        public async Task<IActionResult> Register([FromBody] UserCred userCred)
         {
             // Adds the user to the service and creates claims for the user.
-            _service.AddUser(new User
+            await _service.AddUser(new User
             {
                 Id = userCred.Username, Password = userCred.Password, Name = userCred.Nickname, Server = userCred.Server
             });
@@ -118,7 +118,7 @@ namespace MVC.Controllers
                 expires: DateTime.UtcNow.AddMinutes(1),
                 signingCredentials: mac);
             // Returns ok and creates the user.
-            return Task.FromResult<IActionResult>(Ok(new JwtSecurityTokenHandler().WriteToken(token)));
+            return Ok(new JwtSecurityTokenHandler().WriteToken(token));
         }
     }
 }

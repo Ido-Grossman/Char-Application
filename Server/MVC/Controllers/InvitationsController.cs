@@ -11,11 +11,11 @@ namespace MVC.Controllers
     public class InvitationsController : ControllerBase
     {
         
-        private readonly IUserService _service;
+        private readonly IUserDBService _service;
 
         private readonly IHubContext<MessageHub> _hub;
 
-        public InvitationsController(IUserService service, IHubContext<MessageHub> messageHub)
+        public InvitationsController(IUserDBService service, IHubContext<MessageHub> messageHub)
         {
             _service = service;
             _hub = messageHub;
@@ -25,20 +25,20 @@ namespace MVC.Controllers
          * Adds a new contact to the user.
          */
         [HttpPost]
-        public IActionResult PostInv([FromBody] TraInv details)
+        public async Task<IActionResult> PostInv([FromBody] TraInv details)
         {
             // Gets the user from the service and makes sure he exists and the friend isn't already in his friend list.
-            var user = _service.Get(details.To);
-            if (user == null || _service.GetContact(user.Id, details.From) == null)
+            var user = await _service.Get(details.To);
+            if (user == null || await _service.GetContact(user.Id, details.From) != null)
                 return NotFound();
             // Adds the contact to the user contacts.
             var friendContact = new Contact
             {
                 Id = details.From, Name = details.From, Server = details.Server
             };
-            _service.AddContact(user.Id, details.From, details.From, details.Server);
+            await _service.AddContact(user.Id, details.From, details.From, details.Server);
             // If the user is connected it will update him that a new user contact has been added.
-            _hub.Clients.Group(user.Id).SendAsync("FriendAdded");
+            await _hub.Clients.Group(user.Id).SendAsync("FriendAdded");
             Uri uri = new Uri($"https://localhost:7225/api/Contacts/{friendContact.Id}");
             return Created(uri, friendContact);
         }
