@@ -1828,8 +1828,6 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button
-id button2
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -1950,6 +1948,7 @@ id line3
 id linear
 id listMode
 id list_item
+id loginBtn
 id masked
 id material_clock_display
 id material_clock_face
@@ -2026,6 +2025,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passwordInput
 id password_toggle
 id path
 id pathRelative
@@ -2142,7 +2142,6 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
-id title_signin
 id title_template
 id toggle
 id top
@@ -2161,6 +2160,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usernameInput
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2324,8 +2324,8 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-mipmap background
 mipmap chatos_image
+mipmap chatos_image_dark
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

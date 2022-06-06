@@ -14,10 +14,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title_signin"
+        app:layout_constraintTop_toBottomOf="@+id/title"
         app:layout_constraintVertical_bias="0.00999999">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/usernameInput"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Please put your username"
@@ -34,14 +35,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.62"
-        app:layout_constraintStart_toStartOf="@+id/title_signin"
+        app:layout_constraintStart_toStartOf="@+id/title"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.050000012"
         app:srcCompat="@mipmap/chatos_image"
         tools:ignore="ImageContrastCheck" />
 
     <TextView
-        android:id="@+id/title_signin"
+        android:id="@+id/title"
 
         android:layout_width="130dp"
         android:layout_height="47dp"
@@ -68,6 +69,7 @@
         app:layout_constraintVertical_bias="0.100000024">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordInput"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Please put your password"
@@ -77,7 +79,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/loginBtn"
         android:layout_width="451dp"
         android:layout_height="63dp"
         android:backgroundTint="@color/light_blue"
