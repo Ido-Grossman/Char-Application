@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.18125" />
+        <entry key="app/src/main/res/layout-iw-land-night/activity_main.xml" value="0.33603603603603605" />
+        <entry key="app/src/main/res/layout-iw-land/activity_main.xml" value="0.33603603603603605" />
+        <entry key="app/src/main/res/layout-iw-night/activity_main.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout-iw/activity_main.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout-land/activity_main_lands.xml" value="0.22882882882882882" />
         <entry key="app/src/main/res/layout-land/activity_main_landscape.xml" value="0.22702702702702704" />
-        <entry key="app/src/main/res/layout-night/activity_main.xml" value="0.32222222222222224" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-night/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main1.xml" value="0.32222222222222224" />
       </map>
     </option>

@@ -1,4 +1,4 @@
-#Tue Jun 07 00:19:35 IDT 2022
+#Tue Jun 07 21:38:49 IDT 2022
 base.2=/Users/santiago/StudioProjects/ChatOS/Android/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
 path.2=13/classes.dex
 base.1=/Users/santiago/StudioProjects/ChatOS/Android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
