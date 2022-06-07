@@ -4,12 +4,20 @@
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxhdpi/chatos_image.jpg"
     },
     {
+        "merged": "com.example.android.app-merged_res-19:/layout-iw-night_activity_main.xml.flat",
+        "source": "com.example.android.app-main-21:/layout-iw-night/activity_main.xml"
+    },
+    {
         "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xhdpi_chatos_image.jpg.flat",
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xhdpi/chatos_image.jpg"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-hdpi_chatos_image_dark.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-hdpi/chatos_image_dark.png"
+        "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-hdpi_chatos_image_dark.png.flat",
+        "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-hdpi/chatos_image_dark.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-19:/layout_register_page.xml.flat",
+        "source": "com.example.android.app-main-21:/layout/register_page.xml"
     },
     {
         "merged": "com.example.android.app-merged_res-19:/layout-land_activity_main.xml.flat",
@@ -20,8 +28,8 @@
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-hdpi_chatos_image.jpg.flat",
-        "source": "com.example.android.app-main-21:/mipmap-hdpi/chatos_image.jpg"
+        "merged": "com.example.android.app-merged_res-19:/layout-iw_activity_main.xml.flat",
+        "source": "com.example.android.app-main-21:/layout-iw/activity_main.xml"
     },
     {
         "merged": "com.example.android.app-merged_res-19:/layout_activity_main.xml.flat",
@@ -40,6 +48,14 @@
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/xml/backup_rules.xml"
     },
     {
+        "merged": "com.example.android.app-merged_res-19:/layout-iw-land-night_activity_main.xml.flat",
+        "source": "com.example.android.app-main-21:/layout-iw-land-night/activity_main.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-19:/layout-iw-land_activity_main.xml.flat",
+        "source": "com.example.android.app-main-21:/layout-iw-land/activity_main.xml"
+    },
+    {
         "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
@@ -54,6 +70,10 @@
     {
         "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-hdpi_chatos_image.jpg.flat",
+        "source": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-hdpi/chatos_image.jpg"
     },
     {
         "merged": "/Users/santiago/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-mdpi_ic_launcher.webp.flat",

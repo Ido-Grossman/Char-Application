@@ -2039,6 +2039,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registerBtn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2129,7 +2130,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView3
-id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2305,6 +2305,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout register_page
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

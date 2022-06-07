@@ -2038,6 +2038,7 @@ int id progress_horizontal 0x7f080127
 int id radio 0x7f080128
 int id ratio 0x7f080129
 int id rectangles 0x7f08012a
+int id registerBtn 0x7f0801b3
 int id reverseSawtooth 0x7f08012b
 int id right 0x7f08012c
 int id rightToLeft 0x7f08012d
@@ -2128,7 +2129,6 @@ int id textSpacerNoTitle 0x7f080181
 int id textStart 0x7f080182
 int id textTop 0x7f080183
 int id textView3 0x7f080184
-int id textView4 0x7f080185
 int id text_input_end_icon 0x7f080186
 int id text_input_error_icon 0x7f080187
 int id text_input_start_icon 0x7f080188
@@ -2304,6 +2304,7 @@ int layout notification_template_custom_big 0x7f0b005a
 int layout notification_template_icon_group 0x7f0b005b
 int layout notification_template_part_chronometer 0x7f0b005c
 int layout notification_template_part_time 0x7f0b005d
+int layout register_page 0x7f0b0071
 int layout select_dialog_item_material 0x7f0b005e
 int layout select_dialog_multichoice_material 0x7f0b005f
 int layout select_dialog_singlechoice_material 0x7f0b0060

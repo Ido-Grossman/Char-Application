@@ -14,13 +14,14 @@ id imageView
 id imageView2
 id loginBtn
 id passwordInput
+id registerBtn
 id textInputLayout
 id textInputLayout2
 id textView3
-id textView4
 id title
 id usernameInput
 layout activity_main
+layout register_page
 mipmap chatos_image
 mipmap chatos_image_dark
 mipmap ic_launcher

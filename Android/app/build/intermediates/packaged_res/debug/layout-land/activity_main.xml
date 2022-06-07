@@ -90,4 +90,33 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
         app:layout_constraintVertical_bias="0.24000001" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
+        android:text="@string/to_register"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.379"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <TextView
+        android:id="@+id/registerBtn"
+        android:layout_width="92dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="@string/linkto_register"
+        android:textColor="#0277BD"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn"
+        app:layout_constraintVertical_bias="0.354" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
