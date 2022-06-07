@@ -20,6 +20,7 @@ xmlns:tools="http://schemas.android.com/tools">
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:layout_marginStart="20dp"
+            android:layout_gravity="center"
             tools:src="@mipmap/ic_launcher_foreground" />
 
         <LinearLayout
@@ -46,7 +47,7 @@ xmlns:tools="http://schemas.android.com/tools">
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:textColor="@color/white"
-                android:textSize="10dp"
+                android:textSize="17dp"
                 tools:text="Hi, how are you?" />
 
         </LinearLayout>

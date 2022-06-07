@@ -8,8 +8,13 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable back_background
+drawable back_foreground
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable settings_background
+drawable settings_foreground
+id back_button
 id imageView
 id imageView2
 id last_massage
@@ -18,6 +23,7 @@ id list_view
 id loginBtn
 id passwordInput
 id profile_image
+id settings_button
 id textInputLayout
 id textInputLayout2
 id textView3
@@ -30,11 +36,15 @@ layout activity_chat
 layout activity_contacts
 layout activity_main
 layout contact_list_item
+mipmap back
+mipmap back_round
 mipmap chatos_image
 mipmap chatos_image_dark
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap settings
+mipmap settings_round
 string app_name
 string button
 string image
