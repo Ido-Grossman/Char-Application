@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tN/tEfD3oayedMHKm9uGFBVHyrEnYZIZUKchIDRnwkZ0+sSnpQP4wjw9bVovxhv6Gf/6CHEqFF6hFGv8jNtamQ==",
+  "dgSpecHash": "htKWVohDjMxWwf//EpFQKeA0PQ0W4LDTqssA4J7xreUEEcLH5tqR8frQf5g59pjU5ffJ6y4FELktgAFPExrMYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj",
+  "projectFilePath": "C:\\Users\\idodd\\RiderProjects\\ChatOS\\Server\\MVC\\MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\idodd\\.nuget\\packages\\dbup-add-migration\\1.3.0\\dbup-add-migration.1.3.0.nupkg.sha512",
     "C:\\Users\\idodd\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
