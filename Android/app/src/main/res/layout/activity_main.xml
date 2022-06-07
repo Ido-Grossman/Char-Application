@@ -9,8 +9,8 @@
     <TextView
         android:id="@+id/title"
 
-        android:layout_width="139dp"
-        android:layout_height="60dp"
+        android:layout_width="160dp"
+        android:layout_height="58dp"
         android:fontFamily="casual"
         android:text="@string/title"
         android:textColor="#000000"
@@ -104,7 +104,7 @@
         app:layout_constraintVertical_bias="0.367" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/registerBtn"
         android:layout_width="92dp"
         android:layout_height="50dp"
         android:clickable="true"
