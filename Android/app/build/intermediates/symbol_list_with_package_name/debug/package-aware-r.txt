@@ -1940,6 +1940,7 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labeled
+id last_massage
 id layout
 id left
 id leftToRight
@@ -1948,6 +1949,7 @@ id line3
 id linear
 id listMode
 id list_item
+id list_view
 id loginBtn
 id masked
 id material_clock_display
@@ -2034,6 +2036,7 @@ id percent
 id pin
 id position
 id postLayout
+id profile_image
 id progress_circular
 id progress_horizontal
 id radio
@@ -2160,6 +2163,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_name
 id usernameInput
 id view_offset_helper
 id view_tree_lifecycle_owner
@@ -2239,7 +2243,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_contacts
 layout activity_main
+layout contact_list_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2327,6 +2333,7 @@ layout text_view_without_line_height
 mipmap chatos_image
 mipmap chatos_image_dark
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
