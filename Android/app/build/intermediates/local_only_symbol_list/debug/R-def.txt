@@ -13,6 +13,7 @@ drawable ic_launcher_foreground
 id imageView
 id imageView2
 id last_massage
+id last_seen
 id list_view
 id loginBtn
 id passwordInput
@@ -25,6 +26,7 @@ id time
 id title
 id user_name
 id usernameInput
+layout activity_chat
 layout activity_contacts
 layout activity_main
 layout contact_list_item

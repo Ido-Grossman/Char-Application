@@ -20,8 +20,20 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Android" >
+
+        <!-- todo - change back to be on launch - mainactivity -->
         <activity
             android:name="com.example.android.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+<!--                 <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.android.ChatActivity" />
+        <activity
+            android:name="com.example.android.ListActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

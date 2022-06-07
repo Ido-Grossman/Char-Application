@@ -1940,6 +1940,7 @@ int id jumpToEnd 0x7f0800c5
 int id jumpToStart 0x7f0800c6
 int id labeled 0x7f0800c7
 int id last_massage 0x7f0800c8
+int id last_seen 0x7f0801b4
 int id layout 0x7f0800c9
 int id left 0x7f0800ca
 int id leftToRight 0x7f0800cb
@@ -2242,6 +2243,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_chat 0x7f0b0073
 int layout activity_contacts 0x7f0b001c
 int layout activity_main 0x7f0b001d
 int layout contact_list_item 0x7f0b001e

@@ -1941,6 +1941,7 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id last_massage
+id last_seen
 id layout
 id left
 id leftToRight
@@ -2243,6 +2244,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_chat
 layout activity_contacts
 layout activity_main
 layout contact_list_item

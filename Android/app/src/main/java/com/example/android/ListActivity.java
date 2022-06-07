@@ -42,21 +42,21 @@ public class ListActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
         listView.setClickable(true);
 
-        //todo - create click response
-/*        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent = new Intent(getApplicationContext(), UserActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
 
-                intent.putExtra("userName", userNames[i]);
-                intent.putExtra("profilePicture", profilePictures[i]);
-                intent.putExtra("lastMassage", lastMassages[i]);
-                intent.putExtra("time", times[i]);
+                User user = users.get(i);
+                intent.putExtra("userId", user.getId());
+                intent.putExtra("userName", user.getName());
+                intent.putExtra("lastDateTime", user.getLastDate());
+                //intent.putExtra("profilePicture", user.); //todo - support image
 
                 startActivity(intent);
             }
         }
-        );*/
+        );
     }
 
 }

@@ -1,118 +1,126 @@
 [
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-hdpi_chatos_image_dark.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-hdpi/chatos_image_dark.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/layout-night_activity_main.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/layout-night/activity_main.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/layout-land_activity_main.xml.flat",
-        "source": "com.example.android.app-main-21:/layout-land/activity_main.xml"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/layout_activity_main.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-hdpi_chatos_image.jpg.flat",
-        "source": "com.example.android.app-main-21:/mipmap-hdpi/chatos_image.jpg"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.android.app-main-21:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xhdpi_chatos_image.jpg.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xhdpi/chatos_image.jpg"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/layout_activity_main.xml.flat",
-        "source": "com.example.android.app-main-21:/layout/activity_main.xml"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.android.app-pngs-14:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/layout_activity_contacts.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/layout/activity_contacts.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/xml_backup_rules.xml.flat",
-        "source": "com.example.android.app-main-21:/xml/backup_rules.xml"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xxxhdpi_chatos_image.jpeg.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxxhdpi/chatos_image.jpeg"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/layout_activity_chat.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/layout/activity_chat.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xxhdpi_chatos_image.jpg.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xxhdpi/chatos_image.jpg"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/xml_backup_rules.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xxxhdpi_chatos_image.jpeg.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xxxhdpi/chatos_image.jpeg"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xhdpi_chatos_image.jpg.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xhdpi/chatos_image.jpg"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-pngs-14:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/layout_contact_list_item.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/layout/contact_list_item.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.android.app-main-21:/xml/data_extraction_rules.xml"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/layout_activity_contacts.xml.flat",
-        "source": "com.example.android.app-main-21:/layout/activity_contacts.xml"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xxhdpi_chatos_image.jpg.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxhdpi/chatos_image.jpg"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/layout-land_activity_main.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/layout-land/activity_main.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-hdpi_chatos_image_dark.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-hdpi/chatos_image_dark.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.example.android.app-merged_res-19:/layout_activity_chat.xml.flat",
+        "source": "com.example.android.app-main-21:/layout/activity_chat.xml"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/layout-night_activity_main.xml.flat",
-        "source": "com.example.android.app-main-21:/layout-night/activity_main.xml"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/layout_contact_list_item.xml.flat",
-        "source": "com.example.android.app-main-21:/layout/contact_list_item.xml"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-hdpi_chatos_image.jpg.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-hdpi/chatos_image.jpg"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.example.android.app-main-21:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-19:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-21:/mipmap-mdpi/ic_launcher.png"
     }
 ]

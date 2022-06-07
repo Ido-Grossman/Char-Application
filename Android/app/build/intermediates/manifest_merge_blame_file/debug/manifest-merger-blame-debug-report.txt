@@ -11,7 +11,7 @@
 9-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:6:5-26:19
+11-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:6:5-41:19
 12        android:allowBackup="true"
 12-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -33,24 +33,42 @@
 22        android:theme="@style/Theme.Android" >
 22-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:14:9-45
 23
-24        <!-- todo - change back to mainactivity -->
+24        <!-- todo - change back to be on launch - mainactivity -->
 25        <activity
-25-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:17:9-25:20
-26            android:name="com.example.android.ListActivity"
+25-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:17:9-27:20
+26            android:name="com.example.android.MainActivity"
 26-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:18:13-41
 27            android:exported="true" >
 27-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:19:13-36
 28            <intent-filter>
-28-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:20:13-24:29
+28-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:20:13-26:29
 29                <action android:name="android.intent.action.MAIN" />
 29-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:21:17-69
 29-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:21:25-66
 30
-31                <category android:name="android.intent.category.LAUNCHER" />
-31-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:23:17-77
-31-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:23:27-74
+31<!--                 <category android:name="android.intent.category.LAUNCHER" /> -->
 32            </intent-filter>
 33        </activity>
-34    </application>
-35
-36</manifest>
+34        <activity android:name="com.example.android.ChatActivity" />
+34-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:28:9-29:44
+34-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:29:13-41
+35        <activity
+35-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:31:9-38:20
+36            android:name="com.example.android.ListActivity"
+36-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:32:13-41
+37            android:exported="true" >
+37-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:33:13-36
+38            <intent-filter>
+38-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:34:13-37:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:21:17-69
+39-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:21:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:36:17-77
+41-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:36:27-74
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>
