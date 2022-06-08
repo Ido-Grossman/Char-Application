@@ -1704,6 +1704,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_stat_name
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1747,6 +1748,9 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id RegisterBtn
+id RegisterPassword1
+id RegisterUserName
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1754,6 +1758,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id UploadImg
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1932,6 +1937,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageView4
 id info
 id invisible
 id inward
@@ -2123,8 +2129,11 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textInpuLayout5
 id textInputLayout
 id textInputLayout2
+id textInputLayout3
+id textInputLayout4
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2141,6 +2150,7 @@ id textinput_prefix_text
 id textinput_suffix_text
 id time
 id title
+id title2
 id titleDividerNoCustom
 id title_template
 id toggle
@@ -2378,6 +2388,7 @@ string image_title
 string item_view_role_description
 string linkto_register
 string login_button
+string main_logo
 string material_clock_display_divider
 string material_clock_toggle_content_description
 string material_hour_selection
@@ -2438,10 +2449,15 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string register_btn
+string register_name
+string register_password1
+string register_password2
 string search_menu_title
 string status_bar_notification_info_overflow
 string title
 string to_register
+string upload_image
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

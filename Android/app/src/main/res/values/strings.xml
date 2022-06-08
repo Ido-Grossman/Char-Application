@@ -7,4 +7,10 @@
     <string name="to_register">Don\'t have an account?</string>
     <string name="linkto_register">Click here</string>
     <string name="button">Button</string>
+    <string name="register_name">Enter your Username</string>
+    <string name="register_password1">Enter password</string>
+    <string name="register_password2">Enter password again</string>
+    <string name="register_btn">Register</string>
+    <string name="main_logo">Main Logo</string>
+    <string name="upload_image">Upload Image</string>
 </resources>

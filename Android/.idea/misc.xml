@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout-iw/activity_main.xml" value="0.35688405797101447" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout-night/activity_main.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout-night/register_page.xml" value="0.3009833262077811" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout-notnight/register_page.xml" value="0.35688405797101447" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout/register_page.xml" value="0.33" />
         <entry key="app/src/main/res/layout-iw-land-night/activity_main.xml" value="0.33603603603603605" />
         <entry key="app/src/main/res/layout-iw-land/activity_main.xml" value="0.33603603603603605" />
         <entry key="app/src/main/res/layout-iw-night/activity_main.xml" value="0.19427083333333334" />
