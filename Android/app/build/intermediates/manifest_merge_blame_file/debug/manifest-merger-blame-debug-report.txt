@@ -6,68 +6,68 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml
+8-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml
+9-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:6:5-35:19
+11-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:6:5-35:19
 12        android:allowBackup="true"
-12-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:7:9-35
+12-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] /Users/santiago/.gradle/caches/transforms-3/4cb2d3ae910a25e4d3b75b6b0d8d1b11/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.5.0] C:\Users\idodd\.gradle\caches\transforms-3\4cb2d3ae910a25e4d3b75b6b0d8d1b11\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:8:9-65
+14-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:8:9-65
 15        android:debuggable="true"
 16        android:fullBackupContent="@xml/backup_rules"
-16-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:9:9-54
+16-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:9:9-54
 17        android:icon="@mipmap/ic_launcher"
-17-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:10:9-43
+17-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:10:9-43
 18        android:label="@string/app_name"
-18-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:11:9-41
+18-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:11:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:12:9-54
+19-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
-20-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:13:9-35
+20-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:13:9-35
 21        android:testOnly="true"
 22        android:theme="@style/Theme.Android" >
-22-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:14:9-45
+22-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:14:9-45
 23        <activity
-23-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:16:9-24:20
+23-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:16:9-24:20
 24            android:name="com.example.android.MainActivity"
-24-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:17:13-41
+24-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:17:13-41
 25            android:exported="true" >
-25-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:18:13-36
+25-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:18:13-36
 26            <intent-filter>
-26-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:19:13-23:29
+26-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:19:13-23:29
 27                <action android:name="android.intent.action.MAIN" />
-27-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:20:17-69
-27-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:20:25-66
+27-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:20:17-69
+27-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:20:25-66
 28
 29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:22:17-77
-29-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:22:27-74
+29-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:22:17-77
+29-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:22:27-74
 30            </intent-filter>
 31        </activity>
 32        <activity
-32-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:26:9-34:20
+32-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:26:9-34:20
 33            android:name="com.example.android.RegisterPage"
-33-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:27:13-41
+33-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:27:13-41
 34            android:exported="true" >
-34-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:28:13-36
+34-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:28:13-36
 35            <intent-filter>
-35-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:29:13-33:29
+35-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:29:13-33:29
 36                <action android:name="android.intent.action.VIEW" />
-36-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:30:17-68
-36-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:30:25-66
+36-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:30:17-68
+36-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:30:25-66
 37
 38                <category android:name="android.intent.category.DEFAULT" />
-38-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:31:17-75
-38-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:31:27-73
+38-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:31:17-75
+38-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:31:27-73
 39
 40                <data android:scheme="http" />
-40-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:32:17-46
-40-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:32:23-44
+40-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:32:17-46
+40-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:32:23-44
 41            </intent-filter>
 42        </activity>
 43    </application>

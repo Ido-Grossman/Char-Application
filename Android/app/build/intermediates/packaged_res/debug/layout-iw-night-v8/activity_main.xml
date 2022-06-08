@@ -9,8 +9,8 @@
     <TextView
         android:id="@+id/title"
 
-        android:layout_width="139dp"
-        android:layout_height="60dp"
+        android:layout_width="164dp"
+        android:layout_height="61dp"
         android:fontFamily="casual"
         android:text="@string/title"
         android:textColor="#FFFFFF"
