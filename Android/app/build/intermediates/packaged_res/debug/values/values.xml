@@ -11,6 +11,7 @@
     <string name="app_name">ChatOS</string>
     <string name="button">Button</string>
     <string name="image">TODO</string>
+    <string name="image_of_the_user">Image of the user</string>
     <string name="image_title">TODO</string>
     <string name="linkto_register">Click here</string>
     <string name="login_button">Log In</string>

@@ -1748,8 +1748,12 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id NameLayout
+id Password1Layout
+id Password2Layout
 id RegisterBtn
 id RegisterPassword1
+id RegisterPassword2
 id RegisterUserName
 id SHIFT
 id SHOW_ALL
@@ -1759,6 +1763,7 @@ id SYM
 id TOP_END
 id TOP_START
 id UploadImg
+id UserImage
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1937,6 +1942,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageView3
 id imageView4
 id info
 id invisible
@@ -2129,11 +2135,11 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
-id textInpuLayout5
 id textInputLayout
 id textInputLayout2
-id textInputLayout3
-id textInputLayout4
+id textInputLayout5
+id textInputLayout6
+id textInputLayout7
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2151,6 +2157,7 @@ id textinput_suffix_text
 id time
 id title
 id title2
+id title3
 id titleDividerNoCustom
 id title_template
 id toggle
@@ -2384,6 +2391,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string image
+string image_of_the_user
 string image_title
 string item_view_role_description
 string linkto_register
