@@ -1739,6 +1739,8 @@ int drawable notification_template_icon_bg 0x7f07008d
 int drawable notification_template_icon_low_bg 0x7f07008e
 int drawable notification_tile_bg 0x7f07008f
 int drawable notify_panel_notification_icon_bg 0x7f070090
+int drawable person_add_background 0x7f070096
+int drawable person_add_foreground 0x7f070097
 int drawable settings_background 0x7f070091
 int drawable settings_foreground 0x7f070092
 int drawable test_custom_background 0x7f070093
@@ -1749,11 +1751,11 @@ int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
 int id CTRL 0x7f080003
 int id FUNCTION 0x7f080004
+int id IdLayout 0x7f0801c5
 int id META 0x7f080005
 int id NO_DEBUG 0x7f080006
 int id NameLayout 0x7f080007
 int id Password1Layout 0x7f080008
-int id Password2Layout 0x7f080009
 int id RegisterBtn 0x7f08000a
 int id RegisterPassword1 0x7f08000b
 int id RegisterPassword2 0x7f08000c
@@ -1763,6 +1765,7 @@ int id SHOW_ALL 0x7f08000f
 int id SHOW_PATH 0x7f080010
 int id SHOW_PROGRESS 0x7f080011
 int id SYM 0x7f080012
+int id ServerLayout 0x7f0801c6
 int id TOP_END 0x7f080013
 int id TOP_START 0x7f080014
 int id UploadImg 0x7f080015
@@ -1821,6 +1824,10 @@ int id action_text 0x7f080049
 int id actions 0x7f08004a
 int id activity_chooser_view_content 0x7f08004b
 int id add 0x7f08004c
+int id add_contact_btn 0x7f0801c4
+int id add_contact_id 0x7f0801c7
+int id add_contact_name 0x7f0801c8
+int id add_contact_server 0x7f0801c9
 int id alertTitle 0x7f08004d
 int id aligned 0x7f08004e
 int id all 0x7f08004f
@@ -2263,6 +2270,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_add_contact 0x7f0b0075
 int layout activity_chat 0x7f0b001c
 int layout activity_contacts 0x7f0b001d
 int layout activity_main 0x7f0b001e
@@ -2359,6 +2367,8 @@ int mipmap chatos_image_dark 0x7f0c0003
 int mipmap ic_launcher 0x7f0c0004
 int mipmap ic_launcher_foreground 0x7f0c0005
 int mipmap ic_launcher_round 0x7f0c0006
+int mipmap person_add 0x7f0c0009
+int mipmap person_add_round 0x7f0c000a
 int mipmap settings 0x7f0c0007
 int mipmap settings_round 0x7f0c0008
 int plurals mtrl_badge_content_description 0x7f0d0000
@@ -2389,6 +2399,11 @@ int string abc_searchview_description_voice 0x7f0e0017
 int string abc_shareactionprovider_share_with 0x7f0e0018
 int string abc_shareactionprovider_share_with_application 0x7f0e0019
 int string abc_toolbar_collapse_description 0x7f0e001a
+int string add_contact_button 0x7f0e007b
+int string add_contact_id 0x7f0e0077
+int string add_contact_name 0x7f0e0078
+int string add_contact_server 0x7f0e0079
+int string add_contact_title 0x7f0e007a
 int string app_name 0x7f0e001b
 int string appbar_scrolling_view_behavior 0x7f0e001c
 int string bottom_sheet_behavior 0x7f0e001d

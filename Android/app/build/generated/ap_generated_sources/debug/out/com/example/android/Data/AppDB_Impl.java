@@ -37,9 +37,9 @@ public final class AppDB_Impl extends AppDB {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(1) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `User` (`Id` INTEGER PRIMARY KEY AUTOINCREMENT, `Name` TEXT, `LastDate` TEXT, `LastMessageId` INTEGER NOT NULL, `Last` TEXT)");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `User` (`Id` INTEGER PRIMARY KEY AUTOINCREMENT, `Name` TEXT, `LastDate` TEXT, `LastMessageId` INTEGER NOT NULL, `Last` TEXT, `Server` TEXT)");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'e4eca3deb1683895634f5de67b22db9f')");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'c5c4abb164df2ee0ae6df78870cfdb1d')");
       }
 
       @Override
@@ -83,12 +83,13 @@ public final class AppDB_Impl extends AppDB {
 
       @Override
       protected RoomOpenHelper.ValidationResult onValidateSchema(SupportSQLiteDatabase _db) {
-        final HashMap<String, TableInfo.Column> _columnsUser = new HashMap<String, TableInfo.Column>(5);
+        final HashMap<String, TableInfo.Column> _columnsUser = new HashMap<String, TableInfo.Column>(6);
         _columnsUser.put("Id", new TableInfo.Column("Id", "INTEGER", false, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUser.put("Name", new TableInfo.Column("Name", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUser.put("LastDate", new TableInfo.Column("LastDate", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUser.put("LastMessageId", new TableInfo.Column("LastMessageId", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUser.put("Last", new TableInfo.Column("Last", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsUser.put("Server", new TableInfo.Column("Server", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final HashSet<TableInfo.ForeignKey> _foreignKeysUser = new HashSet<TableInfo.ForeignKey>(0);
         final HashSet<TableInfo.Index> _indicesUser = new HashSet<TableInfo.Index>(0);
         final TableInfo _infoUser = new TableInfo("User", _columnsUser, _foreignKeysUser, _indicesUser);
@@ -100,7 +101,7 @@ public final class AppDB_Impl extends AppDB {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "e4eca3deb1683895634f5de67b22db9f", "b8c32bf6f2ac83831c587d579a815f49");
+    }, "c5c4abb164df2ee0ae6df78870cfdb1d", "fdff01842276a6c42a8841ac9ecd010c");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)
@@ -153,7 +154,7 @@ public final class AppDB_Impl extends AppDB {
   }
 
   @Override
-  public UserDao postDao() {
+  public UserDao userDao() {
     if (_userDao != null) {
       return _userDao;
     } else {

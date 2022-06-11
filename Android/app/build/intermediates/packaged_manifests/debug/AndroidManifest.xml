@@ -32,8 +32,9 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.android.ChatActivity" />
+        <activity android:name="com.example.android.AddContactActivity" />
         <activity
-            android:name="com.example.android.ListActivity"
+            android:name="com.example.android.ContactsActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

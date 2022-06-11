@@ -32,7 +32,7 @@ public final class UserDao_Impl implements UserDao {
     this.__insertionAdapterOfUser = new EntityInsertionAdapter<User>(__db) {
       @Override
       public String createQuery() {
-        return "INSERT OR ABORT INTO `User` (`Id`,`Name`,`LastDate`,`LastMessageId`,`Last`) VALUES (?,?,?,?,?)";
+        return "INSERT OR ABORT INTO `User` (`Id`,`Name`,`LastDate`,`LastMessageId`,`Last`,`Server`) VALUES (?,?,?,?,?,?)";
       }
 
       @Override
@@ -57,6 +57,11 @@ public final class UserDao_Impl implements UserDao {
           stmt.bindNull(5);
         } else {
           stmt.bindString(5, value.getLast());
+        }
+        if (value.getServer() == null) {
+          stmt.bindNull(6);
+        } else {
+          stmt.bindString(6, value.getServer());
         }
       }
     };
@@ -78,7 +83,7 @@ public final class UserDao_Impl implements UserDao {
     this.__updateAdapterOfUser = new EntityDeletionOrUpdateAdapter<User>(__db) {
       @Override
       public String createQuery() {
-        return "UPDATE OR ABORT `User` SET `Id` = ?,`Name` = ?,`LastDate` = ?,`LastMessageId` = ?,`Last` = ? WHERE `Id` = ?";
+        return "UPDATE OR ABORT `User` SET `Id` = ?,`Name` = ?,`LastDate` = ?,`LastMessageId` = ?,`Last` = ?,`Server` = ? WHERE `Id` = ?";
       }
 
       @Override
@@ -104,10 +109,15 @@ public final class UserDao_Impl implements UserDao {
         } else {
           stmt.bindString(5, value.getLast());
         }
-        if (value.getId() == null) {
+        if (value.getServer() == null) {
           stmt.bindNull(6);
         } else {
-          stmt.bindLong(6, value.getId());
+          stmt.bindString(6, value.getServer());
+        }
+        if (value.getId() == null) {
+          stmt.bindNull(7);
+        } else {
+          stmt.bindLong(7, value.getId());
         }
       }
     };
@@ -161,6 +171,7 @@ public final class UserDao_Impl implements UserDao {
       final int _cursorIndexOfLastDate = CursorUtil.getColumnIndexOrThrow(_cursor, "LastDate");
       final int _cursorIndexOfLastMessageId = CursorUtil.getColumnIndexOrThrow(_cursor, "LastMessageId");
       final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "Last");
+      final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
       final List<User> _result = new ArrayList<User>(_cursor.getCount());
       while(_cursor.moveToNext()) {
         final User _item;
@@ -190,7 +201,13 @@ public final class UserDao_Impl implements UserDao {
         } else {
           _tmpLast = _cursor.getString(_cursorIndexOfLast);
         }
-        _item = new User(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast);
+        final String _tmpServer;
+        if (_cursor.isNull(_cursorIndexOfServer)) {
+          _tmpServer = null;
+        } else {
+          _tmpServer = _cursor.getString(_cursorIndexOfServer);
+        }
+        _item = new User(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
         _result.add(_item);
       }
       return _result;
@@ -214,6 +231,7 @@ public final class UserDao_Impl implements UserDao {
       final int _cursorIndexOfLastDate = CursorUtil.getColumnIndexOrThrow(_cursor, "LastDate");
       final int _cursorIndexOfLastMessageId = CursorUtil.getColumnIndexOrThrow(_cursor, "LastMessageId");
       final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "Last");
+      final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
       final User _result;
       if(_cursor.moveToFirst()) {
         final Integer _tmpId;
@@ -242,7 +260,13 @@ public final class UserDao_Impl implements UserDao {
         } else {
           _tmpLast = _cursor.getString(_cursorIndexOfLast);
         }
-        _result = new User(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast);
+        final String _tmpServer;
+        if (_cursor.isNull(_cursorIndexOfServer)) {
+          _tmpServer = null;
+        } else {
+          _tmpServer = _cursor.getString(_cursorIndexOfServer);
+        }
+        _result = new User(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
       } else {
         _result = null;
       }

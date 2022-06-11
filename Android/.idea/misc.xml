@@ -3,12 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.11600719424460432" />
+        <entry key="app/src/main/res/drawable/back_foreground.xml" value="0.2455" />
+        <entry key="app/src/main/res/drawable/person_add_foreground.xml" value="0.2455" />
+        <entry key="app/src/main/res/layout-iw-night/activity_add_contact.xml" value="0.19927536231884058" />
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.18125" />
         <entry key="app/src/main/res/layout-land/activity_main_lands.xml" value="0.22882882882882882" />
         <entry key="app/src/main/res/layout-land/activity_main_landscape.xml" value="0.22702702702702704" />
         <entry key="app/src/main/res/layout-night/activity_main.xml" value="0.32222222222222224" />
+        <entry key="app/src/main/res/layout/activity_add_contact.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.23541666666666666" />
+        <entry key="app/src/main/res/layout/activity_contacts.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main1.xml" value="0.32222222222222224" />
+        <entry key="app/src/main/res/layout/contact_list_item.xml" value="0.1983695652173913" />
+        <entry key="app/src/main/res/layout/register_page.xml" value="0.19927536231884058" />
       </map>
     </option>
   </component>

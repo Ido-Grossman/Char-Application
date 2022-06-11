@@ -1,13 +1,12 @@
 package com.example.android;
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ChatActivity extends AppCompatActivity{
 
@@ -16,7 +15,7 @@ public class ChatActivity extends AppCompatActivity{
 
         void createPageButtons(){
             ImageButton backButton = findViewById(R.id.back_button);
-            Intent intent = new Intent(getApplicationContext(), ListActivity.class);
+            Intent intent = new Intent(getApplicationContext(), ContactsActivity.class);
             backButton.setOnClickListener(view -> startActivity(intent));
         }
         @Override

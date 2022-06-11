@@ -8,6 +8,11 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="add_contact_button">Save Contact</string>
+    <string name="add_contact_id">Contact id</string>
+    <string name="add_contact_name">Contact Name</string>
+    <string name="add_contact_server">Contact Server</string>
+    <string name="add_contact_title">Add Contact</string>
     <string name="app_name">ChatOS</string>
     <string name="button">Button</string>
     <string name="image">TODO</string>

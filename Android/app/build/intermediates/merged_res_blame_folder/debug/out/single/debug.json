@@ -16,6 +16,10 @@
         "source": "com.example.android.app-main-25:/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-xxxhdpi_person_add_round.png.flat",
+        "source": "com.example.android.app-main-25:/mipmap-xxxhdpi/person_add_round.png"
+    },
+    {
         "merged": "com.example.android.app-merged_res-23:/mipmap-hdpi_settings.png.flat",
         "source": "com.example.android.app-main-25:/mipmap-hdpi/settings.png"
     },
@@ -32,6 +36,10 @@
         "source": "com.example.android.app-main-25:/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-xxhdpi_person_add_round.png.flat",
+        "source": "com.example.android.app-main-25:/mipmap-xxhdpi/person_add_round.png"
+    },
+    {
         "merged": "com.example.android.app-merged_res-23:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "com.example.android.app-main-25:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
@@ -40,12 +48,28 @@
         "source": "com.example.android.app-main-25:/mipmap-hdpi/back.png"
     },
     {
+        "merged": "com.example.android.app-merged_res-23:/drawable_person_add_background.xml.flat",
+        "source": "com.example.android.app-main-25:/drawable/person_add_background.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-anydpi-v26_person_add.xml.flat",
+        "source": "com.example.android.app-main-25:/mipmap-anydpi-v26/person_add.xml"
+    },
+    {
         "merged": "com.example.android.app-merged_res-23:/mipmap-anydpi-v26_settings.xml.flat",
         "source": "com.example.android.app-main-25:/mipmap-anydpi-v26/settings.xml"
     },
     {
+        "merged": "com.example.android.app-merged_res-23:/drawable_person_add_foreground.xml.flat",
+        "source": "com.example.android.app-main-25:/drawable/person_add_foreground.xml"
+    },
+    {
         "merged": "com.example.android.app-merged_res-23:/mipmap-xxhdpi_settings_round.png.flat",
         "source": "com.example.android.app-main-25:/mipmap-xxhdpi/settings_round.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-mdpi_person_add_round.png.flat",
+        "source": "com.example.android.app-main-25:/mipmap-mdpi/person_add_round.png"
     },
     {
         "merged": "com.example.android.app-merged_res-23:/layout-iw-land_activity_main.xml.flat",
@@ -60,6 +84,10 @@
         "source": "com.example.android.app-main-25:/mipmap-xhdpi/back_round.png"
     },
     {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-hdpi_person_add_round.png.flat",
+        "source": "com.example.android.app-main-25:/mipmap-hdpi/person_add_round.png"
+    },
+    {
         "merged": "com.example.android.app-merged_res-23:/mipmap-mdpi_back_round.png.flat",
         "source": "com.example.android.app-main-25:/mipmap-mdpi/back_round.png"
     },
@@ -72,16 +100,16 @@
         "source": "com.example.android.app-main-25:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.example.android.app-merged_res-23:/drawable-xxhdpi_ic_stat_name.png.flat",
-        "source": "com.example.android.app-main-25:/drawable-xxhdpi/ic_stat_name.png"
+        "merged": "com.example.android.app-merged_res-23:/drawable-anydpi-v24_ic_stat_name.xml.flat",
+        "source": "com.example.android.app-main-25:/drawable-anydpi-v24/ic_stat_name.xml"
     },
     {
         "merged": "com.example.android.app-merged_res-23:/mipmap-xhdpi_chatos_image.jpg.flat",
         "source": "com.example.android.app-main-25:/mipmap-xhdpi/chatos_image.jpg"
     },
     {
-        "merged": "com.example.android.app-merged_res-23:/drawable-anydpi-v24_ic_stat_name.xml.flat",
-        "source": "com.example.android.app-main-25:/drawable-anydpi-v24/ic_stat_name.xml"
+        "merged": "com.example.android.app-merged_res-23:/drawable-xxhdpi_ic_stat_name.png.flat",
+        "source": "com.example.android.app-main-25:/drawable-xxhdpi/ic_stat_name.png"
     },
     {
         "merged": "com.example.android.app-merged_res-23:/mipmap-xhdpi_back.png.flat",
@@ -90,6 +118,10 @@
     {
         "merged": "com.example.android.app-merged_res-23:/mipmap-anydpi-v26_back.xml.flat",
         "source": "com.example.android.app-main-25:/mipmap-anydpi-v26/back.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-xxxhdpi_person_add.png.flat",
+        "source": "com.example.android.app-main-25:/mipmap-xxxhdpi/person_add.png"
     },
     {
         "merged": "com.example.android.app-merged_res-23:/mipmap-hdpi_ic_launcher.png.flat",
@@ -102,6 +134,10 @@
     {
         "merged": "com.example.android.app-merged_res-23:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "com.example.android.app-main-25:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-xhdpi_person_add_round.png.flat",
+        "source": "com.example.android.app-main-25:/mipmap-xhdpi/person_add_round.png"
     },
     {
         "merged": "com.example.android.app-merged_res-23:/layout-night_register_page.xml.flat",
@@ -176,8 +212,16 @@
         "source": "com.example.android.app-main-25:/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "com.example.android.app-merged_res-23:/layout_activity_add_contact.xml.flat",
+        "source": "com.example.android.app-main-25:/layout/activity_add_contact.xml"
+    },
+    {
         "merged": "com.example.android.app-merged_res-23:/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "com.example.android.app-main-25:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-xxhdpi_person_add.png.flat",
+        "source": "com.example.android.app-main-25:/mipmap-xxhdpi/person_add.png"
     },
     {
         "merged": "com.example.android.app-merged_res-23:/drawable_settings_background.xml.flat",
@@ -224,6 +268,10 @@
         "source": "com.example.android.app-main-25:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-xhdpi_person_add.png.flat",
+        "source": "com.example.android.app-main-25:/mipmap-xhdpi/person_add.png"
+    },
+    {
         "merged": "com.example.android.app-merged_res-23:/mipmap-xxhdpi_back.png.flat",
         "source": "com.example.android.app-main-25:/mipmap-xxhdpi/back.png"
     },
@@ -244,12 +292,20 @@
         "source": "com.example.android.app-main-25:/layout/activity_main.xml"
     },
     {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-anydpi-v26_person_add_round.xml.flat",
+        "source": "com.example.android.app-main-25:/mipmap-anydpi-v26/person_add_round.xml"
+    },
+    {
         "merged": "com.example.android.app-merged_res-23:/drawable-hdpi_ic_stat_name.png.flat",
         "source": "com.example.android.app-main-25:/drawable-hdpi/ic_stat_name.png"
     },
     {
         "merged": "com.example.android.app-merged_res-23:/drawable_back_background.xml.flat",
         "source": "com.example.android.app-main-25:/drawable/back_background.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-hdpi_person_add.png.flat",
+        "source": "com.example.android.app-main-25:/mipmap-hdpi/person_add.png"
     },
     {
         "merged": "com.example.android.app-merged_res-23:/mipmap-hdpi_chatos_image_dark.png.flat",
@@ -274,5 +330,9 @@
     {
         "merged": "com.example.android.app-merged_res-23:/mipmap-mdpi_back.png.flat",
         "source": "com.example.android.app-main-25:/mipmap-mdpi/back.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-23:/mipmap-mdpi_person_add.png.flat",
+        "source": "com.example.android.app-main-25:/mipmap-mdpi/person_add.png"
     }
 ]

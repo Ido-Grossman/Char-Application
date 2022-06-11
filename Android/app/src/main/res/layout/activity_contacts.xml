@@ -4,7 +4,7 @@ xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-tools:context=".ListActivity">
+tools:context=".ContactsActivity">
 
     <ListView
         android:id="@+id/list_view"
@@ -13,5 +13,16 @@ tools:context=".ListActivity">
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="-141dp"
         tools:listitem="@layout/contact_list_item" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_contact_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="10dp"
+        android:src="@drawable/person_add_foreground"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

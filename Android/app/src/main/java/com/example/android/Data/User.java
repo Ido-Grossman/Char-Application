@@ -1,6 +1,7 @@
 package com.example.android.Data;
 
 import androidx.room.Entity;
+import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 @Entity
@@ -12,15 +13,26 @@ public class User {
     private String LastDate;
     private int LastMessageId;
     private String Last; //last message content string
-    //private String Server; //optional to add if need
+    private String Server;
 
-    public User(Integer Id, String Name, String LastDate, int LastMessageId, String Last ) {
+    public User(Integer Id, String Name, String LastDate, int LastMessageId, String Last, String Server ) {
         this.Id = Id;
         this.Name = Name;
         this.LastDate = LastDate;
         this.LastMessageId = LastMessageId;
         this.Last = Last;
+        this.Server = Server;
     }
+
+    @Ignore
+    public User(Integer Id, String Name, String Server  ) {
+        this.Id = Id;
+        this.Name = Name;
+        this.LastDate = null;
+        this.Server = Server;
+    }
+
+    public void setServer(String server) {Server = server;}
 
     public void setId(Integer id) {
         Id = id;
@@ -57,5 +69,17 @@ public class User {
     public String getLast() {
         return Last;
     }
+    public String getServer() {return Server;}
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "Id=" + Id +
+                ", Name='" + Name + '\'' +
+                ", LastDate='" + LastDate + '\'' +
+                ", LastMessageId=" + LastMessageId +
+                ", Last='" + Last + '\'' +
+                ", Server='" + Server + '\'' +
+                '}';
+    }
 }
