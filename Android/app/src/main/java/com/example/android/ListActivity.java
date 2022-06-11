@@ -1,11 +1,15 @@
 package com.example.android;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.android.Data.User;
+
 import java.util.ArrayList;
 
 public class ListActivity extends AppCompatActivity {
@@ -29,11 +33,11 @@ public class ListActivity extends AppCompatActivity {
 
             users.add(aUser);
         }*/
-        User zUser = new User("id","santi", "11/11/11", 2, "whatsapppp");
+        User zUser = new User(1,"santi", "11/11/11", 2, "whatsapppp");
         users.add(zUser);
-        User aUser = new User("id","eli", "11/11/11", 2, "whatsapppp");
+        User aUser = new User(2,"eli", "11/11/11", 2, "whatsapppp");
         users.add(aUser);
-        User bUser = new User("id","ido", "11/11/11", 2, "whatsapppp");
+        User bUser = new User(3,"ido", "11/11/11", 2, "whatsapppp");
         users.add(bUser);
 
         listView = findViewById(R.id.list_view);

@@ -1,4 +1,4 @@
-package com.example.android;
+package com.example.android.Data;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
@@ -7,15 +7,14 @@ import androidx.room.PrimaryKey;
 public class User {
 
     @PrimaryKey(autoGenerate=true)
-    private String Id;
+    private Integer Id;
     private String Name;
     private String LastDate;
     private int LastMessageId;
     private String Last; //last message content string
     //private String Server; //optional to add if need
 
-
-    public User(String Id,String Name, String LastDate, int LastMessageId, String Last ) {
+    public User(Integer Id, String Name, String LastDate, int LastMessageId, String Last ) {
         this.Id = Id;
         this.Name = Name;
         this.LastDate = LastDate;
@@ -23,10 +22,30 @@ public class User {
         this.Last = Last;
     }
 
+    public void setId(Integer id) {
+        Id = id;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public void setLastDate(String lastDate) {
+        LastDate = lastDate;
+    }
+
+    public void setLastMessageId(int lastMessageId) {
+        LastMessageId = lastMessageId;
+    }
+
+    public void setLast(String last) {
+        Last = last;
+    }
+
     public String getName() {
         return Name;
     }
-    public String getId() {
+    public Integer getId() {
         return Id;
     }
     public String getLastDate() {
