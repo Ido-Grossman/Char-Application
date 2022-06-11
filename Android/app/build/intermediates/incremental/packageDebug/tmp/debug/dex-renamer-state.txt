@@ -1,9 +1,9 @@
-#Tue Jun 07 18:58:36 IDT 2022
-base.2=/Users/elisilverstine/StudioProjects/ChatOS/Android/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+#Thu Jun 09 15:07:01 IDT 2022
+base.2=C\:\\Users\\idodd\\Desktop\\ChatOS\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 path.2=13/classes.dex
-base.1=/Users/elisilverstine/StudioProjects/ChatOS/Android/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=C\:\\Users\\idodd\\Desktop\\ChatOS\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=/Users/elisilverstine/StudioProjects/ChatOS/Android/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.0=C\:\\Users\\idodd\\Desktop\\ChatOS\\Android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
