@@ -1,6 +1,12 @@
 package com.example.android;
 
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
+
+@Entity
 public class User {
+
+    @PrimaryKey(autoGenerate=true)
     private String Id;
     private String Name;
     private String LastDate;

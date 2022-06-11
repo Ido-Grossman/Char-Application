@@ -2147,9 +2147,6 @@ id text2
 id textEnd
 id textInputLayout
 id textInputLayout2
-id textInputLayout5
-id textInputLayout6
-id textInputLayout7
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
