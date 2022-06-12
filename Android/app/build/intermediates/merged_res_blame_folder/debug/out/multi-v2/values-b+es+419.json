@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeDebugResources-21:/values-b+es+419/values-b+es+419.xml",
+            "outputFile": "com.example.android.app-mergeDebugResources-22:/values-b+es+419/values-b+es+419.xml",
             "map": [
                 {
                     "source": "/Users/elisilverstine/.gradle/caches/transforms-3/35c69b59585be5ab8e4b75884f21579b/transformed/material-1.4.0/res/values-b+es+419/values-b+es+419.xml",

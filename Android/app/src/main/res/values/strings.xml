@@ -14,10 +14,13 @@
     <string name="main_logo">Main Logo</string>
     <string name="upload_image">Upload Image</string>
     <string name="image_of_the_user">Image of the user</string>
+    <!--add contact activity-->
     <string name="add_contact_name">Contact Name</string>
     <string name="add_contact_id">Contact id</string>
     <string name="add_contact_server">Contact Server</string>
     <string name="add_contact_title">Add Contact</string>
     <string name="add_contact_button">Save Contact</string>
+    <!--chats activity-->
+    <string name="type_a_message">Type a message</string>
 
 </resources>

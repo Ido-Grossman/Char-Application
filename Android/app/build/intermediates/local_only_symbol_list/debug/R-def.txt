@@ -1,7 +1,9 @@
 R_DEF: Internal format may change without notice
 local
 color black
-color light_blue
+color light_bckg
+color primary_dark
+color primary_light
 color purple_200
 color purple_500
 color purple_700
@@ -10,8 +12,11 @@ color teal_700
 color white
 drawable back_background
 drawable back_foreground
+drawable bckg_chat_buttons
+drawable bckg_chat_input
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_send
 drawable ic_stat_name
 drawable person_add_background
 drawable person_add_foreground
@@ -36,8 +41,10 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id inputMessages
 id last_massage
 id last_seen
+id layoutSend
 id list_view
 id loginBtn
 id passwordInput
@@ -89,6 +96,7 @@ string register_password1
 string register_password2
 string title
 string to_register
+string type_a_message
 string upload_image
 style Button.White
 style Theme.Android

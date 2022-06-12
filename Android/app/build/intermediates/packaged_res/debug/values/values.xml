@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="light_blue">#0C90F8</color>
+    <color name="light_bckg">#D0EAF9</color>
+    <color name="primary_dark">#0A1420</color>
+    <color name="primary_light">#007BF4</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -27,6 +29,7 @@
     <string name="register_password2">Enter password again</string>
     <string name="title">ChatOS</string>
     <string name="to_register">Don\'t have an account?</string>
+    <string name="type_a_message">Type a message</string>
     <string name="upload_image">Upload Image</string>
     <style name="Button.White" parent="ThemeOverlay.AppCompat">
         <item name="colorAccent">@color/white</item>
