@@ -8,7 +8,7 @@ public interface IUserDBService
 
     public Task<User?> Get(string name);
 
-    public Task<ICollection<Contact>> GetContacts(string userName);
+    public Task<ICollection<Contact>?> GetContacts(string userName);
         
     public Task<Contact?> GetContact(string userName, string friendName);
 

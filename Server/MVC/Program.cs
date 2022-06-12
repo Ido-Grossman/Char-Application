@@ -52,8 +52,6 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
-
 app.UseFileServer();
 
 app.UseRouting();

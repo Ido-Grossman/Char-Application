@@ -29,7 +29,8 @@ namespace MVC.Controllers
         {
             // Gets the user from the service and makes sure he exists and the friend isn't already in his friend list.
             var user = await _service.Get(details.To);
-            if (user == null || await _service.GetContact(user.Id, details.From) != null)
+            var friend = await _service.GetContact(user.Id, details.From);
+            if (user == null || friend != null)
                 return NotFound();
             // Adds the contact to the user contacts.
             var friendContact = new Contact

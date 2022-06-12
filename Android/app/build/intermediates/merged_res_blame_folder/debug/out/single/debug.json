@@ -4,10 +4,6 @@
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-21:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.android.app-merged_res-19:/layout_register_page.xml.flat",
-        "source": "com.example.android.app-main-21:/layout/register_page.xml"
-    },
-    {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-19:\\layout-night_activity_main.xml.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-21:\\layout-night\\activity_main.xml"
     },
@@ -16,8 +12,16 @@
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-21:\\drawable-xxhdpi\\ic_stat_name.png"
     },
     {
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-19:\\layout-iw_register_page.xml.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-21:\\layout-iw\\register_page.xml"
+    },
+    {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-19:\\layout-iw-land-night_activity_main.xml.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-21:\\layout-iw-land-night\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-19:\\layout-iw-night_register_page.xml.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-21:\\layout-iw-night\\register_page.xml"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-19:\\layout_register_page.xml.flat",
@@ -26,6 +30,10 @@
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-19:\\layout-night_register_page.xml.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-21:\\layout-night\\register_page.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-19:/layout-iw-night_register_page.xml.flat",
+        "source": "com.example.android.app-main-21:/layout-iw-night/register_page.xml"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-19:\\mipmap-xhdpi_ic_launcher_round.webp.flat",

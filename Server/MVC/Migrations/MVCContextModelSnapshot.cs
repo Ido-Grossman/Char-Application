@@ -21,26 +21,31 @@ namespace MVC.Migrations
             modelBuilder.Entity("MVC.Models.Contact", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasMaxLength(127)
+                        .HasColumnType("varchar(127)");
 
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(127)");
 
                     b.Property<string>("Last")
-                        .HasColumnType("longtext");
+                        .HasMaxLength(127)
+                        .HasColumnType("varchar(127)");
 
                     b.Property<string>("LastDate")
-                        .HasColumnType("longtext");
+                        .HasMaxLength(127)
+                        .HasColumnType("varchar(127)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(127)
+                        .HasColumnType("varchar(127)");
 
                     b.Property<string>("Server")
                         .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<int>("UnreadMessages")
+                        .HasMaxLength(127)
                         .HasColumnType("int");
 
                     b.HasKey("Id", "UserId");
@@ -58,11 +63,11 @@ namespace MVC.Migrations
 
                     b.Property<string>("ContactId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(127)");
 
                     b.Property<string>("ContactUserId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(127)");
 
                     b.Property<string>("Content")
                         .IsRequired()
@@ -85,19 +90,23 @@ namespace MVC.Migrations
             modelBuilder.Entity("MVC.Models.User", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasMaxLength(127)
+                        .HasColumnType("varchar(127)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(127)
+                        .HasColumnType("varchar(127)");
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(127)
+                        .HasColumnType("varchar(127)");
 
                     b.Property<string>("Server")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(127)
+                        .HasColumnType("varchar(127)");
 
                     b.HasKey("Id");
 

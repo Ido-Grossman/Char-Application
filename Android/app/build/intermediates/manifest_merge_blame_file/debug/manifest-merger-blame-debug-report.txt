@@ -11,7 +11,7 @@
 9-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:6:5-35:19
+11-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:6:5-36:19
 12        android:allowBackup="true"
 12-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -50,26 +50,28 @@
 30            </intent-filter>
 31        </activity>
 32        <activity
-32-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:26:9-34:20
+32-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:26:9-35:20
 33            android:name="com.example.android.RegisterPage"
 33-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:27:13-41
-34            android:exported="true" >
-34-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:28:13-36
-35            <intent-filter>
-35-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:29:13-33:29
-36                <action android:name="android.intent.action.VIEW" />
-36-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:30:17-68
-36-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:30:25-66
-37
-38                <category android:name="android.intent.category.DEFAULT" />
-38-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:31:17-75
-38-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:31:27-73
-39
-40                <data android:scheme="http" />
-40-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:32:17-46
-40-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:32:23-44
-41            </intent-filter>
-42        </activity>
-43    </application>
-44
-45</manifest>
+34            android:exported="true"
+34-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:29:13-36
+35            android:screenOrientation="portrait" >
+35-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:28:13-49
+36            <intent-filter>
+36-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:30:13-34:29
+37                <action android:name="android.intent.action.VIEW" />
+37-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:31:17-68
+37-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:31:25-66
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:32:17-75
+39-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:32:27-73
+40
+41                <data android:scheme="http" />
+41-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:33:17-46
+41-->C:\Users\idodd\Desktop\ChatOS\Android\app\src\main\AndroidManifest.xml:33:23-44
+42            </intent-filter>
+43        </activity>
+44    </application>
+45
+46</manifest>

@@ -102,7 +102,7 @@ namespace MVC.Controllers
                 Id = userCred.Username, Password = userCred.Password, Name = userCred.Nickname, Server = userCred.Server
             });
 
-        var claims = new[]
+            var claims = new[]
             {
                 new Claim(JwtRegisteredClaimNames.Sub, _configuration["JWTParams:Subject"]),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),

@@ -14,9 +14,9 @@ public class UserDBService : IUserDBService
         _context = mvcContext;
     }
 
-    public Task<List<User>> GetAll()
+    public async Task<List<User>> GetAll()
     {
-        return _context.Users.ToListAsync();
+        return await _context.Users.ToListAsync();
     }
 
     public async Task<User?> Get(string name)
@@ -24,23 +24,25 @@ public class UserDBService : IUserDBService
         return await _context.Users.FindAsync(name);
     }
 
-    public async Task<ICollection<Contact>> GetContacts(string userName)
+    public async Task<ICollection<Contact>?> GetContacts(string userName)
     {
         var user = await Get(userName);
         await _context.Entry(user).Collection(e => e.Contacts).LoadAsync();
-        var contacts = user.Contacts;
+        var contacts = user?.Contacts;
         return contacts;
     }
 
     public async Task<Contact?> GetContact(string userName, string friendName)
     {
-        var contact = _context.Contacts.Where(e => e.UserId == userName && e.Id == friendName);
-        return contact.FirstOrDefault();
+        return _context.Contacts.FirstOrDefault(e => e.UserId == userName && e.Id == friendName);
     }
 
     public async Task AddContact(string userName, string id, string name, string server)
     {
         var user = await Get(userName);
+        var contact = _context.Contacts.Where(e => e.Id == id && e.UserId == userName);
+        if (contact.FirstOrDefault() != null)
+            return;
         user?.Contacts.Add(new Contact
         {
             Id = id, Name = name, Server = server, UnreadMessages = 0

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title4"
+
+        android:layout_width="160dp"
+        android:layout_height="58dp"
+        android:fontFamily="casual"
+        android:text="@string/title"
+        android:textColor="#000000"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.681"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:contentDescription="@string/image"
+        app:layout_constraintEnd_toStartOf="@+id/title4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/chatos_image"
+        tools:ignore="ImageContrastCheck" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/NameLayout"
+        android:layout_width="362dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title4"
+        app:passwordToggleEnabled="false">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/RegisterUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Password1Layout"
+        android:layout_width="362dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NameLayout"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/RegisterPassword1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_password1"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Password2Layout"
+        android:layout_width="362dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password1Layout"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/RegisterPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/register_password2"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/UploadImg"
+        android:layout_width="73dp"
+        android:layout_height="69dp"
+        android:contentDescription="@string/upload_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password2Layout"
+        app:layout_constraintVertical_bias="0.06999999"
+        app:srcCompat="@drawable/ic_stat_name"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/RegisterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_blue"
+        android:text="@string/register_btn"
+        android:textColor="#212121"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/UploadImg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password2Layout"
+        app:layout_constraintVertical_bias="0.100000024"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/UserImage"
+        android:layout_width="305dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/image_of_the_user"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

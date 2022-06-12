@@ -29,9 +29,6 @@ id passwordInput
 id registerBtn
 id textInputLayout
 id textInputLayout2
-id textInputLayout5
-id textInputLayout6
-id textInputLayout7
 id textView3
 id title
 id title2
