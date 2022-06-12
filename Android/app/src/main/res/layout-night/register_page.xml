@@ -70,7 +70,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/Password2Layout"
+        android:id="@+id/ServerLayout"
         android:layout_width="362dp"
         android:layout_height="52dp"
         android:layout_marginTop="24dp"
@@ -91,13 +91,13 @@
         android:id="@+id/RegisterBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/light_blue"
+        android:backgroundTint="@color/primary_light"
         android:text="@string/register_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.46"
         app:layout_constraintStart_toEndOf="@+id/UploadImg"
-        app:layout_constraintTop_toBottomOf="@+id/Password2Layout"
+        app:layout_constraintTop_toBottomOf="@+id/ServerLayout"
         app:layout_constraintVertical_bias="0.100000024" />
 
     <ImageButton
@@ -109,7 +109,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.26"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Password2Layout"
+        app:layout_constraintTop_toBottomOf="@+id/ServerLayout"
         app:layout_constraintVertical_bias="0.07999998"
         app:srcCompat="@drawable/ic_stat_name" />
 

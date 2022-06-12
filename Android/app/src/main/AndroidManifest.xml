@@ -25,7 +25,6 @@
 
         <activity
             android:name=".RegisterPage"
-            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW"/>

@@ -8,20 +8,20 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name" translatable="false">ChatOS</string>
-    <string name="button" translatable="false">Button</string>
-    <string name="image" translatable="false">TODO</string>
-    <string name="image_of_the_user" translatable="false">Image of the user</string>
-    <string name="image_title" translatable="false">TODO</string>
-    <string name="linkto_register" translatable="false">Click here</string>
-    <string name="login_button" translatable="false">Log In</string>
+    <string name="app_name">ChatOS</string>
+    <string name="button">Button</string>
+    <string name="image">TODO</string>
+    <string name="image_of_the_user">Image of the user</string>
+    <string name="image_title">TODO</string>
+    <string name="linkto_register">Click here</string>
+    <string name="login_button">Log In</string>
     <string name="main_logo">Main Logo</string>
     <string name="register_btn">Register</string>
     <string name="register_name">Enter your Username</string>
     <string name="register_password1">Enter password</string>
     <string name="register_password2">Enter password again</string>
-    <string name="title" translatable="false">ChatOS</string>
-    <string name="to_register" translatable="false">Don\'t have an account?</string>
+    <string name="title">ChatOS</string>
+    <string name="to_register">Don\'t have an account?</string>
     <string name="upload_image">Upload Image</string>
     <style name="Button.White" parent="ThemeOverlay.AppCompat">
         <item name="colorAccent">@color/white</item>

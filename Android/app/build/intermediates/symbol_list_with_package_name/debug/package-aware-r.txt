@@ -1944,8 +1944,6 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
-id imageView5
-id imageView6
 id info
 id invisible
 id inward
@@ -2139,6 +2137,9 @@ id text2
 id textEnd
 id textInputLayout
 id textInputLayout2
+id textInputLayout5
+id textInputLayout6
+id textInputLayout7
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2157,8 +2158,6 @@ id time
 id title
 id title2
 id title3
-id title4
-id title5
 id titleDividerNoCustom
 id title_template
 id toggle
