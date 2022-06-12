@@ -32,19 +32,23 @@ import java.util.Set;
 public final class AppDB_Impl extends AppDB {
   private volatile UserDao _userDao;
 
+  private volatile messageDao _messageDao;
+
   @Override
   protected SupportSQLiteOpenHelper createOpenHelper(DatabaseConfiguration configuration) {
-    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(1) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(3) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `User` (`Id` INTEGER PRIMARY KEY AUTOINCREMENT, `Name` TEXT, `LastDate` TEXT, `LastMessageId` INTEGER NOT NULL, `Last` TEXT, `Server` TEXT)");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `User` (`Id` INTEGER PRIMARY KEY AUTOINCREMENT, `Name` TEXT, `LastDate` TEXT, `LastMessageId` INTEGER NOT NULL, `Last` TEXT, `Server` TEXT, `msg_list` TEXT)");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `Message` (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `content` TEXT, `created` TEXT, `sent` INTEGER)");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'c5c4abb164df2ee0ae6df78870cfdb1d')");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '70f36596456a7dfea94c05d02039e809')");
       }
 
       @Override
       public void dropAllTables(SupportSQLiteDatabase _db) {
         _db.execSQL("DROP TABLE IF EXISTS `User`");
+        _db.execSQL("DROP TABLE IF EXISTS `Message`");
         if (mCallbacks != null) {
           for (int _i = 0, _size = mCallbacks.size(); _i < _size; _i++) {
             mCallbacks.get(_i).onDestructiveMigration(_db);
@@ -83,13 +87,14 @@ public final class AppDB_Impl extends AppDB {
 
       @Override
       protected RoomOpenHelper.ValidationResult onValidateSchema(SupportSQLiteDatabase _db) {
-        final HashMap<String, TableInfo.Column> _columnsUser = new HashMap<String, TableInfo.Column>(6);
+        final HashMap<String, TableInfo.Column> _columnsUser = new HashMap<String, TableInfo.Column>(7);
         _columnsUser.put("Id", new TableInfo.Column("Id", "INTEGER", false, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUser.put("Name", new TableInfo.Column("Name", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUser.put("LastDate", new TableInfo.Column("LastDate", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUser.put("LastMessageId", new TableInfo.Column("LastMessageId", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUser.put("Last", new TableInfo.Column("Last", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUser.put("Server", new TableInfo.Column("Server", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsUser.put("msg_list", new TableInfo.Column("msg_list", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
         final HashSet<TableInfo.ForeignKey> _foreignKeysUser = new HashSet<TableInfo.ForeignKey>(0);
         final HashSet<TableInfo.Index> _indicesUser = new HashSet<TableInfo.Index>(0);
         final TableInfo _infoUser = new TableInfo("User", _columnsUser, _foreignKeysUser, _indicesUser);
@@ -99,9 +104,23 @@ public final class AppDB_Impl extends AppDB {
                   + " Expected:\n" + _infoUser + "\n"
                   + " Found:\n" + _existingUser);
         }
+        final HashMap<String, TableInfo.Column> _columnsMessage = new HashMap<String, TableInfo.Column>(4);
+        _columnsMessage.put("id", new TableInfo.Column("id", "INTEGER", false, 1, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsMessage.put("content", new TableInfo.Column("content", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsMessage.put("created", new TableInfo.Column("created", "TEXT", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsMessage.put("sent", new TableInfo.Column("sent", "INTEGER", false, 0, null, TableInfo.CREATED_FROM_ENTITY));
+        final HashSet<TableInfo.ForeignKey> _foreignKeysMessage = new HashSet<TableInfo.ForeignKey>(0);
+        final HashSet<TableInfo.Index> _indicesMessage = new HashSet<TableInfo.Index>(0);
+        final TableInfo _infoMessage = new TableInfo("Message", _columnsMessage, _foreignKeysMessage, _indicesMessage);
+        final TableInfo _existingMessage = TableInfo.read(_db, "Message");
+        if (! _infoMessage.equals(_existingMessage)) {
+          return new RoomOpenHelper.ValidationResult(false, "Message(com.example.android.Data.Message).\n"
+                  + " Expected:\n" + _infoMessage + "\n"
+                  + " Found:\n" + _existingMessage);
+        }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "c5c4abb164df2ee0ae6df78870cfdb1d", "fdff01842276a6c42a8841ac9ecd010c");
+    }, "70f36596456a7dfea94c05d02039e809", "69173973bc51959b079f6b7a9c508c74");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)
@@ -114,7 +133,7 @@ public final class AppDB_Impl extends AppDB {
   protected InvalidationTracker createInvalidationTracker() {
     final HashMap<String, String> _shadowTablesMap = new HashMap<String, String>(0);
     HashMap<String, Set<String>> _viewTables = new HashMap<String, Set<String>>(0);
-    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "User");
+    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "User","Message");
   }
 
   @Override
@@ -124,6 +143,7 @@ public final class AppDB_Impl extends AppDB {
     try {
       super.beginTransaction();
       _db.execSQL("DELETE FROM `User`");
+      _db.execSQL("DELETE FROM `Message`");
       super.setTransactionSuccessful();
     } finally {
       super.endTransaction();
@@ -138,6 +158,7 @@ public final class AppDB_Impl extends AppDB {
   protected Map<Class<?>, List<Class<?>>> getRequiredTypeConverters() {
     final HashMap<Class<?>, List<Class<?>>> _typeConvertersMap = new HashMap<Class<?>, List<Class<?>>>();
     _typeConvertersMap.put(UserDao.class, UserDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(messageDao.class, messageDao_Impl.getRequiredConverters());
     return _typeConvertersMap;
   }
 
@@ -163,6 +184,20 @@ public final class AppDB_Impl extends AppDB {
           _userDao = new UserDao_Impl(this);
         }
         return _userDao;
+      }
+    }
+  }
+
+  @Override
+  public messageDao messageDao() {
+    if (_messageDao != null) {
+      return _messageDao;
+    } else {
+      synchronized(this) {
+        if(_messageDao == null) {
+          _messageDao = new messageDao_Impl(this);
+        }
+        return _messageDao;
       }
     }
   }

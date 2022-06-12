@@ -23,6 +23,8 @@ public final class UserDao_Impl implements UserDao {
 
   private final EntityInsertionAdapter<User> __insertionAdapterOfUser;
 
+  private final MessagesConverter __messagesConverter = new MessagesConverter();
+
   private final EntityDeletionOrUpdateAdapter<User> __deletionAdapterOfUser;
 
   private final EntityDeletionOrUpdateAdapter<User> __updateAdapterOfUser;
@@ -32,7 +34,7 @@ public final class UserDao_Impl implements UserDao {
     this.__insertionAdapterOfUser = new EntityInsertionAdapter<User>(__db) {
       @Override
       public String createQuery() {
-        return "INSERT OR ABORT INTO `User` (`Id`,`Name`,`LastDate`,`LastMessageId`,`Last`,`Server`) VALUES (?,?,?,?,?,?)";
+        return "INSERT OR ABORT INTO `User` (`Id`,`Name`,`LastDate`,`LastMessageId`,`Last`,`Server`,`msg_list`) VALUES (?,?,?,?,?,?,?)";
       }
 
       @Override
@@ -62,6 +64,12 @@ public final class UserDao_Impl implements UserDao {
           stmt.bindNull(6);
         } else {
           stmt.bindString(6, value.getServer());
+        }
+        final String _tmp = __messagesConverter.languagesToStoredString(value.getMsg_list());
+        if (_tmp == null) {
+          stmt.bindNull(7);
+        } else {
+          stmt.bindString(7, _tmp);
         }
       }
     };
@@ -83,7 +91,7 @@ public final class UserDao_Impl implements UserDao {
     this.__updateAdapterOfUser = new EntityDeletionOrUpdateAdapter<User>(__db) {
       @Override
       public String createQuery() {
-        return "UPDATE OR ABORT `User` SET `Id` = ?,`Name` = ?,`LastDate` = ?,`LastMessageId` = ?,`Last` = ?,`Server` = ? WHERE `Id` = ?";
+        return "UPDATE OR ABORT `User` SET `Id` = ?,`Name` = ?,`LastDate` = ?,`LastMessageId` = ?,`Last` = ?,`Server` = ?,`msg_list` = ? WHERE `Id` = ?";
       }
 
       @Override
@@ -114,10 +122,16 @@ public final class UserDao_Impl implements UserDao {
         } else {
           stmt.bindString(6, value.getServer());
         }
-        if (value.getId() == null) {
+        final String _tmp = __messagesConverter.languagesToStoredString(value.getMsg_list());
+        if (_tmp == null) {
           stmt.bindNull(7);
         } else {
-          stmt.bindLong(7, value.getId());
+          stmt.bindString(7, _tmp);
+        }
+        if (value.getId() == null) {
+          stmt.bindNull(8);
+        } else {
+          stmt.bindLong(8, value.getId());
         }
       }
     };
@@ -172,6 +186,7 @@ public final class UserDao_Impl implements UserDao {
       final int _cursorIndexOfLastMessageId = CursorUtil.getColumnIndexOrThrow(_cursor, "LastMessageId");
       final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "Last");
       final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
+      final int _cursorIndexOfMsgList = CursorUtil.getColumnIndexOrThrow(_cursor, "msg_list");
       final List<User> _result = new ArrayList<User>(_cursor.getCount());
       while(_cursor.moveToNext()) {
         final User _item;
@@ -208,6 +223,15 @@ public final class UserDao_Impl implements UserDao {
           _tmpServer = _cursor.getString(_cursorIndexOfServer);
         }
         _item = new User(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
+        final Messages _tmpMsg_list;
+        final String _tmp;
+        if (_cursor.isNull(_cursorIndexOfMsgList)) {
+          _tmp = null;
+        } else {
+          _tmp = _cursor.getString(_cursorIndexOfMsgList);
+        }
+        _tmpMsg_list = __messagesConverter.storedStringToLanguages(_tmp);
+        _item.setMsg_list(_tmpMsg_list);
         _result.add(_item);
       }
       return _result;
@@ -232,6 +256,7 @@ public final class UserDao_Impl implements UserDao {
       final int _cursorIndexOfLastMessageId = CursorUtil.getColumnIndexOrThrow(_cursor, "LastMessageId");
       final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "Last");
       final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
+      final int _cursorIndexOfMsgList = CursorUtil.getColumnIndexOrThrow(_cursor, "msg_list");
       final User _result;
       if(_cursor.moveToFirst()) {
         final Integer _tmpId;
@@ -267,6 +292,15 @@ public final class UserDao_Impl implements UserDao {
           _tmpServer = _cursor.getString(_cursorIndexOfServer);
         }
         _result = new User(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
+        final Messages _tmpMsg_list;
+        final String _tmp;
+        if (_cursor.isNull(_cursorIndexOfMsgList)) {
+          _tmp = null;
+        } else {
+          _tmp = _cursor.getString(_cursorIndexOfMsgList);
+        }
+        _tmpMsg_list = __messagesConverter.storedStringToLanguages(_tmp);
+        _result.setMsg_list(_tmpMsg_list);
       } else {
         _result = null;
       }

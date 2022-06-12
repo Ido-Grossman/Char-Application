@@ -14,6 +14,15 @@ public class User {
     private int LastMessageId;
     private String Last; //last message content string
     private String Server;
+    private Messages msg_list;
+
+    public void setMsg_list(Messages msg_list) {
+        this.msg_list = msg_list;
+    }
+
+    public Messages getMsg_list() {
+        return msg_list;
+    }
 
     public User(Integer Id, String Name, String LastDate, int LastMessageId, String Last, String Server ) {
         this.Id = Id;

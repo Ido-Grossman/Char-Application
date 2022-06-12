@@ -21,7 +21,7 @@ public class AddContactActivity extends AppCompatActivity {
 
             //create room database:
             db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")
-                    .allowMainThreadQueries().build();
+                    .fallbackToDestructiveMigration().allowMainThreadQueries().build();
             userDao = db.userDao();
 
             Button registerBtn = findViewById(R.id.add_contact_btn);
