@@ -3,21 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout-iw-land-night/activity_main.xml" value="0.3106796116504854" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout-iw/activity_main.xml" value="0.35688405797101447" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout-night/activity_main.xml" value="0.3009833262077811" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout-night/register_page.xml" value="0.3009833262077811" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout-notnight/register_page.xml" value="0.35688405797101447" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/Android/app/src/main/res/layout/register_page.xml" value="0.33" />
+        <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="app/src/main/res/layout-iw-land-night/activity_main.xml" value="0.33603603603603605" />
         <entry key="app/src/main/res/layout-iw-land/activity_main.xml" value="0.33603603603603605" />
         <entry key="app/src/main/res/layout-iw-night/activity_main.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout-iw-night/register_page.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout-iw/activity_main.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout-iw/register_page.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout-land/activity_main_lands.xml" value="0.22882882882882882" />
         <entry key="app/src/main/res/layout-land/activity_main_landscape.xml" value="0.22702702702702704" />
         <entry key="app/src/main/res/layout-night/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_add_contact.xml" value="0.40341880341880343" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main1.xml" value="0.32222222222222224" />
         <entry key="app/src/main/res/layout/register_page.xml" value="0.19427083333333334" />

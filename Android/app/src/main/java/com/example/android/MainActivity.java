@@ -12,6 +12,8 @@ import androidx.room.Room;
 import com.example.android.Data.AppDB;
 import com.example.android.Data.UserDao;
 
+import com.example.android.api.ContactApi;
+
 public class MainActivity extends AppCompatActivity {
     private AppDB db;
     private UserDao userDao;
@@ -21,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
+
+
 
         Button loginBtn = findViewById(R.id.loginBtn);
         loginBtn.setOnClickListener(view -> {

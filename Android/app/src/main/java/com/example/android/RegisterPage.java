@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -13,6 +14,9 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.android.api.UserApi;
+import com.example.android.entities.User;
+import com.example.android.entities.UserCred;
 import com.google.android.material.textfield.TextInputLayout;
 
 public class RegisterPage extends AppCompatActivity {
@@ -40,7 +44,14 @@ public class RegisterPage extends AppCompatActivity {
                 layout.setError(null);
                 layout.setErrorEnabled(true);
                 layout.setError("The password doesn't match");
+            } else {
+                String userName = username.getText().toString();
+                UserApi userApi = new UserApi();
+                UserCred newUser = new UserCred(userName, s, "hello", "http://localhost:7225");
+                userApi.checkIfUsernameExists(userName, newUser, userApi);
+
             }
+
         });
     }
 
