@@ -10,6 +10,7 @@
     <color name="primary_light">#007BF4</color>
     <color name="light_bckg">#D0EAF9</color>
     <color name="primary_dark">#0A1420</color>
+    <color name="grey">#282828</color>
 
 
 </resources>

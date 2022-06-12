@@ -6,7 +6,10 @@
         <entry key="../../../../../layout/custom_preview.xml" value="0.11600719424460432" />
         <entry key="app/src/main/res/drawable-xhdpi/bckg_chat_buttons.xml" value="0.1935" />
         <entry key="app/src/main/res/drawable-xhdpi/bckg_chat_input.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable-xhdpi/bckg_chat_top.xml" value="0.1935" />
         <entry key="app/src/main/res/drawable/back_foreground.xml" value="0.2455" />
+        <entry key="app/src/main/res/drawable/background_recieved_message.xml" value="0.1935" />
+        <entry key="app/src/main/res/drawable/background_sent_message.xml" value="0.1935" />
         <entry key="app/src/main/res/drawable/person_add_foreground.xml" value="0.2455" />
         <entry key="app/src/main/res/layout-iw-night/activity_add_contact.xml" value="0.19927536231884058" />
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.18125" />
@@ -14,13 +17,15 @@
         <entry key="app/src/main/res/layout-land/activity_main_landscape.xml" value="0.22702702702702704" />
         <entry key="app/src/main/res/layout-night/activity_main.xml" value="0.32222222222222224" />
         <entry key="app/src/main/res/layout/activity_add_contact.xml" value="0.33" />
-        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.20866141732283464" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_contacts.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main1.xml" value="0.32222222222222224" />
         <entry key="app/src/main/res/layout/background_chat_input.xml" value="0.25833333333333336" />
         <entry key="app/src/main/res/layout/bckg_chat_input.xml" value="0.259375" />
         <entry key="app/src/main/res/layout/contact_list_item.xml" value="0.1983695652173913" />
+        <entry key="app/src/main/res/layout/item_container_recieved_message.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_container_sent_message.xml" value="0.34193840579710144" />
         <entry key="app/src/main/res/layout/register_page.xml" value="0.19927536231884058" />
         <entry key="app/src/main/res/layout/ss.xml" value="0.25833333333333336" />
       </map>

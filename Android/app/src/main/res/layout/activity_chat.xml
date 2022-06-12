@@ -7,6 +7,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/light_bckg">
 
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/black"
+        android:layout_marginVertical="@dimen/_4sdp"
+        app:layout_constraintBottom_toTopOf="@+id/inputMessages"
+        app:layout_constraintTop_toBottomOf="@+id/topPanel">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_msgs"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@color/light_bckg">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
     <FrameLayout
         android:id="@+id/layoutSend"
         android:layout_width="@dimen/_40sdp"
@@ -49,13 +67,17 @@
         app:layout_constraintEnd_toStartOf="@+id/layoutSend"
         app:layout_constraintStart_toStartOf="parent"/>
 
-
     <LinearLayout
+        android:id="@+id/topPanel"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="@dimen/_60sdp"
+        android:background="@drawable/bckg_chat_top"
+        android:layout_marginTop="@dimen/_1sdp"
+
         android:orientation="horizontal"
-        android:background="@color/primary_light"
-        tools:ignore="MissingConstraints">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
 
         <ImageButton
             android:id="@+id/back_button"
@@ -70,8 +92,8 @@
             android:id="@+id/profile_image"
             android:layout_width="60dp"
             android:layout_height="match_parent"
-            android:paddingVertical="2dp"
             android:background="#00000000"
+            android:paddingVertical="2dp"
             android:src="@mipmap/ic_launcher_round" />
 
         <LinearLayout
@@ -114,4 +136,4 @@
 
             android:src="@drawable/settings_foreground"></ImageButton>
     </LinearLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

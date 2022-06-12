@@ -811,6 +811,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -1059,6 +1060,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color light_bckg
@@ -1183,6 +1185,7 @@ color tooltip_background_dark
 color tooltip_background_light
 color white
 dimen _100sdp
+dimen _100ssp
 dimen _101sdp
 dimen _102sdp
 dimen _103sdp
@@ -1193,6 +1196,7 @@ dimen _107sdp
 dimen _108sdp
 dimen _109sdp
 dimen _10sdp
+dimen _10ssp
 dimen _110sdp
 dimen _111sdp
 dimen _112sdp
@@ -1204,6 +1208,7 @@ dimen _117sdp
 dimen _118sdp
 dimen _119sdp
 dimen _11sdp
+dimen _11ssp
 dimen _120sdp
 dimen _121sdp
 dimen _122sdp
@@ -1215,6 +1220,7 @@ dimen _127sdp
 dimen _128sdp
 dimen _129sdp
 dimen _12sdp
+dimen _12ssp
 dimen _130sdp
 dimen _131sdp
 dimen _132sdp
@@ -1226,6 +1232,7 @@ dimen _137sdp
 dimen _138sdp
 dimen _139sdp
 dimen _13sdp
+dimen _13ssp
 dimen _140sdp
 dimen _141sdp
 dimen _142sdp
@@ -1237,6 +1244,7 @@ dimen _147sdp
 dimen _148sdp
 dimen _149sdp
 dimen _14sdp
+dimen _14ssp
 dimen _150sdp
 dimen _151sdp
 dimen _152sdp
@@ -1248,6 +1256,7 @@ dimen _157sdp
 dimen _158sdp
 dimen _159sdp
 dimen _15sdp
+dimen _15ssp
 dimen _160sdp
 dimen _161sdp
 dimen _162sdp
@@ -1259,6 +1268,7 @@ dimen _167sdp
 dimen _168sdp
 dimen _169sdp
 dimen _16sdp
+dimen _16ssp
 dimen _170sdp
 dimen _171sdp
 dimen _172sdp
@@ -1270,6 +1280,7 @@ dimen _177sdp
 dimen _178sdp
 dimen _179sdp
 dimen _17sdp
+dimen _17ssp
 dimen _180sdp
 dimen _181sdp
 dimen _182sdp
@@ -1281,6 +1292,7 @@ dimen _187sdp
 dimen _188sdp
 dimen _189sdp
 dimen _18sdp
+dimen _18ssp
 dimen _190sdp
 dimen _191sdp
 dimen _192sdp
@@ -1292,7 +1304,9 @@ dimen _197sdp
 dimen _198sdp
 dimen _199sdp
 dimen _19sdp
+dimen _19ssp
 dimen _1sdp
+dimen _1ssp
 dimen _200sdp
 dimen _201sdp
 dimen _202sdp
@@ -1304,6 +1318,7 @@ dimen _207sdp
 dimen _208sdp
 dimen _209sdp
 dimen _20sdp
+dimen _20ssp
 dimen _210sdp
 dimen _211sdp
 dimen _212sdp
@@ -1315,6 +1330,7 @@ dimen _217sdp
 dimen _218sdp
 dimen _219sdp
 dimen _21sdp
+dimen _21ssp
 dimen _220sdp
 dimen _221sdp
 dimen _222sdp
@@ -1326,6 +1342,7 @@ dimen _227sdp
 dimen _228sdp
 dimen _229sdp
 dimen _22sdp
+dimen _22ssp
 dimen _230sdp
 dimen _231sdp
 dimen _232sdp
@@ -1337,6 +1354,7 @@ dimen _237sdp
 dimen _238sdp
 dimen _239sdp
 dimen _23sdp
+dimen _23ssp
 dimen _240sdp
 dimen _241sdp
 dimen _242sdp
@@ -1348,6 +1366,7 @@ dimen _247sdp
 dimen _248sdp
 dimen _249sdp
 dimen _24sdp
+dimen _24ssp
 dimen _250sdp
 dimen _251sdp
 dimen _252sdp
@@ -1359,6 +1378,7 @@ dimen _257sdp
 dimen _258sdp
 dimen _259sdp
 dimen _25sdp
+dimen _25ssp
 dimen _260sdp
 dimen _261sdp
 dimen _262sdp
@@ -1370,6 +1390,7 @@ dimen _267sdp
 dimen _268sdp
 dimen _269sdp
 dimen _26sdp
+dimen _26ssp
 dimen _270sdp
 dimen _271sdp
 dimen _272sdp
@@ -1381,6 +1402,7 @@ dimen _277sdp
 dimen _278sdp
 dimen _279sdp
 dimen _27sdp
+dimen _27ssp
 dimen _280sdp
 dimen _281sdp
 dimen _282sdp
@@ -1392,6 +1414,7 @@ dimen _287sdp
 dimen _288sdp
 dimen _289sdp
 dimen _28sdp
+dimen _28ssp
 dimen _290sdp
 dimen _291sdp
 dimen _292sdp
@@ -1403,7 +1426,9 @@ dimen _297sdp
 dimen _298sdp
 dimen _299sdp
 dimen _29sdp
+dimen _29ssp
 dimen _2sdp
+dimen _2ssp
 dimen _300sdp
 dimen _301sdp
 dimen _302sdp
@@ -1415,6 +1440,7 @@ dimen _307sdp
 dimen _308sdp
 dimen _309sdp
 dimen _30sdp
+dimen _30ssp
 dimen _310sdp
 dimen _311sdp
 dimen _312sdp
@@ -1426,6 +1452,7 @@ dimen _317sdp
 dimen _318sdp
 dimen _319sdp
 dimen _31sdp
+dimen _31ssp
 dimen _320sdp
 dimen _321sdp
 dimen _322sdp
@@ -1437,6 +1464,7 @@ dimen _327sdp
 dimen _328sdp
 dimen _329sdp
 dimen _32sdp
+dimen _32ssp
 dimen _330sdp
 dimen _331sdp
 dimen _332sdp
@@ -1448,6 +1476,7 @@ dimen _337sdp
 dimen _338sdp
 dimen _339sdp
 dimen _33sdp
+dimen _33ssp
 dimen _340sdp
 dimen _341sdp
 dimen _342sdp
@@ -1459,6 +1488,7 @@ dimen _347sdp
 dimen _348sdp
 dimen _349sdp
 dimen _34sdp
+dimen _34ssp
 dimen _350sdp
 dimen _351sdp
 dimen _352sdp
@@ -1470,6 +1500,7 @@ dimen _357sdp
 dimen _358sdp
 dimen _359sdp
 dimen _35sdp
+dimen _35ssp
 dimen _360sdp
 dimen _361sdp
 dimen _362sdp
@@ -1481,6 +1512,7 @@ dimen _367sdp
 dimen _368sdp
 dimen _369sdp
 dimen _36sdp
+dimen _36ssp
 dimen _370sdp
 dimen _371sdp
 dimen _372sdp
@@ -1492,6 +1524,7 @@ dimen _377sdp
 dimen _378sdp
 dimen _379sdp
 dimen _37sdp
+dimen _37ssp
 dimen _380sdp
 dimen _381sdp
 dimen _382sdp
@@ -1503,6 +1536,7 @@ dimen _387sdp
 dimen _388sdp
 dimen _389sdp
 dimen _38sdp
+dimen _38ssp
 dimen _390sdp
 dimen _391sdp
 dimen _392sdp
@@ -1514,7 +1548,9 @@ dimen _397sdp
 dimen _398sdp
 dimen _399sdp
 dimen _39sdp
+dimen _39ssp
 dimen _3sdp
+dimen _3ssp
 dimen _400sdp
 dimen _401sdp
 dimen _402sdp
@@ -1526,6 +1562,7 @@ dimen _407sdp
 dimen _408sdp
 dimen _409sdp
 dimen _40sdp
+dimen _40ssp
 dimen _410sdp
 dimen _411sdp
 dimen _412sdp
@@ -1537,6 +1574,7 @@ dimen _417sdp
 dimen _418sdp
 dimen _419sdp
 dimen _41sdp
+dimen _41ssp
 dimen _420sdp
 dimen _421sdp
 dimen _422sdp
@@ -1548,6 +1586,7 @@ dimen _427sdp
 dimen _428sdp
 dimen _429sdp
 dimen _42sdp
+dimen _42ssp
 dimen _430sdp
 dimen _431sdp
 dimen _432sdp
@@ -1559,6 +1598,7 @@ dimen _437sdp
 dimen _438sdp
 dimen _439sdp
 dimen _43sdp
+dimen _43ssp
 dimen _440sdp
 dimen _441sdp
 dimen _442sdp
@@ -1570,6 +1610,7 @@ dimen _447sdp
 dimen _448sdp
 dimen _449sdp
 dimen _44sdp
+dimen _44ssp
 dimen _450sdp
 dimen _451sdp
 dimen _452sdp
@@ -1581,6 +1622,7 @@ dimen _457sdp
 dimen _458sdp
 dimen _459sdp
 dimen _45sdp
+dimen _45ssp
 dimen _460sdp
 dimen _461sdp
 dimen _462sdp
@@ -1592,6 +1634,7 @@ dimen _467sdp
 dimen _468sdp
 dimen _469sdp
 dimen _46sdp
+dimen _46ssp
 dimen _470sdp
 dimen _471sdp
 dimen _472sdp
@@ -1603,6 +1646,7 @@ dimen _477sdp
 dimen _478sdp
 dimen _479sdp
 dimen _47sdp
+dimen _47ssp
 dimen _480sdp
 dimen _481sdp
 dimen _482sdp
@@ -1614,6 +1658,7 @@ dimen _487sdp
 dimen _488sdp
 dimen _489sdp
 dimen _48sdp
+dimen _48ssp
 dimen _490sdp
 dimen _491sdp
 dimen _492sdp
@@ -1625,7 +1670,9 @@ dimen _497sdp
 dimen _498sdp
 dimen _499sdp
 dimen _49sdp
+dimen _49ssp
 dimen _4sdp
+dimen _4ssp
 dimen _500sdp
 dimen _501sdp
 dimen _502sdp
@@ -1637,6 +1684,7 @@ dimen _507sdp
 dimen _508sdp
 dimen _509sdp
 dimen _50sdp
+dimen _50ssp
 dimen _510sdp
 dimen _511sdp
 dimen _512sdp
@@ -1648,6 +1696,7 @@ dimen _517sdp
 dimen _518sdp
 dimen _519sdp
 dimen _51sdp
+dimen _51ssp
 dimen _520sdp
 dimen _521sdp
 dimen _522sdp
@@ -1659,6 +1708,7 @@ dimen _527sdp
 dimen _528sdp
 dimen _529sdp
 dimen _52sdp
+dimen _52ssp
 dimen _530sdp
 dimen _531sdp
 dimen _532sdp
@@ -1670,6 +1720,7 @@ dimen _537sdp
 dimen _538sdp
 dimen _539sdp
 dimen _53sdp
+dimen _53ssp
 dimen _540sdp
 dimen _541sdp
 dimen _542sdp
@@ -1681,6 +1732,7 @@ dimen _547sdp
 dimen _548sdp
 dimen _549sdp
 dimen _54sdp
+dimen _54ssp
 dimen _550sdp
 dimen _551sdp
 dimen _552sdp
@@ -1692,6 +1744,7 @@ dimen _557sdp
 dimen _558sdp
 dimen _559sdp
 dimen _55sdp
+dimen _55ssp
 dimen _560sdp
 dimen _561sdp
 dimen _562sdp
@@ -1703,6 +1756,7 @@ dimen _567sdp
 dimen _568sdp
 dimen _569sdp
 dimen _56sdp
+dimen _56ssp
 dimen _570sdp
 dimen _571sdp
 dimen _572sdp
@@ -1714,6 +1768,7 @@ dimen _577sdp
 dimen _578sdp
 dimen _579sdp
 dimen _57sdp
+dimen _57ssp
 dimen _580sdp
 dimen _581sdp
 dimen _582sdp
@@ -1725,6 +1780,7 @@ dimen _587sdp
 dimen _588sdp
 dimen _589sdp
 dimen _58sdp
+dimen _58ssp
 dimen _590sdp
 dimen _591sdp
 dimen _592sdp
@@ -1736,52 +1792,98 @@ dimen _597sdp
 dimen _598sdp
 dimen _599sdp
 dimen _59sdp
+dimen _59ssp
 dimen _5sdp
+dimen _5ssp
 dimen _600sdp
 dimen _60sdp
+dimen _60ssp
 dimen _61sdp
+dimen _61ssp
 dimen _62sdp
+dimen _62ssp
 dimen _63sdp
+dimen _63ssp
 dimen _64sdp
+dimen _64ssp
 dimen _65sdp
+dimen _65ssp
 dimen _66sdp
+dimen _66ssp
 dimen _67sdp
+dimen _67ssp
 dimen _68sdp
+dimen _68ssp
 dimen _69sdp
+dimen _69ssp
 dimen _6sdp
+dimen _6ssp
 dimen _70sdp
+dimen _70ssp
 dimen _71sdp
+dimen _71ssp
 dimen _72sdp
+dimen _72ssp
 dimen _73sdp
+dimen _73ssp
 dimen _74sdp
+dimen _74ssp
 dimen _75sdp
+dimen _75ssp
 dimen _76sdp
+dimen _76ssp
 dimen _77sdp
+dimen _77ssp
 dimen _78sdp
+dimen _78ssp
 dimen _79sdp
+dimen _79ssp
 dimen _7sdp
+dimen _7ssp
 dimen _80sdp
+dimen _80ssp
 dimen _81sdp
+dimen _81ssp
 dimen _82sdp
+dimen _82ssp
 dimen _83sdp
+dimen _83ssp
 dimen _84sdp
+dimen _84ssp
 dimen _85sdp
+dimen _85ssp
 dimen _86sdp
+dimen _86ssp
 dimen _87sdp
+dimen _87ssp
 dimen _88sdp
+dimen _88ssp
 dimen _89sdp
+dimen _89ssp
 dimen _8sdp
+dimen _8ssp
 dimen _90sdp
+dimen _90ssp
 dimen _91sdp
+dimen _91ssp
 dimen _92sdp
+dimen _92ssp
 dimen _93sdp
+dimen _93ssp
 dimen _94sdp
+dimen _94ssp
 dimen _95sdp
+dimen _95ssp
 dimen _96sdp
+dimen _96ssp
 dimen _97sdp
+dimen _97ssp
 dimen _98sdp
+dimen _98ssp
 dimen _99sdp
+dimen _99ssp
 dimen _9sdp
+dimen _9ssp
 dimen _minus10sdp
 dimen _minus11sdp
 dimen _minus12sdp
@@ -2347,8 +2449,11 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable back_background
 drawable back_foreground
+drawable background_recieved_message
+drawable background_sent_message
 drawable bckg_chat_buttons
 drawable bckg_chat_input
+drawable bckg_chat_top
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2645,6 +2750,7 @@ id line3
 id linear
 id listMode
 id list_item
+id list_msgs
 id list_view
 id loginBtn
 id masked
@@ -2738,6 +2844,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id refreshLayout
 id registerBtn
 id reverseSawtooth
 id right
@@ -2822,9 +2929,11 @@ id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
 id text2
+id textDateTime
 id textEnd
 id textInputLayout
 id textInputLayout2
+id textMessage
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2964,6 +3073,8 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dp_example
+layout item_container_recieved_message
+layout item_container_sent_message
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3018,6 +3129,8 @@ layout sdp_example
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout sp_example
+layout ssp_example
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
@@ -4012,6 +4125,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

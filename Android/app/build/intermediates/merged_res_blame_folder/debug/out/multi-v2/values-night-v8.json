@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeDebugResources-22:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.android.app-mergeDebugResources-24:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/res/values-night/strings.xml",

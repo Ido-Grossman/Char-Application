@@ -7,6 +7,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.android.Adapters.MsgsListAdapter;
+import com.example.android.Data.Message;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class ChatActivity extends AppCompatActivity{
 
@@ -22,10 +30,21 @@ public class ChatActivity extends AppCompatActivity{
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_chat);
+            getSupportActionBar().hide();
 
             profilePictureView = findViewById(R.id.profile_image);
             userNameView = findViewById(R.id.user_name);
 
+            RecyclerView lst_msgs = findViewById(R.id.list_msgs);
+            final MsgsListAdapter adapter = new MsgsListAdapter(this);
+            lst_msgs.setAdapter(adapter);
+            lst_msgs.setLayoutManager(new LinearLayoutManager(this));
+            List<com.example.android.Data.Message> msgs = new ArrayList<com.example.android.Data.Message>();
+            msgs.add(new Message(1,"hey eli", "11/7/98", true));
+            msgs.add(new Message(2,"hey eli!", "12/7/98", false));
+            msgs.add(new Message(3,"hey eli!!", "13/7/98", true));
+            msgs.add(new Message(4,"hey eli!!", "14/7/98", false));
+            adapter.setMsgs(msgs);
             Intent activityIntent = getIntent();
 
             if (activityIntent != null) {
