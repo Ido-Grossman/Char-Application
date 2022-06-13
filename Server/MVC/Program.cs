@@ -37,7 +37,6 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddTransient<IUserDBService, UserDBService>();
-builder.Services.AddSingleton<IUserService, UserService>();
 
 builder.Services.AddControllersWithViews();
 
