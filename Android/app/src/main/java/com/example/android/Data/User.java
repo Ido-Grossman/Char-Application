@@ -1,5 +1,6 @@
 package com.example.android.Data;
 
+import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
@@ -15,6 +16,7 @@ public class User {
     private String Last; //last message content string
     private String Server;
     private Messages msg_list;
+    public byte[] image;
 
     public void setMsg_list(Messages msg_list) {
         this.msg_list = msg_list;
@@ -63,6 +65,8 @@ public class User {
         Last = last;
     }
 
+    public void setImage(byte[] image) {this.image = image;}
+
     public String getName() {
         return Name;
     }
@@ -79,7 +83,9 @@ public class User {
         return Last;
     }
     public String getServer() {return Server;}
+    public byte[] getImage() {return image;}
 
+    @NonNull
     @Override
     public String toString() {
         return "User{" +

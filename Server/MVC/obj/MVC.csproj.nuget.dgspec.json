@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj": {}
+    "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj": {
+    "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\MVC.csproj",
         "projectName": "MVC",
-        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj",
+        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\MVC.csproj",
         "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\obj\\",
+        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
-                "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj"
+              "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
+                "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
+    "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
         "projectName": "RatingProj",
-        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
         "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\obj\\",
+        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -14,12 +13,17 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.android.Data.AppDB;
+import com.example.android.Data.UserDao;
 import com.example.android.api.UserApi;
-import com.example.android.entities.User;
 import com.example.android.entities.UserCred;
 import com.google.android.material.textfield.TextInputLayout;
 
 public class RegisterPage extends AppCompatActivity {
+
+    private AppDB db;
+    private UserDao userDao;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +35,7 @@ public class RegisterPage extends AppCompatActivity {
         UploadImg.setOnClickListener(view -> {
             ChooseImage();
         });
+        ImageView img = findViewById(R.id.UserImage);
         Button registerBtn = findViewById(R.id.RegisterBtn);
         registerBtn.setOnClickListener(view -> {
             EditText username = findViewById(R.id.RegisterUserName);
@@ -39,11 +44,12 @@ public class RegisterPage extends AppCompatActivity {
             String s = password.getText().toString();
             String k = passwordValidate.getText().toString();
             if (!s.equals(k)) {
-                TextInputLayout layout = findViewById(R.id.Password1Layout);
-                layout.setErrorEnabled(false);
-                layout.setError(null);
-                layout.setErrorEnabled(true);
-                layout.setError("The password doesn't match");
+                TextInputLayout layout1 = findViewById(R.id.Password1Layout);
+                layout1.setError("The password doesn't match");
+                TextInputLayout layout2 = findViewById(R.id.Password2Layout);
+                layout2.setError("The password doesn't match");
+            } else if (img.getVisibility() == View.INVISIBLE) {
+
             } else {
                 String userName = username.getText().toString();
                 UserApi userApi = new UserApi();

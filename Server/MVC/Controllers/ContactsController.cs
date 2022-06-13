@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using MVC.Hubs;
 using MVC.Models;
 using MVC.Services;
 
@@ -136,32 +135,30 @@ namespace MVC.Controllers
          * Changes the content of the given id message.
          */
         [HttpPut("{Id}/messages/{Id2}")]
-        public void PutMessage(string id, int id2, [FromBody] ContentClass message)
+        public async Task PutMessage(string id, int id2, [FromBody] ContentClass message)
         {
-            // var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            // var user = _service.Get(userName);
-            // var contact = _service.GetContact(userName, id);
-            // Message theMessage;
-            // // Makes sure the message and contact exists.
-            // if (contact == null || (theMessage = user.Contacts[contact].Find(x => x.Id == id2)) == null)
-            //     return;
-            // theMessage.Content = message.Content;
+            var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
+            var contact = await _service.GetContact(userName, id);
+            Message? theMessage;
+            // Makes sure the message and contact exists.
+            if (contact == null || (theMessage = await _service.GetMessage(userName, id, id2)) == null)
+                return;
+            theMessage.Content = message.Content;
         }
         
         /*
          * Deletes the given id message from the list of the user and contact.
          */
         [HttpDelete("{Id}/messages/{Id2}")]
-        public void RemoveMessage(string id, int id2)
+        public async Task RemoveMessage(string id, int id2)
         {
-            // var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
-            // var user = _service.Get(userName);
-            // var contact = _service.GetContact(userName, id);
-            // Message messageUser;
-            // // Makes sure the message and contact exists.
-            // if (contact == null || (messageUser = user.Contacts[contact].Find(x => x.Id == id2)) == null)
-            //     return;
-            // user.Contacts[contact].Remove(messageUser);
+            var userName = HttpContext.User.Claims.First(i => i.Type == "UserId").Value;
+            var contact = await _service.GetContact(userName, id);
+            Message? messageUser;
+            // Makes sure the message and contact exists.
+            if (contact == null || (messageUser = await _service.GetMessage(userName, id, id2)) == null)
+                return;
+            await _service.RemoveMessage(messageUser);
         }
     }
 }

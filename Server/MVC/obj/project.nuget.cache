@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J+MqSvcwARa30jiZePtPLHRupq4KBzgn5kjf5VtwwQqwrL8zzXAYZUG1ptO4m9yKA9CAOj6AYx2u2fb0yMMDpg==",
+  "dgSpecHash": "dCzvytktrENU3PPQkZsmZvYoNMg2INY2ALlLx+tSUaNkJUkCBljt+QCc+FHrX/9ES8NjHwlumYkDKD4if/ykWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\MVC\\MVC.csproj",
+  "projectFilePath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\idodd\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\idodd\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

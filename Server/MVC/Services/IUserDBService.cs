@@ -14,13 +14,15 @@ public interface IUserDBService
 
     public Task AddContact(string userName, string id, string name, string server);
 
-    public void RemoveContact(string userName, string friendName);
+    public Task RemoveContact(string userName, string friendName);
 
     public Task<ICollection<Message>?> GetMessages(string userName, string friendName);
         
     public Task<Message?> GetMessage(string userName, string friendName, int messageId);
 
     public Task<Message?> AddMessage(string userName, string friendName, string message, bool sent);
+    
+    public Task RemoveMessage(Message message);
 
     public Task AddUser(User user);
 }

@@ -29,11 +29,11 @@ drawable settings_foreground
 id IdLayout
 id NameLayout
 id Password1Layout
+id Password2Layout
 id RegisterBtn
 id RegisterPassword1
 id RegisterPassword2
 id RegisterUserName
-id ServerLayout
 id UploadImg
 id UserImage
 id add_contact_btn

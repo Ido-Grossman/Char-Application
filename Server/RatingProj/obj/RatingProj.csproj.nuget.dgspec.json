@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {}
+    "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
+    "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
         "projectName": "RatingProj",
-        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
         "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\Server\\RatingProj\\obj\\",
+        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
