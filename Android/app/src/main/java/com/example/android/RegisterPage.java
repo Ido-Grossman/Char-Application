@@ -14,7 +14,7 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.android.Data.AppDB;
-import com.example.android.Data.UserDao;
+import com.example.android.Data.ContactDao;
 import com.example.android.api.UserApi;
 import com.example.android.entities.UserCred;
 import com.google.android.material.textfield.TextInputLayout;
@@ -22,7 +22,7 @@ import com.google.android.material.textfield.TextInputLayout;
 public class RegisterPage extends AppCompatActivity {
 
     private AppDB db;
-    private UserDao userDao;
+    private ContactDao contactDao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

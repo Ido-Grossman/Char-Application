@@ -10,13 +10,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
 import com.example.android.Data.AppDB;
-import com.example.android.Data.UserDao;
-
-import com.example.android.api.ContactApi;
+import com.example.android.Data.ContactDao;
 
 public class MainActivity extends AppCompatActivity {
     private AppDB db;
-    private UserDao userDao;
+    private ContactDao contactDao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +38,6 @@ public class MainActivity extends AppCompatActivity {
         //create room database:
         db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")
                 .fallbackToDestructiveMigration().allowMainThreadQueries().build();
-        userDao = db.userDao();
+        contactDao = db.userDao();
     }
 }

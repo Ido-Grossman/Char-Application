@@ -18,6 +18,9 @@ public class User
     public string Server { get; set; }
     
     [JsonIgnore]
+    public string FirebaseToken { get; set; }
+    
+    [JsonIgnore]
     public ICollection<Contact> Contacts { get; set; }
 
     public User()

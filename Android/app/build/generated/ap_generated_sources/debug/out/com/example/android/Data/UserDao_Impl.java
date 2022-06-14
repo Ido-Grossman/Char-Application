@@ -18,27 +18,27 @@ import java.util.Collections;
 import java.util.List;
 
 @SuppressWarnings({"unchecked", "deprecation"})
-public final class UserDao_Impl implements UserDao {
+public final class UserDao_Impl implements ContactDao {
   private final RoomDatabase __db;
 
-  private final EntityInsertionAdapter<User> __insertionAdapterOfUser;
+  private final EntityInsertionAdapter<Contact> __insertionAdapterOfUser;
 
   private final MessagesConverter __messagesConverter = new MessagesConverter();
 
-  private final EntityDeletionOrUpdateAdapter<User> __deletionAdapterOfUser;
+  private final EntityDeletionOrUpdateAdapter<Contact> __deletionAdapterOfUser;
 
-  private final EntityDeletionOrUpdateAdapter<User> __updateAdapterOfUser;
+  private final EntityDeletionOrUpdateAdapter<Contact> __updateAdapterOfUser;
 
   public UserDao_Impl(RoomDatabase __db) {
     this.__db = __db;
-    this.__insertionAdapterOfUser = new EntityInsertionAdapter<User>(__db) {
+    this.__insertionAdapterOfUser = new EntityInsertionAdapter<Contact>(__db) {
       @Override
       public String createQuery() {
         return "INSERT OR ABORT INTO `User` (`Id`,`Name`,`LastDate`,`LastMessageId`,`Last`,`Server`,`msg_list`,`image`) VALUES (?,?,?,?,?,?,?,?)";
       }
 
       @Override
-      public void bind(SupportSQLiteStatement stmt, User value) {
+      public void bind(SupportSQLiteStatement stmt, Contact value) {
         if (value.getId() == null) {
           stmt.bindNull(1);
         } else {
@@ -78,14 +78,14 @@ public final class UserDao_Impl implements UserDao {
         }
       }
     };
-    this.__deletionAdapterOfUser = new EntityDeletionOrUpdateAdapter<User>(__db) {
+    this.__deletionAdapterOfUser = new EntityDeletionOrUpdateAdapter<Contact>(__db) {
       @Override
       public String createQuery() {
         return "DELETE FROM `User` WHERE `Id` = ?";
       }
 
       @Override
-      public void bind(SupportSQLiteStatement stmt, User value) {
+      public void bind(SupportSQLiteStatement stmt, Contact value) {
         if (value.getId() == null) {
           stmt.bindNull(1);
         } else {
@@ -93,14 +93,14 @@ public final class UserDao_Impl implements UserDao {
         }
       }
     };
-    this.__updateAdapterOfUser = new EntityDeletionOrUpdateAdapter<User>(__db) {
+    this.__updateAdapterOfUser = new EntityDeletionOrUpdateAdapter<Contact>(__db) {
       @Override
       public String createQuery() {
         return "UPDATE OR ABORT `User` SET `Id` = ?,`Name` = ?,`LastDate` = ?,`LastMessageId` = ?,`Last` = ?,`Server` = ?,`msg_list` = ?,`image` = ? WHERE `Id` = ?";
       }
 
       @Override
-      public void bind(SupportSQLiteStatement stmt, User value) {
+      public void bind(SupportSQLiteStatement stmt, Contact value) {
         if (value.getId() == null) {
           stmt.bindNull(1);
         } else {
@@ -148,11 +148,11 @@ public final class UserDao_Impl implements UserDao {
   }
 
   @Override
-  public void insert(final User... users) {
+  public void insert(final Contact... contacts) {
     __db.assertNotSuspendingTransaction();
     __db.beginTransaction();
     try {
-      __insertionAdapterOfUser.insert(users);
+      __insertionAdapterOfUser.insert(contacts);
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();
@@ -160,11 +160,11 @@ public final class UserDao_Impl implements UserDao {
   }
 
   @Override
-  public void delete(final User... users) {
+  public void delete(final Contact... contacts) {
     __db.assertNotSuspendingTransaction();
     __db.beginTransaction();
     try {
-      __deletionAdapterOfUser.handleMultiple(users);
+      __deletionAdapterOfUser.handleMultiple(contacts);
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();
@@ -172,11 +172,11 @@ public final class UserDao_Impl implements UserDao {
   }
 
   @Override
-  public void update(final User... users) {
+  public void update(final Contact... contacts) {
     __db.assertNotSuspendingTransaction();
     __db.beginTransaction();
     try {
-      __updateAdapterOfUser.handleMultiple(users);
+      __updateAdapterOfUser.handleMultiple(contacts);
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();
@@ -184,7 +184,7 @@ public final class UserDao_Impl implements UserDao {
   }
 
   @Override
-  public List<User> index() {
+  public List<Contact> index() {
     final String _sql = "SELECT * FROM user";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
     __db.assertNotSuspendingTransaction();
@@ -198,9 +198,9 @@ public final class UserDao_Impl implements UserDao {
       final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
       final int _cursorIndexOfMsgList = CursorUtil.getColumnIndexOrThrow(_cursor, "msg_list");
       final int _cursorIndexOfImage = CursorUtil.getColumnIndexOrThrow(_cursor, "image");
-      final List<User> _result = new ArrayList<User>(_cursor.getCount());
+      final List<Contact> _result = new ArrayList<Contact>(_cursor.getCount());
       while(_cursor.moveToNext()) {
-        final User _item;
+        final Contact _item;
         final Integer _tmpId;
         if (_cursor.isNull(_cursorIndexOfId)) {
           _tmpId = null;
@@ -233,7 +233,7 @@ public final class UserDao_Impl implements UserDao {
         } else {
           _tmpServer = _cursor.getString(_cursorIndexOfServer);
         }
-        _item = new User(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
+        _item = new Contact(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
         final Messages _tmpMsg_list;
         final String _tmp;
         if (_cursor.isNull(_cursorIndexOfMsgList)) {
@@ -258,7 +258,7 @@ public final class UserDao_Impl implements UserDao {
   }
 
   @Override
-  public User get(final int id) {
+  public Contact get(final int id) {
     final String _sql = "SELECT * FROM user WHERE id = ?";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
     int _argIndex = 1;
@@ -274,7 +274,7 @@ public final class UserDao_Impl implements UserDao {
       final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
       final int _cursorIndexOfMsgList = CursorUtil.getColumnIndexOrThrow(_cursor, "msg_list");
       final int _cursorIndexOfImage = CursorUtil.getColumnIndexOrThrow(_cursor, "image");
-      final User _result;
+      final Contact _result;
       if(_cursor.moveToFirst()) {
         final Integer _tmpId;
         if (_cursor.isNull(_cursorIndexOfId)) {
@@ -308,7 +308,7 @@ public final class UserDao_Impl implements UserDao {
         } else {
           _tmpServer = _cursor.getString(_cursorIndexOfServer);
         }
-        _result = new User(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
+        _result = new Contact(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
         final Messages _tmpMsg_list;
         final String _tmp;
         if (_cursor.isNull(_cursorIndexOfMsgList)) {

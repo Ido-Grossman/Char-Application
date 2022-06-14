@@ -10,8 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
 import com.example.android.Data.AppDB;
-import com.example.android.Data.User;
-import com.example.android.Data.UserDao;
+import com.example.android.Data.Contact;
+import com.example.android.Data.ContactDao;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -22,7 +22,7 @@ public class ContactsActivity extends AppCompatActivity {
     CustomListAdapter adapter;
 
     private AppDB db;
-    private UserDao userDao;
+    private ContactDao contactDao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,12 +31,12 @@ public class ContactsActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
 
-        ArrayList<User> users;
+        ArrayList<Contact> contacts;
 
         //create room database:
         db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")
                 .fallbackToDestructiveMigration().allowMainThreadQueries().build();
-        userDao = db.userDao();
+        contactDao = db.userDao();
 
         FloatingActionButton btnAdd = findViewById(R.id.add_contact_btn);
         btnAdd.setOnClickListener(view-> {
@@ -44,9 +44,9 @@ public class ContactsActivity extends AppCompatActivity {
             startActivity(i);
         });
 
-        users = (ArrayList<User>) userDao.index();
+        contacts = (ArrayList<Contact>) contactDao.index();
         listView = findViewById(R.id.list_view);
-        adapter = new CustomListAdapter(getApplicationContext(), users);
+        adapter = new CustomListAdapter(getApplicationContext(), contacts);
 
         listView.setAdapter(adapter);
         listView.setClickable(true);
@@ -56,10 +56,10 @@ public class ContactsActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
 
-                User user = users.get(i);
-                intent.putExtra("userId", user.getId());
-                intent.putExtra("userName", user.getName());
-                intent.putExtra("lastDateTime", user.getLastDate());
+                Contact contact = contacts.get(i);
+                intent.putExtra("userId", contact.getId());
+                intent.putExtra("userName", contact.getName());
+                intent.putExtra("lastDateTime", contact.getLastDate());
                 //intent.putExtra("profilePicture", user.); //todo - support image
 
                 startActivity(intent);

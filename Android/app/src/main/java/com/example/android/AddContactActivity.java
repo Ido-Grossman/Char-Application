@@ -8,12 +8,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
 import com.example.android.Data.AppDB;
-import com.example.android.Data.User;
-import com.example.android.Data.UserDao;
+import com.example.android.Data.Contact;
+import com.example.android.Data.ContactDao;
 
 public class AddContactActivity extends AppCompatActivity {
     private AppDB db;
-    private UserDao userDao;
+    private ContactDao contactDao;
 
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
@@ -23,7 +23,7 @@ public class AddContactActivity extends AppCompatActivity {
             //create room database:
             db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")
                     .fallbackToDestructiveMigration().allowMainThreadQueries().build();
-            userDao = db.userDao();
+            contactDao = db.userDao();
 
             Button registerBtn = findViewById(R.id.add_contact_btn);
             registerBtn.setOnClickListener(view -> {
@@ -33,8 +33,8 @@ public class AddContactActivity extends AppCompatActivity {
                 int a = Integer.parseInt(c_id.getText().toString());
                 String b = c_nickname.getText().toString();
                 String c = c_server.getText().toString();
-                User user = new User(a,b,c);
-                userDao.insert(user);
+                Contact contact = new Contact(a,b,c);
+                contactDao.insert(contact);
 
                 finish();
             });

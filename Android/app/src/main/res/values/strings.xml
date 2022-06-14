@@ -14,7 +14,7 @@
     <string name="register_btn" translatable="false">Register</string>
     <string name="main_logo" translatable="false">Main Logo</string>
     <string name="upload_image" translatable="false">Upload Image</string>
-    <string name="image_of_the_user" translatable="false">Image of the user</string>
+    <string name="image_of_the_user" translatable="false">Image of the contact</string>
     <string name="add_contact_name">Contact Name</string>
     <string name="add_contact_id">Contact id</string>
     <string name="add_contact_server">Contact Server</string>

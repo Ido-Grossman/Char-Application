@@ -4,19 +4,13 @@ import androidx.annotation.NonNull;
 import androidx.room.DatabaseConfiguration;
 import androidx.room.InvalidationTracker;
 import androidx.room.RoomOpenHelper;
-import androidx.room.RoomOpenHelper.Delegate;
-import androidx.room.RoomOpenHelper.ValidationResult;
 import androidx.room.migration.AutoMigrationSpec;
 import androidx.room.migration.Migration;
 import androidx.room.util.DBUtil;
 import androidx.room.util.TableInfo;
-import androidx.room.util.TableInfo.Column;
-import androidx.room.util.TableInfo.ForeignKey;
-import androidx.room.util.TableInfo.Index;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 import androidx.sqlite.db.SupportSQLiteOpenHelper;
-import androidx.sqlite.db.SupportSQLiteOpenHelper.Callback;
-import androidx.sqlite.db.SupportSQLiteOpenHelper.Configuration;
+
 import java.lang.Class;
 import java.lang.Override;
 import java.lang.String;
@@ -30,7 +24,7 @@ import java.util.Set;
 
 @SuppressWarnings({"unchecked", "deprecation"})
 public final class AppDB_Impl extends AppDB {
-  private volatile UserDao _userDao;
+  private volatile ContactDao _contactDao;
 
   private volatile messageDao _messageDao;
 
@@ -158,7 +152,7 @@ public final class AppDB_Impl extends AppDB {
   @Override
   protected Map<Class<?>, List<Class<?>>> getRequiredTypeConverters() {
     final HashMap<Class<?>, List<Class<?>>> _typeConvertersMap = new HashMap<Class<?>, List<Class<?>>>();
-    _typeConvertersMap.put(UserDao.class, UserDao_Impl.getRequiredConverters());
+    _typeConvertersMap.put(ContactDao.class, UserDao_Impl.getRequiredConverters());
     _typeConvertersMap.put(messageDao.class, messageDao_Impl.getRequiredConverters());
     return _typeConvertersMap;
   }
@@ -176,15 +170,15 @@ public final class AppDB_Impl extends AppDB {
   }
 
   @Override
-  public UserDao userDao() {
-    if (_userDao != null) {
-      return _userDao;
+  public ContactDao userDao() {
+    if (_contactDao != null) {
+      return _contactDao;
     } else {
       synchronized(this) {
-        if(_userDao == null) {
-          _userDao = new UserDao_Impl(this);
+        if(_contactDao == null) {
+          _contactDao = new UserDao_Impl(this);
         }
-        return _userDao;
+        return _contactDao;
       }
     }
   }

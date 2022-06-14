@@ -11,15 +11,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.android.Data.User;
+import com.example.android.Data.Contact;
 
 import java.util.ArrayList;
 
-public class CustomListAdapter extends ArrayAdapter<User> {
+public class CustomListAdapter extends ArrayAdapter<Contact> {
     LayoutInflater inflater;
 
-    public CustomListAdapter(Context ctx, ArrayList<User> userArrayList) {
-        super(ctx, R.layout.contact_list_item, userArrayList);
+    public CustomListAdapter(Context ctx, ArrayList<Contact> contactArrayList) {
+        super(ctx, R.layout.contact_list_item, contactArrayList);
 
         this.inflater = LayoutInflater.from(ctx);
     }
@@ -28,7 +28,7 @@ public class CustomListAdapter extends ArrayAdapter<User> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
-        User user = getItem(position);
+        Contact contact = getItem(position);
 
         if (convertView == null) {
             convertView = inflater.inflate(R.layout.contact_list_item, parent, false);
@@ -40,9 +40,9 @@ public class CustomListAdapter extends ArrayAdapter<User> {
         TextView time = convertView.findViewById(R.id.time);
 
         imageView.setImageResource(R.mipmap.ic_launcher_foreground); //todo
-        userName.setText(user.getName());
-        lastMsg.setText(user.getLast());
-        time.setText(user.getLastDate());
+        userName.setText(contact.getName());
+        lastMsg.setText(contact.getLast());
+        time.setText(contact.getLastDate());
 
         return convertView;
     }
