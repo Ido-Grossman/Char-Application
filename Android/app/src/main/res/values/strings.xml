@@ -15,10 +15,11 @@
     <string name="main_logo" translatable="false">Main Logo</string>
     <string name="upload_image" translatable="false">Upload Image</string>
     <string name="image_of_the_user" translatable="false">Image of the user</string>
-    <string name="add_contact_title" translatable="false">hello</string>
-    <string name="add_contact_name" translatable="false">hiii</string>
-    <string name="add_contact_id" translatable="false">ahoy</string>
-    <string name="add_contact_server" translatable="false">yay</string>
-    <string name="add_contact_button" translatable="false">yolo</string>
-    <string name="type_a_message" translatable="false">yes</string>
+    <string name="add_contact_name">Contact Name</string>
+    <string name="add_contact_id">Contact id</string>
+    <string name="add_contact_server">Contact Server</string>
+    <string name="add_contact_title">Add Contact</string>
+    <string name="add_contact_button">Save Contact</string>
+    <!--chats activity-->
+    <string name="type_a_message">Type a message</string>
 </resources>

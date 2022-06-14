@@ -34,7 +34,7 @@ public final class UserDao_Impl implements UserDao {
     this.__insertionAdapterOfUser = new EntityInsertionAdapter<User>(__db) {
       @Override
       public String createQuery() {
-        return "INSERT OR ABORT INTO `User` (`Id`,`Name`,`LastDate`,`LastMessageId`,`Last`,`Server`,`msg_list`) VALUES (?,?,?,?,?,?,?)";
+        return "INSERT OR ABORT INTO `User` (`Id`,`Name`,`LastDate`,`LastMessageId`,`Last`,`Server`,`msg_list`,`image`) VALUES (?,?,?,?,?,?,?,?)";
       }
 
       @Override
@@ -70,6 +70,11 @@ public final class UserDao_Impl implements UserDao {
           stmt.bindNull(7);
         } else {
           stmt.bindString(7, _tmp);
+        }
+        if (value.image == null) {
+          stmt.bindNull(8);
+        } else {
+          stmt.bindBlob(8, value.image);
         }
       }
     };
@@ -91,7 +96,7 @@ public final class UserDao_Impl implements UserDao {
     this.__updateAdapterOfUser = new EntityDeletionOrUpdateAdapter<User>(__db) {
       @Override
       public String createQuery() {
-        return "UPDATE OR ABORT `User` SET `Id` = ?,`Name` = ?,`LastDate` = ?,`LastMessageId` = ?,`Last` = ?,`Server` = ?,`msg_list` = ? WHERE `Id` = ?";
+        return "UPDATE OR ABORT `User` SET `Id` = ?,`Name` = ?,`LastDate` = ?,`LastMessageId` = ?,`Last` = ?,`Server` = ?,`msg_list` = ?,`image` = ? WHERE `Id` = ?";
       }
 
       @Override
@@ -128,10 +133,15 @@ public final class UserDao_Impl implements UserDao {
         } else {
           stmt.bindString(7, _tmp);
         }
-        if (value.getId() == null) {
+        if (value.image == null) {
           stmt.bindNull(8);
         } else {
-          stmt.bindLong(8, value.getId());
+          stmt.bindBlob(8, value.image);
+        }
+        if (value.getId() == null) {
+          stmt.bindNull(9);
+        } else {
+          stmt.bindLong(9, value.getId());
         }
       }
     };
@@ -187,6 +197,7 @@ public final class UserDao_Impl implements UserDao {
       final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "Last");
       final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
       final int _cursorIndexOfMsgList = CursorUtil.getColumnIndexOrThrow(_cursor, "msg_list");
+      final int _cursorIndexOfImage = CursorUtil.getColumnIndexOrThrow(_cursor, "image");
       final List<User> _result = new ArrayList<User>(_cursor.getCount());
       while(_cursor.moveToNext()) {
         final User _item;
@@ -232,6 +243,11 @@ public final class UserDao_Impl implements UserDao {
         }
         _tmpMsg_list = __messagesConverter.storedStringToLanguages(_tmp);
         _item.setMsg_list(_tmpMsg_list);
+        if (_cursor.isNull(_cursorIndexOfImage)) {
+          _item.image = null;
+        } else {
+          _item.image = _cursor.getBlob(_cursorIndexOfImage);
+        }
         _result.add(_item);
       }
       return _result;
@@ -257,6 +273,7 @@ public final class UserDao_Impl implements UserDao {
       final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "Last");
       final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
       final int _cursorIndexOfMsgList = CursorUtil.getColumnIndexOrThrow(_cursor, "msg_list");
+      final int _cursorIndexOfImage = CursorUtil.getColumnIndexOrThrow(_cursor, "image");
       final User _result;
       if(_cursor.moveToFirst()) {
         final Integer _tmpId;
@@ -301,6 +318,11 @@ public final class UserDao_Impl implements UserDao {
         }
         _tmpMsg_list = __messagesConverter.storedStringToLanguages(_tmp);
         _result.setMsg_list(_tmpMsg_list);
+        if (_cursor.isNull(_cursorIndexOfImage)) {
+          _result.image = null;
+        } else {
+          _result.image = _cursor.getBlob(_cursorIndexOfImage);
+        }
       } else {
         _result = null;
       }

@@ -6,87 +6,85 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
+8-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
+9-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:6:5-66
-11-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:6:22-64
+11-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:6:5-66
+11-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:8:5-40:19
-14        android:name="com.example.android.MyApp"
-14-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:9:9-30
-15        android:allowBackup="true"
-15-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:10:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.5.0] C:\Users\idodd\.gradle\caches\transforms-3\4cb2d3ae910a25e4d3b75b6b0d8d1b11\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
-17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:11:9-65
-18        android:debuggable="true"
-19        android:fullBackupContent="@xml/backup_rules"
-19-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:12:9-54
-20        android:icon="@mipmap/ic_launcher"
-20-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:13:9-43
-21        android:label="@string/app_name"
-21-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:14:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:15:9-54
-23        android:supportsRtl="true"
-23-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:16:9-35
-24        android:testOnly="true"
-25        android:theme="@style/Theme.Android"
-25-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:17:9-45
-26        android:usesCleartextTraffic="true" >
-26-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:19:9-44
+13-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:9:5-45:19
+14        android:allowBackup="true"
+14-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:10:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.5.0] /Users/elisilverstine/.gradle/caches/transforms-3/4cb2d3ae910a25e4d3b75b6b0d8d1b11/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:11:9-65
+17        android:debuggable="true"
+18        android:fullBackupContent="@xml/backup_rules"
+18-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:12:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:13:9-43
+20        android:label="@string/app_name"
+20-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:14:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:15:9-54
+22        android:supportsRtl="true"
+22-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:16:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.Android" >
+24-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:17:9-45
+25
+26        <!-- todo - change back to be on launch - mainactivity -->
 27        <activity
-27-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:21:9-29:20
+27-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:20:9-30:20
 28            android:name="com.example.android.MainActivity"
-28-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:22:13-41
+28-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:21:13-41
 29            android:exported="true" >
-29-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:23:13-36
+29-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:22:13-36
 30            <intent-filter>
-30-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:24:13-28:29
+30-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:23:13-29:29
 31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:17-69
-31-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:25-66
+31-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:24:17-69
+31-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:24:25-66
 32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:27:17-77
-33-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:27:27-74
+33<!--                                 <category android:name="android.intent.category.LAUNCHER" /> -->
 34            </intent-filter>
 35        </activity>
-36        <activity
-36-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:31:9-39:20
-37            android:name="com.example.android.RegisterPage"
-37-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:32:13-41
-38            android:exported="true" >
-38-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:33:13-36
-39            <intent-filter>
-39-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:34:13-38:29
-40                <action android:name="android.intent.action.VIEW" />
-40-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:35:17-68
-40-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:35:25-66
-41
-42                <category android:name="android.intent.category.DEFAULT" />
-42-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:36:17-75
-42-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:36:27-73
+36        <activity android:name="com.example.android.ChatActivity" />
+36-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:31:9-32:44
+36-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:32:13-41
+37        <activity android:name="com.example.android.AddContactActivity" />
+37-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:33:9-34:50
+37-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:34:13-47
+38        <activity
+38-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:35:9-42:20
+39            android:name="com.example.android.ContactsActivity"
+39-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:36:13-45
+40            android:exported="true" >
+40-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:37:13-36
+41            <intent-filter>
+41-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:38:13-41:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:24:17-69
+42-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:24:25-66
 43
-44                <data android:scheme="http" />
-44-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:37:17-46
-44-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:37:23-44
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:40:17-77
+44-->/Users/elisilverstine/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:40:27-74
 45            </intent-filter>
 46        </activity>
 47
 48        <service
-48-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\4a3b5f33337ded1b81c553095eeef74a\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+48-->[androidx.room:room-runtime:2.4.2] /Users/elisilverstine/.gradle/caches/transforms-3/4a3b5f33337ded1b81c553095eeef74a/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
 49            android:name="androidx.room.MultiInstanceInvalidationService"
-49-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\4a3b5f33337ded1b81c553095eeef74a\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+49-->[androidx.room:room-runtime:2.4.2] /Users/elisilverstine/.gradle/caches/transforms-3/4a3b5f33337ded1b81c553095eeef74a/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
 50            android:directBootAware="true"
-50-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\4a3b5f33337ded1b81c553095eeef74a\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+50-->[androidx.room:room-runtime:2.4.2] /Users/elisilverstine/.gradle/caches/transforms-3/4a3b5f33337ded1b81c553095eeef74a/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
 51            android:exported="false" />
-51-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\4a3b5f33337ded1b81c553095eeef74a\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+51-->[androidx.room:room-runtime:2.4.2] /Users/elisilverstine/.gradle/caches/transforms-3/4a3b5f33337ded1b81c553095eeef74a/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
 52    </application>
 53
 54</manifest>

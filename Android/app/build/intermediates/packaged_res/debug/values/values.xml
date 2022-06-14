@@ -12,11 +12,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="BaseUrl" translatable="false">http://10.0.2.2:7225/api/</string>
-    <string name="add_contact_button" translatable="false">yolo</string>
-    <string name="add_contact_id" translatable="false">ahoy</string>
-    <string name="add_contact_name" translatable="false">hiii</string>
-    <string name="add_contact_server" translatable="false">yay</string>
-    <string name="add_contact_title" translatable="false">hello</string>
+    <string name="add_contact_button">Save Contact</string>
+    <string name="add_contact_id">Contact id</string>
+    <string name="add_contact_name">Contact Name</string>
+    <string name="add_contact_server">Contact Server</string>
+    <string name="add_contact_title">Add Contact</string>
     <string name="app_name" translatable="false">ChatOS</string>
     <string name="button" translatable="false">Button</string>
     <string name="image" translatable="false">TODO</string>
@@ -31,7 +31,7 @@
     <string name="register_password2" translatable="false">Enter password again</string>
     <string name="title" translatable="false">ChatOS</string>
     <string name="to_register" translatable="false">Don\'t have an account?</string>
-    <string name="type_a_message" translatable="false">yes</string>
+    <string name="type_a_message">Type a message</string>
     <string name="upload_image" translatable="false">Upload Image</string>
     <style name="Button.White" parent="ThemeOverlay.AppCompat">
         <item name="colorAccent">@color/white</item>

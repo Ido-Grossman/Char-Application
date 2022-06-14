@@ -4,7 +4,7 @@ import androidx.room.Database;
 import androidx.room.RoomDatabase;
 import androidx.room.TypeConverters;
 
-@Database(entities = {User.class, Message.class}, version = 3)
+@Database(entities = {User.class, Message.class}, version = 4)
 @TypeConverters({MessagesConverter.class})
 public abstract class AppDB extends RoomDatabase{
     public abstract UserDao userDao();
