@@ -11,6 +11,8 @@ import androidx.room.Room;
 
 import com.example.android.Data.AppDB;
 import com.example.android.Data.ContactDao;
+import com.example.android.api.UserApi;
+import com.example.android.entities.UserCred;
 
 public class MainActivity extends AppCompatActivity {
     private AppDB db;
@@ -28,6 +30,14 @@ public class MainActivity extends AppCompatActivity {
         loginBtn.setOnClickListener(view -> {
             EditText username = findViewById(R.id.usernameInput);
             EditText password = findViewById(R.id.passwordInput);
+            String strUsername = username.getText().toString();
+            String strPassword = password.getText().toString();
+            System.out.println(username);
+            System.out.println(password);
+            String strPass = password.toString();
+            UserApi userApi = new UserApi();
+            UserCred user = new UserCred(strUsername, strPassword, "hello","http://localhost:7225");
+            userApi.tryToLogin(user);
         });
         TextView registerBtn = findViewById(R.id.registerBtn);
         registerBtn.setOnClickListener(view -> {
