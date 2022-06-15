@@ -10,11 +10,12 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;
 import retrofit2.http.GET;
+import retrofit2.http.Header;
 import retrofit2.http.POST;
 
 public interface WebServiceAPI {
     @GET("Contacts")
-    Call<List<Contact>> getContacts();
+    Call<List<Contact>> getContacts(@Header("Authorization") String token);
 
     @POST("Contacts")
     Call<Contact> createContact();

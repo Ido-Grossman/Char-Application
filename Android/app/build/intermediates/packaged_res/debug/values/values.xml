@@ -20,7 +20,7 @@
     <string name="app_name" translatable="false">ChatOS</string>
     <string name="button" translatable="false">Button</string>
     <string name="image" translatable="false">TODO</string>
-    <string name="image_of_the_user" translatable="false">Image of the user</string>
+    <string name="image_of_the_user" translatable="false">Image of the contact</string>
     <string name="image_title" translatable="false">TODO</string>
     <string name="linkto_register" translatable="false">Click here</string>
     <string name="login_button" translatable="false">Log In</string>

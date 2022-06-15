@@ -34,8 +34,12 @@ public class UserApi {
         call.enqueue(new Callback<String>() {
             @Override
             public void onResponse(Call<String> call, Response<String> response) {
-                String token = response.body();
-
+                if (response.isSuccessful()){
+                    String token = response.body();
+                    ContactApi contactApi = new ContactApi();
+                    MyApp.token = token;
+                    contactApi.get(MyApp.token);
+                }
             }
 
             @Override

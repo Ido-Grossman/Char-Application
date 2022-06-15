@@ -1,6 +1,5 @@
 package com.example.android.entities;
 
-import java.util.Dictionary;
 import java.util.HashMap;
 import java.util.List;
 
@@ -9,16 +8,16 @@ public class User
     public String id;
     public String password;
     public String name;
-    public String image;
+    public String fireBaseToken;
     public String server;
     public HashMap<Contact, List<Message>> contacts;
 
-    public User(String id, String password, String name, String image, String server)
+    public User(String id, String password, String name, String fireBaseToken, String server)
     {
         this.id = id;
         this.password = password;
         this.name = name;
-        this.image = image;
+        this.fireBaseToken = fireBaseToken;
         this.server = server;
         this.contacts = new HashMap<Contact, List<Message>>();
     }

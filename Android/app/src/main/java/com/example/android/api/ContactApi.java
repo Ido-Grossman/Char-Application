@@ -24,8 +24,8 @@ public class ContactApi {
         webServiceAPI = retrofit.create(WebServiceAPI.class);
     }
 
-    public void get() {
-        Call<List<Contact>> call = webServiceAPI.getContacts();
+    public void get(String token) {
+        Call<List<Contact>> call = webServiceAPI.getContacts("Bearer "+token);
         call.enqueue(new Callback<List<Contact>>() {
             @Override
             public void onResponse(Call<List<Contact>> call, Response<List<Contact>> response) {
