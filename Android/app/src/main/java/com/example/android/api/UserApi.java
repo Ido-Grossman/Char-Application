@@ -68,4 +68,25 @@ public class UserApi {
             }
         });
     }
+
+    public void tryToLogin(UserCred userCred){
+        Call<String> call = webServiceAPI.logIn(userCred);
+        call.enqueue(new Callback<String>() {
+            @Override
+            public void onResponse(Call<String> call, Response<String> response) {
+                if (response.isSuccessful()){
+                    MyApp.token = response.body();
+                    ContactApi contactApi = new ContactApi();
+                    contactApi.get(MyApp.token);
+                    return;
+                }
+                System.out.println("YOYOYO");
+            }
+
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+
+            }
+        });
+    }
 }

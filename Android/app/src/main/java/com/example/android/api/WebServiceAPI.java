@@ -25,4 +25,7 @@ public interface WebServiceAPI {
 
     @POST("Users/Exists")
     Call<Void> checkIfUsernameExists(@Body String username);
+
+    @POST("Users/Login")
+    Call<String> logIn(@Body UserCred loginCred);
 }
