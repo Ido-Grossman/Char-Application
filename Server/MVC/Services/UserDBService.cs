@@ -39,14 +39,15 @@ public class UserDBService : IUserDBService
     public async Task<Contact?> GetContact(string userName, string friendName)
     {
         // Searches in the database of contacts to the first contact with the userId and contact name that matches.
-        return await _context.Contacts.FindAsync(friendName, userName);
+        var contacts = await GetContacts(userName);
+        return contacts?.FirstOrDefault(e => e.Id == friendName);
     }
 
     public async Task AddContact(string userName, string id, string name, string server)
     {
         // Gets the user from the database.
         var user = await Get(userName);
-        var contact = await _context.Contacts.FindAsync(userName, id);
+        var contact = await GetContact(userName, id);
         // Makes sure the contact isn't in the user contacts.
         if (contact != null)
             return;
