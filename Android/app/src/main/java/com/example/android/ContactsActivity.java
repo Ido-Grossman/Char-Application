@@ -15,7 +15,6 @@ import com.example.android.Data.ContactDao;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class ContactsActivity extends AppCompatActivity {
 
@@ -30,35 +29,36 @@ public class ContactsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
         getSupportActionBar().hide();
-        List<Contact> contactList = MyApp.contactList;
-        int numberOfContacts = contactList.size();
 
         ArrayList<Contact> contacts;
 
         //create room database:
         db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")
                 .fallbackToDestructiveMigration().allowMainThreadQueries().build();
-        contactDao = db.userDao();
+        contactDao = db.contactDao();
 
         FloatingActionButton btnAdd = findViewById(R.id.add_contact_btn);
         btnAdd.setOnClickListener(view-> {
             Intent i = new Intent(this,AddContactActivity.class);
             startActivity(i);
         });
+/*        contacts = (ArrayList<Contact>) MyApp.contactList;
+        if(contacts.size() == 0) //if api conatcts empty try from dao todo uncomment*/
+            contacts = (ArrayList<Contact>) contactDao.index();
 
-        contacts = (ArrayList<Contact>) contactDao.index();
         listView = findViewById(R.id.list_view);
         adapter = new CustomListAdapter(getApplicationContext(), contacts);
 
         listView.setAdapter(adapter);
         listView.setClickable(true);
 
+        ArrayList<Contact> finalContacts = contacts;
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
 
-                Contact contact = contacts.get(i);
+                Contact contact = finalContacts.get(i);
                 intent.putExtra("userId", contact.getId());
                 intent.putExtra("userName", contact.getName());
                 intent.putExtra("lastDateTime", contact.getLastDate());

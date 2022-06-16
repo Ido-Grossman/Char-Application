@@ -176,7 +176,7 @@ public final class AppDB_Impl extends AppDB {
   }
 
   @Override
-  public ContactDao userDao() {
+  public ContactDao contactDao() {
     if (_contactDao != null) {
       return _contactDao;
     } else {

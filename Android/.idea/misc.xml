@@ -5,6 +5,7 @@
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/register_page.xml" value="0.358695652173913" />
+        <entry key="app/src/main/res/drawable/background_sent_message.xml" value="0.172" />
         <entry key="app/src/main/res/layout-iw-land-night/activity_main.xml" value="0.33603603603603605" />
         <entry key="app/src/main/res/layout-iw-land/activity_main.xml" value="0.33603603603603605" />
         <entry key="app/src/main/res/layout-iw-night/activity_main.xml" value="0.19427083333333334" />
@@ -14,12 +15,19 @@
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout-land/activity_main_lands.xml" value="0.22882882882882882" />
         <entry key="app/src/main/res/layout-land/activity_main_landscape.xml" value="0.22702702702702704" />
+        <entry key="app/src/main/res/layout-night/activity_add_contact.xml" value="0.1324419778002018" />
+        <entry key="app/src/main/res/layout-night/activity_chat.xml" value="0.1324419778002018" />
+        <entry key="app/src/main/res/layout-night/activity_contacts.xml" value="0.22" />
         <entry key="app/src/main/res/layout-night/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-night/contact_list_item.xml" value="0.13193743693239152" />
         <entry key="app/src/main/res/layout/activity_add_contact.xml" value="0.40341880341880343" />
         <entry key="app/src/main/res/layout/activity_chat.xml" value="0.1953125" />
-        <entry key="app/src/main/res/layout/activity_contacts.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_contacts.xml" value="0.1324419778002018" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_main1.xml" value="0.32222222222222224" />
+        <entry key="app/src/main/res/layout/contact_list_item.xml" value="0.1324419778002018" />
+        <entry key="app/src/main/res/layout/item_container_recieved_message.xml" value="0.1324419778002018" />
+        <entry key="app/src/main/res/layout/item_container_sent_message.xml" value="0.1324419778002018" />
         <entry key="app/src/main/res/layout/register_page.xml" value="0.19427083333333334" />
       </map>
     </option>

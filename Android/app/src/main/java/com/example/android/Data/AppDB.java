@@ -7,6 +7,6 @@ import androidx.room.TypeConverters;
 @Database(entities = {Contact.class, Message.class}, version = 4)
 @TypeConverters({MessagesConverter.class})
 public abstract class AppDB extends RoomDatabase{
-    public abstract ContactDao userDao();
+    public abstract ContactDao contactDao();
     public abstract messageDao messageDao();
 }

@@ -1,9 +1,5 @@
 package com.example.android.Data;
 
-import androidx.room.Entity;
-import androidx.room.PrimaryKey;
-
-
 public class User {
 
 
@@ -35,4 +31,22 @@ public class User {
 
 
 
+    public User(String id, String userName, String token, byte[] image) {
+        Id = id;
+        this.token = token;
+        Image = image;
+    }
+
+    public void setId(String id) {
+        Id = id;
+    }
+
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public void setImage(byte[] image) {
+        Image = image;
+    }
 }
