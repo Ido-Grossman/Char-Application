@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Data.Entity;
 using System.Text.Json.Serialization;
 
 namespace MVC.Models;
@@ -17,8 +16,9 @@ public class User
     
     public string Server { get; set; }
     
-    [JsonIgnore]
-    public string FirebaseToken { get; set; }
+    //TODO: Firebase token
+    // [JsonIgnore]
+    // public string FirebaseToken { get; set; }
     
     [JsonIgnore]
     public ICollection<Contact> Contacts { get; set; }
