@@ -10,20 +10,42 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
 import com.example.android.Data.AppDB;
+import com.example.android.Data.Contact;
 import com.example.android.Data.ContactDao;
-import com.example.android.api.UserApi;
+import com.example.android.api.ContactApi;
+import com.example.android.api.WebServiceAPI;
 import com.example.android.entities.UserCred;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.util.List;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
     private AppDB db;
     private ContactDao contactDao;
+    Retrofit retrofit;
+    WebServiceAPI webServiceAPI;
+    Gson gson;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
-
+        gson = new GsonBuilder()
+                .setLenient()
+                .create();
+        retrofit = new Retrofit.Builder()
+                .baseUrl(MyApp.context.getString(R.string.BaseUrl))
+                .addConverterFactory(GsonConverterFactory.create(gson))
+                .build();
+        webServiceAPI = retrofit.create(WebServiceAPI.class);
 
 
         Button loginBtn = findViewById(R.id.loginBtn);
@@ -34,10 +56,11 @@ public class MainActivity extends AppCompatActivity {
             String strPassword = password.getText().toString();
             System.out.println(username);
             System.out.println(password);
-            String strPass = password.toString();
-            UserApi userApi = new UserApi();
+            Intent intent = new Intent(this, ContactsActivity.class);
             UserCred user = new UserCred(strUsername, strPassword, "hello","http://localhost:7225");
-            userApi.tryToLogin(user);
+            this.tryToLogin(user, intent);
+
+
         });
         TextView registerBtn = findViewById(R.id.registerBtn);
         registerBtn.setOnClickListener(view -> {
@@ -50,4 +73,45 @@ public class MainActivity extends AppCompatActivity {
                 .fallbackToDestructiveMigration().allowMainThreadQueries().build();
         contactDao = db.userDao();
     }
+
+    public void tryToLogin(UserCred userCred, Intent chatsIntent){
+        Call<String> call = webServiceAPI.logIn(userCred);
+        call.enqueue(new Callback<String>() {
+            @Override
+            public void onResponse(Call<String> call, Response<String> response) {
+                if (response.isSuccessful()){
+                    MyApp.token = response.body();
+                    getContactsList(MyApp.token, chatsIntent);
+
+                    return;
+                }
+                System.out.println("YOYOYO");
+            }
+
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+
+            }
+        });
+    }
+
+    public void getContactsList(String token, Intent chatsIntent) {
+        Call<List<Contact>> call = webServiceAPI.getContacts("Bearer "+token);
+        call.enqueue(new Callback<List<Contact>>() {
+            @Override
+            public void onResponse(Call<List<Contact>> call, Response<List<Contact>> response) {
+                MyApp.contactList = response.body();
+                startActivity(chatsIntent);
+            }
+
+            @Override
+            public void onFailure(Call<List<Contact>> call, Throwable t) {
+
+            }
+
+    });
+    }
 }
+
+
+

@@ -15,6 +15,7 @@ import com.example.android.Data.ContactDao;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ContactsActivity extends AppCompatActivity {
 
@@ -29,7 +30,8 @@ public class ContactsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
         getSupportActionBar().hide();
-
+        List<Contact> contactList = MyApp.contactList;
+        int numberOfContacts = contactList.size();
 
         ArrayList<Contact> contacts;
 

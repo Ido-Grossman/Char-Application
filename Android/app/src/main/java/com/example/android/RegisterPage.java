@@ -15,20 +15,40 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.android.Data.AppDB;
 import com.example.android.Data.ContactDao;
-import com.example.android.api.UserApi;
+import com.example.android.api.ContactApi;
+import com.example.android.api.WebServiceAPI;
 import com.example.android.entities.UserCred;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RegisterPage extends AppCompatActivity {
 
     private AppDB db;
     private ContactDao contactDao;
+    Retrofit retrofit;
+    WebServiceAPI webServiceAPI;
+    Gson gson;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register_page);
         getSupportActionBar().hide();
+        gson = new GsonBuilder()
+                .setLenient()
+                .create();
+        retrofit = new Retrofit.Builder()
+                .baseUrl(MyApp.context.getString(R.string.BaseUrl))
+                .addConverterFactory(GsonConverterFactory.create(gson))
+                .build();
+        webServiceAPI = retrofit.create(WebServiceAPI.class);
 
 
         ImageButton UploadImg = findViewById(R.id.UploadImg);
@@ -52,9 +72,8 @@ public class RegisterPage extends AppCompatActivity {
 
             } else {
                 String userName = username.getText().toString();
-                UserApi userApi = new UserApi();
                 UserCred newUser = new UserCred(userName, s, "hello", "http://localhost:7225");
-                userApi.checkIfUsernameExists(userName, newUser, userApi);
+                this.checkIfUsernameExists(userName, newUser);
 
             }
 
@@ -82,4 +101,43 @@ public class RegisterPage extends AppCompatActivity {
                     img.setImageURI(selectImage);
                 }
             });
+
+    public void create(UserCred userCred){
+        Call<String> call = webServiceAPI.registerUser(userCred);
+        call.enqueue(new Callback<String>() {
+            @Override
+            public void onResponse(Call<String> call, Response<String> response) {
+                if (response.isSuccessful()){
+                    String token = response.body();
+                    MyApp.token = token;
+
+                }
+            }
+
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+
+            }
+        });
+    }
+    public void checkIfUsernameExists(String username, UserCred newUser){
+        Call<Void> call = webServiceAPI.checkIfUsernameExists(username);
+        call.enqueue(new Callback<Void>() {
+            @Override
+            public void onResponse(Call<Void> call, Response<Void> response) {
+                // if there is a username in db already we return true
+                if (response.isSuccessful()){
+                    System.out.println("Existsssss!");
+                    // else there is no username with this name so we create one new
+                } else {
+                    create(newUser);
+                }
+            }
+
+            @Override
+            public void onFailure(Call<Void> call, Throwable t) {
+
+            }
+        });
+    }
 }

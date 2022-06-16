@@ -1,7 +1,6 @@
 package com.example.android.api;
 
-import com.example.android.entities.Contact;
-import com.example.android.entities.User;
+import com.example.android.Data.Contact;
 import com.example.android.entities.UserCred;
 
 import java.util.List;
