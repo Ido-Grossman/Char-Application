@@ -9,6 +9,7 @@ import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
+import com.example.android.Adapters.CustomListAdapter;
 import com.example.android.Data.AppDB;
 import com.example.android.Data.Contact;
 import com.example.android.Data.ContactDao;
@@ -59,10 +60,10 @@ public class ContactsActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
 
                 Contact contact = finalContacts.get(i);
-                intent.putExtra("userId", contact.getId());
-                intent.putExtra("userName", contact.getName());
+                intent.putExtra("contactId", contact.getId().toString());
+                intent.putExtra("contactName", contact.getName());
                 intent.putExtra("lastDateTime", contact.getLastDate());
-                //intent.putExtra("profilePicture", user.); //todo - support image
+                intent.putExtra("profilePicture", contact.getImage()); //todo - support image
 
                 startActivity(intent);
             }

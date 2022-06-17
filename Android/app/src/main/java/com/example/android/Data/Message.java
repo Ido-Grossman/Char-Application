@@ -7,15 +7,27 @@ import androidx.room.PrimaryKey;
 public class Message {
     @PrimaryKey(autoGenerate=true)
     private Integer id;
+    private Integer contactId; //id of other contact
     private String content;
     private String created; //date and time
     private Boolean sent;
 
-    public Message(Integer id, String content, String created, Boolean sent) {
-        this.id = id;
+    public Message(Integer contactId, String content, String created, Boolean sent) {
+        this.contactId = contactId;
         this.content = content;
         this.created = created;
         this.sent = sent;
+    }
+    public Integer getContactId() {
+        return contactId;
+    }
+
+    public void setContactId(Integer contactId) {
+        this.contactId = contactId;
+    }
+
+    public Boolean getSent() {
+        return sent;
     }
 
     public Integer getId() {
@@ -28,10 +40,6 @@ public class Message {
 
     public String getCreated() {
         return created;
-    }
-
-    public Boolean isSent() {
-        return sent;
     }
 
     public void setId(Integer id) {

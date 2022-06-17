@@ -23,8 +23,6 @@ public final class ContactDao_Impl implements ContactDao {
 
   private final EntityInsertionAdapter<Contact> __insertionAdapterOfContact;
 
-  private final MessagesConverter __messagesConverter = new MessagesConverter();
-
   private final EntityDeletionOrUpdateAdapter<Contact> __deletionAdapterOfContact;
 
   private final EntityDeletionOrUpdateAdapter<Contact> __updateAdapterOfContact;
@@ -34,7 +32,7 @@ public final class ContactDao_Impl implements ContactDao {
     this.__insertionAdapterOfContact = new EntityInsertionAdapter<Contact>(__db) {
       @Override
       public String createQuery() {
-        return "INSERT OR ABORT INTO `Contact` (`Id`,`Name`,`LastDate`,`LastMessageId`,`Last`,`Server`,`msg_list`,`image`) VALUES (?,?,?,?,?,?,?,?)";
+        return "INSERT OR ABORT INTO `Contact` (`Id`,`Name`,`LastDate`,`LastMessageId`,`Last`,`Server`,`image`) VALUES (?,?,?,?,?,?,?)";
       }
 
       @Override
@@ -65,16 +63,10 @@ public final class ContactDao_Impl implements ContactDao {
         } else {
           stmt.bindString(6, value.getServer());
         }
-        final String _tmp = __messagesConverter.languagesToStoredString(value.getMsg_list());
-        if (_tmp == null) {
+        if (value.image == null) {
           stmt.bindNull(7);
         } else {
-          stmt.bindString(7, _tmp);
-        }
-        if (value.image == null) {
-          stmt.bindNull(8);
-        } else {
-          stmt.bindBlob(8, value.image);
+          stmt.bindBlob(7, value.image);
         }
       }
     };
@@ -96,7 +88,7 @@ public final class ContactDao_Impl implements ContactDao {
     this.__updateAdapterOfContact = new EntityDeletionOrUpdateAdapter<Contact>(__db) {
       @Override
       public String createQuery() {
-        return "UPDATE OR ABORT `Contact` SET `Id` = ?,`Name` = ?,`LastDate` = ?,`LastMessageId` = ?,`Last` = ?,`Server` = ?,`msg_list` = ?,`image` = ? WHERE `Id` = ?";
+        return "UPDATE OR ABORT `Contact` SET `Id` = ?,`Name` = ?,`LastDate` = ?,`LastMessageId` = ?,`Last` = ?,`Server` = ?,`image` = ? WHERE `Id` = ?";
       }
 
       @Override
@@ -127,21 +119,15 @@ public final class ContactDao_Impl implements ContactDao {
         } else {
           stmt.bindString(6, value.getServer());
         }
-        final String _tmp = __messagesConverter.languagesToStoredString(value.getMsg_list());
-        if (_tmp == null) {
+        if (value.image == null) {
           stmt.bindNull(7);
         } else {
-          stmt.bindString(7, _tmp);
-        }
-        if (value.image == null) {
-          stmt.bindNull(8);
-        } else {
-          stmt.bindBlob(8, value.image);
+          stmt.bindBlob(7, value.image);
         }
         if (value.getId() == null) {
-          stmt.bindNull(9);
+          stmt.bindNull(8);
         } else {
-          stmt.bindLong(9, value.getId());
+          stmt.bindLong(8, value.getId());
         }
       }
     };
@@ -196,7 +182,6 @@ public final class ContactDao_Impl implements ContactDao {
       final int _cursorIndexOfLastMessageId = CursorUtil.getColumnIndexOrThrow(_cursor, "LastMessageId");
       final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "Last");
       final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
-      final int _cursorIndexOfMsgList = CursorUtil.getColumnIndexOrThrow(_cursor, "msg_list");
       final int _cursorIndexOfImage = CursorUtil.getColumnIndexOrThrow(_cursor, "image");
       final List<Contact> _result = new ArrayList<Contact>(_cursor.getCount());
       while(_cursor.moveToNext()) {
@@ -234,15 +219,6 @@ public final class ContactDao_Impl implements ContactDao {
           _tmpServer = _cursor.getString(_cursorIndexOfServer);
         }
         _item = new Contact(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
-        final Messages _tmpMsg_list;
-        final String _tmp;
-        if (_cursor.isNull(_cursorIndexOfMsgList)) {
-          _tmp = null;
-        } else {
-          _tmp = _cursor.getString(_cursorIndexOfMsgList);
-        }
-        _tmpMsg_list = __messagesConverter.storedStringToLanguages(_tmp);
-        _item.setMsg_list(_tmpMsg_list);
         if (_cursor.isNull(_cursorIndexOfImage)) {
           _item.image = null;
         } else {
@@ -272,7 +248,6 @@ public final class ContactDao_Impl implements ContactDao {
       final int _cursorIndexOfLastMessageId = CursorUtil.getColumnIndexOrThrow(_cursor, "LastMessageId");
       final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "Last");
       final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
-      final int _cursorIndexOfMsgList = CursorUtil.getColumnIndexOrThrow(_cursor, "msg_list");
       final int _cursorIndexOfImage = CursorUtil.getColumnIndexOrThrow(_cursor, "image");
       final Contact _result;
       if(_cursor.moveToFirst()) {
@@ -309,15 +284,6 @@ public final class ContactDao_Impl implements ContactDao {
           _tmpServer = _cursor.getString(_cursorIndexOfServer);
         }
         _result = new Contact(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
-        final Messages _tmpMsg_list;
-        final String _tmp;
-        if (_cursor.isNull(_cursorIndexOfMsgList)) {
-          _tmp = null;
-        } else {
-          _tmp = _cursor.getString(_cursorIndexOfMsgList);
-        }
-        _tmpMsg_list = __messagesConverter.storedStringToLanguages(_tmp);
-        _result.setMsg_list(_tmpMsg_list);
         if (_cursor.isNull(_cursorIndexOfImage)) {
           _result.image = null;
         } else {

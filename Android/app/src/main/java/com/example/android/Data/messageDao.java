@@ -6,10 +6,12 @@ import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
 
+import java.util.List;
+
 @Dao
 public interface messageDao {
-/*    @Query("SELECT * FROM message")
-    List<Message> index();*/ //todo uncomment
+    @Query("SELECT * FROM message")
+    List<Message> index();
 
     @Query("SELECT * FROM message WHERE id = :id")
     Message get(int id);

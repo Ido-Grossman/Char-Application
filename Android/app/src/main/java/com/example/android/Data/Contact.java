@@ -15,16 +15,7 @@ public class Contact {
     private int LastMessageId;
     private String Last; //last message content string
     private String Server;
-    private Messages msg_list;
     public byte[] image;
-
-    public void setMsg_list(Messages msg_list) {
-        this.msg_list = msg_list;
-    }
-
-    public Messages getMsg_list() {
-        return msg_list;
-    }
 
     public Contact(Integer Id, String Name, String LastDate, int LastMessageId, String Last, String Server ) {
         this.Id = Id;

@@ -84,6 +84,10 @@
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-mdpi/person_add_round.png"
     },
     {
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/layout-night_activity_add_contact.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/layout-night/activity_add_contact.xml"
+    },
+    {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/layout_activity_main.xml.flat",
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/layout/activity_main.xml"
     },
@@ -100,12 +104,16 @@
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-hdpi/back_round.png"
     },
     {
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-mdpi_back_round.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-mdpi/back_round.png"
+    },
+    {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-mdpi_back_round.png.flat",
-        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-mdpi/back_round.png"
+        "merged": "com.example.android.app-merged_res-26:/layout_activity_chat.xml.flat",
+        "source": "com.example.android.app-main-28:/layout/activity_chat.xml"
     },
     {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -142,6 +150,10 @@
     {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-xxhdpi_chatos_image.jpg.flat",
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-xxhdpi/chatos_image.jpg"
+    },
+    {
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/layout-night_activity_chat.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/layout-night/activity_chat.xml"
     },
     {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-hdpi_person_add_round.png.flat",
@@ -264,6 +276,10 @@
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/drawable/person_add_foreground.xml"
     },
     {
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/layout-night_activity_contacts.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/layout-night/activity_contacts.xml"
+    },
+    {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-xxxhdpi_chatos_image.jpeg.flat",
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-xxxhdpi/chatos_image.jpeg"
     },
@@ -274,10 +290,6 @@
     {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-xhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "com.example.android.app-merged_res-26:/layout_item_container_sent_message.xml.flat",
-        "source": "com.example.android.app-main-28:/layout/item_container_sent_message.xml"
     },
     {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/drawable-anydpi-v24_ic_stat_name.xml.flat",
@@ -300,12 +312,12 @@
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/drawable-mdpi/ic_stat_name.png"
     },
     {
-        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/drawable-xhdpi_bckg_chat_buttons.xml.flat",
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/drawable-xhdpi/bckg_chat_buttons.xml"
+    },
+    {
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/mipmap-hdpi_settings_round.png.flat",
@@ -364,16 +376,16 @@
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/layout-night_contact_list_item.xml.flat",
+        "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/layout-night/contact_list_item.xml"
+    },
+    {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/layout_contact_list_item.xml.flat",
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/layout/contact_list_item.xml"
     },
     {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/drawable_settings_foreground.xml.flat",
         "source": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-main-28:/drawable/settings_foreground.xml"
-    },
-    {
-        "merged": "com.example.android.app-merged_res-26:/layout_item_container_recieved_message.xml.flat",
-        "source": "com.example.android.app-main-28:/layout/item_container_recieved_message.xml"
     },
     {
         "merged": "/Users/elisilverstine/.gradle/daemon/7.3.3/com.example.android.app-merged_res-26:/layout_item_container_sent_message.xml.flat",

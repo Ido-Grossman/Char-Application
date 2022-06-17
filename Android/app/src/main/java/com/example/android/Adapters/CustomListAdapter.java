@@ -1,4 +1,4 @@
-package com.example.android;
+package com.example.android.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.example.android.Data.Contact;
+import com.example.android.R;
 
 import java.util.ArrayList;
 
