@@ -33,6 +33,7 @@ public class ChatActivity extends AppCompatActivity{
         private Intent intent;
         private MsgsListAdapter ml_adapter;
         private List<com.example.android.Data.Message> msg_list;
+        private int contactId;
 
     void createPageButtons(){
             ImageButton backButton = findViewById(R.id.back_button);
@@ -47,10 +48,9 @@ public class ChatActivity extends AppCompatActivity{
                 //create string of date_time
                 SimpleDateFormat formatter = new SimpleDateFormat("dd/MM HH:mm");
                 String date = formatter.format(new Date());
-                String s = intent.getStringExtra("contactId");
-                Message msg = new Message(Integer.parseInt(intent.getStringExtra("contactId")), content_str, date, true);
+                Message msg = new Message(contactId, content_str, date, true);
                 msgDao.insert(msg);
-                msg_list = msgDao.index();
+                msg_list = msgDao.index(contactId);
                 refreshListInDB();
                 ml_adapter.notifyDataSetChanged();
                 content.getText().clear(); //delete keyboard content after sending
@@ -58,7 +58,7 @@ public class ChatActivity extends AppCompatActivity{
         }
     /**send the list to the adapter, organized and updated **/
     void refreshListInDB(){
-            msg_list = msgDao.index();
+            msg_list = msgDao.index(contactId);
             Collections.reverse(msg_list); //flip msgs order to start from newst
             ml_adapter.setMsgs(msg_list);
         }
@@ -69,6 +69,7 @@ public class ChatActivity extends AppCompatActivity{
             setContentView(R.layout.activity_chat);
             getSupportActionBar().hide();
             intent = getIntent();
+            contactId = Integer.parseInt(intent.getStringExtra("contactId"));
 
             //create room database:
             db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")

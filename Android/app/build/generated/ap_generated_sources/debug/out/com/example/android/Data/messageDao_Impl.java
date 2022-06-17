@@ -161,9 +161,11 @@ public final class messageDao_Impl implements messageDao {
   }
 
   @Override
-  public List<Message> index() {
-    final String _sql = "SELECT * FROM message";
-    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
+  public List<Message> index(final int contactId) {
+    final String _sql = "SELECT * FROM message Where contactId = ?";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
+    int _argIndex = 1;
+    _statement.bindLong(_argIndex, contactId);
     __db.assertNotSuspendingTransaction();
     final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
     try {

@@ -10,8 +10,8 @@ import java.util.List;
 
 @Dao
 public interface messageDao {
-    @Query("SELECT * FROM message")
-    List<Message> index();
+    @Query("SELECT * FROM message Where contactId = :contactId")
+    List<Message> index(int contactId);
 
     @Query("SELECT * FROM message WHERE id = :id")
     Message get(int id);
