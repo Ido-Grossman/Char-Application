@@ -19,6 +19,7 @@
     <string name="add_contact_title">Add Contact</string>
     <string name="app_name" translatable="false">ChatOS</string>
     <string name="button" translatable="false">Button</string>
+    <string name="date_time_format">"dd/MM HH:mm"</string>
     <string name="image" translatable="false">TODO</string>
     <string name="image_of_the_user" translatable="false">Image of the contact</string>
     <string name="image_title" translatable="false">TODO</string>

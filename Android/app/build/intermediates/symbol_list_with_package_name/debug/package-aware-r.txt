@@ -2878,6 +2878,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id send_button
 id settings_button
 id shortcut
 id showCustom
@@ -3206,6 +3207,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string date_time_format
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior

@@ -22,4 +22,5 @@
     <string name="add_contact_button">Save Contact</string>
     <!--chats activity-->
     <string name="type_a_message">Type a message</string>
+    <string name="date_time_format">"dd/MM HH:mm"</string>
 </resources>

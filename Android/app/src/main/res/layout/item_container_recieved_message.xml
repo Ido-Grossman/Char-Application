@@ -13,7 +13,7 @@
         android:background="@drawable/background_recieved_message"
         android:padding="@dimen/_12sdp"
         android:textColor="@color/black"
-        android:textSize="@dimen/_24ssp"
+        android:textSize="@dimen/_16ssp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.8"

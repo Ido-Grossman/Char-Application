@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         //create room database:
         db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")
                 .fallbackToDestructiveMigration().allowMainThreadQueries().build();
-        contactDao = db.userDao();
+        contactDao = db.contactDao();
     }
 
     public void tryToLogin(UserCred userCred, Intent chatsIntent){

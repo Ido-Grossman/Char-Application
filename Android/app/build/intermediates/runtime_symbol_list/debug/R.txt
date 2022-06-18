@@ -2877,6 +2877,7 @@ int id search_voice_btn 0x7f080165
 int id select_dialog_listview 0x7f080166
 int id selected 0x7f080167
 int id selection_type 0x7f080168
+int id send_button 0x7f0801d7
 int id settings_button 0x7f080169
 int id shortcut 0x7f08016a
 int id showCustom 0x7f08016b
@@ -3205,6 +3206,7 @@ int string character_counter_overflowed_content_description 0x7f0e0027
 int string character_counter_pattern 0x7f0e0028
 int string chip_text 0x7f0e0029
 int string clear_text_end_icon_content_description 0x7f0e002a
+int string date_time_format 0x7f0e007e
 int string error_icon_content_description 0x7f0e002b
 int string exposed_dropdown_menu_content_description 0x7f0e002c
 int string fab_transformation_scrim_behavior 0x7f0e002d
