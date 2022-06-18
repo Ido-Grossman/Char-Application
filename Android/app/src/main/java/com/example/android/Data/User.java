@@ -3,50 +3,43 @@ package com.example.android.Data;
 public class User {
 
 
-    public String Id;
-    public String fireBaseToken;
+    public String id;
+    public String name;
     public String server;
-    public static String token;
-    public byte[] Image;
+    public byte[] image;
     public String password;
 
-    public User(String id, String password, String fireBaseToken, String server, String token, byte[] image) {
-        Id = id;
+    public User(String id, String password, String name, String server, byte[] image) {
+        this.id = id;
         this.password = password;
-        this.fireBaseToken = fireBaseToken;
+        this.name = name;
         this.server = server;
-        User.token = token;
-        Image = image;
+        this.image = image;
     }
 
     public User(String id, String password, String fireBaseToken, String server, String token) {
-        Id = id;
+        this.id = id;
         this.password = password;
-        this.fireBaseToken = fireBaseToken;
+        this.name = fireBaseToken;
         this.server = server;
-        User.token = token;
-        this.Image = null;
+        this.image = null;
     }
 
 
 
 
-    public User(String id, String userName, String token, byte[] image) {
-        Id = id;
-        this.token = token;
-        Image = image;
+    public User(String id, byte[] image) {
+        this.id = id;
+        this.image = image;
     }
 
     public void setId(String id) {
-        Id = id;
+        this.id = id;
     }
 
 
-    public void setToken(String token) {
-        this.token = token;
-    }
 
     public void setImage(byte[] image) {
-        Image = image;
+        this.image = image;
     }
 }

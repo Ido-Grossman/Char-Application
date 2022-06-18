@@ -12,7 +12,7 @@ import androidx.room.Room;
 import com.example.android.Data.AppDB;
 import com.example.android.Data.Contact;
 import com.example.android.Data.ContactDao;
-import com.example.android.api.ContactApi;
+import com.example.android.Data.User;
 import com.example.android.api.WebServiceAPI;
 import com.example.android.entities.UserCred;
 import com.google.gson.Gson;
@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         webServiceAPI = retrofit.create(WebServiceAPI.class);
+        MyApp.webServiceAPI = webServiceAPI;
+        MyApp.retrofit = retrofit;
 
 
         Button loginBtn = findViewById(R.id.loginBtn);

@@ -8,84 +8,95 @@ import androidx.room.PrimaryKey;
 @Entity
 public class Contact {
 
-    @PrimaryKey(autoGenerate=true)
-    private Integer Id;
-    private String Name;
-    private String LastDate;
-    private int LastMessageId;
-    private String Last; //last message content string
-    private String Server;
+    @PrimaryKey
+    @NonNull
+    private String id;
+    private String name;
+    private String lastDate;
+    private int lastMessageId;
+    private String last; //last message content string
+    private String server;
     public byte[] image;
 
-    public Contact(Integer Id, String Name, String LastDate, int LastMessageId, String Last, String Server ) {
-        this.Id = Id;
-        this.Name = Name;
-        this.LastDate = LastDate;
-        this.LastMessageId = LastMessageId;
-        this.Last = Last;
-        this.Server = Server;
-    }
-
     @Ignore
-    public Contact(Integer Id, String Name, String Server  ) {
-        this.Id = Id;
-        this.Name = Name;
-        this.LastDate = null;
-        this.Server = Server;
+    public Contact(@NonNull String id, String name, String server) {
+        this.id = id;
+        this.name = name;
+        this.server = server;
     }
 
-    public void setServer(String server) {Server = server;}
+    public Contact(@NonNull String id, String name, String lastDate, int lastMessageId, String last, String server, byte[] image) {
+        this.id = id;
+        this.name = name;
+        this.lastDate = lastDate;
+        this.lastMessageId = lastMessageId;
+        this.last = last;
+        this.server = server;
+        this.image = image;
+    }
 
-    public void setId(Integer id) {
-        Id = id;
+    @NonNull
+    public String getUserId() {
+        return id;
+    }
+    public void setUserId(@NonNull String userId) {
+        this.id = userId;
+    }
+    public void setServer(String server) {
+        this.server = server;}
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public void setLastDate(String lastDate) {
-        LastDate = lastDate;
+        this.lastDate = lastDate;
     }
 
     public void setLastMessageId(int lastMessageId) {
-        LastMessageId = lastMessageId;
+        this.lastMessageId = lastMessageId;
     }
 
     public void setLast(String last) {
-        Last = last;
+        this.last = last;
     }
 
     public void setImage(byte[] image) {this.image = image;}
 
     public String getName() {
-        return Name;
-    }
-    public Integer getId() {
-        return Id;
+        return name;
     }
     public String getLastDate() {
-        return LastDate;
+        return lastDate;
     }
     public int getLastMessageId() {
-        return LastMessageId;
+        return lastMessageId;
     }
     public String getLast() {
-        return Last;
+        return last;
     }
-    public String getServer() {return Server;}
+    public String getServer() {return server;}
     public byte[] getImage() {return image;}
+
+    @NonNull
+    public String getId() {
+        return this.id;
+    }
 
     @NonNull
     @Override
     public String toString() {
         return "User{" +
-                "Id=" + Id +
-                ", Name='" + Name + '\'' +
-                ", LastDate='" + LastDate + '\'' +
-                ", LastMessageId=" + LastMessageId +
-                ", Last='" + Last + '\'' +
-                ", Server='" + Server + '\'' +
+                "Id=" + id +
+                ", Name='" + name + '\'' +
+                ", LastDate='" + lastDate + '\'' +
+                ", LastMessageId=" + lastMessageId +
+                ", Last='" + last + '\'' +
+                ", Server='" + server + '\'' +
                 '}';
     }
 }

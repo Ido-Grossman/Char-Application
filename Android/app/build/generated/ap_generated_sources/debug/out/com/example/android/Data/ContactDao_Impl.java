@@ -9,7 +9,6 @@ import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
 import java.lang.Class;
-import java.lang.Integer;
 import java.lang.Override;
 import java.lang.String;
 import java.lang.SuppressWarnings;
@@ -32,7 +31,7 @@ public final class ContactDao_Impl implements ContactDao {
     this.__insertionAdapterOfContact = new EntityInsertionAdapter<Contact>(__db) {
       @Override
       public String createQuery() {
-        return "INSERT OR ABORT INTO `Contact` (`Id`,`Name`,`LastDate`,`LastMessageId`,`Last`,`Server`,`image`) VALUES (?,?,?,?,?,?,?)";
+        return "INSERT OR ABORT INTO `Contact` (`id`,`name`,`lastDate`,`lastMessageId`,`last`,`server`,`image`) VALUES (?,?,?,?,?,?,?)";
       }
 
       @Override
@@ -40,7 +39,7 @@ public final class ContactDao_Impl implements ContactDao {
         if (value.getId() == null) {
           stmt.bindNull(1);
         } else {
-          stmt.bindLong(1, value.getId());
+          stmt.bindString(1, value.getId());
         }
         if (value.getName() == null) {
           stmt.bindNull(2);
@@ -73,7 +72,7 @@ public final class ContactDao_Impl implements ContactDao {
     this.__deletionAdapterOfContact = new EntityDeletionOrUpdateAdapter<Contact>(__db) {
       @Override
       public String createQuery() {
-        return "DELETE FROM `Contact` WHERE `Id` = ?";
+        return "DELETE FROM `Contact` WHERE `id` = ?";
       }
 
       @Override
@@ -81,14 +80,14 @@ public final class ContactDao_Impl implements ContactDao {
         if (value.getId() == null) {
           stmt.bindNull(1);
         } else {
-          stmt.bindLong(1, value.getId());
+          stmt.bindString(1, value.getId());
         }
       }
     };
     this.__updateAdapterOfContact = new EntityDeletionOrUpdateAdapter<Contact>(__db) {
       @Override
       public String createQuery() {
-        return "UPDATE OR ABORT `Contact` SET `Id` = ?,`Name` = ?,`LastDate` = ?,`LastMessageId` = ?,`Last` = ?,`Server` = ?,`image` = ? WHERE `Id` = ?";
+        return "UPDATE OR ABORT `Contact` SET `id` = ?,`name` = ?,`lastDate` = ?,`lastMessageId` = ?,`last` = ?,`server` = ?,`image` = ? WHERE `id` = ?";
       }
 
       @Override
@@ -96,7 +95,7 @@ public final class ContactDao_Impl implements ContactDao {
         if (value.getId() == null) {
           stmt.bindNull(1);
         } else {
-          stmt.bindLong(1, value.getId());
+          stmt.bindString(1, value.getId());
         }
         if (value.getName() == null) {
           stmt.bindNull(2);
@@ -127,7 +126,7 @@ public final class ContactDao_Impl implements ContactDao {
         if (value.getId() == null) {
           stmt.bindNull(8);
         } else {
-          stmt.bindLong(8, value.getId());
+          stmt.bindString(8, value.getId());
         }
       }
     };
@@ -176,21 +175,21 @@ public final class ContactDao_Impl implements ContactDao {
     __db.assertNotSuspendingTransaction();
     final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
     try {
-      final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "Id");
-      final int _cursorIndexOfName = CursorUtil.getColumnIndexOrThrow(_cursor, "Name");
-      final int _cursorIndexOfLastDate = CursorUtil.getColumnIndexOrThrow(_cursor, "LastDate");
-      final int _cursorIndexOfLastMessageId = CursorUtil.getColumnIndexOrThrow(_cursor, "LastMessageId");
-      final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "Last");
-      final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
+      final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+      final int _cursorIndexOfName = CursorUtil.getColumnIndexOrThrow(_cursor, "name");
+      final int _cursorIndexOfLastDate = CursorUtil.getColumnIndexOrThrow(_cursor, "lastDate");
+      final int _cursorIndexOfLastMessageId = CursorUtil.getColumnIndexOrThrow(_cursor, "lastMessageId");
+      final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "last");
+      final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "server");
       final int _cursorIndexOfImage = CursorUtil.getColumnIndexOrThrow(_cursor, "image");
       final List<Contact> _result = new ArrayList<Contact>(_cursor.getCount());
       while(_cursor.moveToNext()) {
         final Contact _item;
-        final Integer _tmpId;
+        final String _tmpId;
         if (_cursor.isNull(_cursorIndexOfId)) {
           _tmpId = null;
         } else {
-          _tmpId = _cursor.getInt(_cursorIndexOfId);
+          _tmpId = _cursor.getString(_cursorIndexOfId);
         }
         final String _tmpName;
         if (_cursor.isNull(_cursorIndexOfName)) {
@@ -218,12 +217,13 @@ public final class ContactDao_Impl implements ContactDao {
         } else {
           _tmpServer = _cursor.getString(_cursorIndexOfServer);
         }
-        _item = new Contact(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
+        final byte[] _tmpImage;
         if (_cursor.isNull(_cursorIndexOfImage)) {
-          _item.image = null;
+          _tmpImage = null;
         } else {
-          _item.image = _cursor.getBlob(_cursorIndexOfImage);
+          _tmpImage = _cursor.getBlob(_cursorIndexOfImage);
         }
+        _item = new Contact(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer,_tmpImage);
         _result.add(_item);
       }
       return _result;
@@ -242,20 +242,20 @@ public final class ContactDao_Impl implements ContactDao {
     __db.assertNotSuspendingTransaction();
     final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
     try {
-      final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "Id");
-      final int _cursorIndexOfName = CursorUtil.getColumnIndexOrThrow(_cursor, "Name");
-      final int _cursorIndexOfLastDate = CursorUtil.getColumnIndexOrThrow(_cursor, "LastDate");
-      final int _cursorIndexOfLastMessageId = CursorUtil.getColumnIndexOrThrow(_cursor, "LastMessageId");
-      final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "Last");
-      final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "Server");
+      final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+      final int _cursorIndexOfName = CursorUtil.getColumnIndexOrThrow(_cursor, "name");
+      final int _cursorIndexOfLastDate = CursorUtil.getColumnIndexOrThrow(_cursor, "lastDate");
+      final int _cursorIndexOfLastMessageId = CursorUtil.getColumnIndexOrThrow(_cursor, "lastMessageId");
+      final int _cursorIndexOfLast = CursorUtil.getColumnIndexOrThrow(_cursor, "last");
+      final int _cursorIndexOfServer = CursorUtil.getColumnIndexOrThrow(_cursor, "server");
       final int _cursorIndexOfImage = CursorUtil.getColumnIndexOrThrow(_cursor, "image");
       final Contact _result;
       if(_cursor.moveToFirst()) {
-        final Integer _tmpId;
+        final String _tmpId;
         if (_cursor.isNull(_cursorIndexOfId)) {
           _tmpId = null;
         } else {
-          _tmpId = _cursor.getInt(_cursorIndexOfId);
+          _tmpId = _cursor.getString(_cursorIndexOfId);
         }
         final String _tmpName;
         if (_cursor.isNull(_cursorIndexOfName)) {
@@ -283,12 +283,13 @@ public final class ContactDao_Impl implements ContactDao {
         } else {
           _tmpServer = _cursor.getString(_cursorIndexOfServer);
         }
-        _result = new Contact(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer);
+        final byte[] _tmpImage;
         if (_cursor.isNull(_cursorIndexOfImage)) {
-          _result.image = null;
+          _tmpImage = null;
         } else {
-          _result.image = _cursor.getBlob(_cursorIndexOfImage);
+          _tmpImage = _cursor.getBlob(_cursorIndexOfImage);
         }
+        _result = new Contact(_tmpId,_tmpName,_tmpLastDate,_tmpLastMessageId,_tmpLast,_tmpServer,_tmpImage);
       } else {
         _result = null;
       }
