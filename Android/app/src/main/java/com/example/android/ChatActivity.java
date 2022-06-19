@@ -23,7 +23,7 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
-public class ChatActivity extends AppCompatActivity{
+public class ChatActivity extends AppCompatActivity implements IMessageListener{
 
     ImageView profilePictureView;
     TextView userNameView;
@@ -38,13 +38,17 @@ public class ChatActivity extends AppCompatActivity{
     void createPageButtons(){
         ImageButton backButton = findViewById(R.id.back_button);
         Intent back_intent = new Intent(getApplicationContext(), ContactsActivity.class);
-        backButton.setOnClickListener(view -> startActivity(back_intent));
+        backButton.setOnClickListener(view -> {
+            MyApp.messageNotify.removeMessageListener(this);
+            startActivity(back_intent);
+        });
 
         ImageButton logoutButton = findViewById(R.id.logout_button);
         Intent logout_intent = new Intent(getApplicationContext(), MainActivity.class);
         //delete dao
         logoutButton.setOnClickListener(view -> {
             db.clearAllTables();
+            MyApp.messageNotify.removeMessageListener(this);
             startActivity(logout_intent);});
 
 
@@ -73,6 +77,7 @@ public class ChatActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MyApp.messageNotify.addMessageListener(this);
         setContentView(R.layout.activity_chat);
         getSupportActionBar().hide();
         intent = getIntent();
@@ -106,5 +111,17 @@ public class ChatActivity extends AppCompatActivity{
         }
 
         createPageButtons();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        MyApp.messageNotify.removeMessageListener(this);
+    }
+
+    @Override
+    public void messageEvent() {
+        refreshListInDB();
+        runOnUiThread(() -> ml_adapter.notifyDataSetChanged());
     }
 }
