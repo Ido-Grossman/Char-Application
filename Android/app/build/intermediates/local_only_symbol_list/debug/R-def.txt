@@ -82,6 +82,7 @@ mipmap back
 mipmap back_round
 mipmap chatos_image
 mipmap chatos_image_dark
+mipmap default_icon
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
@@ -98,12 +99,19 @@ string add_contact_title
 string app_name
 string button
 string date_time_format
+string default_web_client_id
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string image
 string image_of_the_user
 string image_title
 string linkto_register
 string login_button
 string main_logo
+string project_id
 string register_btn
 string register_name
 string register_password1

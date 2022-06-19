@@ -20,12 +20,19 @@
     <string name="app_name" translatable="false">ChatOS</string>
     <string name="button" translatable="false">Button</string>
     <string name="date_time_format">"dd/MM HH:mm"</string>
+    <string name="default_web_client_id" translatable="false">318524844213-epbta0dtjm52vo5frg9khse6odne7j66.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">318524844213</string>
+    <string name="google_api_key" translatable="false">AIzaSyAFci4XujPMG-0H3b91AXg4TBj5j_7cwJ4</string>
+    <string name="google_app_id" translatable="false">1:318524844213:android:3426cdcc48ea27bb9d76fc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAFci4XujPMG-0H3b91AXg4TBj5j_7cwJ4</string>
+    <string name="google_storage_bucket" translatable="false">chatos-bd132.appspot.com</string>
     <string name="image" translatable="false">TODO</string>
     <string name="image_of_the_user" translatable="false">Image of the contact</string>
     <string name="image_title" translatable="false">TODO</string>
     <string name="linkto_register" translatable="false">Click here</string>
     <string name="login_button" translatable="false">Log In</string>
     <string name="main_logo" translatable="false">Main Logo</string>
+    <string name="project_id" translatable="false">chatos-bd132</string>
     <string name="register_btn" translatable="false">Register</string>
     <string name="register_name" translatable="false">Enter your Username</string>
     <string name="register_password1" translatable="false">Enter password</string>

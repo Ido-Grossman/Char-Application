@@ -6,110 +6,241 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml
+8-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml
+9-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:6:5-66
-11-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:6:22-64
-12
-13    <application
-13-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:9:5-51:19
-14        android:name="com.example.android.MyApp"
-14-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:10:9-30
-15        android:allowBackup="false"
-15-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:11:9-36
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.5.0] /Users/santiago/.gradle/caches/transforms-3/4cb2d3ae910a25e4d3b75b6b0d8d1b11/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
-17        android:dataExtractionRules="@xml/data_extraction_rules"
-17-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:12:9-65
-18        android:debuggable="true"
-19        android:fullBackupContent="@xml/backup_rules"
-19-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:13:9-54
-20        android:icon="@mipmap/ic_launcher"
-20-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:14:9-43
-21        android:label="@string/app_name"
-21-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:15:9-41
-22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:16:9-54
-23        android:supportsRtl="true"
-23-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:17:9-35
-24        android:testOnly="true"
-25        android:theme="@style/Theme.Android"
-25-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:18:9-45
-26        android:usesCleartextTraffic="true" >
-26-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:20:9-44
-27        <activity
-27-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:21:9-28:20
-28            android:name="com.example.android.ContactsActivity"
-28-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:22:13-45
-29            android:exported="true" >
-29-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:23:13-36
-30            <intent-filter>
-30-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:24:13-27:29
-31                <action android:name="android.intent.action.VIEW" />
-31-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:25:17-69
-31-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:25:25-66
-32
-33                <category android:name="android.intent.category.DEFAULT" />
-33-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:26:17-76
-33-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:26:27-73
-34            </intent-filter>
-35        </activity>
-36        <activity android:name="com.example.android.ChatActivity" />
-36-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:29:9-30:44
-36-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:30:13-41
-37        <activity android:name="com.example.android.AddContactActivity" />
-37-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:31:9-32:50
-37-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:32:13-47
-38        <activity
-38-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:33:9-40:20
-39            android:name="com.example.android.MainActivity"
-39-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:34:13-41
-40            android:exported="true" >
-40-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:35:13-36
-41            <intent-filter>
-41-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:36:13-39:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:37:17-68
-42-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:37:25-66
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:38:17-76
-44-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:38:27-74
-45            </intent-filter>
-46        </activity>
-47        <activity
-47-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:41:9-49:20
-48            android:name="com.example.android.RegisterPage"
-48-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:42:13-41
-49            android:exported="true" >
-49-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:43:13-36
-50            <intent-filter>
-50-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:44:13-48:29
-51                <action android:name="android.intent.action.VIEW" />
-51-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:25:17-69
-51-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:25:25-66
-52
-53                <category android:name="android.intent.category.DEFAULT" />
-53-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:26:17-76
-53-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:26:27-73
-54
-55                <data android:scheme="http" />
-55-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:47:17-46
-55-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:47:23-44
-56            </intent-filter>
-57        </activity>
-58
-59        <service
-59-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/4a3b5f33337ded1b81c553095eeef74a/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
-60            android:name="androidx.room.MultiInstanceInvalidationService"
-60-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/4a3b5f33337ded1b81c553095eeef74a/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
-61            android:directBootAware="true"
-61-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/4a3b5f33337ded1b81c553095eeef74a/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
-62            android:exported="false" />
-62-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/4a3b5f33337ded1b81c553095eeef74a/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
-63    </application>
-64
-65</manifest>
+11-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:6:5-66
+11-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:25:5-79
+12-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:25:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+13-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:26:5-68
+13-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:26:22-65
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:28:5-82
+14-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:28:22-79
+15
+16    <application
+16-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:9:5-51:19
+17        android:name="com.example.android.MyApp"
+17-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:10:9-30
+18        android:allowBackup="false"
+18-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:11:9-36
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\idodd\.gradle\caches\transforms-3\a198eff964d3ac1f711f51b16f09cd5f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:12:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:13:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:14:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:15:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:16:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:17:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.Android"
+28-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:18:9-45
+29        android:usesCleartextTraffic="true" >
+29-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:20:9-44
+30        <activity
+30-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:21:9-28:20
+31            android:name="com.example.android.ContactsActivity"
+31-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:22:13-45
+32            android:exported="true" >
+32-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:23:13-36
+33            <intent-filter>
+33-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:24:13-27:29
+34                <action android:name="android.intent.action.VIEW" />
+34-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:17-69
+34-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:25-66
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:26:17-76
+36-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:26:27-73
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.example.android.ChatActivity" />
+39-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:29:9-30:44
+39-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:30:13-41
+40        <activity android:name="com.example.android.AddContactActivity" />
+40-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:31:9-32:50
+40-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:32:13-47
+41        <activity
+41-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:33:9-40:20
+42            android:name="com.example.android.MainActivity"
+42-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:34:13-41
+43            android:exported="true" >
+43-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:35:13-36
+44            <intent-filter>
+44-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:36:13-39:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:37:17-68
+45-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:37:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:38:17-76
+47-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:38:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:41:9-49:20
+51            android:name="com.example.android.RegisterPage"
+51-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:42:13-41
+52            android:exported="true" >
+52-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:43:13-36
+53            <intent-filter>
+53-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:44:13-48:29
+54                <action android:name="android.intent.action.VIEW" />
+54-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:17-69
+54-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:25-66
+55
+56                <category android:name="android.intent.category.DEFAULT" />
+56-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:26:17-76
+56-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:26:27-73
+57
+58                <data android:scheme="http" />
+58-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:47:17-46
+58-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:47:23-44
+59            </intent-filter>
+60        </activity>
+61
+62        <service
+62-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
+63            android:name="androidx.room.MultiInstanceInvalidationService"
+63-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
+64            android:directBootAware="true"
+64-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
+65            android:exported="false" />
+65-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
+66
+67        <receiver
+67-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:31:9-38:20
+68            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+68-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:32:13-78
+69            android:exported="true"
+69-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:33:13-36
+70            android:permission="com.google.android.c2dm.permission.SEND" >
+70-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:34:13-73
+71            <intent-filter>
+71-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:35:13-37:29
+72                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+72-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:36:17-81
+72-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:36:25-78
+73            </intent-filter>
+74        </receiver>
+75        <!--
+76             FirebaseMessagingService performs security checks at runtime,
+77             but set to not exported to explicitly avoid allowing another app to call it.
+78        -->
+79        <service
+79-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:44:9-51:19
+80            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+80-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:45:13-82
+81            android:directBootAware="true"
+81-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:46:13-43
+82            android:exported="false" >
+82-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:47:13-37
+83            <intent-filter android:priority="-500" >
+83-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:48:13-50:29
+83-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:48:28-51
+84                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+84-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:49:17-78
+84-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:49:25-75
+85            </intent-filter>
+86        </service>
+87        <service
+87-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:52:9-58:19
+88            android:name="com.google.firebase.components.ComponentDiscoveryService"
+88-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:53:13-84
+89            android:directBootAware="true"
+89-->[com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+90            android:exported="false" >
+90-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:54:13-37
+91            <meta-data
+91-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:55:13-57:85
+92                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+92-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:56:17-119
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:57:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:28:13-30:85
+95                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+95-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:29:17-115
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:30:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+98                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+98-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+100        </service>
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+106
+107        <provider
+107-->[com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+108            android:name="com.google.firebase.provider.FirebaseInitProvider"
+108-->[com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+109            android:authorities="com.example.android.firebaseinitprovider"
+109-->[com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+111            android:exported="false"
+111-->[com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+112            android:initOrder="100" />
+112-->[com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+117
+118        <service
+118-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:29:9-35:19
+119            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+119-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:30:13-103
+120            android:exported="false" >
+120-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:31:13-37
+121            <meta-data
+121-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:32:13-34:39
+122                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+122-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:33:17-94
+123                android:value="cct" />
+123-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:34:17-36
+124        </service>
+125        <service
+125-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:26:9-30:19
+126            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+126-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:27:13-117
+127            android:exported="false"
+127-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:28:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" >
+128-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:29:13-69
+129        </service>
+130
+131        <receiver
+131-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:32:9-34:40
+132            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+132-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:33:13-132
+133            android:exported="false" />
+133-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:34:13-37
+134    </application>
+135
+136</manifest>

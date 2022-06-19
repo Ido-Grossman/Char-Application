@@ -43,9 +43,14 @@ public class ContactsActivity extends AppCompatActivity {
             Intent i = new Intent(this,AddContactActivity.class);
             startActivity(i);
         });
-/*        contacts = (ArrayList<Contact>) MyApp.contactList;
-        if(contacts.size() == 0) //if api conatcts empty try from dao todo uncomment*/
+        contacts = (ArrayList<Contact>) contactDao.index();
+        int apiSize = MyApp.contactList.size(), daoSize = contacts.size();
+        if(apiSize != daoSize) {//if api conatcts empty try from dao todo uncomment*/
+            for (; daoSize < apiSize; daoSize++) {
+                contactDao.insert(MyApp.contactList.get(daoSize));
+            }
             contacts = (ArrayList<Contact>) contactDao.index();
+        }
 
         listView = findViewById(R.id.list_view);
         adapter = new CustomListAdapter(getApplicationContext(), contacts);
