@@ -81,8 +81,7 @@ namespace MVC.Controllers
         public async Task<IActionResult> Logout()
         {
             var user = await _service.Get(HttpContext.User.Claims.First(i => i.Type == "UserId").Value);
-            if (user?.FirebaseToken != null)
-                user.FirebaseToken = null;
+            user.FirebaseToken = null;
             await _mvcContext.SaveChangesAsync();
             return Ok();
         }

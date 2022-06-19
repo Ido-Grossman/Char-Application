@@ -17,10 +17,13 @@ namespace MVC.Controllers
 
         private readonly IHubContext<MessageHub> _hub;
 
-        public TransferController(IUserDBService service, IHubContext<MessageHub> messageHub)
+        private readonly IFirebaseService _firebaseService;
+
+        public TransferController(IUserDBService service, IHubContext<MessageHub> messageHub, IFirebaseService firebaseService)
         {
             _service = service;
             _hub = messageHub;
+            _firebaseService = firebaseService;
         }
 
         /*
@@ -31,27 +34,12 @@ namespace MVC.Controllers
         {
             
             var user = await _service.Get(details.To);
-            var app = FirebaseApp.Create(new AppOptions()
-            {
-                Credential = GoogleCredential.FromFile("C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\privatekey.json")
-                    .CreateScoped("https://www.googleapis.com/auth/firebase.messaging")
-            });
-            FirebaseMessaging messaging = FirebaseMessaging.GetMessaging(app);
-            if (user?.FirebaseToken != null)
-            {
-                await messaging.SendAsync(new FirebaseAdmin.Messaging.Message
-                {
-                    Notification = new Notification()
-                    {
-                        Body = details.Content,
-                        Title = details.From
-                    },
-                    Token = user.FirebaseToken
-                });
-            }
+            
             if (user == null)
                 return NoContent();
             var contact = await _service.GetContact(user.Id, details.From);
+            if (user.FirebaseToken != null)
+                await _firebaseService.SendMessage(details.Content, details.From, user.FirebaseToken);
             // Makes sure the contact exists.
             if (contact == null)
                 return NotFound();

@@ -2,8 +2,6 @@ package com.example.android;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Objects;
 
-public class ContactsActivity extends AppCompatActivity {
+public class ContactsActivity extends AppCompatActivity implements IMessageListener {
 
     ListView listView;
     CustomListAdapter adapter;
@@ -30,6 +28,7 @@ public class ContactsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MyApp.messageNotify.addMessageListener(this);
         setContentView(R.layout.activity_contacts);
         getSupportActionBar().hide();
 
@@ -43,6 +42,7 @@ public class ContactsActivity extends AppCompatActivity {
         FloatingActionButton btnAdd = findViewById(R.id.add_contact_btn);
         btnAdd.setOnClickListener(view-> {
             Intent i = new Intent(this,AddContactActivity.class);
+            MyApp.messageNotify.removeMessageListener(this);
             startActivity(i);
         });
 
@@ -65,6 +65,7 @@ public class ContactsActivity extends AppCompatActivity {
                 contact.setLastDate(MyApp.contactList.get(i).getLastDate());
                 contactDao.update(contact);
             }
+            contacts = (ArrayList<Contact>) contactDao.index();
         }
         Collections.sort(contacts); //sort by id via the overridden comparator
         listView = findViewById(R.id.list_view);
@@ -82,10 +83,26 @@ public class ContactsActivity extends AppCompatActivity {
             intent.putExtra("contactName", contact.getName());
             intent.putExtra("lastDateTime", contact.getLastDate());
             intent.putExtra("profilePicture", contact.getImage()); //todo - support image
-
+            MyApp.messageNotify.removeMessageListener(this);
             startActivity(intent);
-        }
-        );
+        });
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        MyApp.messageNotify.removeMessageListener(this);
+    }
+
+    @Override
+    public void messageEvent() {
+        runOnUiThread(() -> {
+            ArrayList<Contact> contacts = (ArrayList<Contact>) contactDao.index();
+            listView = findViewById(R.id.list_view);
+            adapter = new CustomListAdapter(getApplicationContext(), contacts);
+            listView.setAdapter(adapter);
+            listView.setClickable(true);
+            adapter.notifyDataSetChanged();
+        });
+    }
 }

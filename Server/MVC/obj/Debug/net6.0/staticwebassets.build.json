@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8Q5XvNQ2OMjUQelt47GqsUqyNIevlzoN0Y9n7BbNkCY=",
+  "Hash": "9yoziLvqwSBRvjxBJwGplxfZZV9br/8/LR6TQtl8IyU=",
   "Source": "MVC",
   "BasePath": "_content/MVC",
   "Mode": "Default",
@@ -1124,12 +1124,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\precache-manifest.4e86f272dbed385c7ac44711ff902e8c.js",
+      "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\precache-manifest.583b22304b3d4073ac627f55f936ff17.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\",
       "BasePath": "_content/MVC",
-      "RelativePath": "precache-manifest.4e86f272dbed385c7ac44711ff902e8c.js",
+      "RelativePath": "precache-manifest.583b22304b3d4073ac627f55f936ff17.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1138,7 +1138,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\precache-manifest.4e86f272dbed385c7ac44711ff902e8c.js"
+      "OriginalItemSpec": "wwwroot\\precache-manifest.583b22304b3d4073ac627f55f936ff17.js"
     },
     {
       "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\service-worker.js",
@@ -1226,12 +1226,12 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\1.d56e96a1.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\static\\js\\main.256e2846.chunk.js",
+      "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\static\\js\\main.6d971b6e.chunk.js",
       "SourceId": "MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\",
       "BasePath": "_content/MVC",
-      "RelativePath": "static/js/main.256e2846.chunk.js",
+      "RelativePath": "static/js/main.6d971b6e.chunk.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1240,15 +1240,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.256e2846.chunk.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.6d971b6e.chunk.js"
     },
     {
-      "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\static\\js\\main.256e2846.chunk.js.map",
+      "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\static\\js\\main.6d971b6e.chunk.js.map",
       "SourceId": "MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\",
       "BasePath": "_content/MVC",
-      "RelativePath": "static/js/main.256e2846.chunk.js.map",
+      "RelativePath": "static/js/main.6d971b6e.chunk.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1257,7 +1257,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.256e2846.chunk.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.6d971b6e.chunk.js.map"
     },
     {
       "Identity": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\wwwroot\\static\\js\\runtime~main.229c360f.js",

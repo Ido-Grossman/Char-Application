@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         webServiceAPI = retrofit.create(WebServiceAPI.class);
         MyApp.webServiceAPI = webServiceAPI;
         MyApp.retrofit = retrofit;
+        MyApp.messageNotify = new MessageNotify();
 
 
         Button loginBtn = findViewById(R.id.loginBtn);

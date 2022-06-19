@@ -1834,3 +1834,4 @@ C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\Google.Apis.dll
 C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
 C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\Google.Apis.Auth.dll
 C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\Google.Apis.Core.dll
+C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\privatekey.json

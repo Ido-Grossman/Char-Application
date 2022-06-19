@@ -13,12 +13,6 @@ builder.Services.AddDbContext<MVCContext>(
     options => options.UseMySql("server=localhost;port=3306;user=root;password=12345678;database=ChatOS", MariaDbServerVersion.LatestSupportedServerVersion)
 );
 
-// googleCredential = Path.Combine(googleCredential, filePath);  
-// FirebaseApp.Create(new AppOptions()
-// {
-//     Credential = GoogleCredential.FromFile(googleCredential);
-// })
-
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {
     options.RequireHttpsMetadata = false;
@@ -44,6 +38,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddTransient<IUserDBService, UserDBService>();
+builder.Services.AddSingleton<IFirebaseService, FirebaseService>();
 
 builder.Services.AddControllersWithViews();
 
