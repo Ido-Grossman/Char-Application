@@ -1031,6 +1031,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color dark_bckg
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -2877,6 +2878,7 @@ id parallax
 id parent
 id parentPanel
 id parentRelative
+id parentView
 id parent_matrix
 id passwordInput
 id password_toggle
@@ -2926,6 +2928,9 @@ id select_dialog_listview
 id selected
 id selection_type
 id send_button
+id serverInput
+id serverTV
+id settings_button
 id shortcut
 id showCustom
 id showHome
@@ -3004,6 +3009,7 @@ id title3
 id title4
 id title5
 id titleDividerNoCustom
+id titleTV
 id title_template
 id toggle
 id top
@@ -3182,6 +3188,7 @@ layout sdp_example
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout settings_activity
 layout sp_example
 layout ssp_example
 layout support_simple_spinner_dropdown_item

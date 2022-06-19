@@ -4,18 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.1" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/drawable-night/bckg_chat_buttons.xml" value="0.202" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/drawable-xhdpi/bckg_chat_buttons.xml" value="0.196" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/drawable/bckg_chat_buttons.xml" value="0.201" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/drawable/bkcg_chat_top.xml" value="0.202" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/activity_add_contact.xml" value="0.1526268115942029" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/activity_chat.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/activity_contacts.xml" value="0.1526268115942029" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/settings_activity.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_chat.xml" value="0.1" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_contacts.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/register_page.xml" value="0.358695652173913" />
+        <entry key="app/src/main/res/drawable-night/bckg_chat_buttons.xml" value="0.221" />
+        <entry key="app/src/main/res/drawable-night/bckg_chat_top.xml" value="0.221" />
         <entry key="app/src/main/res/drawable/background_sent_message.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/bckg_chat_top.xml" value="0.221" />
         <entry key="app/src/main/res/layout-iw-land-night/activity_main.xml" value="0.33603603603603605" />
         <entry key="app/src/main/res/layout-iw-land/activity_main.xml" value="0.33603603603603605" />
         <entry key="app/src/main/res/layout-iw-night/activity_main.xml" value="0.19427083333333334" />
@@ -39,6 +35,7 @@
         <entry key="app/src/main/res/layout/item_container_recieved_message.xml" value="0.1324419778002018" />
         <entry key="app/src/main/res/layout/item_container_sent_message.xml" value="0.1324419778002018" />
         <entry key="app/src/main/res/layout/register_page.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout/settings_activity.xml" value="0.1766304347826087" />
       </map>
     </option>
   </component>

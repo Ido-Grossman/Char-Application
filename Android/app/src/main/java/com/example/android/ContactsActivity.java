@@ -2,6 +2,7 @@ package com.example.android;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -25,6 +26,27 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
     private AppDB db;
     private ContactDao contactDao;
 
+    void createPageButtons(){
+        FloatingActionButton btnAdd = findViewById(R.id.add_contact_btn);
+        btnAdd.setOnClickListener(view-> {
+            Intent i = new Intent(this,AddContactActivity.class);
+            MyApp.messageNotify.removeMessageListener(this);
+            startActivity(i);
+        });
+
+        ImageButton logoutButton = findViewById(R.id.logout_btn);
+        Intent logout_intent = new Intent(getApplicationContext(), MainActivity.class);
+        //delete dao
+        logoutButton.setOnClickListener(view -> {
+            db.clearAllTables();
+            startActivity(logout_intent);});
+
+        ImageButton settings_button = findViewById(R.id.settings_button);
+        Intent settings_intent = new Intent(getApplicationContext(), SettingsActivity.class);
+        settings_button.setOnClickListener(view -> {
+            startActivity(settings_intent);});
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,13 +60,6 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
         db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")
                 .fallbackToDestructiveMigration().allowMainThreadQueries().build();
         contactDao = db.contactDao();
-
-        FloatingActionButton btnAdd = findViewById(R.id.add_contact_btn);
-        btnAdd.setOnClickListener(view-> {
-            Intent i = new Intent(this,AddContactActivity.class);
-            MyApp.messageNotify.removeMessageListener(this);
-            startActivity(i);
-        });
 
         contacts = (ArrayList<Contact>) contactDao.index();
         int daoSize = contacts.size(); int apiSize;

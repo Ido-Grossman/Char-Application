@@ -1,6 +1,7 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color dark_bckg
 color grey
 color light_bckg
 color primary_dark
@@ -56,11 +57,15 @@ id list_view
 id loginBtn
 id logout_btn
 id logout_button
+id parentView
 id passwordInput
 id profile_image
 id refreshLayout
 id registerBtn
 id send_button
+id serverInput
+id serverTV
+id settings_button
 id textDateTime
 id textInputLayout
 id textInputLayout2
@@ -70,6 +75,7 @@ id time
 id title
 id title2
 id title3
+id titleTV
 id topPanel
 id user_name
 id usernameInput
@@ -81,6 +87,7 @@ layout contact_list_item
 layout item_container_recieved_message
 layout item_container_sent_message
 layout register_page
+layout settings_activity
 mipmap back
 mipmap back_round
 mipmap chatos_image

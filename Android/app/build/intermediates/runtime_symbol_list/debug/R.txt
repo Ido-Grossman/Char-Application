@@ -1030,6 +1030,7 @@ int color common_google_signin_btn_text_light_disabled 0x7f050036
 int color common_google_signin_btn_text_light_focused 0x7f050037
 int color common_google_signin_btn_text_light_pressed 0x7f050038
 int color common_google_signin_btn_tint 0x7f050039
+int color dark_bckg 0x7f0500e4
 int color design_bottom_navigation_shadow_color 0x7f05003a
 int color design_box_stroke_color 0x7f05003b
 int color design_dark_default_color_background 0x7f05003c
@@ -2876,6 +2877,7 @@ int id parallax 0x7f08013c
 int id parent 0x7f08013d
 int id parentPanel 0x7f08013e
 int id parentRelative 0x7f08013f
+int id parentView 0x7f0801df
 int id parent_matrix 0x7f080140
 int id passwordInput 0x7f080141
 int id password_toggle 0x7f080142
@@ -2925,6 +2927,9 @@ int id select_dialog_listview 0x7f08016d
 int id selected 0x7f08016e
 int id selection_type 0x7f08016f
 int id send_button 0x7f080170
+int id serverInput 0x7f0801e0
+int id serverTV 0x7f0801e1
+int id settings_button 0x7f0801e2
 int id shortcut 0x7f080171
 int id showCustom 0x7f080172
 int id showHome 0x7f080173
@@ -3003,6 +3008,7 @@ int id title3 0x7f0801bb
 int id title4 0x7f0801bc
 int id title5 0x7f0801bd
 int id titleDividerNoCustom 0x7f0801be
+int id titleTV 0x7f0801e3
 int id title_template 0x7f0801bf
 int id toggle 0x7f0801c0
 int id top 0x7f0801c1
@@ -3181,6 +3187,7 @@ int layout sdp_example 0x7f0b0066
 int layout select_dialog_item_material 0x7f0b0067
 int layout select_dialog_multichoice_material 0x7f0b0068
 int layout select_dialog_singlechoice_material 0x7f0b0069
+int layout settings_activity 0x7f0b007c
 int layout sp_example 0x7f0b006a
 int layout ssp_example 0x7f0b006b
 int layout support_simple_spinner_dropdown_item 0x7f0b006c

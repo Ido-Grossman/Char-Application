@@ -27,7 +27,7 @@
         </service>
 
         <activity
-            android:name=".ContactsActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -35,10 +35,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".SettingsActivity" />
         <activity android:name=".ChatActivity" />
         <activity android:name=".AddContactActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ContactsActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
