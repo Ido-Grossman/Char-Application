@@ -21,6 +21,7 @@ public class MyApp extends Application {
     public static Retrofit retrofit;
     public static WebServiceAPI webServiceAPI;
     public static List<Contact> contactList;
+    public static String FirebaseToken;
     public static List<Message> messageList;
 
     public void onCreate() {

@@ -6,7 +6,15 @@ import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 
 @Entity
-public class Contact {
+public class Contact implements Comparable<Contact>{
+
+    @Override
+    public int compareTo(Contact cn) {
+        if (getLastDate() == null || cn.getLastDate() == null) {
+            return 0;
+        }
+        return getLastDate().compareTo(cn.getLastDate());
+    }
 
     @PrimaryKey
     @NonNull

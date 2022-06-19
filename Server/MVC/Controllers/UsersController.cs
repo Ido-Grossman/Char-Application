@@ -4,6 +4,7 @@ using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using MVC.Data;
 using MVC.Models;
 using MVC.Services;
 
@@ -19,10 +20,13 @@ namespace MVC.Controllers
 
         private readonly IConfiguration _configuration;
 
-        public UsersController(IUserDBService service, IConfiguration configuration)
+        private readonly MVCContext _mvcContext;
+
+        public UsersController(IUserDBService service, IConfiguration configuration, MVCContext mvcContext)
         {
             _service = service;
             _configuration = configuration;
+            _mvcContext = mvcContext;
         }
 
         /**
@@ -34,29 +38,27 @@ namespace MVC.Controllers
         {
             // Checks if the user exists in the DB.
             var user = await _service.Get(userCred.Username);
-            if (user != null && user.Password == userCred.Password)
+            if (user == null || user.Password != userCred.Password) return NotFound();
+            // Makes the key with all the claims.
+            var claims = new[]
             {
-                // Makes the key with all the claims.
-                var claims = new[]
-                {
-                    new Claim(JwtRegisteredClaimNames.Sub, _configuration["JWTParams:Subject"]),
-                    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                    new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
-                    new Claim("UserId", userCred.Username)
-                };
-                var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWTParams:SecretKey"]));
-                var mac = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
-                var token = new JwtSecurityToken(
-                    _configuration["JWTParams:Issuer"],
-                    _configuration["JWTParams:Audience"],
-                    claims,
-                    expires: DateTime.UtcNow.AddMinutes(1),
-                    signingCredentials: mac);
-                // if (userCred.FirebaseToken != null)
-                //     user.FirebaseToken = userCred.FirebaseToken;
-                return Ok(new JwtSecurityTokenHandler().WriteToken(token));
-            }
-            return NotFound();
+                new Claim(JwtRegisteredClaimNames.Sub, _configuration["JWTParams:Subject"]),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
+                new Claim("UserId", userCred.Username)
+            };
+            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWTParams:SecretKey"]));
+            var mac = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
+            var token = new JwtSecurityToken(
+                _configuration["JWTParams:Issuer"],
+                _configuration["JWTParams:Audience"],
+                claims,
+                expires: DateTime.UtcNow.AddMinutes(1),
+                signingCredentials: mac);
+            if (userCred.FirebaseToken != null)
+                user.FirebaseToken = userCred.FirebaseToken;
+            await _mvcContext.SaveChangesAsync();
+            return Ok(new JwtSecurityTokenHandler().WriteToken(token));
         }
 
         /**
@@ -79,8 +81,9 @@ namespace MVC.Controllers
         public async Task<IActionResult> Logout()
         {
             var user = await _service.Get(HttpContext.User.Claims.First(i => i.Type == "UserId").Value);
-            // if (user?.FirebaseToken != null)
-            //     user.FirebaseToken = null;
+            if (user?.FirebaseToken != null)
+                user.FirebaseToken = null;
+            await _mvcContext.SaveChangesAsync();
             return Ok();
         }
         
@@ -104,7 +107,6 @@ namespace MVC.Controllers
             await _service.AddUser(new User
             {
                 Id = userCred.Username, Password = userCred.Password, Name = userCred.Nickname, Server = userCred.Server
-                // FirebaseToken = userCred.FirebaseToken
             });
 
             var claims = new[]

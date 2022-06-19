@@ -3210,7 +3210,6 @@ mipmap person_add_round
 mipmap settings
 mipmap settings_round
 plurals mtrl_badge_content_description
-raw keep
 string BaseUrl
 string abc_action_bar_home_description
 string abc_action_bar_up_description

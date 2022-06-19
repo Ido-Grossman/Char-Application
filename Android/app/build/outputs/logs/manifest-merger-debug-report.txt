@@ -1,29 +1,35 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-52:16
-INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-52:16
-INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-52:16
-INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-52:16
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-62:12
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\idodd\.gradle\caches\transforms-3\d9bcecfe437edbb1094bbe1733bfd8be\transformed\material-1.4.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\idodd\.gradle\caches\transforms-3\36cd6b4f74bb4dfdebfb5f02b71d97e9\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\idodd\.gradle\caches\transforms-3\59bc465425115ae7d7c9889d219ab9d0\transformed\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\idodd\.gradle\caches\transforms-3\39867825f5d33ca2d22d37e04e02a1b6\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:17:1-61:12
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\05910d502a895fec4e7e0d3edb5db12b\transformed\firebase-core-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:17:1-37:12
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\idodd\.gradle\caches\transforms-3\cd8c18ff1b87e752c4b27ee4c24cb3ba\transformed\sdp-android-1.0.6\AndroidManifest.xml:2:1-11:12
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\idodd\.gradle\caches\transforms-3\9b169d62e4ec849045f751ac4357f64e\transformed\ssp-android-1.0.6\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a3605430e6c83896759821c8844c2b4b\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\idodd\.gradle\caches\transforms-3\48d1578c4b7bdee6b3e5ed106fc1c742\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:15:1-34:12
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:2:1-24:12
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:15:1-40:12
-MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\idodd\.gradle\caches\transforms-3\0f96fefa5793ff0103691b805a932aa6\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\8c578b285b660d5101f842237c2553ce\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\bdc43066763300a26858b7e92a18ce2c\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\6eb662ed88210bca73b5f349cd364ae2\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\5fb31bbb813bf86515cedf1ac7298f22\transformed\firebase-analytics-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\552597dbf6cec1dd682db13dd73d6c36\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\912cef9fb174233b9d9fb882eab1ce94\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\8ccf97954ea13fac39180f156d269935\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\fdd7fa1df5f81db65519a011e0d31236\transformed\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\1d65f501836767849788c370ffe65db9\transformed\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\02966951a57f8e259e77e00acad28435\transformed\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\1a8e75982386b560bcf14bec0ca52eaa\transformed\play-services-measurement-base-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\daa373a1ab8b73f818b7a73247099c6c\transformed\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\idodd\.gradle\caches\transforms-3\31265d40a1c465a9cd04ccbc47124a3e\transformed\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.3] C:\Users\idodd\.gradle\caches\transforms-3\f091e241dd0811e2e3c93a613145db83\transformed\activity-1.2.3\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\idodd\.gradle\caches\transforms-3\4d64a5abf385a500e9b2b9dc9e55b0a2\transformed\appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
@@ -48,11 +54,6 @@ MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\idodd\.gradle\caches\tra
 MERGED from [androidx.sqlite:sqlite-framework:2.2.0] C:\Users\idodd\.gradle\caches\transforms-3\718678d30aed3c87113f41b8c72a5ad3\transformed\sqlite-framework-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\idodd\.gradle\caches\transforms-3\4c925920d51d22fcc4f41cc898155fde\transformed\sqlite-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\idodd\.gradle\caches\transforms-3\0c2365e2b474a0d37acd113e8b7cb52c\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:15:1-41:12
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bd094cb188c2dbde07fe17ac3fb2520b\transformed\transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\8132b93eeea53f63a747bd7e8addf233\transformed\firebase-components-17.0.0\AndroidManifest.xml:15:1-23:12
-MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\ec00c6b4cb3eee750143c768822f1734\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\idodd\.gradle\caches\transforms-3\fcd98b0a03cba9441cdae637f3579850\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\idodd\.gradle\caches\transforms-3\ee67a9a4e799ca47fa50fbdb5ebb452b\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\idodd\.gradle\caches\transforms-3\b366da43a04ea71dba803b58418158bd\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -62,149 +63,177 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\idodd\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\idodd\.gradle\caches\transforms-3\70af51ac3fc48fa9fdaae96d282782c8\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\idodd\.gradle\caches\transforms-3\99e735ae545d4a7b36ae767622ef1265\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\idodd\.gradle\caches\transforms-3\b708d077dc5b7e4d4ae84a0ef1320f65\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-52:16
-INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-52:16
-INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-52:16
+INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-62:12
+INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-62:12
 	package
 		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:4:5-34
 		INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-52:16
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-62:12
 		INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-52:16
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:1-62:12
 		INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:6:5-66
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:26:5-67
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\02966951a57f8e259e77e00acad28435\transformed\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\02966951a57f8e259e77e00acad28435\transformed\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:9:5-51:19
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:8:5-60:19
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\idodd\.gradle\caches\transforms-3\d9bcecfe437edbb1094bbe1733bfd8be\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] C:\Users\idodd\.gradle\caches\transforms-3\d9bcecfe437edbb1094bbe1733bfd8be\transformed\material-1.4.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\idodd\.gradle\caches\transforms-3\36cd6b4f74bb4dfdebfb5f02b71d97e9\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\idodd\.gradle\caches\transforms-3\36cd6b4f74bb4dfdebfb5f02b71d97e9\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:24:5-29:19
-MERGED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:30:5-59:19
-MERGED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:30:5-59:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\idodd\.gradle\caches\transforms-3\48d1578c4b7bdee6b3e5ed106fc1c742\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\idodd\.gradle\caches\transforms-3\48d1578c4b7bdee6b3e5ed106fc1c742\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\idodd\.gradle\caches\transforms-3\0f96fefa5793ff0103691b805a932aa6\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\idodd\.gradle\caches\transforms-3\0f96fefa5793ff0103691b805a932aa6\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\bdc43066763300a26858b7e92a18ce2c\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\bdc43066763300a26858b7e92a18ce2c\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\6eb662ed88210bca73b5f349cd364ae2\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\6eb662ed88210bca73b5f349cd364ae2\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\05910d502a895fec4e7e0d3edb5db12b\transformed\firebase-core-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\05910d502a895fec4e7e0d3edb5db12b\transformed\firebase-core-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\5fb31bbb813bf86515cedf1ac7298f22\transformed\firebase-analytics-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\5fb31bbb813bf86515cedf1ac7298f22\transformed\firebase-analytics-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\552597dbf6cec1dd682db13dd73d6c36\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\552597dbf6cec1dd682db13dd73d6c36\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\912cef9fb174233b9d9fb882eab1ce94\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\912cef9fb174233b9d9fb882eab1ce94\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\8ccf97954ea13fac39180f156d269935\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\8ccf97954ea13fac39180f156d269935\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\fdd7fa1df5f81db65519a011e0d31236\transformed\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\fdd7fa1df5f81db65519a011e0d31236\transformed\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\1d65f501836767849788c370ffe65db9\transformed\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\1d65f501836767849788c370ffe65db9\transformed\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\1a8e75982386b560bcf14bec0ca52eaa\transformed\play-services-measurement-base-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\1a8e75982386b560bcf14bec0ca52eaa\transformed\play-services-measurement-base-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\daa373a1ab8b73f818b7a73247099c6c\transformed\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\daa373a1ab8b73f818b7a73247099c6c\transformed\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.5.0] C:\Users\idodd\.gradle\caches\transforms-3\a198eff964d3ac1f711f51b16f09cd5f\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.5.0] C:\Users\idodd\.gradle\caches\transforms-3\a198eff964d3ac1f711f51b16f09cd5f\transformed\core-1.5.0\AndroidManifest.xml:24:5-89
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:25:5-39:19
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:25:5-39:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\idodd\.gradle\caches\transforms-3\fcd98b0a03cba9441cdae637f3579850\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\idodd\.gradle\caches\transforms-3\fcd98b0a03cba9441cdae637f3579850\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\idodd\.gradle\caches\transforms-3\a198eff964d3ac1f711f51b16f09cd5f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:14:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:12:9-54
 	android:roundIcon
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:15:9-54
 	tools:targetApi
 		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:19:9-29
 	android:icon
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:11:9-36
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:10:9-36
 	android:theme
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:18:9-45
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:17:9-45
 	android:dataExtractionRules
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:12:9-65
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:11:9-65
 	android:usesCleartextTraffic
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:20:9-44
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:18:9-44
 	android:name
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:10:9-30
-activity#com.example.android.ContactsActivity
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:21:9-28:20
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:9:9-30
+service#com.example.android.FirebaseService
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:20:9-27:19
+	android:enabled
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:22:13-35
 	android:exported
 		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:21:13-44
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:24:13-26:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:25-75
+activity#com.example.android.ContactsActivity
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:29:9-37:20
+	android:exported
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:30:13-45
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:24:13-27:29
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.VIEW
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:33:25-66
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:26:17-76
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:35:17-76
 	android:name
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:26:27-73
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:35:27-73
 activity#com.example.android.ChatActivity
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:29:9-30:44
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:38:9-50
 	android:name
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:30:13-41
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:38:19-47
 activity#com.example.android.AddContactActivity
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:31:9-32:50
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:39:9-56
 	android:name
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:32:13-47
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:39:19-53
 activity#com.example.android.MainActivity
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:33:9-40:20
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:40:9-48:20
 	android:exported
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:35:13-36
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:42:13-36
 	android:name
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:34:13-41
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:41:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:36:13-39:29
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:43:13-47:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:37:17-68
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:44:17-69
 	android:name
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:44:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:38:17-76
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:46:17-77
 	android:name
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:46:27-74
 activity#com.example.android.RegisterPage
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:41:9-49:20
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:49:9-59:20
 	android:exported
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:43:13-36
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:51:13-36
 	android:name
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:42:13-41
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:50:13-41
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:scheme:http
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:44:13-48:29
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:52:13-58:29
 	tools:ignore
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:44:28-58
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:52:28-58
 data
-ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:47:17-46
+ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:57:17-47
 	android:scheme
-		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:47:23-44
+		ADDED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:57:23-44
 uses-sdk
 INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
@@ -219,36 +248,48 @@ MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\tra
 MERGED from [androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\idodd\.gradle\caches\transforms-3\39867825f5d33ca2d22d37e04e02a1b6\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\idodd\.gradle\caches\transforms-3\39867825f5d33ca2d22d37e04e02a1b6\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:21:5-23:41
-MERGED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\05910d502a895fec4e7e0d3edb5db12b\transformed\firebase-core-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\05910d502a895fec4e7e0d3edb5db12b\transformed\firebase-core-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\idodd\.gradle\caches\transforms-3\cd8c18ff1b87e752c4b27ee4c24cb3ba\transformed\sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.sdp:sdp-android:1.0.6] C:\Users\idodd\.gradle\caches\transforms-3\cd8c18ff1b87e752c4b27ee4c24cb3ba\transformed\sdp-android-1.0.6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\idodd\.gradle\caches\transforms-3\9b169d62e4ec849045f751ac4357f64e\transformed\ssp-android-1.0.6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\idodd\.gradle\caches\transforms-3\9b169d62e4ec849045f751ac4357f64e\transformed\ssp-android-1.0.6\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a3605430e6c83896759821c8844c2b4b\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a3605430e6c83896759821c8844c2b4b\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\idodd\.gradle\caches\transforms-3\48d1578c4b7bdee6b3e5ed106fc1c742\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\idodd\.gradle\caches\transforms-3\48d1578c4b7bdee6b3e5ed106fc1c742\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\idodd\.gradle\caches\transforms-3\0f96fefa5793ff0103691b805a932aa6\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] C:\Users\idodd\.gradle\caches\transforms-3\0f96fefa5793ff0103691b805a932aa6\transformed\firebase-iid-interop-17.1.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\8c578b285b660d5101f842237c2553ce\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\8c578b285b660d5101f842237c2553ce\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\bdc43066763300a26858b7e92a18ce2c\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\bdc43066763300a26858b7e92a18ce2c\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\6eb662ed88210bca73b5f349cd364ae2\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\6eb662ed88210bca73b5f349cd364ae2\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\5fb31bbb813bf86515cedf1ac7298f22\transformed\firebase-analytics-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\5fb31bbb813bf86515cedf1ac7298f22\transformed\firebase-analytics-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\552597dbf6cec1dd682db13dd73d6c36\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\552597dbf6cec1dd682db13dd73d6c36\transformed\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\912cef9fb174233b9d9fb882eab1ce94\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\912cef9fb174233b9d9fb882eab1ce94\transformed\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\8ccf97954ea13fac39180f156d269935\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\8ccf97954ea13fac39180f156d269935\transformed\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\fdd7fa1df5f81db65519a011e0d31236\transformed\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\fdd7fa1df5f81db65519a011e0d31236\transformed\play-services-measurement-sdk-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\1d65f501836767849788c370ffe65db9\transformed\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\1d65f501836767849788c370ffe65db9\transformed\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\02966951a57f8e259e77e00acad28435\transformed\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\02966951a57f8e259e77e00acad28435\transformed\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\1a8e75982386b560bcf14bec0ca52eaa\transformed\play-services-measurement-base-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\1a8e75982386b560bcf14bec0ca52eaa\transformed\play-services-measurement-base-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\daa373a1ab8b73f818b7a73247099c6c\transformed\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\daa373a1ab8b73f818b7a73247099c6c\transformed\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\idodd\.gradle\caches\transforms-3\31265d40a1c465a9cd04ccbc47124a3e\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\idodd\.gradle\caches\transforms-3\31265d40a1c465a9cd04ccbc47124a3e\transformed\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.2.3] C:\Users\idodd\.gradle\caches\transforms-3\f091e241dd0811e2e3c93a613145db83\transformed\activity-1.2.3\AndroidManifest.xml:20:5-22:41
@@ -297,16 +338,6 @@ MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\idodd\.gradle\caches\transfo
 MERGED from [androidx.sqlite:sqlite:2.2.0] C:\Users\idodd\.gradle\caches\transforms-3\4c925920d51d22fcc4f41cc898155fde\transformed\sqlite-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\idodd\.gradle\caches\transforms-3\0c2365e2b474a0d37acd113e8b7cb52c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\idodd\.gradle\caches\transforms-3\0c2365e2b474a0d37acd113e8b7cb52c\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bd094cb188c2dbde07fe17ac3fb2520b\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bd094cb188c2dbde07fe17ac3fb2520b\transformed\transport-api-3.0.0\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\8132b93eeea53f63a747bd7e8addf233\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\8132b93eeea53f63a747bd7e8addf233\transformed\firebase-components-17.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\ec00c6b4cb3eee750143c768822f1734\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\ec00c6b4cb3eee750143c768822f1734\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\idodd\.gradle\caches\transforms-3\fcd98b0a03cba9441cdae637f3579850\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\idodd\.gradle\caches\transforms-3\fcd98b0a03cba9441cdae637f3579850\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\idodd\.gradle\caches\transforms-3\ee67a9a4e799ca47fa50fbdb5ebb452b\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
@@ -343,145 +374,145 @@ ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\tran
 		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
 	android:name
 		ADDED from [androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:7:5-79
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:25:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:25:22-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:26:5-68
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:9:5-68
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:26:22-65
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:28:5-82
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\b3898a40bbae3152274a9ba76b93ecca\transformed\play-services-cloud-messaging-17.0.1\AndroidManifest.xml:11:5-82
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:28:22-79
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:31:9-38:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:33:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:34:13-73
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:32:13-78
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:35:13-37:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:36:17-81
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:36:25-78
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:44:9-51:19
+ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:47:13-37
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:46:13-43
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:45:13-82
-intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:48:13-50:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:48:28-51
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:49:17-78
+		ADDED from [com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\02966951a57f8e259e77e00acad28435\transformed\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\02966951a57f8e259e77e00acad28435\transformed\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:49:25-75
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\02966951a57f8e259e77e00acad28435\transformed\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\02966951a57f8e259e77e00acad28435\transformed\play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:52:9-58:19
-MERGED from [com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:25:9-31:19
-MERGED from [com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:25:9-31:19
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
-MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
-MERGED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:33:9-37:35
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:54:13-37
-	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:37:13-32
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:29:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:53:13-84
-meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
-ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:55:13-57:85
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:28:13-84
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
 	android:value
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:57:17-82
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.0.5] C:\Users\idodd\.gradle\caches\transforms-3\73d5f495f6be55303f70245e628df557\transformed\firebase-messaging-23.0.5\AndroidManifest.xml:56:17-119
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\idodd\.gradle\caches\transforms-3\182f3df4caf3c9ef045d87b8e8f4e16e\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
-ADDED from [com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:28:13-30:85
-	android:value
-		ADDED from [com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:30:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-datatransport:18.1.4] C:\Users\idodd\.gradle\caches\transforms-3\eefac24535dfd5062d36978d3736f75c\transformed\firebase-datatransport-18.1.4\AndroidManifest.xml:29:17-115
-meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
-ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
-	android:value
-		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\idodd\.gradle\caches\transforms-3\0e371b69d8166e219f658b538b79d367\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:28:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:30:13-37
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:29:13-43
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:31:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:20.1.1] C:\Users\idodd\.gradle\caches\transforms-3\ce722ae7c430be030c6df5dc2af7eaef\transformed\firebase-common-20.1.1\AndroidManifest.xml:27:13-77
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\idodd\.gradle\caches\transforms-3\bbab48b08dd17c3c624305da0c13b0f1\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
-service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:36:9-38:40
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:36:9-38:40
-	android:exported
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:31:13-37
-	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:30:13-103
-meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
-ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:32:13-34:39
-	android:value
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:34:17-36
-	android:name
-		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\cf1b07df8f2375d353be829dc8871e4f\transformed\transport-backend-cct-3.1.5\AndroidManifest.xml:33:17-94
-service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
-ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:26:9-30:19
-	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:28:13-37
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
 	android:permission
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:29:13-69
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:27:13-117
-receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
-ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:32:9-34:40
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
 	android:exported
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:34:13-37
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\idodd\.gradle\caches\transforms-3\86b14d975a7963b1cba093fbe2728ece\transformed\transport-runtime-3.1.5\AndroidManifest.xml:33:13-132
+		ADDED from [com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\6cbecdfe2a3663138ad7c301b3b596fa\transformed\play-services-measurement-impl-17.2.1\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

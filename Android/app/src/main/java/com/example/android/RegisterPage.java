@@ -72,7 +72,7 @@ public class RegisterPage extends AppCompatActivity {
 
             } else {
                 String userName = username.getText().toString();
-                UserCred newUser = new UserCred(userName, s, "hello", "http://localhost:7225");
+                UserCred newUser = new UserCred(userName, s, "hello", "http://localhost:7225", "");
                 this.checkIfUsernameExists(userName, newUser);
 
             }

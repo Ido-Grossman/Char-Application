@@ -15,6 +15,8 @@ import com.example.android.Data.ContactDao;
 import com.example.android.Data.User;
 import com.example.android.api.WebServiceAPI;
 import com.example.android.entities.UserCred;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -59,7 +61,10 @@ public class MainActivity extends AppCompatActivity {
             System.out.println(username);
             System.out.println(password);
             Intent intent = new Intent(this, ContactsActivity.class);
-            UserCred user = new UserCred(strUsername, strPassword, "hello","http://localhost:7225");
+            FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener(MainActivity.this, instanceIdResult -> {
+                MyApp.FirebaseToken = instanceIdResult.getToken();
+            });
+            UserCred user = new UserCred(strUsername, strPassword, "hello","http://localhost:7225", MyApp.FirebaseToken);
             this.tryToLogin(user, intent);
 
 

@@ -1,10 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Threading.Tasks;
+using FirebaseAdmin;
 using FirebaseAdmin.Messaging;
-using Microsoft.AspNetCore.Http;
+using Google.Apis.Auth.OAuth2;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using MVC.Hubs;
@@ -35,20 +31,24 @@ namespace MVC.Controllers
         {
             
             var user = await _service.Get(details.To);
-            // if (user.FirebaseToken != null)
-            // {
-            //     var registrationToken = "BJ752iTqs4kW507Bi2_tr1zm63Ugk646ENl390mrd69NM1LS8d_fcbgfDdoigcJrszOOtqCJnlzDnMjR6l1ogxk";
-            //     var messageFB = new FirebaseAdmin.Messaging.Message()
-            //     {
-            //         Data = new Dictionary<string, string>()
-            //         {
-            //             {"sender", details.From},
-            //             {"message", details.Content}
-            //         },
-            //         Token = registrationToken
-            //     };
-            //     string response = await FirebaseMessaging.DefaultInstance.SendAsync(messageFB);
-            // }
+            var app = FirebaseApp.Create(new AppOptions()
+            {
+                Credential = GoogleCredential.FromFile("C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\chatos-bd132-firebase-adminsdk-xvo0w-f4cbb7d34b.json")
+                    .CreateScoped("https://www.googleapis.com/auth/firebase.messaging")
+            });
+            FirebaseMessaging messaging = FirebaseMessaging.GetMessaging(app);
+            if (user?.FirebaseToken != null)
+            { ;
+                await messaging.SendAsync(new FirebaseAdmin.Messaging.Message
+                {
+                    Notification = new Notification()
+                    {
+                        Body = details.Content,
+                        Title = details.From
+                    },
+                    Token = user.FirebaseToken
+                });
+            }
             if (user == null)
                 return NoContent();
             var contact = await _service.GetContact(user.Id, details.From);

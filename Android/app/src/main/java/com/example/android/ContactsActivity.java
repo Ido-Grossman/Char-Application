@@ -16,6 +16,8 @@ import com.example.android.Data.ContactDao;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Objects;
 
 public class ContactsActivity extends AppCompatActivity {
 
@@ -43,15 +45,28 @@ public class ContactsActivity extends AppCompatActivity {
             Intent i = new Intent(this,AddContactActivity.class);
             startActivity(i);
         });
+
         contacts = (ArrayList<Contact>) contactDao.index();
-        int apiSize = MyApp.contactList.size(), daoSize = contacts.size();
+        int daoSize = contacts.size(); int apiSize;
+        if(MyApp.contactList == null)   apiSize =0;
+        else    apiSize = MyApp.contactList.size();
         if(apiSize != daoSize) {//if api conatcts empty try from dao todo uncomment*/
             int sizeComp = apiSize - daoSize;
             for (int i = 0; i < sizeComp; i++)
                 contactDao.insert(MyApp.contactList.get(i));
             contacts = (ArrayList<Contact>) contactDao.index();
         }
-
+        for (int i = 0; i < apiSize; i++) {
+            Contact first = contactDao.get(contacts.get(i).getId());
+            Contact api = MyApp.contactList.get(i);
+            if (!Objects.equals(first.getLastDate(), api.getLastDate())) {
+                Contact contact = contacts.get(i);
+                contact.setLast(MyApp.contactList.get(i).getLast());
+                contact.setLastDate(MyApp.contactList.get(i).getLastDate());
+                contactDao.update(contact);
+            }
+        }
+        Collections.sort(contacts); //sort by id via the overridden comparator
         listView = findViewById(R.id.list_view);
         adapter = new CustomListAdapter(getApplicationContext(), contacts);
 

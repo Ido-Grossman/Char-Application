@@ -234,11 +234,15 @@ public final class ContactDao_Impl implements ContactDao {
   }
 
   @Override
-  public Contact get(final int id) {
+  public Contact get(final String id) {
     final String _sql = "SELECT * FROM Contact WHERE id = ?";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
     int _argIndex = 1;
-    _statement.bindLong(_argIndex, id);
+    if (id == null) {
+      _statement.bindNull(_argIndex);
+    } else {
+      _statement.bindString(_argIndex, id);
+    }
     __db.assertNotSuspendingTransaction();
     final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
     try {

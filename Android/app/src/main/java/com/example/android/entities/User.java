@@ -8,16 +8,16 @@ public class User
     public String id;
     public String password;
     public String name;
-    public String fireBaseToken;
+    public String firebaseToken;
     public String server;
     public HashMap<Contact, List<Message>> contacts;
 
-    public User(String id, String password, String name, String fireBaseToken, String server)
+    public User(String id, String password, String name, String firebaseToken, String server)
     {
         this.id = id;
         this.password = password;
         this.name = name;
-        this.fireBaseToken = fireBaseToken;
+        this.firebaseToken = firebaseToken;
         this.server = server;
         this.contacts = new HashMap<Contact, List<Message>>();
     }
