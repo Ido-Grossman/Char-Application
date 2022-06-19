@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
+using FirebaseAdmin.Messaging;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
@@ -31,7 +33,22 @@ namespace MVC.Controllers
         [HttpPost]
         public async Task<IActionResult> PostInv([FromBody] TraInv details)
         {
+            
             var user = await _service.Get(details.To);
+            // if (user.FirebaseToken != null)
+            // {
+            //     var registrationToken = "BJ752iTqs4kW507Bi2_tr1zm63Ugk646ENl390mrd69NM1LS8d_fcbgfDdoigcJrszOOtqCJnlzDnMjR6l1ogxk";
+            //     var messageFB = new FirebaseAdmin.Messaging.Message()
+            //     {
+            //         Data = new Dictionary<string, string>()
+            //         {
+            //             {"sender", details.From},
+            //             {"message", details.Content}
+            //         },
+            //         Token = registrationToken
+            //     };
+            //     string response = await FirebaseMessaging.DefaultInstance.SendAsync(messageFB);
+            // }
             if (user == null)
                 return NoContent();
             var contact = await _service.GetContact(user.Id, details.From);

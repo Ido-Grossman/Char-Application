@@ -46,7 +46,7 @@ public final class messageDao_Impl implements messageDao {
         if (value.getContactId() == null) {
           stmt.bindNull(2);
         } else {
-          stmt.bindLong(2, value.getContactId());
+          stmt.bindString(2, value.getContactId());
         }
         if (value.getContent() == null) {
           stmt.bindNull(3);
@@ -97,7 +97,7 @@ public final class messageDao_Impl implements messageDao {
         if (value.getContactId() == null) {
           stmt.bindNull(2);
         } else {
-          stmt.bindLong(2, value.getContactId());
+          stmt.bindString(2, value.getContactId());
         }
         if (value.getContent() == null) {
           stmt.bindNull(3);
@@ -161,11 +161,15 @@ public final class messageDao_Impl implements messageDao {
   }
 
   @Override
-  public List<Message> index(final int contactId) {
+  public List<Message> index(final String contactId) {
     final String _sql = "SELECT * FROM message Where contactId = ?";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
     int _argIndex = 1;
-    _statement.bindLong(_argIndex, contactId);
+    if (contactId == null) {
+      _statement.bindNull(_argIndex);
+    } else {
+      _statement.bindString(_argIndex, contactId);
+    }
     __db.assertNotSuspendingTransaction();
     final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
     try {
@@ -177,11 +181,11 @@ public final class messageDao_Impl implements messageDao {
       final List<Message> _result = new ArrayList<Message>(_cursor.getCount());
       while(_cursor.moveToNext()) {
         final Message _item;
-        final Integer _tmpContactId;
+        final String _tmpContactId;
         if (_cursor.isNull(_cursorIndexOfContactId)) {
           _tmpContactId = null;
         } else {
-          _tmpContactId = _cursor.getInt(_cursorIndexOfContactId);
+          _tmpContactId = _cursor.getString(_cursorIndexOfContactId);
         }
         final String _tmpContent;
         if (_cursor.isNull(_cursorIndexOfContent)) {
@@ -236,11 +240,11 @@ public final class messageDao_Impl implements messageDao {
       final int _cursorIndexOfSent = CursorUtil.getColumnIndexOrThrow(_cursor, "sent");
       final Message _result;
       if(_cursor.moveToFirst()) {
-        final Integer _tmpContactId;
+        final String _tmpContactId;
         if (_cursor.isNull(_cursorIndexOfContactId)) {
           _tmpContactId = null;
         } else {
-          _tmpContactId = _cursor.getInt(_cursorIndexOfContactId);
+          _tmpContactId = _cursor.getString(_cursorIndexOfContactId);
         }
         final String _tmpContent;
         if (_cursor.isNull(_cursorIndexOfContent)) {

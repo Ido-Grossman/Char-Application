@@ -1827,3 +1827,10 @@ C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\obj\Debug\net6.0\refint\MVC.dll
 C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.pdb
 C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\obj\Debug\net6.0\MVC.genruntimeconfig.cache
 C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\obj\Debug\net6.0\ref\MVC.dll
+C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\FirebaseAdmin.dll
+C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\Google.Api.Gax.dll
+C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\Google.Api.Gax.Rest.dll
+C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\Google.Apis.dll
+C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\Google.Apis.Auth.dll
+C:\Users\idodd\Desktop\ChatOS\ChatOS\Server\MVC\bin\Debug\net6.0\Google.Apis.Core.dll
