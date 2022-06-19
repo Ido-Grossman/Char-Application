@@ -46,6 +46,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.android.SettingsActivity" />
         <activity android:name="com.example.android.ChatActivity" />
         <activity android:name="com.example.android.AddContactActivity" />
         <activity

@@ -38,7 +38,6 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
         Intent logout_intent = new Intent(getApplicationContext(), MainActivity.class);
         //delete dao
         logoutButton.setOnClickListener(view -> {
-            db.clearAllTables();
             startActivity(logout_intent);});
 
         ImageButton settings_button = findViewById(R.id.settings_button);
@@ -53,7 +52,7 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
         MyApp.messageNotify.addMessageListener(this);
         setContentView(R.layout.activity_contacts);
         getSupportActionBar().hide();
-
+        createPageButtons();
         ArrayList<Contact> contacts;
 
         //create room database:
@@ -106,7 +105,20 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        db.clearAllTables();
+
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
         MyApp.messageNotify.removeMessageListener(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MyApp.messageNotify.addMessageListener(this);
     }
 
     @Override

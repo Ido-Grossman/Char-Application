@@ -6,266 +6,266 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml
+8-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml
+9-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:6:5-67
-11-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:6:22-64
+11-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:6:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:23:5-79
-12-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:23:22-76
+12-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:22-76
 13    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-13-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:24:5-68
-13-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:24:22-65
+13-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
 14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-14-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:26:5-82
-14-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:26:22-79
+14-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+14-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
 15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-15-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:26:5-110
-15-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
+15-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
 16
 17    <application
-17-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:8:5-61:19
+17-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:8:5-61:19
 18        android:name="com.example.android.MyApp"
-18-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:9:9-30
+18-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:9:9-30
 19        android:allowBackup="false"
-19-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:10:9-36
+19-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:10:9-36
 20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-20-->[androidx.core:core:1.5.0] /Users/elisilverstine/.gradle/caches/transforms-3/a198eff964d3ac1f711f51b16f09cd5f/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+20-->[androidx.core:core:1.5.0] C:\Users\idodd\.gradle\caches\transforms-3\a198eff964d3ac1f711f51b16f09cd5f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 21        android:dataExtractionRules="@xml/data_extraction_rules"
-21-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:11:9-65
+21-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:11:9-65
 22        android:debuggable="true"
 23        android:fullBackupContent="@xml/backup_rules"
-23-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:12:9-54
+23-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:12:9-54
 24        android:icon="@mipmap/ic_launcher"
-24-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:13:9-43
+24-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:13:9-43
 25        android:label="@string/app_name"
-25-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:14:9-41
+25-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:14:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:15:9-54
+26-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:15:9-54
 27        android:supportsRtl="true"
-27-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:16:9-35
+27-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:16:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.Android"
-29-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:17:9-45
+29-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:17:9-45
 30        android:usesCleartextTraffic="true" >
-30-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:18:9-44
+30-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:18:9-44
 31        <service
-31-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:20:9-27:19
+31-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:20:9-27:19
 32            android:name="com.example.android.FirebaseService"
-32-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:21:13-44
+32-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:21:13-44
 33            android:enabled="true"
-33-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:22:13-35
+33-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:22:13-35
 34            android:exported="true" >
-34-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:23:13-36
+34-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:23:13-36
 35            <intent-filter>
-35-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:24:13-26:29
+35-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:24:13-26:29
 36                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-36-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:25:17-77
-36-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:25:25-75
+36-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:17-77
+36-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:25-75
 37            </intent-filter>
 38        </service>
 39
 40        <activity
-40-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:29:9-37:20
-41            android:name="com.example.android.MainActivity"
-41-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:30:13-41
+40-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:29:9-37:20
+41            android:name="com.example.android.ContactsActivity"
+41-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:30:13-45
 42            android:exported="true" >
-42-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:31:13-36
+42-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:31:13-36
 43            <intent-filter>
-43-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:32:13-36:29
+43-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:32:13-36:29
 44                <action android:name="android.intent.action.VIEW" />
-44-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:33:17-69
-44-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:33:25-66
+44-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:33:17-69
+44-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:33:25-66
 45
 46                <category android:name="android.intent.category.DEFAULT" />
-46-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:35:17-76
-46-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:35:27-73
+46-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:35:17-76
+46-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:35:27-73
 47            </intent-filter>
 48        </activity>
 49        <activity android:name="com.example.android.SettingsActivity" />
-49-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:38:9-54
-49-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:38:19-51
+49-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:38:9-54
+49-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:38:19-51
 50        <activity android:name="com.example.android.ChatActivity" />
-50-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:39:9-50
-50-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:39:19-47
+50-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:39:9-50
+50-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:39:19-47
 51        <activity android:name="com.example.android.AddContactActivity" />
-51-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:40:9-56
-51-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:40:19-53
+51-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:40:9-56
+51-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:40:19-53
 52        <activity
-52-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:41:9-49:20
-53            android:name="com.example.android.ContactsActivity"
-53-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:42:13-45
+52-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:41:9-49:20
+53            android:name="com.example.android.MainActivity"
+53-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:42:13-41
 54            android:exported="true" >
-54-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:43:13-36
+54-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:43:13-36
 55            <intent-filter>
-55-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:44:13-48:29
+55-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:44:13-48:29
 56                <action android:name="android.intent.action.MAIN" />
-56-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:45:17-69
-56-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:45:25-66
+56-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:45:17-69
+56-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:45:25-66
 57
 58                <category android:name="android.intent.category.LAUNCHER" />
-58-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:47:17-77
-58-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:47:27-74
+58-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:47:17-77
+58-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:47:27-74
 59            </intent-filter>
 60        </activity>
 61        <activity
-61-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:50:9-60:20
+61-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:50:9-60:20
 62            android:name="com.example.android.RegisterPage"
-62-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:51:13-41
+62-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:51:13-41
 63            android:exported="true" >
-63-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:52:13-36
+63-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:52:13-36
 64            <intent-filter>
-64-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:53:13-59:29
+64-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:53:13-59:29
 65                <action android:name="android.intent.action.VIEW" />
-65-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:33:17-69
-65-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:33:25-66
+65-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:33:17-69
+65-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:33:25-66
 66
 67                <category android:name="android.intent.category.DEFAULT" />
-67-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:35:17-76
-67-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:35:27-73
+67-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:35:17-76
+67-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:35:27-73
 68
 69                <data android:scheme="http" />
-69-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:58:17-47
-69-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:58:23-44
+69-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:58:17-47
+69-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:58:23-44
 70            </intent-filter>
 71        </activity>
 72
 73        <service
-73-->[androidx.room:room-runtime:2.4.2] /Users/elisilverstine/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+73-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:25:9-28:40
 74            android:name="androidx.room.MultiInstanceInvalidationService"
-74-->[androidx.room:room-runtime:2.4.2] /Users/elisilverstine/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+74-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:26:13-74
 75            android:directBootAware="true"
-75-->[androidx.room:room-runtime:2.4.2] /Users/elisilverstine/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+75-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:27:13-43
 76            android:exported="false" />
-76-->[androidx.room:room-runtime:2.4.2] /Users/elisilverstine/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+76-->[androidx.room:room-runtime:2.4.2] C:\Users\idodd\.gradle\caches\transforms-3\c980740e9d948579d8bfd1ba7e4fdcc6\transformed\room-runtime-2.4.2\AndroidManifest.xml:28:13-37
 77        <!--
 78             FirebaseMessagingService performs security checks at runtime,
 79             but set to not exported to explicitly avoid allowing another app to call it.
 80        -->
 81        <service
-81-->[com.google.firebase:firebase-messaging:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/e4968cbe1631b7bf40302958902ba4d6/transformed/firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
+81-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
 82            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-82-->[com.google.firebase:firebase-messaging:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/e4968cbe1631b7bf40302958902ba4d6/transformed/firebase-messaging-20.0.0/AndroidManifest.xml:29:13-82
+82-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
 83            android:exported="false" >
-83-->[com.google.firebase:firebase-messaging:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/e4968cbe1631b7bf40302958902ba4d6/transformed/firebase-messaging-20.0.0/AndroidManifest.xml:30:13-37
+83-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\e4968cbe1631b7bf40302958902ba4d6\transformed\firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
 84            <intent-filter android:priority="-500" >
-84-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:24:13-26:29
+84-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:24:13-26:29
 85                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-85-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:25:17-77
-85-->/Users/elisilverstine/StudioProjects/ChatOSnew/Android/app/src/main/AndroidManifest.xml:25:25-75
+85-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:17-77
+85-->C:\Users\idodd\Desktop\ChatOS\ChatOS\Android\app\src\main\AndroidManifest.xml:25:25-75
 86            </intent-filter>
 87        </service>
 88        <service
-88-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:27:9-33:19
+88-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:27:9-33:19
 89            android:name="com.google.firebase.components.ComponentDiscoveryService"
-89-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:28:13-84
+89-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:28:13-84
 90            android:exported="false" >
-90-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:29:13-37
+90-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:29:13-37
 91            <meta-data
-91-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+91-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
 92                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-92-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+92-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
 93                android:value="com.google.firebase.components.ComponentRegistrar" />
-93-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+93-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\0af9415173b683a0878b82d71b573dfe\transformed\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
 94            <meta-data
-94-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:32:13-34:85
+94-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
 95                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-95-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:33:17-96
+95-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
 96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:34:17-82
+96-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
 97        </service>
 98
 99        <receiver
-99-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:37:9-44:20
+99-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
 100            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-100-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:38:13-78
+100-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
 101            android:exported="true"
-101-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:39:13-36
+101-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
 102            android:permission="com.google.android.c2dm.permission.SEND" >
-102-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:40:13-73
+102-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
 103            <intent-filter>
-103-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:41:13-43:29
+103-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
 104                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-104-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:42:17-81
-104-->[com.google.firebase:firebase-iid:20.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:42:25-78
+104-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+104-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\idodd\.gradle\caches\transforms-3\9864cdf0d7cbf96819c732b36bac3245\transformed\firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
 105            </intent-filter>
 106        </receiver>
 107
 108        <provider
-108-->[com.google.firebase:firebase-common:19.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+108-->[com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
 109            android:name="com.google.firebase.provider.FirebaseInitProvider"
-109-->[com.google.firebase:firebase-common:19.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+109-->[com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
 110            android:authorities="com.example.android.firebaseinitprovider"
-110-->[com.google.firebase:firebase-common:19.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+110-->[com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
 111            android:exported="false"
-111-->[com.google.firebase:firebase-common:19.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+111-->[com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
 112            android:initOrder="100" />
-112-->[com.google.firebase:firebase-common:19.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+112-->[com.google.firebase:firebase-common:19.0.0] C:\Users\idodd\.gradle\caches\transforms-3\a96d57e48369aeb73d1d571ec07178b5\transformed\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
 113
 114        <activity
-114-->[com.google.android.gms:play-services-base:17.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+114-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-115-->[com.google.android.gms:play-services-base:17.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+115-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 116            android:exported="false"
-116-->[com.google.android.gms:play-services-base:17.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+116-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-117-->[com.google.android.gms:play-services-base:17.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+117-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\7820add9159cf368acac90a59ae2b97d\transformed\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 118
 119        <receiver
-119-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
 120            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-120-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
 121            android:enabled="true"
-121-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
 122            android:exported="false" >
-122-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+122-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
 123        </receiver>
 124        <receiver
-124-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+124-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
 125            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-125-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+125-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
 126            android:enabled="true"
-126-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+126-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
 127            android:exported="true"
-127-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+127-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
 128            android:permission="android.permission.INSTALL_PACKAGES" >
-128-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+128-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
 129            <intent-filter>
-129-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+129-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
 130                <action android:name="com.android.vending.INSTALL_REFERRER" />
-130-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
-130-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+130-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+130-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
 131            </intent-filter>
 132        </receiver>
 133
 134        <service
-134-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+134-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
 135            android:name="com.google.android.gms.measurement.AppMeasurementService"
-135-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
+135-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
 136            android:enabled="true"
-136-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+136-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
 137            android:exported="false" />
-137-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+137-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
 138        <service
-138-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+138-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
 139            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-139-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+139-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
 140            android:enabled="true"
-140-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+140-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
 141            android:exported="false"
-141-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+141-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
 142            android:permission="android.permission.BIND_JOB_SERVICE" />
-142-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/elisilverstine/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+142-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\idodd\.gradle\caches\transforms-3\d35353db0dee062c0c3f9fc10608f38c\transformed\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
 143
 144        <meta-data
-144-->[com.google.android.gms:play-services-basement:17.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/45f9b480a143174433c0ead66e5edf7f/transformed/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+144-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 145            android:name="com.google.android.gms.version"
-145-->[com.google.android.gms:play-services-basement:17.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/45f9b480a143174433c0ead66e5edf7f/transformed/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+145-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
 146            android:value="@integer/google_play_services_version" />
-146-->[com.google.android.gms:play-services-basement:17.0.0] /Users/elisilverstine/.gradle/caches/transforms-3/45f9b480a143174433c0ead66e5edf7f/transformed/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+146-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\idodd\.gradle\caches\transforms-3\45f9b480a143174433c0ead66e5edf7f\transformed\play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
 147    </application>
 148
 149</manifest>

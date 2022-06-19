@@ -47,7 +47,6 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
         Intent logout_intent = new Intent(getApplicationContext(), MainActivity.class);
         //delete dao
         logoutButton.setOnClickListener(view -> {
-            db.clearAllTables();
             MyApp.messageNotify.removeMessageListener(this);
             startActivity(logout_intent);});
 
@@ -117,6 +116,18 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
     protected void onDestroy() {
         super.onDestroy();
         MyApp.messageNotify.removeMessageListener(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MyApp.messageNotify.removeMessageListener(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MyApp.messageNotify.addMessageListener(this);
     }
 
     @Override
