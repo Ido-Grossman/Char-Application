@@ -19,7 +19,7 @@ public class FirebaseService extends FirebaseMessagingService {
     public void onMessageReceived(@NonNull RemoteMessage message) {
         if (message.getNotification() != null) {
             createNotificationChannel();
-
+            System.out.println(message.getNotification().getBody());
             NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "1")
                     .setSmallIcon(R.mipmap.default_icon)
                     .setContentTitle(message.getNotification().getTitle())

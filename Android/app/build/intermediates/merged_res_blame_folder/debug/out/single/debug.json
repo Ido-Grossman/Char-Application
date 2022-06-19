@@ -36,6 +36,14 @@
         "source": "com.example.android.app-main-32:/mipmap-hdpi/person_add.png"
     },
     {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-xxxhdpi_ic_logout.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap-xxxhdpi/ic_logout.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-xhdpi_ic_logout.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap-xhdpi/ic_logout.png"
+    },
+    {
         "merged": "com.example.android.app-merged_res-30:/drawable_background_recieved_message.xml.flat",
         "source": "com.example.android.app-main-32:/drawable/background_recieved_message.xml"
     },
@@ -82,6 +90,14 @@
     {
         "merged": "com.example.android.app-merged_res-30:/mipmap-xhdpi_default_icon.png.flat",
         "source": "com.example.android.app-main-32:/mipmap-xhdpi/default_icon.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-anydpi-v26_ic_logout.xml.flat",
+        "source": "com.example.android.app-main-32:/mipmap-anydpi-v26/ic_logout.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/drawable_ic_logout_foreground.xml.flat",
+        "source": "com.example.android.app-main-32:/drawable/ic_logout_foreground.xml"
     },
     {
         "merged": "com.example.android.app-merged_res-30:/mipmap-mdpi_person_add_round.png.flat",
@@ -144,6 +160,10 @@
         "source": "com.example.android.app-main-32:/mipmap-mdpi/ic_launcher.png"
     },
     {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-mdpi_ic_logout.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap-mdpi/ic_logout.png"
+    },
+    {
         "merged": "com.example.android.app-merged_res-30:/layout-iw-night_activity_main.xml.flat",
         "source": "com.example.android.app-main-32:/layout-iw-night/activity_main.xml"
     },
@@ -158,6 +178,10 @@
     {
         "merged": "com.example.android.app-merged_res-30:/layout-night_contact_list_item.xml.flat",
         "source": "com.example.android.app-main-32:/layout-night/contact_list_item.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-xxxhdpi_ic_logout_round.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap-xxxhdpi/ic_logout_round.png"
     },
     {
         "merged": "com.example.android.app-merged_res-30:/layout_item_container_recieved_message.xml.flat",
@@ -178,6 +202,14 @@
     {
         "merged": "com.example.android.app-merged_res-30:/layout-night_activity_contacts.xml.flat",
         "source": "com.example.android.app-main-32:/layout-night/activity_contacts.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-hdpi_ic_logout_round.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap-hdpi/ic_logout_round.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/drawable_ic_logout_background.xml.flat",
+        "source": "com.example.android.app-main-32:/drawable/ic_logout_background.xml"
     },
     {
         "merged": "com.example.android.app-merged_res-30:/drawable-xhdpi_bckg_chat_top.xml.flat",
@@ -272,6 +304,10 @@
         "source": "com.example.android.app-main-32:/mipmap-xxhdpi/back.png"
     },
     {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-xxhdpi_ic_logout.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap-xxhdpi/ic_logout.png"
+    },
+    {
         "merged": "com.example.android.app-merged_res-30:/mipmap-hdpi_person_add_round.png.flat",
         "source": "com.example.android.app-main-32:/mipmap-hdpi/person_add_round.png"
     },
@@ -298,6 +334,10 @@
     {
         "merged": "com.example.android.app-merged_res-30:/mipmap-xhdpi_settings.png.flat",
         "source": "com.example.android.app-main-32:/mipmap-xhdpi/settings.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-xxhdpi_ic_logout_round.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap-xxhdpi/ic_logout_round.png"
     },
     {
         "merged": "com.example.android.app-merged_res-30:/xml_backup_rules.xml.flat",
@@ -338,6 +378,10 @@
     {
         "merged": "com.example.android.app-merged_res-30:/mipmap-hdpi_settings_round.png.flat",
         "source": "com.example.android.app-main-32:/mipmap-hdpi/settings_round.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-xhdpi_ic_logout_round.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap-xhdpi/ic_logout_round.png"
     },
     {
         "merged": "com.example.android.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
@@ -384,8 +428,20 @@
         "source": "com.example.android.app-main-32:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-mdpi_ic_logout_round.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap-mdpi/ic_logout_round.png"
+    },
+    {
         "merged": "com.example.android.app-merged_res-30:/mipmap-anydpi-v26_person_add.xml.flat",
         "source": "com.example.android.app-main-32:/mipmap-anydpi-v26/person_add.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-hdpi_ic_logout.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap-hdpi/ic_logout.png"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/mipmap-anydpi-v26_ic_logout_round.xml.flat",
+        "source": "com.example.android.app-main-32:/mipmap-anydpi-v26/ic_logout_round.xml"
     },
     {
         "merged": "com.example.android.app-merged_res-30:/layout-iw-land_activity_main.xml.flat",

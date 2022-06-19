@@ -2509,6 +2509,8 @@ drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout_background
+drawable ic_logout_foreground
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -2798,6 +2800,8 @@ id list_item
 id list_msgs
 id list_view
 id loginBtn
+id logout_btn
+id logout_button
 id masked
 id material_clock_display
 id material_clock_face
@@ -2922,7 +2926,6 @@ id select_dialog_listview
 id selected
 id selection_type
 id send_button
-id settings_button
 id shortcut
 id showCustom
 id showHome
@@ -3205,6 +3208,8 @@ mipmap default_icon
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap ic_logout
+mipmap ic_logout_round
 mipmap person_add
 mipmap person_add_round
 mipmap settings

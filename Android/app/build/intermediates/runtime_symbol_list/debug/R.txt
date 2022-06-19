@@ -2508,6 +2508,8 @@ int drawable ic_clock_black_24dp 0x7f070081
 int drawable ic_keyboard_black_24dp 0x7f070082
 int drawable ic_launcher_background 0x7f070083
 int drawable ic_launcher_foreground 0x7f070084
+int drawable ic_logout_background 0x7f0700b3
+int drawable ic_logout_foreground 0x7f0700b4
 int drawable ic_mtrl_checked_circle 0x7f070085
 int drawable ic_mtrl_chip_checked_black 0x7f070086
 int drawable ic_mtrl_chip_checked_circle 0x7f070087
@@ -2797,6 +2799,8 @@ int id list_item 0x7f0800ef
 int id list_msgs 0x7f0800f0
 int id list_view 0x7f0800f1
 int id loginBtn 0x7f0800f2
+int id logout_btn 0x7f0801de
+int id logout_button 0x7f0801df
 int id masked 0x7f0800f3
 int id material_clock_display 0x7f0800f4
 int id material_clock_face 0x7f0800f5
@@ -2921,7 +2925,6 @@ int id select_dialog_listview 0x7f08016b
 int id selected 0x7f08016c
 int id selection_type 0x7f08016d
 int id send_button 0x7f08016e
-int id settings_button 0x7f08016f
 int id shortcut 0x7f080170
 int id showCustom 0x7f080171
 int id showHome 0x7f080172
@@ -3204,6 +3207,8 @@ int mipmap default_icon 0x7f0c0004
 int mipmap ic_launcher 0x7f0c0005
 int mipmap ic_launcher_foreground 0x7f0c0006
 int mipmap ic_launcher_round 0x7f0c0007
+int mipmap ic_logout 0x7f0c000c
+int mipmap ic_logout_round 0x7f0c000d
 int mipmap person_add 0x7f0c0008
 int mipmap person_add_round 0x7f0c0009
 int mipmap settings 0x7f0c000a

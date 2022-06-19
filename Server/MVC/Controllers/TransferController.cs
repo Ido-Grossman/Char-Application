@@ -33,12 +33,12 @@ namespace MVC.Controllers
             var user = await _service.Get(details.To);
             var app = FirebaseApp.Create(new AppOptions()
             {
-                Credential = GoogleCredential.FromFile("C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\chatos-bd132-firebase-adminsdk-xvo0w-f4cbb7d34b.json")
+                Credential = GoogleCredential.FromFile("C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\privatekey.json")
                     .CreateScoped("https://www.googleapis.com/auth/firebase.messaging")
             });
             FirebaseMessaging messaging = FirebaseMessaging.GetMessaging(app);
             if (user?.FirebaseToken != null)
-            { ;
+            {
                 await messaging.SendAsync(new FirebaseAdmin.Messaging.Message
                 {
                     Notification = new Notification()
