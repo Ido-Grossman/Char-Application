@@ -1,4 +1,5 @@
 using System.Text;
+using FirebaseAdmin;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using MVC.Hubs;
@@ -11,6 +12,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<MVCContext>(
     options => options.UseMySql("server=localhost;port=3306;user=root;password=12345678;database=ChatOS", MariaDbServerVersion.LatestSupportedServerVersion)
 );
+
+// googleCredential = Path.Combine(googleCredential, filePath);  
+// FirebaseApp.Create(new AppOptions()
+// {
+//     Credential = GoogleCredential.FromFile(googleCredential);
+// })
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
 {

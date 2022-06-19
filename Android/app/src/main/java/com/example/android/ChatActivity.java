@@ -33,7 +33,7 @@ public class ChatActivity extends AppCompatActivity{
         private Intent intent;
         private MsgsListAdapter ml_adapter;
         private List<com.example.android.Data.Message> msg_list;
-        private int contactId;
+        private String contactId;
 
     void createPageButtons(){
             ImageButton backButton = findViewById(R.id.back_button);
@@ -69,7 +69,7 @@ public class ChatActivity extends AppCompatActivity{
             setContentView(R.layout.activity_chat);
             getSupportActionBar().hide();
             intent = getIntent();
-            contactId = Integer.parseInt(intent.getStringExtra("contactId"));
+            contactId = intent.getStringExtra("contactId");
 
             //create room database:
             db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")

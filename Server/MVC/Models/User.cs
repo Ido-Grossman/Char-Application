@@ -18,7 +18,7 @@ public class User
     
     //TODO: Firebase token
     // [JsonIgnore]
-    // public string FirebaseToken { get; set; }
+    // public string? FirebaseToken { get; set; }
     
     [JsonIgnore]
     public ICollection<Contact> Contacts { get; set; }

@@ -11,5 +11,7 @@ public class UserCred
 
     public string? Nickname { get; set; }
     
+    // public string? FirebaseToken { get; set; }
+    
     public string? Server { get; set; }
 }

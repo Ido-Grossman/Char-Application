@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "dCzvytktrENU3PPQkZsmZvYoNMg2INY2ALlLx+tSUaNkJUkCBljt+QCc+FHrX/9ES8NjHwlumYkDKD4if/ykWw==",
+  "dgSpecHash": "AK7H/myKiA6POOElB3K8SQnWSRNGujHa/SPM0lY8vf8nljF6+E/KuyHpCxEcpLIoUkvRM4+zuql3/Pho1VQ4DQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\MVC\\MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\idodd\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\idodd\\.nuget\\packages\\firebaseadmin\\2.3.0\\firebaseadmin.2.3.0.nupkg.sha512",
+    "C:\\Users\\idodd\\.nuget\\packages\\google.api.gax\\3.2.0\\google.api.gax.3.2.0.nupkg.sha512",
+    "C:\\Users\\idodd\\.nuget\\packages\\google.api.gax.rest\\3.2.0\\google.api.gax.rest.3.2.0.nupkg.sha512",
+    "C:\\Users\\idodd\\.nuget\\packages\\google.apis\\1.49.0\\google.apis.1.49.0.nupkg.sha512",
+    "C:\\Users\\idodd\\.nuget\\packages\\google.apis.auth\\1.49.0\\google.apis.auth.1.49.0.nupkg.sha512",
+    "C:\\Users\\idodd\\.nuget\\packages\\google.apis.core\\1.49.0\\google.apis.core.1.49.0.nupkg.sha512",
     "C:\\Users\\idodd\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\idodd\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\idodd\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

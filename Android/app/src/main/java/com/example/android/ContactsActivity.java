@@ -46,9 +46,9 @@ public class ContactsActivity extends AppCompatActivity {
         contacts = (ArrayList<Contact>) contactDao.index();
         int apiSize = MyApp.contactList.size(), daoSize = contacts.size();
         if(apiSize != daoSize) {//if api conatcts empty try from dao todo uncomment*/
-            for (; daoSize < apiSize; daoSize++) {
-                contactDao.insert(MyApp.contactList.get(daoSize));
-            }
+            int sizeComp = apiSize - daoSize;
+            for (int i = 0; i < sizeComp; i++)
+                contactDao.insert(MyApp.contactList.get(i));
             contacts = (ArrayList<Contact>) contactDao.index();
         }
 
@@ -59,19 +59,16 @@ public class ContactsActivity extends AppCompatActivity {
         listView.setClickable(true);
 
         ArrayList<Contact> finalContacts = contacts;
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
+        listView.setOnItemClickListener((adapterView, view, i, l) -> {
+            Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
 
-                Contact contact = finalContacts.get(i);
-                intent.putExtra("contactId", contact.getId().toString());
-                intent.putExtra("contactName", contact.getName());
-                intent.putExtra("lastDateTime", contact.getLastDate());
-                intent.putExtra("profilePicture", contact.getImage()); //todo - support image
+            Contact contact = finalContacts.get(i);
+            intent.putExtra("contactId", contact.getId());
+            intent.putExtra("contactName", contact.getName());
+            intent.putExtra("lastDateTime", contact.getLastDate());
+            intent.putExtra("profilePicture", contact.getImage()); //todo - support image
 
-                startActivity(intent);
-            }
+            startActivity(intent);
         }
         );
     }

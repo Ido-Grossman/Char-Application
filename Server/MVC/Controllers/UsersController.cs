@@ -52,6 +52,8 @@ namespace MVC.Controllers
                     claims,
                     expires: DateTime.UtcNow.AddMinutes(1),
                     signingCredentials: mac);
+                // if (userCred.FirebaseToken != null)
+                //     user.FirebaseToken = userCred.FirebaseToken;
                 return Ok(new JwtSecurityTokenHandler().WriteToken(token));
             }
             return NotFound();
@@ -66,7 +68,7 @@ namespace MVC.Controllers
         public async Task<IActionResult> IsLoggedIn()
         {
             var user = await _service.Get(HttpContext.User.Claims.First(i => i.Type == "UserId").Value);
-            return Ok(user.Id);
+            return Ok(user?.Id);
         }
 
         /**
@@ -77,6 +79,8 @@ namespace MVC.Controllers
         public async Task<IActionResult> Logout()
         {
             var user = await _service.Get(HttpContext.User.Claims.First(i => i.Type == "UserId").Value);
+            // if (user?.FirebaseToken != null)
+            //     user.FirebaseToken = null;
             return Ok();
         }
         
@@ -100,6 +104,7 @@ namespace MVC.Controllers
             await _service.AddUser(new User
             {
                 Id = userCred.Username, Password = userCred.Password, Name = userCred.Nickname, Server = userCred.Server
+                // FirebaseToken = userCred.FirebaseToken
             });
 
             var claims = new[]
