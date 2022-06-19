@@ -12,10 +12,8 @@ import androidx.room.Room;
 import com.example.android.Data.AppDB;
 import com.example.android.Data.Contact;
 import com.example.android.Data.ContactDao;
-import com.example.android.Data.User;
 import com.example.android.api.WebServiceAPI;
-import com.example.android.entities.UserCred;
-import com.google.firebase.FirebaseApp;
+import com.example.android.Data.UserCred;
 import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -51,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
         MyApp.webServiceAPI = webServiceAPI;
         MyApp.retrofit = retrofit;
         MyApp.messageNotify = new MessageNotify();
-
 
         Button loginBtn = findViewById(R.id.loginBtn);
         loginBtn.setOnClickListener(view -> {
@@ -89,8 +86,8 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<String> call, Response<String> response) {
                 if (response.isSuccessful()){
                     MyApp.token = response.body();
+                    MyApp.userId = userCred.username;
                     getContactsList(MyApp.token, chatsIntent);
-
                     return;
                 }
                 System.out.println("YOYOYO");

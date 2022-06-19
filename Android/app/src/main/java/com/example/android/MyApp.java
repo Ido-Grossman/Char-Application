@@ -24,6 +24,7 @@ public class MyApp extends Application {
     public static String FirebaseToken;
     public static List<Message> messageList;
     public static MessageNotify messageNotify;
+    public static String userId;
 
     public void onCreate() {
         super.onCreate();

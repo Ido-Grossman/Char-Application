@@ -11,6 +11,7 @@ import androidx.room.Room;
 import com.example.android.Data.AppDB;
 import com.example.android.Data.Contact;
 import com.example.android.Data.ContactDao;
+import com.example.android.Data.ContactPost;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -24,12 +25,12 @@ public class AddContactActivity extends AppCompatActivity {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_add_contact);
             getSupportActionBar().hide();
+            Intent intent = new Intent(this, ContactsActivity.class);
 
             //create room database:
             db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")
                     .fallbackToDestructiveMigration().allowMainThreadQueries().build();
             contactDao = db.contactDao();
-            Intent intent = new Intent(this, ChatActivity.class);
 
             Button registerBtn = findViewById(R.id.add_contact_btn);
             registerBtn.setOnClickListener(view -> {
@@ -40,27 +41,49 @@ public class AddContactActivity extends AppCompatActivity {
                 String b = c_nickname.getText().toString();
                 String c = c_server.getText().toString();
                 Contact contact = new Contact(a,b,c);
-                createContact(contact);
+                ContactPost contactPost = new ContactPost(MyApp.userId, a, c);
+                inviteContact(contactPost, b, intent);
                 contactDao.insert(contact);
 
             });
         }
-    public void createContact(Contact contact){
-        Call<String> call = MyApp.webServiceAPI.createContact("Bearer "+MyApp.token, contact);
-        call.enqueue(new Callback<String>() {
+    public void createContact(Contact contact, Intent intent){
+        Call<Void> call = MyApp.webServiceAPI.createContact("Bearer "+MyApp.token, contact);
+        call.enqueue(new Callback<Void>() {
             @Override
-            public void onResponse(Call<String> call, Response<String> response) {
+            public void onResponse(Call<Void> call, Response<Void> response) {
                 if (response.isSuccessful()){
-                    String uri = response.body();
-
                     finish();
+                    startActivity(intent);
+                } else {
+
                 }
             }
 
             @Override
-            public void onFailure(Call<String> call, Throwable t) {
+            public void onFailure(Call<Void> call, Throwable t) {
 
             }
         });
+    }
+
+    public void inviteContact(ContactPost contact, String nickname, Intent intent){
+            Call<Void> call = MyApp.webServiceAPI.inviteContact("Bearer "+MyApp.token, contact);
+            call.enqueue(new Callback<Void>() {
+                @Override
+                public void onResponse(Call<Void> call, Response<Void> response) {
+                    if (response.isSuccessful()){
+                        Contact newContact = new Contact(contact.to, nickname, contact.server);
+                        createContact(newContact, intent);
+                    } else {
+                        // contact not found or already in list
+                    }
+                }
+
+                @Override
+                public void onFailure(Call<Void> call, Throwable t) {
+
+                }
+            });
     }
 }

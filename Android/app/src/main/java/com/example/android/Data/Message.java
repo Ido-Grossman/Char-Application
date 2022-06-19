@@ -9,9 +9,9 @@ public class Message {
     @PrimaryKey(autoGenerate=true)
     private Integer id;
     @NonNull
-    private String contactId; //id of other contact
+    private String contactId; // id of other contact
     private String content;
-    private String created; //date and time
+    private String created; // date and time
     private Boolean sent;
 
     public Message(@NonNull String contactId, String content, String created, Boolean sent) {

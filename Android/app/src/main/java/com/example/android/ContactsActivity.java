@@ -12,11 +12,16 @@ import com.example.android.Adapters.CustomListAdapter;
 import com.example.android.Data.AppDB;
 import com.example.android.Data.Contact;
 import com.example.android.Data.ContactDao;
+import com.example.android.Data.Content;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Objects;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class ContactsActivity extends AppCompatActivity implements IMessageListener {
 
@@ -102,11 +107,26 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
         });
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        db.clearAllTables();
+    void logOut(){
+        Call<Void> call = MyApp.webServiceAPI.logOut("Bearer "+MyApp.token);
+        call.enqueue(new Callback<Void>() {
+            @Override
+            public void onResponse(Call<Void> call, Response<Void> response) {
 
+            }
+
+            @Override
+            public void onFailure(Call<Void> call, Throwable t) {
+
+            }
+        });
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        logOut();
+        db.clearAllTables();
     }
 
     @Override

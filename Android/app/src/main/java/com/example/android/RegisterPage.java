@@ -15,9 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.android.Data.AppDB;
 import com.example.android.Data.ContactDao;
-import com.example.android.api.ContactApi;
 import com.example.android.api.WebServiceAPI;
-import com.example.android.entities.UserCred;
+import com.example.android.Data.UserCred;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -49,7 +48,7 @@ public class RegisterPage extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
         webServiceAPI = retrofit.create(WebServiceAPI.class);
-
+        Intent intent = new Intent(this, ContactsActivity.class);
 
         ImageButton UploadImg = findViewById(R.id.UploadImg);
         UploadImg.setOnClickListener(view -> {
@@ -73,8 +72,7 @@ public class RegisterPage extends AppCompatActivity {
             } else {
                 String userName = username.getText().toString();
                 UserCred newUser = new UserCred(userName, s, "hello", "http://localhost:7225", "");
-                this.checkIfUsernameExists(userName, newUser);
-
+                this.checkIfUsernameExists(userName, newUser, intent);
             }
 
         });
@@ -102,15 +100,14 @@ public class RegisterPage extends AppCompatActivity {
                 }
             });
 
-    public void create(UserCred userCred){
+    public void create(UserCred userCred, Intent chatIntent){
         Call<String> call = webServiceAPI.registerUser(userCred);
         call.enqueue(new Callback<String>() {
             @Override
             public void onResponse(Call<String> call, Response<String> response) {
                 if (response.isSuccessful()){
-                    String token = response.body();
-                    MyApp.token = token;
-
+                    MyApp.token = response.body();
+                    startActivity(chatIntent);
                 }
             }
 
@@ -120,7 +117,7 @@ public class RegisterPage extends AppCompatActivity {
             }
         });
     }
-    public void checkIfUsernameExists(String username, UserCred newUser){
+    public void checkIfUsernameExists(String username, UserCred newUser, Intent chatIntent){
         Call<Void> call = webServiceAPI.checkIfUsernameExists(username);
         call.enqueue(new Callback<Void>() {
             @Override
@@ -130,7 +127,7 @@ public class RegisterPage extends AppCompatActivity {
                     System.out.println("Existsssss!");
                     // else there is no username with this name so we create one new
                 } else {
-                    create(newUser);
+                    create(newUser, chatIntent);
                 }
             }
 
