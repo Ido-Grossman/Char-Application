@@ -93,6 +93,9 @@ namespace MVC.Migrations
                         .HasMaxLength(127)
                         .HasColumnType("varchar(127)");
 
+                    b.Property<string>("FirebaseToken")
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(127)

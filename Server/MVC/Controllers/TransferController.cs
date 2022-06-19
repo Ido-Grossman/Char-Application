@@ -1,8 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+using FirebaseAdmin;
+using FirebaseAdmin.Messaging;
+using Google.Apis.Auth.OAuth2;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using MVC.Hubs;
@@ -31,7 +29,26 @@ namespace MVC.Controllers
         [HttpPost]
         public async Task<IActionResult> PostInv([FromBody] TraInv details)
         {
+            
             var user = await _service.Get(details.To);
+            var app = FirebaseApp.Create(new AppOptions()
+            {
+                Credential = GoogleCredential.FromFile("C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\chatos-bd132-firebase-adminsdk-xvo0w-f4cbb7d34b.json")
+                    .CreateScoped("https://www.googleapis.com/auth/firebase.messaging")
+            });
+            FirebaseMessaging messaging = FirebaseMessaging.GetMessaging(app);
+            if (user?.FirebaseToken != null)
+            { ;
+                await messaging.SendAsync(new FirebaseAdmin.Messaging.Message
+                {
+                    Notification = new Notification()
+                    {
+                        Body = details.Content,
+                        Title = details.From
+                    },
+                    Token = user.FirebaseToken
+                });
+            }
             if (user == null)
                 return NoContent();
             var contact = await _service.GetContact(user.Id, details.From);

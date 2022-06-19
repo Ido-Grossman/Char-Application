@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeDebugResources-29:/values-sw660dp-v13/values-sw660dp-v13.xml",
+            "outputFile": "com.example.android.app-mergeDebugResources-28:/values-sw660dp-v13/values-sw660dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\idodd\\.gradle\\caches\\transforms-3\\cd8c18ff1b87e752c4b27ee4c24cb3ba\\transformed\\sdp-android-1.0.6\\res\\values-sw660dp-v13\\values-sw660dp-v13.xml",

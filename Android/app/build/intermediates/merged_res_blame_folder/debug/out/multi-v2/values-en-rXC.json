@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.android.app-mergeDebugResources-29:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.example.android.app-mergeDebugResources-28:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\idodd\\.gradle\\caches\\transforms-3\\a198eff964d3ac1f711f51b16f09cd5f\\transformed\\core-1.5.0\\res\\values-en-rXC\\values-en-rXC.xml",
