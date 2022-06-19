@@ -2,22 +2,30 @@ package com.example.android;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ImageButton;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatImageButton;
 import androidx.room.Room;
 
 import com.example.android.Adapters.CustomListAdapter;
 import com.example.android.Data.AppDB;
 import com.example.android.Data.Contact;
 import com.example.android.Data.ContactDao;
+import com.example.android.Data.Message;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.textfield.TextInputEditText;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 import java.util.Objects;
 
-public class ContactsActivity extends AppCompatActivity implements IMessageListener {
+public class ContactsActivity extends AppCompatActivity {
 
     ListView listView;
     CustomListAdapter adapter;
@@ -25,12 +33,32 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
     private AppDB db;
     private ContactDao contactDao;
 
+    void createPageButtons(){
+        FloatingActionButton btnAdd = findViewById(R.id.add_contact_btn);
+        btnAdd.setOnClickListener(view-> {
+            Intent i = new Intent(this,AddContactActivity.class);
+            startActivity(i);
+        });
+
+        ImageButton logoutButton = findViewById(R.id.logout_btn);
+        Intent logout_intent = new Intent(getApplicationContext(), MainActivity.class);
+        //delete dao
+        logoutButton.setOnClickListener(view -> {
+            db.clearAllTables();
+            startActivity(logout_intent);});
+
+        ImageButton settings_button = findViewById(R.id.settings_button);
+        Intent settings_intent = new Intent(getApplicationContext(), SettingsActivity.class);
+        settings_button.setOnClickListener(view -> {
+            startActivity(settings_intent);});
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MyApp.messageNotify.addMessageListener(this);
         setContentView(R.layout.activity_contacts);
         getSupportActionBar().hide();
+        createPageButtons();
 
         ArrayList<Contact> contacts;
 
@@ -38,13 +66,6 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
         db = Room.databaseBuilder(getApplicationContext(), AppDB.class, "UsersDB")
                 .fallbackToDestructiveMigration().allowMainThreadQueries().build();
         contactDao = db.contactDao();
-
-        FloatingActionButton btnAdd = findViewById(R.id.add_contact_btn);
-        btnAdd.setOnClickListener(view-> {
-            Intent i = new Intent(this,AddContactActivity.class);
-            MyApp.messageNotify.removeMessageListener(this);
-            startActivity(i);
-        });
 
         contacts = (ArrayList<Contact>) contactDao.index();
         int daoSize = contacts.size(); int apiSize;
@@ -65,7 +86,6 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
                 contact.setLastDate(MyApp.contactList.get(i).getLastDate());
                 contactDao.update(contact);
             }
-            contacts = (ArrayList<Contact>) contactDao.index();
         }
         Collections.sort(contacts); //sort by id via the overridden comparator
         listView = findViewById(R.id.list_view);
@@ -76,33 +96,17 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
 
         ArrayList<Contact> finalContacts = contacts;
         listView.setOnItemClickListener((adapterView, view, i, l) -> {
-            Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
 
-            Contact contact = finalContacts.get(i);
-            intent.putExtra("contactId", contact.getId());
-            intent.putExtra("contactName", contact.getName());
-            intent.putExtra("lastDateTime", contact.getLastDate());
-            intent.putExtra("profilePicture", contact.getImage()); //todo - support image
-            MyApp.messageNotify.removeMessageListener(this);
-            startActivity(intent);
-        });
+                    Contact contact = finalContacts.get(i);
+                    intent.putExtra("contactId", contact.getId());
+                    intent.putExtra("contactName", contact.getName());
+                    intent.putExtra("lastDateTime", contact.getLastDate());
+                    intent.putExtra("profilePicture", contact.getImage()); //todo - support image
+
+                    startActivity(intent);
+                }
+        );
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        MyApp.messageNotify.removeMessageListener(this);
-    }
-
-    @Override
-    public void messageEvent() {
-        runOnUiThread(() -> {
-            ArrayList<Contact> contacts = (ArrayList<Contact>) contactDao.index();
-            listView = findViewById(R.id.list_view);
-            adapter = new CustomListAdapter(getApplicationContext(), contacts);
-            listView.setAdapter(adapter);
-            listView.setClickable(true);
-            adapter.notifyDataSetChanged();
-        });
-    }
 }
