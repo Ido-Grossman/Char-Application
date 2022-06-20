@@ -59,14 +59,12 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
         Intent logout_intent = new Intent(getApplicationContext(), MainActivity.class);
         //delete dao
         logoutButton.setOnClickListener(view -> {
-            MyApp.messageNotify.removeMessageListener(this);
-            startActivity(logout_intent);});
+            MyApp.userId = null;
+            finish();});
 
 
             AppCompatImageButton sendButton = findViewById(R.id.send_button);
             sendButton.setOnClickListener(view -> {
-                EditText input = findViewById(R.id.inputMessages);
-                String message = input.getText().toString();
                 TextInputEditText content = findViewById(R.id.inputMessages);
                 String content_str = content.getText().toString();
                 //create string of date_time
@@ -77,7 +75,7 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
                 msg_list = msgDao.index(contactId);
                 refreshListInDB();
                 ml_adapter.notifyDataSetChanged();
-                ContactPost contactPost = new ContactPost(MyApp.userId, contactId, contactDao.get(contactId).getServer(), message);
+                ContactPost contactPost = new ContactPost(MyApp.userId, contactId, contactDao.get(contactId).getServer(), content_str);
                 transferMessage(contactPost);
                 content.getText().clear(); //delete keyboard content after sending
             });
@@ -85,21 +83,16 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
 
     /**send the list to the adapter, organized and updated **/
     void refreshListInDB(){
-        Call<List<Message>> call = MyApp.webServiceAPI.getMessages("Bearer "+MyApp.token, contactId);
-        call.enqueue(new Callback<List<Message>>() {
-            @Override
-            public void onResponse(Call<List<Message>> call, Response<List<Message>> response) {
-                messageList = response.body();
-            }
-
-            @Override
-            public void onFailure(Call<List<Message>> call, Throwable t) {
-
-            }
-        });
         msg_list = msgDao.index(contactId);
         Collections.reverse(msg_list); //flip msgs order to start from newst
         ml_adapter.setMsgs(msg_list);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (MyApp.userId == null)
+            finish();
     }
 
     @Override
@@ -128,6 +121,7 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
         LinearLayoutManager mLinearLayoutManager = new LinearLayoutManager(this);
         mLinearLayoutManager.setReverseLayout(true);
         lst_msgs.setLayoutManager(mLinearLayoutManager);
+        getMessages();
         refreshListInDB();
 
 
@@ -140,6 +134,28 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
         }
 
         createPageButtons();
+    }
+
+    void getMessages() {
+        Call<List<Message>> call = MyApp.webServiceAPI.getMessages("Bearer "+MyApp.token, contactId);
+        call.enqueue(new Callback<List<Message>>() {
+            @Override
+            public void onResponse(Call<List<Message>> call, Response<List<Message>> response) {
+                messageList = response.body();
+                assert messageList != null;
+                int size = messageList.size() - msgDao.index(contactId).size();
+                for (int i = 0; i < size; i++) {
+                    messageList.get(i).setContactId(contactId);
+                    msgDao.insert(messageList.get(i));
+                }
+                messageEvent();
+            }
+
+            @Override
+            public void onFailure(Call<List<Message>> call, Throwable t) {
+
+            }
+        });
     }
 
     void transferMessage(ContactPost contactPost){
@@ -178,8 +194,8 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
     }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
+    protected void onStop() {
+        super.onStop();
         MyApp.messageNotify.removeMessageListener(this);
     }
 

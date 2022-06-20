@@ -67,6 +67,13 @@ public class AddContactActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        if (MyApp.userId == null)
+            finish();
+    }
+
     public void inviteContact(ContactPost contact, String nickname, Intent intent){
             Call<Void> call = MyApp.webServiceAPI.inviteContact("Bearer "+MyApp.token, contact);
             call.enqueue(new Callback<Void>() {

@@ -43,7 +43,8 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
         Intent logout_intent = new Intent(getApplicationContext(), MainActivity.class);
         //delete dao
         logoutButton.setOnClickListener(view -> {
-            startActivity(logout_intent);});
+            MyApp.userId = null;
+            finish();});
 
         ImageButton settings_button = findViewById(R.id.settings_button);
         Intent settings_intent = new Intent(getApplicationContext(), SettingsActivity.class);
@@ -52,9 +53,15 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
     }
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        if (MyApp.userId == null)
+            finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MyApp.messageNotify.addMessageListener(this);
         setContentView(R.layout.activity_contacts);
         getSupportActionBar().hide();
         createPageButtons();
@@ -67,7 +74,7 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
 
         contacts = (ArrayList<Contact>) contactDao.index();
         int daoSize = contacts.size(); int apiSize;
-        if(MyApp.contactList == null)   apiSize =0;
+        if(MyApp.contactList == null)   apiSize = daoSize;
         else    apiSize = MyApp.contactList.size();
         if(apiSize != daoSize) {//if api conatcts empty try from dao todo uncomment*/
             int sizeComp = apiSize - daoSize;
@@ -123,10 +130,9 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
     }
 
     @Override
-    protected void onStop() {
-        super.onStop();
+    protected void onDestroy() {
+        super.onDestroy();
         logOut();
-        db.clearAllTables();
     }
 
     @Override

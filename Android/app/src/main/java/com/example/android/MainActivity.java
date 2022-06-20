@@ -80,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tryToLogin(UserCred userCred, Intent chatsIntent){
+        db.clearAllTables();
         Call<String> call = webServiceAPI.logIn(userCred);
         call.enqueue(new Callback<String>() {
             @Override

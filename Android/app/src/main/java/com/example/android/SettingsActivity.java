@@ -15,6 +15,13 @@ import com.google.android.material.switchmaterial.SwitchMaterial;
 public class SettingsActivity extends AppCompatActivity
 {
     @Override
+    protected void onStart() {
+        super.onStart();
+        if (MyApp.userId == null)
+            finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
