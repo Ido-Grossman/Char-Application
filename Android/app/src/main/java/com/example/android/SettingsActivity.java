@@ -24,7 +24,7 @@ public class SettingsActivity extends AppCompatActivity
         setContentView(R.layout.settings_activity);
         TextView serverAddress = findViewById(R.id.serverInput);
 
-
+        System.out.println();
         Button changeButton = findViewById(R.id.SetServerBtn);
         changeButton.setOnClickListener(view -> {
             String address = serverAddress.getText().toString();
