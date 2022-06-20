@@ -40,7 +40,6 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
         });
 
         ImageButton logoutButton = findViewById(R.id.logout_btn);
-        Intent logout_intent = new Intent(getApplicationContext(), MainActivity.class);
         //delete dao
         logoutButton.setOnClickListener(view -> {
             MyApp.userId = null;

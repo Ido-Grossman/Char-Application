@@ -1,9 +1,11 @@
 package com.example.android;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -49,6 +51,10 @@ public class MainActivity extends AppCompatActivity {
         MyApp.webServiceAPI = webServiceAPI;
         MyApp.retrofit = retrofit;
         MyApp.messageNotify = new MessageNotify();
+
+        ImageButton settings = findViewById(R.id.settings_button);
+        Intent settingsIntent = new Intent(this, SettingsActivity.class);
+        settings.setOnClickListener(view-> startActivity(settingsIntent));
 
         Button loginBtn = findViewById(R.id.loginBtn);
         loginBtn.setOnClickListener(view -> {

@@ -41,7 +41,7 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
         private messageDao msgDao;
         private Intent intent;
         private ContactDao contactDao;
-        private MsgsListAdapter ml_adapter;
+        private MessageListAdapter ml_adapter;
         private List<com.example.android.Data.Message> msg_list;
         private String contactId;
         private List<Message> messageList;
@@ -116,7 +116,7 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
 
         //set recycler view
         RecyclerView lst_msgs = findViewById(R.id.list_msgs);
-        ml_adapter = new MsgsListAdapter(this);
+        ml_adapter = new MessageListAdapter(this, messageList);
         lst_msgs.setAdapter(ml_adapter);
         LinearLayoutManager mLinearLayoutManager = new LinearLayoutManager(this);
         mLinearLayoutManager.setReverseLayout(true);

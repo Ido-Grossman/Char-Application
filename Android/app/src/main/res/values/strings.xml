@@ -23,4 +23,5 @@
     <!--chats activity-->
     <string name="type_a_message">Type a message</string>
     <string name="date_time_format">"dd/MM HH:mm"</string>
+    <string name="change">Change</string>
 </resources>

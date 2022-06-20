@@ -17,12 +17,12 @@ import retrofit2.Retrofit;
 
 public class MyApp extends Application {
     public static Context context;
+    public static String url;
     public static String token;
     public static Retrofit retrofit;
     public static WebServiceAPI webServiceAPI;
     public static List<Contact> contactList;
     public static String FirebaseToken;
-    public static List<Message> messageList;
     public static MessageNotify messageNotify;
     public static String userId;
 
