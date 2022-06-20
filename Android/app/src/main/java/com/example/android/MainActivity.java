@@ -50,8 +50,6 @@ public class MainActivity extends AppCompatActivity {
             EditText password = findViewById(R.id.passwordInput);
             String strUsername = username.getText().toString();
             String strPassword = password.getText().toString();
-            System.out.println(username);
-            System.out.println(password);
             Intent intent = new Intent(this, ContactsActivity.class);
             FirebaseInstanceId.getInstance().getInstanceId().addOnSuccessListener(MainActivity.this, instanceIdResult -> {
                 MyApp.FirebaseToken = instanceIdResult.getToken();

@@ -125,7 +125,7 @@ public class RegisterPage extends AppCompatActivity {
             public void onResponse(Call<Void> call, Response<Void> response) {
                 // if there is a username in db already we return true
                 if (response.isSuccessful()){
-                    System.out.println("Existsssss!");
+
                     // else there is no username with this name so we create one new
                 } else {
                     create(newUser, chatIntent);
