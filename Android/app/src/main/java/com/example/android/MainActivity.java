@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                     getContactsList(MyApp.token, chatsIntent);
                     return;
                 }
-                System.out.println("YOYOYO");
+
             }
 
             @Override
