@@ -132,13 +132,16 @@
 
         </LinearLayout>
 
-        <ImageButton
-            android:id="@+id/logout_button"
-            android:layout_width="50dp"
-            android:layout_height="48dp"
-            android:layout_gravity="center"
-            android:background="#00000000"
-
-            android:src="@drawable/ic_logout_foreground"></ImageButton>
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/logout_button"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:background="#00000000"
+        android:src="@drawable/ic_logout_foreground"
+        app:layout_constraintBottom_toBottomOf="@id/topPanel"
+        app:layout_constraintEnd_toEndOf="@id/topPanel"
+        app:layout_constraintTop_toTopOf="parent"></ImageButton>
 </androidx.constraintlayout.widget.ConstraintLayout>
