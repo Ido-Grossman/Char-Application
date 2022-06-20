@@ -31,25 +31,13 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity {
     private AppDB db;
     private ContactDao contactDao;
-    Retrofit retrofit;
-    WebServiceAPI webServiceAPI;
-    Gson gson;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
-        gson = new GsonBuilder()
-                .setLenient()
-                .create();
-        retrofit = new Retrofit.Builder()
-                .baseUrl(MyApp.context.getString(R.string.BaseUrl))
-                .addConverterFactory(GsonConverterFactory.create(gson))
-                .build();
-        webServiceAPI = retrofit.create(WebServiceAPI.class);
-        MyApp.webServiceAPI = webServiceAPI;
-        MyApp.retrofit = retrofit;
+        MyApp.configureRetrofit();
         MyApp.messageNotify = new MessageNotify();
 
         ImageButton settings = findViewById(R.id.settings_button);
@@ -87,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void tryToLogin(UserCred userCred, Intent chatsIntent){
         db.clearAllTables();
-        Call<String> call = webServiceAPI.logIn(userCred);
+        Call<String> call = MyApp.webServiceAPI.logIn(userCred);
         call.enqueue(new Callback<String>() {
             @Override
             public void onResponse(Call<String> call, Response<String> response) {
@@ -108,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void getContactsList(String token, Intent chatsIntent) {
-        Call<List<Contact>> call = webServiceAPI.getContacts("Bearer "+token);
+        Call<List<Contact>> call = MyApp.webServiceAPI.getContacts("Bearer "+token);
         call.enqueue(new Callback<List<Contact>>() {
             @Override
             public void onResponse(Call<List<Contact>> call, Response<List<Contact>> response) {

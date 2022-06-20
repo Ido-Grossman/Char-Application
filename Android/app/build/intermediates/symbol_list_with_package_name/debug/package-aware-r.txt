@@ -2578,6 +2578,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id SetServerBtn
 id TOP_END
 id TOP_START
 id UploadImg
@@ -3260,6 +3261,7 @@ string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string button
+string change
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern

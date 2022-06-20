@@ -15,17 +15,27 @@ import com.google.android.material.switchmaterial.SwitchMaterial;
 
 public class SettingsActivity extends AppCompatActivity
 {
+    private final String defaultApi = "http://10.0.2.2:7225/api/";
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings_activity);
-
         TextView serverAddress = findViewById(R.id.serverInput);
-        String address = serverAddress.getText().toString();
+
 
         Button changeButton = findViewById(R.id.SetServerBtn);
-        changeButton.setOnClickListener(view -> MyApp.url = "http://" + address + "/api");
+        changeButton.setOnClickListener(view -> {
+            String address = serverAddress.getText().toString();
+            if (address.equals("")){
+                MyApp.url = defaultApi;
+            } else {
+                MyApp.url = "http://" + address + "/api/";
+            }
+            MyApp.configureRetrofit();
+        });
+
     }
 
 }

@@ -107,6 +107,7 @@ public class RegisterPage extends AppCompatActivity {
             public void onResponse(Call<String> call, Response<String> response) {
                 if (response.isSuccessful()){
                     MyApp.token = response.body();
+                    MyApp.userId = userCred.username;
                     startActivity(chatIntent);
                 }
             }

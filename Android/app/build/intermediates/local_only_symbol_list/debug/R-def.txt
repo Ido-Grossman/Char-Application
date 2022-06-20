@@ -37,6 +37,7 @@ id RegisterBtn
 id RegisterPassword1
 id RegisterPassword2
 id RegisterUserName
+id SetServerBtn
 id UploadImg
 id UserImage
 id add_contact_btn
@@ -110,6 +111,7 @@ string add_contact_server
 string add_contact_title
 string app_name
 string button
+string change
 string date_time_format
 string default_web_client_id
 string gcm_defaultSenderId
