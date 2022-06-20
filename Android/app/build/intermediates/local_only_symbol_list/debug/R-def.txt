@@ -66,6 +66,7 @@ id registerBtn
 id send_button
 id serverInput
 id serverTV
+id serverTV3
 id settings_button
 id textDateTime
 id textInputLayout
@@ -77,6 +78,7 @@ id title
 id title2
 id title3
 id titleTV
+id titleTV2
 id topPanel
 id user_name
 id usernameInput
@@ -112,6 +114,7 @@ string add_contact_title
 string app_name
 string button
 string change
+string choose_a_server_address_to_work_with
 string date_time_format
 string default_web_client_id
 string gcm_defaultSenderId
@@ -130,6 +133,9 @@ string register_btn
 string register_name
 string register_password1
 string register_password2
+string server
+string settings
+string settings_button
 string title
 string to_register
 string type_a_message

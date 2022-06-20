@@ -13,13 +13,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="BaseUrl" translatable="false">http://10.0.2.2:7225/api/</string>
-    <string name="add_contact_button">Save Contact</string>
-    <string name="add_contact_id">Contact id</string>
-    <string name="add_contact_name">Contact Name</string>
-    <string name="add_contact_server">Contact Server</string>
-    <string name="add_contact_title">Add Contact</string>
+    <string name="add_contact_button" translatable="false">Save Contact</string>
+    <string name="add_contact_id" translatable="false">Contact id</string>
+    <string name="add_contact_name" translatable="false">Contact Name</string>
+    <string name="add_contact_server" translatable="false">Contact Server</string>
+    <string name="add_contact_title" translatable="false">Add Contact</string>
     <string name="app_name" translatable="false">ChatOS</string>
     <string name="button" translatable="false">Button</string>
+    <string name="change">Change</string>
+    <string name="choose_a_server_address_to_work_with">Choose a server address to work with</string>
     <string name="date_time_format">"dd/MM HH:mm"</string>
     <string name="default_web_client_id" translatable="false">318524844213-epbta0dtjm52vo5frg9khse6odne7j66.apps.googleusercontent.com</string>
     <string name="gcm_defaultSenderId" translatable="false">318524844213</string>
@@ -38,6 +40,9 @@
     <string name="register_name" translatable="false">Enter your Username</string>
     <string name="register_password1" translatable="false">Enter password</string>
     <string name="register_password2" translatable="false">Enter password again</string>
+    <string name="server">Server</string>
+    <string name="settings">Settings</string>
+    <string name="settings_button">settings button</string>
     <string name="title" translatable="false">ChatOS</string>
     <string name="to_register" translatable="false">Don\'t have an account?</string>
     <string name="type_a_message">Type a message</string>

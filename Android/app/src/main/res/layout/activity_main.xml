@@ -50,7 +50,7 @@
             android:layout_height="match_parent"
             android:hint="Please put your username"
             android:textColorHint="#616161"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText,TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -70,7 +70,7 @@
             android:hint="Please put your password"
             android:inputType="textPassword"
             android:textColorHint="#616161"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText,TextContrastCheck" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -80,7 +80,7 @@
         android:layout_height="61dp"
         android:backgroundTint="@color/primary_light"
         android:text="@string/login_button"
-        android:textColor="#212121"
+        android:textColor="#000000"
         android:textColorHighlight="#A61818"
         android:textColorHint="#AA1515"
         android:textColorLink="#770F0F"
@@ -88,7 +88,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
-        app:layout_constraintVertical_bias="0.13999999" />
+        app:layout_constraintVertical_bias="0.13999999"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView3"
@@ -123,10 +124,14 @@
         android:id="@+id/settings_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
         android:backgroundTint="#FFFFFF"
-        android:tint="#000000"
+        android:contentDescription="@string/settings_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/settings_foreground"
-        tools:layout_editor_absoluteX="313dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:tint="#000000"
+        tools:ignore="RedundantDescriptionCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
