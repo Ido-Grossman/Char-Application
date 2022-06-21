@@ -24,12 +24,17 @@
         <entry key="app/src/main/res/layout-iw/activity_main.xml" value="0.19427083333333334" />
         <entry key="app/src/main/res/layout-iw/register_page.xml" value="0.1953125" />
         <entry key="app/src/main/res/layout-land-night/activity_chat.xml" value="0.22" />
+        <entry key="app/src/main/res/layout-land-night/activity_chat_contact.xml" value="0.22" />
+        <entry key="app/src/main/res/layout-land-night/contact_list_item_landscape.xml" value="0.22" />
         <entry key="app/src/main/res/layout-land/activity_chat.xml" value="0.19894561767578126" />
+        <entry key="app/src/main/res/layout-land/activity_chat_contact.xml" value="0.11821366024518389" />
         <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout-land/activity_main_lands.xml" value="0.22882882882882882" />
         <entry key="app/src/main/res/layout-land/activity_main_landscape.xml" value="0.22702702702702704" />
+        <entry key="app/src/main/res/layout-land/contact_list_item_landscape.xml" value="0.11821366024518389" />
         <entry key="app/src/main/res/layout-night/activity_add_contact.xml" value="0.1324419778002018" />
         <entry key="app/src/main/res/layout-night/activity_chat.xml" value="0.1324419778002018" />
+        <entry key="app/src/main/res/layout-night/activity_chat_contact.xml" value="0.13958333333333334" />
         <entry key="app/src/main/res/layout-night/activity_contacts.xml" value="0.22" />
         <entry key="app/src/main/res/layout-night/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout-night/activity_server.xml" value="0.140625" />
