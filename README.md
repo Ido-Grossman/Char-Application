@@ -48,12 +48,12 @@
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
+     <li><a href="#usage">Usage</a></li>
      <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
-    </li>
+     <li><a href="#remarks">Remarks</a></li>
+     <li><a href="#contact">Contact</a></li>
+     </li>
     
-    <li><a href="#usage">Usage</a></li>
-
   </ol>
 </details>
 
@@ -62,7 +62,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screenshot%202022-04-24%20205928.png" alt="Chats">
+<img display="inline-block" src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/loginpage.png" alt="Chats">
+
+In this part of the exercise we made an android application of the website using Android Studio
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -70,9 +72,9 @@
 
 ### Built With
 
-* [React.js](https://reactjs.org/)
-* [Bootstrap](https://getbootstrap.com)
-* [react-router-dom](https://reactrouter.com)
+* [ASP.NET MVC](https://dotnet.microsoft.com/en-us/apps/aspnet/mvc)
+* [Java](https://www.java.com)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -80,25 +82,10 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Prerequisites
+To run the program simply download the files, but, open the Server file on the Rider (MVC environment) and the App file in Android Studio.
+Cloning the entire project won't work (cause of the gradle)
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-* React
-  ```sh
-  npm install -g create-react-app
-  ```
-
-### Installation
-
-1. Install NPM packages
-   ```sh
-   npm install
-   ```  
-
+   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -106,41 +93,44 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-This webapp can be used for message your family and friends.<br>
+This application can be used for message your family and friends.<br>
 <b>First, you'll need to sign up here:</b><br>
 
-<img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screenshot%202022-04-24%20205822.png" alt="Sign up">
+<img src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/registerpage.png" alt="Sign up">
 
-<b>Then, you'll need to sign in with the username and password you've just chose</b><br>
+<b>Then, you'll get to the page of your contacts</b><br>
+<img src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/contactspage.png" alt="Login">
 
-<img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screensho2022-04-24.png" alt="Login">
+<b>Then, you can add contacts (you need to add the "http://" prefix for it)</b><br>
+<img src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/addcontact.png" alt="add">
 
-<b>And you're all set! Enjoy!!!</b>
-<img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screenshot%202022-04-24%20205928.png" alt="Chats">
+<img src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/chatpage.png" alt="Chats">
+<b>Click on a contact and you're all set! Enjoy!!!</b>
+
+<br>
+<b>This is the settings page, where you can put your address of another server and to connect there. (here, you won't need the "http://" prefix)</b>
+<img src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/settingspage.png" alt="Chats">
+
+
 <br><br>
-<ul>The hard coded usernames you can use for login are:
-  <li> Username: idog770, Password: 12as45 </li>
-  <li> Username: eli123, Password: qwer12 </li>
-  <li> Username: santi456, Password: ad8767 </li>
-  <li> Username: hemi123, Password: ad8767 </li>
-  <li> Username: hemizeani, Password: ad8767 </li>
-  </ul>
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [V] Login Page
-- [V] Registration Page
-- [V] Chats
-    - [V] Image and Video transfer
-- [ ] To be continued...
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+<!-- Remarks -->
+## Remarks
+
+  The program running on default ports as mentioned below, don't change them.<br><br>
+   * Client
+  ```sh
+   https://localhost:7225; 
+  ```
+   * Server
+  ```sh
+  https://localhost:7073; http://localhost:5288;
+  ```
+  
+ <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
@@ -152,7 +142,8 @@ Ido Grossman - [@Github Page](https://github.com/idog770)
 <br>
 Eli Zilberstein - [@Github Page](https://github.com/EliZilber)
 
-Project Link: [https://github.com/santisz7897/advanced2Hemi](https://github.com/santisz7897/advanced2Hemi)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
 
