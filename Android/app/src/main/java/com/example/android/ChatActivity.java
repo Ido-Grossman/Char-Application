@@ -1,6 +1,7 @@
 package com.example.android;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -8,6 +9,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatImageButton;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -49,14 +51,12 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
 
     void createPageButtons(){
         ImageButton backButton = findViewById(R.id.back_button);
-        Intent back_intent = new Intent(getApplicationContext(), ContactsActivity.class);
         backButton.setOnClickListener(view -> {
             MyApp.messageNotify.removeMessageListener(this);
-            startActivity(back_intent);
+            finish();
         });
 
         ImageButton logoutButton = findViewById(R.id.logout_button);
-        Intent logout_intent = new Intent(getApplicationContext(), MainActivity.class);
         //delete dao
         logoutButton.setOnClickListener(view -> {
             MyApp.userId = null;
@@ -100,7 +100,6 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
         super.onCreate(savedInstanceState);
         MyApp.messageNotify.addMessageListener(this);
         setContentView(R.layout.activity_chat);
-        getSupportActionBar().hide();
         intent = getIntent();
         contactId = intent.getStringExtra("contactId");
 
@@ -215,5 +214,14 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
     public void messageEvent() {
         refreshListInDB();
         runOnUiThread(() -> ml_adapter.notifyDataSetChanged());
+    }
+
+    @Override
+    public void onConfigurationChanged(@NonNull Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            Intent intent = new Intent(this, ChatContactActivity.class);
+            startActivity(intent);
+        }
     }
 }

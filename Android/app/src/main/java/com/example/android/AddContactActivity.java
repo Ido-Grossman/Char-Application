@@ -24,7 +24,6 @@ public class AddContactActivity extends AppCompatActivity {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_add_contact);
-            getSupportActionBar().hide();
             Intent intent = new Intent(this, ContactsActivity.class);
 
             //create room database:

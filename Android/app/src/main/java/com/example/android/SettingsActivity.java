@@ -1,41 +1,44 @@
 package com.example.android;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.AppCompatDelegate;
-import androidx.core.content.ContextCompat;
 
-import android.content.SharedPreferences;
+import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CompoundButton;
-import android.widget.TextView;
+import android.widget.ImageButton;
+import android.widget.ListView;
 
-import com.google.android.material.switchmaterial.SwitchMaterial;
+import java.util.ArrayList;
+import java.util.List;
 
-public class SettingsActivity extends AppCompatActivity
-{
-    private final String defaultApi = "10.0.2.2:7225";
+public class SettingsActivity extends AppCompatActivity {
+
+    List<String> list;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.settings_activity);
-        TextView serverAddress = findViewById(R.id.serverInput);
-
-        System.out.println();
-        Button changeButton = findViewById(R.id.SetServerBtn);
-        changeButton.setOnClickListener(view -> {
-            String address = serverAddress.getText().toString();
-            if (address.equals("")){
-                address = defaultApi;
+        setContentView(R.layout.activity_settings);
+        ListView listView = findViewById(R.id.settings_list_view);
+        this.list = new ArrayList<>();
+        list.add("Change theme");
+        list.add("Change server");
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1,
+                                                                        this.list);
+        listView.setAdapter(adapter);
+        listView.setClickable(true);
+        listView.setOnItemClickListener((adapterView, view, i, l)-> {
+            Intent intent;
+            if (i == 0) {
+                intent = new Intent(this, ThemeActivity.class);
+            } else {
+                intent = new Intent(this, ServerActivity.class);
             }
-            MyApp.url = "http://" + address + "/api/";
-            MyApp.configureRetrofit();
-            finish();
+            startActivity(intent);
         });
 
+        ImageButton backBtn = findViewById(R.id.back_button);
+        backBtn.setOnClickListener(view-> finish());
     }
-
 }

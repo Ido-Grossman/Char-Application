@@ -1,7 +1,7 @@
 package com.example.android;
 
 import android.content.Intent;
-import android.media.Image;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
@@ -9,24 +9,20 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.room.Room;
 
 import com.example.android.Data.AppDB;
 import com.example.android.Data.Contact;
 import com.example.android.Data.ContactDao;
-import com.example.android.api.WebServiceAPI;
 import com.example.android.Data.UserCred;
 import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 
 import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.Retrofit;
-import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
     private AppDB db;
@@ -36,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().hide();
         MyApp.configureRetrofit();
         MyApp.messageNotify = new MessageNotify();
 

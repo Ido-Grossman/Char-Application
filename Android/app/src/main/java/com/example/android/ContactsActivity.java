@@ -1,10 +1,12 @@
 package com.example.android;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.widget.ImageButton;
 import android.widget.ListView;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
@@ -12,7 +14,6 @@ import com.example.android.Adapters.CustomListAdapter;
 import com.example.android.Data.AppDB;
 import com.example.android.Data.Contact;
 import com.example.android.Data.ContactDao;
-import com.example.android.Data.Content;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -34,7 +35,7 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
     void createPageButtons(){
         FloatingActionButton btnAdd = findViewById(R.id.add_contact_btn);
         btnAdd.setOnClickListener(view-> {
-            Intent i = new Intent(this,AddContactActivity.class);
+            Intent i = new Intent(this, AddContactActivity.class);
             MyApp.messageNotify.removeMessageListener(this);
             startActivity(i);
         });
@@ -62,7 +63,10 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
-        getSupportActionBar().hide();
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            Intent intent = new Intent(this, ChatContactActivity.class);
+            startActivity(intent);
+        }
         createPageButtons();
         ArrayList<Contact> contacts;
 
@@ -130,7 +134,9 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
 
     @Override
     protected void onDestroy() {
+        MyApp.userId = null;
         super.onDestroy();
+        db.clearAllTables();
         logOut();
     }
 
@@ -156,5 +162,14 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
             listView.setClickable(true);
             adapter.notifyDataSetChanged();
         });
+    }
+
+    @Override
+    public void onConfigurationChanged(@NonNull Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            Intent intent = new Intent(this, ChatContactActivity.class);
+            startActivity(intent);
+        }
     }
 }

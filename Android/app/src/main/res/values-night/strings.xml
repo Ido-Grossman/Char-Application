@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="image_of_the_user">Image of the contact</string>
+    <string name="back_button">Go Back</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="system_default">System Default</string>
 </resources>

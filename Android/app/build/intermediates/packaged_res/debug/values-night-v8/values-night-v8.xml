@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="back_button">Go Back</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="dark">Dark</string>
     <string name="image_of_the_user">Image of the contact</string>
+    <string name="light">Light</string>
+    <string name="system_default">System Default</string>
     <style name="Theme.Android" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_200</item>
@@ -12,6 +17,7 @@
         <item name="colorOnSecondary">@color/black</item>
         
         <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:textColorPrimary">@color/white</item>
         
     </style>
 </resources>

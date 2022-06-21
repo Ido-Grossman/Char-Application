@@ -2698,6 +2698,7 @@ id custom
 id customPanel
 id cut
 id dark
+id dark_theme
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2794,6 +2795,7 @@ id layoutSend
 id left
 id leftToRight
 id light
+id light_theme
 id line1
 id line3
 id linear
@@ -2932,7 +2934,9 @@ id send_button
 id serverInput
 id serverTV
 id serverTV3
+id set_theme_btn
 id settings_button
+id settings_list_view
 id shortcut
 id showCustom
 id showHome
@@ -2965,6 +2969,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id system_default_theme
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2994,6 +2999,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView3
 id text_input_end_icon
 id text_input_error_icon
@@ -3004,6 +3010,8 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id theme_title
+id themes
 id time
 id title
 id title2
@@ -3115,9 +3123,14 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_contact
 layout activity_chat
+layout activity_chat_contact
 layout activity_contacts
 layout activity_main
+layout activity_server
+layout activity_settings
+layout activity_theme
 layout contact_list_item
+layout contact_list_item_landscape
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3191,7 +3204,6 @@ layout sdp_example
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
-layout settings_activity
 layout sp_example
 layout ssp_example
 layout support_simple_spinner_dropdown_item
@@ -3210,20 +3222,26 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+mipmap addcontact
 mipmap back
 mipmap back_round
 mipmap chatos_image
 mipmap chatos_image_dark
+mipmap chatpage
+mipmap contactspage
 mipmap default_icon
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 mipmap ic_logout
 mipmap ic_logout_round
+mipmap loginpage
 mipmap person_add
 mipmap person_add_round
+mipmap registerpage
 mipmap settings
 mipmap settings_round
+mipmap settingspage
 plurals mtrl_badge_content_description
 string BaseUrl
 string abc_action_bar_home_description
@@ -3260,10 +3278,13 @@ string add_contact_server
 string add_contact_title
 string app_name
 string appbar_scrolling_view_behavior
+string back_button
 string bottom_sheet_behavior
 string bottomsheet_action_expand_halfway
 string button
 string change
+string change_server
+string change_theme
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3288,6 +3309,7 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string dark
 string date_time_format
 string default_web_client_id
 string error_icon_content_description
@@ -3306,6 +3328,7 @@ string image
 string image_of_the_user
 string image_title
 string item_view_role_description
+string light
 string linkto_register
 string login_button
 string main_logo
@@ -3379,6 +3402,7 @@ string server
 string settings
 string settings_button
 string status_bar_notification_info_overflow
+string system_default
 string title
 string to_register
 string type_a_message
@@ -3391,6 +3415,7 @@ style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
 style Animation_MaterialComponents_BottomSheetDialog
+style AppTheme
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

@@ -39,7 +39,6 @@ public class RegisterPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register_page);
-        getSupportActionBar().hide();
         gson = new GsonBuilder()
                 .setLenient()
                 .create();
