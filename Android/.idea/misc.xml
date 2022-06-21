@@ -9,16 +9,23 @@
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/drawable/bckg_chat_buttons.xml" value="0.201" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/drawable/bkcg_chat_top.xml" value="0.202" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-iw/activity_main.xml" value="0.3532608695652174" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-land/activity_chat.xml" value="0.1644620811287478" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-land/activity_main.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/activity_add_contact.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/activity_chat.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/activity_contacts.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/activity_main.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/activity_server.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/contact_list_item.xml" value="0.22" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout-night/settings_activity.xml" value="0.33" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_add_contact.xml" value="0.1526268115942029" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_chat.xml" value="0.25" />
-        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_contacts.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_contacts.xml" value="0.33" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_main.xml" value="0.3532608695652174" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_main2.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_server.xml" value="0.33" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_settings.xml" value="0.33" />
+        <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/activity_theme.xml" value="0.33" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/contact_list_item.xml" value="0.3532608695652174" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/item_container_recieved_message.xml" value="0.3532608695652174" />
         <entry key="..\:/Users/idodd/Desktop/ChatOS/ChatOS/Android/app/src/main/res/layout/item_container_sent_message.xml" value="0.3532608695652174" />

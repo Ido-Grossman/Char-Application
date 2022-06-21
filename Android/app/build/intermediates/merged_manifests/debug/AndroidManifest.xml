@@ -26,8 +26,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.Android"
+        android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.android.ThemeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.android.SettingsActivity"
+            android:exported="false" />
+
         <service
             android:name="com.example.android.FirebaseService"
             android:enabled="true"
@@ -46,12 +53,15 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.SettingsActivity" />
+        <activity
+            android:name="com.example.android.ServerActivity"
+            android:screenOrientation="portrait" />
         <activity android:name="com.example.android.ChatActivity" />
         <activity android:name="com.example.android.AddContactActivity" />
         <activity
             android:name="com.example.android.MainActivity"
-            android:exported="true" >
+            android:exported="true"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -60,7 +70,8 @@
         </activity>
         <activity
             android:name="com.example.android.RegisterPage"
-            android:exported="true" >
+            android:exported="true"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 

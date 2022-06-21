@@ -12,7 +12,6 @@ import com.example.android.Adapters.CustomListAdapter;
 import com.example.android.Data.AppDB;
 import com.example.android.Data.Contact;
 import com.example.android.Data.ContactDao;
-import com.example.android.Data.Content;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
@@ -62,7 +61,6 @@ public class ContactsActivity extends AppCompatActivity implements IMessageListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
-        getSupportActionBar().hide();
         createPageButtons();
         ArrayList<Contact> contacts;
 

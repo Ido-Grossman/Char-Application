@@ -100,7 +100,6 @@ public class ChatActivity extends AppCompatActivity implements IMessageListener{
         super.onCreate(savedInstanceState);
         MyApp.messageNotify.addMessageListener(this);
         setContentView(R.layout.activity_chat);
-        getSupportActionBar().hide();
         intent = getIntent();
         contactId = intent.getStringExtra("contactId");
 
