@@ -27,7 +27,7 @@
 15-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
 16
 17    <application
-17-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:8:5-61:19
+17-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:8:5-65:19
 18        android:name="com.example.android.MyApp"
 18-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:9:9-30
 19        android:allowBackup="false"
@@ -85,187 +85,194 @@
 46-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:35:27-73
 47            </intent-filter>
 48        </activity>
-49        <activity android:name="com.example.android.SettingsActivity" />
-49-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:38:9-54
-49-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:38:19-51
-50        <activity android:name="com.example.android.ChatActivity" />
-50-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:39:9-50
-50-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:39:19-47
-51        <activity android:name="com.example.android.AddContactActivity" />
-51-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:40:9-56
-51-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:40:19-53
-52        <activity
-52-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:41:9-49:20
-53            android:name="com.example.android.MainActivity"
-53-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:42:13-41
-54            android:exported="true" >
-54-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:43:13-36
-55            <intent-filter>
-55-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:44:13-48:29
-56                <action android:name="android.intent.action.MAIN" />
-56-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:45:17-69
-56-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:45:25-66
-57
-58                <category android:name="android.intent.category.LAUNCHER" />
-58-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:47:17-77
-58-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:47:27-74
-59            </intent-filter>
-60        </activity>
-61        <activity
-61-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:50:9-60:20
-62            android:name="com.example.android.RegisterPage"
-62-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:51:13-41
-63            android:exported="true" >
-63-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:52:13-36
-64            <intent-filter>
-64-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:53:13-59:29
-65                <action android:name="android.intent.action.VIEW" />
-65-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:33:17-69
-65-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:33:25-66
-66
-67                <category android:name="android.intent.category.DEFAULT" />
-67-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:35:17-76
-67-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:35:27-73
-68
-69                <data android:scheme="http" />
-69-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:58:17-47
-69-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:58:23-44
-70            </intent-filter>
-71        </activity>
+49        <activity
+49-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:38:9-39:51
+50            android:name="com.example.android.SettingsActivity"
+50-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:38:19-51
+51            android:screenOrientation="portrait" />
+51-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:39:13-49
+52        <activity android:name="com.example.android.ChatActivity" />
+52-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:40:9-50
+52-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:40:19-47
+53        <activity android:name="com.example.android.AddContactActivity" />
+53-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:41:9-56
+53-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:41:19-53
+54        <activity
+54-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:42:9-52:20
+55            android:name="com.example.android.MainActivity"
+55-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:43:13-41
+56            android:exported="true"
+56-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:44:13-36
+57            android:screenOrientation="portrait" >
+57-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:45:13-49
+58            <intent-filter>
+58-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:47:13-51:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:48:17-69
+59-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:48:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:50:17-77
+61-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:50:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:53:9-64:20
+65            android:name="com.example.android.RegisterPage"
+65-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:54:13-41
+66            android:exported="true"
+66-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:56:13-36
+67            android:screenOrientation="portrait" >
+67-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:55:13-49
+68            <intent-filter>
+68-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:57:13-63:29
+69                <action android:name="android.intent.action.VIEW" />
+69-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:33:17-69
+69-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:33:25-66
+70
+71                <category android:name="android.intent.category.DEFAULT" />
+71-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:35:17-76
+71-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:35:27-73
 72
-73        <service
-73-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
-74            android:name="androidx.room.MultiInstanceInvalidationService"
-74-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
-75            android:directBootAware="true"
-75-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
-76            android:exported="false" />
-76-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
-77        <!--
-78             FirebaseMessagingService performs security checks at runtime,
-79             but set to not exported to explicitly avoid allowing another app to call it.
-80        -->
-81        <service
-81-->[com.google.firebase:firebase-messaging:20.0.0] /Users/santiago/.gradle/caches/transforms-3/e4968cbe1631b7bf40302958902ba4d6/transformed/firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
-82            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-82-->[com.google.firebase:firebase-messaging:20.0.0] /Users/santiago/.gradle/caches/transforms-3/e4968cbe1631b7bf40302958902ba4d6/transformed/firebase-messaging-20.0.0/AndroidManifest.xml:29:13-82
-83            android:exported="false" >
-83-->[com.google.firebase:firebase-messaging:20.0.0] /Users/santiago/.gradle/caches/transforms-3/e4968cbe1631b7bf40302958902ba4d6/transformed/firebase-messaging-20.0.0/AndroidManifest.xml:30:13-37
-84            <intent-filter android:priority="-500" >
-84-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:24:13-26:29
-85                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-85-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:25:17-77
-85-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:25:25-75
-86            </intent-filter>
-87        </service>
-88        <service
-88-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:27:9-33:19
-89            android:name="com.google.firebase.components.ComponentDiscoveryService"
-89-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:28:13-84
-90            android:exported="false" >
-90-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:29:13-37
-91            <meta-data
-91-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
-92                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-92-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
-93                android:value="com.google.firebase.components.ComponentRegistrar" />
-93-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
-94            <meta-data
-94-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:32:13-34:85
-95                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-95-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:33:17-96
-96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:34:17-82
-97        </service>
-98
-99        <receiver
-99-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:37:9-44:20
-100            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-100-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:38:13-78
-101            android:exported="true"
-101-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:39:13-36
-102            android:permission="com.google.android.c2dm.permission.SEND" >
-102-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:40:13-73
-103            <intent-filter>
-103-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:41:13-43:29
-104                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-104-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:42:17-81
-104-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:42:25-78
-105            </intent-filter>
-106        </receiver>
-107
-108        <provider
-108-->[com.google.firebase:firebase-common:19.0.0] /Users/santiago/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
-109            android:name="com.google.firebase.provider.FirebaseInitProvider"
-109-->[com.google.firebase:firebase-common:19.0.0] /Users/santiago/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
-110            android:authorities="com.example.android.firebaseinitprovider"
-110-->[com.google.firebase:firebase-common:19.0.0] /Users/santiago/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
-111            android:exported="false"
-111-->[com.google.firebase:firebase-common:19.0.0] /Users/santiago/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
-112            android:initOrder="100" />
-112-->[com.google.firebase:firebase-common:19.0.0] /Users/santiago/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
-113
-114        <activity
-114-->[com.google.android.gms:play-services-base:17.0.0] /Users/santiago/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-115-->[com.google.android.gms:play-services-base:17.0.0] /Users/santiago/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-116            android:exported="false"
-116-->[com.google.android.gms:play-services-base:17.0.0] /Users/santiago/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-117-->[com.google.android.gms:play-services-base:17.0.0] /Users/santiago/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-118
-119        <receiver
-119-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
-120            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-120-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
-121            android:enabled="true"
-121-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
-122            android:exported="false" >
-122-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
-123        </receiver>
-124        <receiver
-124-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
-125            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-125-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
-126            android:enabled="true"
-126-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
-127            android:exported="true"
-127-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
-128            android:permission="android.permission.INSTALL_PACKAGES" >
-128-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
-129            <intent-filter>
-129-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
-130                <action android:name="com.android.vending.INSTALL_REFERRER" />
-130-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
-130-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
-131            </intent-filter>
-132        </receiver>
-133
-134        <service
-134-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
-135            android:name="com.google.android.gms.measurement.AppMeasurementService"
-135-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
-136            android:enabled="true"
-136-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
-137            android:exported="false" />
-137-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+73                <data android:scheme="http" />
+73-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:62:17-47
+73-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:62:23-44
+74            </intent-filter>
+75        </activity>
+76
+77        <service
+77-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+78            android:name="androidx.room.MultiInstanceInvalidationService"
+78-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+79            android:directBootAware="true"
+79-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+80            android:exported="false" />
+80-->[androidx.room:room-runtime:2.4.2] /Users/santiago/.gradle/caches/transforms-3/c980740e9d948579d8bfd1ba7e4fdcc6/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+81        <!--
+82             FirebaseMessagingService performs security checks at runtime,
+83             but set to not exported to explicitly avoid allowing another app to call it.
+84        -->
+85        <service
+85-->[com.google.firebase:firebase-messaging:20.0.0] /Users/santiago/.gradle/caches/transforms-3/e4968cbe1631b7bf40302958902ba4d6/transformed/firebase-messaging-20.0.0/AndroidManifest.xml:28:9-34:19
+86            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+86-->[com.google.firebase:firebase-messaging:20.0.0] /Users/santiago/.gradle/caches/transforms-3/e4968cbe1631b7bf40302958902ba4d6/transformed/firebase-messaging-20.0.0/AndroidManifest.xml:29:13-82
+87            android:exported="false" >
+87-->[com.google.firebase:firebase-messaging:20.0.0] /Users/santiago/.gradle/caches/transforms-3/e4968cbe1631b7bf40302958902ba4d6/transformed/firebase-messaging-20.0.0/AndroidManifest.xml:30:13-37
+88            <intent-filter android:priority="-500" >
+88-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:24:13-26:29
+89                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+89-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:25:17-77
+89-->/Users/santiago/StudioProjects/ChatOS/Android/app/src/main/AndroidManifest.xml:25:25-75
+90            </intent-filter>
+91        </service>
+92        <service
+92-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:27:9-33:19
+93            android:name="com.google.firebase.components.ComponentDiscoveryService"
+93-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:28:13-84
+94            android:exported="false" >
+94-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:29:13-37
+95            <meta-data
+95-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+96                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+96-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/santiago/.gradle/caches/transforms-3/0af9415173b683a0878b82d71b573dfe/transformed/play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:32:13-34:85
+99                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+99-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:33:17-96
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:34:17-82
+101        </service>
+102
+103        <receiver
+103-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:37:9-44:20
+104            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+104-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:38:13-78
+105            android:exported="true"
+105-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:39:13-36
+106            android:permission="com.google.android.c2dm.permission.SEND" >
+106-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:40:13-73
+107            <intent-filter>
+107-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:41:13-43:29
+108                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+108-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:42:17-81
+108-->[com.google.firebase:firebase-iid:20.0.0] /Users/santiago/.gradle/caches/transforms-3/9864cdf0d7cbf96819c732b36bac3245/transformed/firebase-iid-20.0.0/AndroidManifest.xml:42:25-78
+109            </intent-filter>
+110        </receiver>
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:19.0.0] /Users/santiago/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:19.0.0] /Users/santiago/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+114            android:authorities="com.example.android.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:19.0.0] /Users/santiago/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+115            android:exported="false"
+115-->[com.google.firebase:firebase-common:19.0.0] /Users/santiago/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+116            android:initOrder="100" />
+116-->[com.google.firebase:firebase-common:19.0.0] /Users/santiago/.gradle/caches/transforms-3/a96d57e48369aeb73d1d571ec07178b5/transformed/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:17.0.0] /Users/santiago/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:17.0.0] /Users/santiago/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:17.0.0] /Users/santiago/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:17.0.0] /Users/santiago/.gradle/caches/transforms-3/7820add9159cf368acac90a59ae2b97d/transformed/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+122
+123        <receiver
+123-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+124            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+124-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+125            android:enabled="true"
+125-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+126            android:exported="false" >
+126-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+127        </receiver>
+128        <receiver
+128-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+129            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+129-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+130            android:enabled="true"
+130-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+131            android:exported="true"
+131-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+132            android:permission="android.permission.INSTALL_PACKAGES" >
+132-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+133            <intent-filter>
+133-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+134                <action android:name="com.android.vending.INSTALL_REFERRER" />
+134-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
+134-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+135            </intent-filter>
+136        </receiver>
+137
 138        <service
-138-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
-139            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-139-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+138-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+139            android:name="com.google.android.gms.measurement.AppMeasurementService"
+139-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
 140            android:enabled="true"
-140-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
-141            android:exported="false"
-141-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
-142            android:permission="android.permission.BIND_JOB_SERVICE" />
-142-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
-143
-144        <meta-data
-144-->[com.google.android.gms:play-services-basement:17.0.0] /Users/santiago/.gradle/caches/transforms-3/45f9b480a143174433c0ead66e5edf7f/transformed/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-145            android:name="com.google.android.gms.version"
-145-->[com.google.android.gms:play-services-basement:17.0.0] /Users/santiago/.gradle/caches/transforms-3/45f9b480a143174433c0ead66e5edf7f/transformed/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-146            android:value="@integer/google_play_services_version" />
-146-->[com.google.android.gms:play-services-basement:17.0.0] /Users/santiago/.gradle/caches/transforms-3/45f9b480a143174433c0ead66e5edf7f/transformed/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-147    </application>
-148
-149</manifest>
+140-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+141            android:exported="false" />
+141-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+142        <service
+142-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+143            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+143-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+146            android:permission="android.permission.BIND_JOB_SERVICE" />
+146-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/santiago/.gradle/caches/transforms-3/d35353db0dee062c0c3f9fc10608f38c/transformed/play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+147
+148        <meta-data
+148-->[com.google.android.gms:play-services-basement:17.0.0] /Users/santiago/.gradle/caches/transforms-3/45f9b480a143174433c0ead66e5edf7f/transformed/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+149            android:name="com.google.android.gms.version"
+149-->[com.google.android.gms:play-services-basement:17.0.0] /Users/santiago/.gradle/caches/transforms-3/45f9b480a143174433c0ead66e5edf7f/transformed/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+150            android:value="@integer/google_play_services_version" />
+150-->[com.google.android.gms:play-services-basement:17.0.0] /Users/santiago/.gradle/caches/transforms-3/45f9b480a143174433c0ead66e5edf7f/transformed/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+151    </application>
+152
+153</manifest>
