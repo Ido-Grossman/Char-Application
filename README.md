@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/santisz7897/advanced2Hemi">
+  <a href="https://github.com/idog770/ChatOS">
     <img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Pages/loginComponents/imagesLogin/image.jpeg" alt="Logo" width="100" height="80">
   </a>
 
