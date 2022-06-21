@@ -18,6 +18,10 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".ChatContactActivity"
+            android:exported="false"
+            android:configChanges="orientation|screenSize"/>
+        <activity
             android:name=".ThemeActivity"
             android:exported="false" />
         <activity
@@ -35,7 +39,8 @@
 
         <activity
             android:name=".ContactsActivity"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
@@ -45,7 +50,8 @@
         <activity
             android:name=".ServerActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ChatActivity" />
+        <activity android:name=".ChatActivity"
+            android:configChanges="orientation|screenSize"/>
         <activity android:name=".AddContactActivity" />
         <activity
             android:name=".MainActivity"

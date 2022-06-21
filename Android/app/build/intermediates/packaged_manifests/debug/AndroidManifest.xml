@@ -29,6 +29,10 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.android.ChatContactActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
             android:name="com.example.android.ThemeActivity"
             android:exported="false" />
         <activity
@@ -46,6 +50,7 @@
 
         <activity
             android:name="com.example.android.ContactsActivity"
+            android:configChanges="orientation|screenSize"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -56,7 +61,9 @@
         <activity
             android:name="com.example.android.ServerActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.example.android.ChatActivity" />
+        <activity
+            android:name="com.example.android.ChatActivity"
+            android:configChanges="orientation|screenSize" />
         <activity android:name="com.example.android.AddContactActivity" />
         <activity
             android:name="com.example.android.MainActivity"

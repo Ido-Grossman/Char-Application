@@ -92,12 +92,14 @@ id user_name
 id usernameInput
 layout activity_add_contact
 layout activity_chat
+layout activity_chat_contact
 layout activity_contacts
 layout activity_main
 layout activity_server
 layout activity_settings
 layout activity_theme
 layout contact_list_item
+layout contact_list_item_landscape
 layout item_container_recieved_message
 layout item_container_sent_message
 layout register_page

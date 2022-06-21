@@ -3122,12 +3122,14 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_add_contact 0x7f0b001c
 int layout activity_chat 0x7f0b001d
+int layout activity_chat_contact 0x7f0b007f
 int layout activity_contacts 0x7f0b001e
 int layout activity_main 0x7f0b001f
 int layout activity_server 0x7f0b0020
 int layout activity_settings 0x7f0b0021
 int layout activity_theme 0x7f0b0022
 int layout contact_list_item 0x7f0b0023
+int layout contact_list_item_landscape 0x7f0b0080
 int layout custom_dialog 0x7f0b0024
 int layout design_bottom_navigation_item 0x7f0b0025
 int layout design_bottom_sheet_dialog 0x7f0b0026
