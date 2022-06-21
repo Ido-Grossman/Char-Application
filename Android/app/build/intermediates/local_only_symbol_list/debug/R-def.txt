@@ -68,7 +68,6 @@ id registerBtn
 id send_button
 id serverInput
 id serverTV
-id serverTV3
 id set_theme_btn
 id settings_button
 id settings_list_view
@@ -86,7 +85,6 @@ id title
 id title2
 id title3
 id titleTV
-id titleTV2
 id topPanel
 id user_name
 id usernameInput

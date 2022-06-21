@@ -64,20 +64,16 @@
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout\\item_container_recieved_message.xml"
     },
     {
-        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-xxxhdpi_settings_round.png.flat",
-        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-xxxhdpi\\settings_round.png"
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\drawable_ic_logout_foreground.xml.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\drawable\\ic_logout_foreground.xml"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\drawable_ic_logout_foreground.xml.flat",
-        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\drawable\\ic_logout_foreground.xml"
-    },
-    {
-        "merged": "com.example.android.app-merged_res-30:/layout-land_activity_chat_contact.xml.flat",
-        "source": "com.example.android.app-main-32:/layout-land/activity_chat_contact.xml"
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-xxxhdpi_settings_round.png.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-xxxhdpi\\settings_round.png"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-xhdpi_person_add.png.flat",
@@ -156,6 +152,10 @@
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout-night\\activity_server.xml"
     },
     {
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout-land-night_contact_list_item_landscape.xml.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout-land-night\\contact_list_item_landscape.xml"
+    },
+    {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
@@ -210,6 +210,10 @@
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout-night_activity_settings.xml.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout-night\\activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-xxhdpi_back.png.flat",
@@ -324,6 +328,10 @@
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout-land\\activity_main.xml"
     },
     {
+        "merged": "com.example.android.app-merged_res-30:/layout-night_activity_theme.xml.flat",
+        "source": "com.example.android.app-main-32:/layout-night/activity_theme.xml"
+    },
+    {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-hdpi_chatos_image_dark.png.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-hdpi\\chatos_image_dark.png"
     },
@@ -336,12 +344,12 @@
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout-night\\activity_add_contact.xml"
     },
     {
-        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout\\activity_settings.xml"
-    },
-    {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout\\activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-hdpi_back_round.png.flat",
@@ -350,6 +358,10 @@
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout_activity_add_contact.xml.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout\\activity_add_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout-land-night_activity_chat_contact.xml.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout-land-night\\activity_chat_contact.xml"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout_register_page.xml.flat",
@@ -408,6 +420,10 @@
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout\\item_container_sent_message.xml"
     },
     {
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout-land-night_activity_chat.xml.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout-land-night\\activity_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-xhdpi_settings.png.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-xhdpi\\settings.png"
     },
@@ -446,6 +462,10 @@
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout_activity_theme.xml.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout\\activity_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout-night_activity_theme.xml.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout-night\\activity_theme.xml"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout-iw-land-night_activity_main.xml.flat",

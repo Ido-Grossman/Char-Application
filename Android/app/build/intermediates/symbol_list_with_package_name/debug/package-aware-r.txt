@@ -2933,7 +2933,6 @@ id selection_type
 id send_button
 id serverInput
 id serverTV
-id serverTV3
 id set_theme_btn
 id settings_button
 id settings_list_view
@@ -3020,7 +3019,6 @@ id title4
 id title5
 id titleDividerNoCustom
 id titleTV
-id titleTV2
 id title_template
 id toggle
 id top
