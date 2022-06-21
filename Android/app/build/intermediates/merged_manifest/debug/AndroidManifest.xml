@@ -26,7 +26,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/Theme.Android"
         android:usesCleartextTraffic="true" >
         <activity
             android:name="com.example.android.ThemeActivity"
@@ -54,14 +54,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.ServerActivity"
+            android:name="com.example.android.SettingsActivity"
             android:screenOrientation="portrait" />
         <activity android:name="com.example.android.ChatActivity" />
         <activity android:name="com.example.android.AddContactActivity" />
         <activity
             android:name="com.example.android.MainActivity"
-            android:exported="true"
-            android:screenOrientation="portrait" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -70,8 +69,7 @@
         </activity>
         <activity
             android:name="com.example.android.RegisterPage"
-            android:exported="true"
-            android:screenOrientation="portrait" >
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
