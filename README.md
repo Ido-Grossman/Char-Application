@@ -121,7 +121,7 @@ This application can be used for message your family and friends.<br>
 ## Remarks
 
   The program running on default ports as mentioned below, don't change them.<br><br>
-
+  <b>Please not that the password for the mariadb is 12345678</b>
    * Server
   ```sh
   https://localhost:7225;
