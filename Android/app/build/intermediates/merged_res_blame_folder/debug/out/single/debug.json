@@ -60,16 +60,16 @@
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout\\item_container_recieved_message.xml"
     },
     {
-        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-xxxhdpi_settings_round.png.flat",
-        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-xxxhdpi\\settings_round.png"
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\drawable_ic_logout_foreground.xml.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\drawable\\ic_logout_foreground.xml"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\drawable_ic_logout_foreground.xml.flat",
-        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\drawable\\ic_logout_foreground.xml"
+        "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-xxxhdpi_settings_round.png.flat",
+        "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\mipmap-xxxhdpi\\settings_round.png"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\mipmap-xhdpi_person_add.png.flat",
@@ -438,6 +438,10 @@
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout_activity_theme.xml.flat",
         "source": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-main-32:\\layout\\activity_theme.xml"
+    },
+    {
+        "merged": "com.example.android.app-merged_res-30:/mipmap_addcontact.png.flat",
+        "source": "com.example.android.app-main-32:/mipmap/addcontact.png"
     },
     {
         "merged": "C:\\Users\\idodd\\.gradle\\daemon\\7.3.3\\com.example.android.app-merged_res-30:\\layout-iw-land-night_activity_main.xml.flat",

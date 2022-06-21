@@ -54,9 +54,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.SettingsActivity"
-            android:screenOrientation="portrait" />
-        <activity
             android:name="com.example.android.ServerActivity"
             android:screenOrientation="portrait" />
         <activity android:name="com.example.android.ChatActivity" />

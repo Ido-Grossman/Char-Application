@@ -101,6 +101,7 @@ layout contact_list_item
 layout item_container_recieved_message
 layout item_container_sent_message
 layout register_page
+mipmap addcontact
 mipmap back
 mipmap back_round
 mipmap chatos_image
