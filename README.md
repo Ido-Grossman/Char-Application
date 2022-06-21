@@ -121,13 +121,10 @@ This application can be used for message your family and friends.<br>
 ## Remarks
 
   The program running on default ports as mentioned below, don't change them.<br><br>
-   * Client
-  ```sh
-   https://localhost:7225; 
-  ```
+
    * Server
   ```sh
-  https://localhost:7073; http://localhost:5288;
+  https://localhost:7225;
   ```
   
  <p align="right">(<a href="#top">back to top</a>)</p>
