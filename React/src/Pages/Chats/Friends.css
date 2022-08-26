@@ -1,0 +1,43 @@
+.friend_image
+{
+    margin: 5px 5px 0 15px;
+}
+
+.friend
+{
+    padding-top: 10px;
+    height: 75px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.friend:hover
+{
+    background-color: #eeeeee;
+}
+.friend-details
+{
+    margin-bottom: 0;
+}
+
+div > .friends-list
+{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.no-margin
+{
+    margin: 0;
+}
+#last-message
+{
+    font-size: 14px;
+    color: grey;
+}
+#friend-name
+{
+    font-size: 19px;
+}
+float-end{
+    margin-right: 55px !important;
+}

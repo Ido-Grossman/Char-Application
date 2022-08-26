@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {}
+    "C:\\Users\\idodd\\RiderProjects\\Char-Application\\Server\\RatingProj\\RatingProj.csproj": {}
   },
   "projects": {
-    "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj": {
+    "C:\\Users\\idodd\\RiderProjects\\Char-Application\\Server\\RatingProj\\RatingProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+        "projectUniqueName": "C:\\Users\\idodd\\RiderProjects\\Char-Application\\Server\\RatingProj\\RatingProj.csproj",
         "projectName": "RatingProj",
-        "projectPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\RatingProj.csproj",
+        "projectPath": "C:\\Users\\idodd\\RiderProjects\\Char-Application\\Server\\RatingProj\\RatingProj.csproj",
         "packagesPath": "C:\\Users\\idodd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\idodd\\Desktop\\ChatOS\\ChatOS\\Server\\RatingProj\\obj\\",
+        "outputPath": "C:\\Users\\idodd\\RiderProjects\\Char-Application\\Server\\RatingProj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\idodd\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -71,7 +71,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -83,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\idodd\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

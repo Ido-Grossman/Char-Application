@@ -1,0 +1,46 @@
+#messages
+{
+    position: relative;
+    align-items: flex-end;
+    height: calc(100vh - 135px);
+    max-width: 100%;;
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+}
+#rightSide #message-profile
+{
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: row;
+    height: 62px;
+    max-width: 100%;
+    border: 0 !important;
+}
+#chat-window ul {
+    list-style-type: none;
+}
+
+
+.image-dropdown
+{
+    color: inherit;
+}
+.image-dropdown:hover
+{
+    color: inherit;
+}
+#leftFriends
+{
+    overflow-y: scroll !important;
+    height: calc(100vh - 65px);
+}
+.go-home-butt {
+    position: absolute;
+    left: 30vw;
+    top: 45vh;
+}
+#the-butt
+{
+    position: absolute;
+    margin-left: 11vw;
+}

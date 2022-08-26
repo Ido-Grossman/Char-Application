@@ -1,0 +1,5 @@
+.page
+{
+    min-height: 100vh;
+    background: linear-gradient(deepskyblue 0%, deepskyblue 130px, lightgrey 130px, lightgrey 100%);
+}

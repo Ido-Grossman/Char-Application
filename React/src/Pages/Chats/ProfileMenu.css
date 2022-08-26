@@ -1,0 +1,36 @@
+#profile-menu
+{
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: row;
+    height: 65px;
+    max-width: 100%;
+    padding: 7px 16px;
+}
+#profile
+{
+    position: relative;
+    height: 45px;
+    width: 45px;
+}
+.menu
+{
+    margin: 10px 5px 0 0;
+}
+#add-friend
+{
+    margin-right: 20px;
+}
+#add-friend:hover
+{
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+.error
+{
+    color: red;
+}
+.name-profile {
+    margin-left: 57px;
+    margin-top: 10px;
+}

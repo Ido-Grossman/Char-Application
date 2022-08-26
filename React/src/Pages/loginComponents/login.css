@@ -1,0 +1,71 @@
+.navbar-brand {
+    font-size: 1.5rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.btn-outline-primary{
+    margin-left: 20px;
+}
+.nav-link {
+    text-decoration: none;
+    display: inline;
+}
+.float-right{
+    float: right;
+}
+h2{
+    display: inline;
+}
+.create-p{
+    display: inline;
+    margin-left: 49%;
+}
+.change{
+    margin-top: 30px;
+}
+.google-btn{
+    margin-top: 19px;
+}
+.google-icon{
+    margin-right: 10px;
+    padding-bottom: 2px;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: gray;
+    margin: 10px 0;
+  }
+  
+  /* To show the lines on right 
+  and left sides of the text */
+  .divider::after,
+  .divider::before {
+    content: "";
+    border: 1px solid black;
+    flex: 1;
+  }
+  
+  /* Space on left and right sides of text */
+  .divider:not(:empty)::before {
+    margin-right: 0.25em;
+  }
+  
+  .divider:not(:empty)::after {
+    margin-left: 0.25em;
+  }
+  .form-check{
+      margin-top: 20px;
+      display: inline-block;
+  }
+  .sign-btn{
+      margin-left: 62%;
+      display: inline;
+  }
+  .sign-text{
+      margin-top: 10px;
+  }
+/**/
+.top-margin {
+    margin-top: 50px;
+}

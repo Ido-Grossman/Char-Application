@@ -1,0 +1,16 @@
+.add-files-menu
+{
+    padding: 20px;
+}
+.none-display
+{
+    display: none;
+}
+#record-audio
+{
+    display: none;
+}
+.err-message
+{
+    color: red;
+}

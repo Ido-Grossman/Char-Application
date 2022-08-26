@@ -1,0 +1,32 @@
+.pad_left{
+    border-radius: 10px !important;
+    background: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+btn{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin: 0 auto;
+}
+
+.center {
+    border-radius: 80px !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.create-p{
+    display: inline;
+    margin-left: 28%;
+}
+
+.custom-file{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

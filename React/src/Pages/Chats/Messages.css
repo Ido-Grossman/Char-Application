@@ -1,0 +1,79 @@
+.user-time
+{
+    text-align: right;
+}
+.friend-time
+{
+    text-align: left;
+}
+.text
+{
+    margin: 10px 10px 10px 5px;
+}
+#messages-list
+{
+    height: calc(100vh - 160px);
+}
+.Message-text
+{
+    overflow-wrap: anywhere;
+}
+.w-50
+{
+    width: 50%;
+}
+
+.message
+{
+    max-width: 50%;
+    border-radius: 10px;
+}
+.message {
+    padding: 10px 14px;
+    margin: 4px 30px;
+    border-radius: 9px;
+    position: relative;
+    animation: fadeIn 1s ease-in;
+}
+
+.message::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom: 0;
+    margin-top: -10px;
+}
+
+.user-message::after {
+    left: 2%;
+    border-right-color: #9eee90;
+    border-left: 0;
+    margin-left: -20px;
+}
+.friend-message::after {
+    right: 2%;
+    border-left-color: #f3f3f3;
+    border-right: 0;
+    margin-right: -20px;
+}
+.friend-message {
+    margin-right: 15px;
+    background-color: #f3f3f3;
+}
+.user-message {
+    background-color: #9eee90;
+}
+#messages-list video
+{
+    max-height: 500px;
+    width: auto;
+    max-width: 90%;
+}
+#messages-list img{
+    width: auto;
+    max-width: 90%;
+    max-height: 500px;
+}

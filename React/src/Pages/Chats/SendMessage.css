@@ -1,0 +1,52 @@
+.right-bot-section
+{
+    position: relative;
+    top: 3px;
+    margin: 0 0 5px 5px !important;
+}
+#bot-Section
+{
+    padding: 3px 16px;
+    background-color: lightgrey;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: row;
+    min-height: 64px;
+    max-width: 100%;
+    border-bottom: 0;
+    border-radius: 3px;
+}
+#input
+{
+    flex: 0.9 1 auto;
+    padding: 20px;
+    line-height: 20px;
+    min-height: 20px;
+    max-height: 100px;
+    will-change: height;
+    outline: none;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    width: 80%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#send
+{
+    margin: 12px 7px 0 0;
+    cursor: pointer;
+    width: 20px;
+    height: 20%
+}
+.add
+{
+    margin: 7px 0 0 5px;
+}
+
+.bi-paperclip{
+    display: block;
+    margin: 13px auto auto;
+}
+.bg-none {
+    background: none !important;
+}
