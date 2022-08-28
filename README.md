@@ -15,16 +15,16 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/idog770/ChatOS">
-    <img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Pages/loginComponents/imagesLogin/image.jpeg" alt="Logo" width="100" height="80">
+  <a href="https://github.com/Ido-Grossman/Chat-Application">
+    <img src="https://github.com/Ido-Grossman/Chat-Application/blob/main/src/Pages/loginComponents/imagesLogin/image.jpeg" alt="Logo" width="100" height="80">
   </a>
 
-<h3 align="center">ChatOS</h3>
+<h3 align="center">Chat-Application</h3>
 
   <p align="center">
     Messenger Application
     <br />
-    <a href="https://github.com/santisz7897/advanced2Hemi"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Ido-Grossman/Chat-Application"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
@@ -62,7 +62,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img display="inline-block" src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/loginpage.png" alt="Chats">
+<img display="inline-block" src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/loginpage.png" alt="Chats">
 
 In this part of the exercise we made an android application of the website using Android Studio
 
@@ -96,20 +96,20 @@ Cloning the entire project won't work (cause of the gradle)
 This application can be used for message your family and friends.<br>
 <b>First, you'll need to sign up here:</b><br>
 
-<img src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/registerpage.png" alt="Sign up">
+<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/registerpage.png" alt="Sign up">
 
 <b>Then, you'll get to the page of your contacts</b><br>
-<img src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/contactspage.png" alt="Login">
+<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/contactspage.png" alt="Login">
 
 <b>Then, you can add contacts (you need to add the "http://" prefix for it)</b><br>
-<img src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/addcontact.png" alt="add">
+<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/addcontact.png" alt="add">
 
-<img src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/chatpage.png" alt="Chats">
+<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/chatpage.png" alt="Chats">
 <b>Click on a contact and you're all set! Enjoy!!!</b>
 
 <br>
 <b>This is the settings page, where you can put your address of another server and to connect there. (here, you won't need the "http://" prefix)</b>
-<img src="https://github.com/idog770/ChatOS/blob/master/Android/app/src/main/res/mipmap/settingspage.png" alt="Chats">
+<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/settingspage.png" alt="Chats">
 
 
 <br><br>
