@@ -180,11 +180,12 @@ Server include:
 <!-- CONTACT -->
 ## Contact
 
+Eli Zilberstein - [@Github Page](https://github.com/EliZilber)
+<br>
 Santiago Szterenberg - [@Github Page](https://github.com/santisz7897)
 <br>
 Ido Grossman - [@Github Page](https://github.com/idog770)
-<br>
-Eli Zilberstein - [@Github Page](https://github.com/EliZilber)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
