@@ -21,15 +21,9 @@
 
 <h3 align="center">Chat-Application</h3>
 
-  <p align="center">
-    Messenger Application
-    <br />
-    <a href="https://github.com/Ido-Grossman/Chat-Application"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-  </p>
-</div>
-
+<p align="center">
+  This is our Messenger Application
+</p>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -62,12 +56,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img display="inline-block" src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/loginpage.png" alt="Chats">
-
-In this part of the exercise we made an android application of the website using Android Studio
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+We implemented chat application with both android and web client, improving our skills with these technologies:
+<ul style="list-style-position: inside; text-align: center;">
+  <li>Server side using ASP.NET MVC and SQL database</li>
+  <li>Web client using React.js, Bootstrap, and Html</li>
+  <li>Android client using Java and Android Studio</li>
+</ul>
 
 
 ### Built With
