@@ -63,7 +63,6 @@ We have successfully created a comprehensive chat application, incorporating bot
 * [Bootstrap](https://getbootstrap.com)
 * [react-router-dom](https://reactrouter.com)
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
@@ -89,8 +88,7 @@ This is an example of how to list things you need to use the software and how to
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+### Usage
 
 This webapp can be used for message your family and friends.<br>
 <b>First, you'll need to sign up here:</b><br>
@@ -120,10 +118,7 @@ To return to chat page click the 'Home' button on top of Rate Us page.
   </ul>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- ROADMAP -->
-## Roadmap
+### Roadmap
 
 - [V] Login Page
 - [V] Registration Page
@@ -133,8 +128,7 @@ To return to chat page click the 'Home' button on top of Rate Us page.
 <!-- Android Client -->
 ## Android Client
 
-<!-- GETTING STARTED -->
-## Getting Started
+### Getting Started
 
 To run the program simply download the files, but, open the Server file on the Rider (MVC environment) and the App file in Android Studio.
 Cloning the entire project won't work (cause of the gradle)
@@ -144,29 +138,24 @@ Cloning the entire project won't work (cause of the gradle)
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
+### Usage
 
-This application can be used for message your family and friends.<br>
+This application can be used for messaging your family and friends.
+
 <b>First, you'll need to sign up here:</b><br>
-
-<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/registerpage.png" alt="Sign up">
+<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/registerpage.png" alt="Sign up" style="width: 180px; height: auto;"><br>
 
 <b>Then, you'll get to the page of your contacts</b><br>
-<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/contactspage.png" alt="Login">
+<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/contactspage.png" alt="Login" style="width: 180px; height: auto;"><br>
 
-<b>Then, you can add contacts (you need to add the "http://" prefix for it)</b><br>
-<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/addcontact.png" alt="add">
+<b>Next, you can add contacts (you need to add the "http://" prefix for it)</b><br>
+<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/addcontact.png" alt="Add" style="width: 180px; height: auto;"><br>
+<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/chatpage.png" alt="Chats" style="width: 180px; height: auto;">
 
-<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/chatpage.png" alt="Chats">
-<b>Click on a contact and you're all set! Enjoy!!!</b>
+<b>Click on a contact and you're all set! Enjoy!!!</b><br><br>
 
-<br>
-<b>This is the settings page, where you can put your address of another server and to connect there. (here, you won't need the "http://" prefix)</b>
-<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/settingspage.png" alt="Chats">
-
-
-<br><br>
+<b>This is the settings page, where you can put your address of another server and connect there.<br> (here, you won't need the "http://" prefix)</b><br>
+<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/settingspage.png" alt="Settings" style="width: 180px; height: auto;">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -177,7 +166,7 @@ Server include:
  * API to support work with more than one server.
  * SQL Database
 
-## Remarks
+### Remarks
 
   The program running on default ports as mentioned below, don't change them.<br><br>
    * Client
