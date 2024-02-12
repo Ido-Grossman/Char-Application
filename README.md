@@ -16,7 +16,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ido-Grossman/Chat-Application">
-    <img src="https://github.com/Ido-Grossman/Chat-Application/blob/main/src/Pages/loginComponents/imagesLogin/image.jpeg" alt="Logo" width="100" height="80">
+    <img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/React/src/Pages/loginComponents/imagesLogin/image.jpeg" alt="Logo" width="100" height="80">
   </a>
 
 <h3 align="center">Chat-Application</h3>
