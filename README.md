@@ -28,15 +28,16 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary><strong>Table of Contents</strong></summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#Web Client">About The Project</a></li>
-    <li><a href="#Android Client">About The Project</a></li>
-    <li><a href="#MVC Server">About The Project</a></li>
+    <li><a href="#web-client">Web Client</a></li>
+    <li><a href="#android-client">Android Client</a></li>
+    <li><a href="#mvc-server">MVC Server</a></li>
     <li><a href="#contact">Contact</a></li>    
   </ol>
 </details>
+
 
 
 
