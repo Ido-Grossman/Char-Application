@@ -11,7 +11,6 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -19,13 +18,12 @@
     <img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/React/src/Pages/loginComponents/imagesLogin/image.jpeg" alt="Logo" width="100" height="80">
   </a>
 
-<h3 align="center">Chat-Application</h3>
+  <h3 align="center">ChatOS-Application</h3>
 
-<p align="center">
-  This is our Messenger Application
-</p>
+  <p align="center">
+    Revolutionizing communication with our Messenger Application
+  </p>
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -33,31 +31,45 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <ul>
-    <li><a href="#web-client">Web Client</a></li>
-    <li><a href="#android-client">Android Client</a></li>
-    <li><a href="#mvc-server">MVC Server</a></li>
+      <li><a href="#web-client">Web Client</a></li>
+      <li><a href="#android-client">Android Client</a></li>
+      <li><a href="#mvc-server">MVC Server</a></li>
     </ul>
     <li><a href="#contact">Contact</a></li>    
   </ol>
 </details>
 
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-We have successfully created a comprehensive chat application, incorporating both Android and web clients. Through this project, we honed our expertise in various technologies:<ul style="list-style-position: inside; text-align: center;">
-  <li>Server side using ASP.NET MVC and SQL database</li>
-  <li>Web client using React.js, Bootstrap, and Html</li>
-  <li>Android client using Java and Android Studio</li>
-</ul>
+Welcome to ChatOS-Application, our revolutionary Messenger Application. We take pride in presenting a comprehensive chat platform, seamlessly integrating both Android and web clients.
+
+### Technologies Explored:
+- **Server Side:**
+  - ASP.NET MVC
+  - SQL Database
+  
+- **Web Client:**
+  - React.js
+  - Bootstrap
+  - Html & CSS
+  
+- **Android Client:**
+  - Java
+  - Android Studio
+  - Local Database Cache (Room)
+
+Embark on a journey with us as we explore the intricacies of modern communication through cutting-edge technologies.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Web Client -->
 ## Web Client
-<img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screenshot%202022-04-24%20205928.png" alt="Chats">
+<p align="center">
+  <img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screenshot%202022-04-24%20205928.png" alt="Chats" width="700" style="border-radius: 10px;"/>
+</p>
 
-### Built With
+### **Built With**
 
 * [React.js](https://reactjs.org/)
 * [Bootstrap](https://getbootstrap.com)
@@ -65,9 +77,9 @@ We have successfully created a comprehensive chat application, incorporating bot
 
 ## Getting Started
 
-### Prerequisites
+### **Prerequisites**
 
-This is an example of how to list things you need to use the software and how to install them.
+Before you embark on this exciting journey, ensure you have the following prerequisites installed:
 * npm
   ```sh
   npm install npm@latest -g
@@ -90,81 +102,118 @@ This is an example of how to list things you need to use the software and how to
 
 ### Usage
 
-This webapp can be used for message your family and friends.<br>
-<b>First, you'll need to sign up here:</b><br>
+Welcome to our delightful web application, designed for connecting with your family and friends. Follow these simple steps to get started and immerse yourself in the world of communication:
 
-<img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screenshot%202022-04-24%20205822.png" alt="Sign up">
+#### 1. Sign Up
 
-<b>Then, you'll need to sign in with the username and password you've just chose</b><br>
+Begin your journey by creating an account. Click on the link below to access the sign-up page:
 
-<img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screensho2022-04-24.png" alt="Login">
+<p align="center">
+  <img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screenshot%202022-04-24%20205822.png" alt="Sign Up" width="700" style="border-radius: 10px;"/>
+</p>
 
-<b>And you're all set! Enjoy!!!</b>
-<img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screenshot%202022-04-24%20205928.png" alt="Chats">
+#### 2. Sign In
 
-<b>Rate us Page</b><br>
-Navigating to Rate Us:<br>
-Click the Rate us button in the top bar of Login or Registration pages.<br>
+Once you've successfully created your account, sign in using the chosen username and password:
 
-<img src="https://github.com/idog770/ChatOServer/blob/c7c04bd5304e4401c6ae96fc2a5db567f986589a/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202022-05-25%20%D7%91-11.55.16.png" alt="Chats">
+<p align="center">
+  <img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screensho2022-04-24.png" alt="Sign In" width="700" style="border-radius: 10px;"/>
+</p>
 
-To return to chat page click the 'Home' button on top of Rate Us page.
+#### 3. Enjoy!
 
-<br><br>
-<ul>The hard coded usernames you can use for login are:
-  <li> Username: idog770, Password: grossman </li>
-  <li> Username: Santiago, Password: santi </li>
-  <li> Username: EliZil, Password: eli </li>
-  </ul>
-<p align="right">(<a href="#top">back to top</a>)</p>
+Congratulations! You are now all set to enjoy seamless communication with your loved ones. Dive into the chat experience and make every conversation memorable:
+
+<p align="center">
+  <img src="https://github.com/santisz7897/advanced2Hemi/blob/main/src/Screenshot%202022-04-24%20205928.png" alt="Chats" width="700" style="border-radius: 10px;"/>
+</p>
+
+#### Rate Us Page
+
+Explore our Rate Us page to share your thoughts and feedback. To navigate to the Rate Us page, simply click the "Rate Us" button located in the top bar of the Login or Registration pages:
+
+<p align="center">
+  <img src="https://github.com/idog770/ChatOServer/blob/c7c04bd5304e4401c6ae96fc2a5db567f986589a/%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%9E%D7%A1%D7%9A%202022-05-25%20%D7%91-11.55.16.png" alt="Rate Us" width="700" style="border-radius: 10px;"/>
+</p>
+
+To return to the chat page, click the 'Home' button on top of the Rate Us page.
+
+#### Additional Information
+
+Explore our app with ease using the following hard-coded usernames for login:
+- Username: idog770, Password: grossman
+- Username: Santiago, Password: santi
+- Username: EliZil, Password: eli
 
 ### Roadmap
-
 - [V] Login Page
 - [V] Registration Page
 - [V] Chats
     - [V] Image and Video transfer
 - [V] Rate Us Page (Link to - in Login and Registration pages)
+- <p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- Android Client -->
 ## Android Client
 
 ### Getting Started
 
-To run the program simply download the files, but, open the Server file on the Rider (MVC environment) and the App file in Android Studio.
-Cloning the entire project won't work (cause of the gradle)
+Before you dive into this dynamic Android client, let's set the stage for a smooth initiation. Download the required files, but remember, open the Server file on Rider (MVC environment) and the App file in Android Studio. Cloning the entire project won't work due to gradle complexities.
 
-   
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Usage
 
-This application can be used for messaging your family and friends.
+This application transcends conventional messaging, offering a seamless experience for connecting with family and friends.
 
-<b>First, you'll need to sign up here:</b><br>
-<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/registerpage.png" alt="Sign up" style="width: 180px; height: auto;"><br>
+#### 1. Sign Up
+Begin your journey by signing up. Witness the elegance of our registration page:
 
-<b>Then, you'll get to the page of your contacts</b><br>
-<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/contactspage.png" alt="Login" style="width: 180px; height: auto;"><br>
+<div align="center">
+  <img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/registerpage.png" alt="Sign up" width="180" style="border-radius: 10px; margin: 5px;">
+</div>
 
-<b>Next, you can add contacts (you need to add the "http://" prefix for it)</b><br>
-<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/addcontact.png" alt="Add" style="width: 180px; height: auto;"><br>
-<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/chatpage.png" alt="Chats" style="width: 180px; height: auto;">
+#### 2. Contacts Page
+Once inside, navigate to the captivating contacts page:
 
-<b>Click on a contact and you're all set! Enjoy!!!</b><br><br>
+<div align="center">
+  <img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/contactspage.png" alt="Login" width="180" style="border-radius: 10px; margin: 5px;">
+</div>
 
-<b>This is the settings page, where you can put your address of another server and connect there.<br> (here, you won't need the "http://" prefix)</b><br>
-<img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/settingspage.png" alt="Settings" style="width: 180px; height: auto;">
+#### 3. Add Contacts
+Enhance your social circle by seamlessly adding contacts (remember to prefix with "http://"):
+
+<div align="center">
+  <img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/addcontact.png" alt="Add" width="180" style="border-radius: 10px; margin: 5px;">
+</div>
+
+#### 4. Explore & Enjoy
+Click on a contact, and voilà! You're all set to revel in the joy of seamless communication.
+<div align="center">
+  <img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/chatpage.png" alt="Chats" width="180" style="border-radius: 10px; margin: 5px;">
+</div>
+#### Settings Page
+The hub of customization - our settings page. Here, configure your server address without the need for the "http://" prefix:
+
+<div align="center">
+  <img src="https://github.com/Ido-Grossman/Chat-Application/blob/master/Android/app/src/main/res/mipmap/settingspage.png" alt="Settings" width="180" style="border-radius: 10px; margin: 5px;">
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MVC Server -->
-##  MVC Server
-Server include:
- * Server side using ASP.NET MVC and C#.
- * API to support work with more than one server.
- * SQL Database
+## MVC Server
+
+Our robust MVC Server acts as the backbone of this powerful application, incorporating:
+
+- Server side using ASP.NET MVC and C#.
+- API to seamlessly support collaboration across multiple servers.
+- SQL Database, ensuring efficient data management.
+
+Explore the boundless possibilities enabled by our comprehensive server infrastructure.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ### Remarks
 
@@ -180,11 +229,11 @@ Server include:
 <!-- CONTACT -->
 ## Contact
 
-Eli Zilberstein - [@Github Page](https://github.com/EliZilber)
+**Eli Zilberstein** - [@Github Page](https://github.com/EliZilber)
 <br>
-Santiago Szterenberg - [@Github Page](https://github.com/santisz7897)
+**Santiago Szterenberg** - [@Github Page](https://github.com/santisz7897)
 <br>
-Ido Grossman - [@Github Page](https://github.com/idog770)
+**Ido Grossman** - [@Github Page](https://github.com/idog770)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
